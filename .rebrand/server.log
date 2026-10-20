@@ -1,0 +1,9 @@
+
+> probenox@1.0.0 dev
+> vite --port 59301 --host 127.0.0.1
+
+02:10:40 [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v8.3.1  ready in 513 ms
+
+  ➜  Local:   http://127.0.0.1:59301/

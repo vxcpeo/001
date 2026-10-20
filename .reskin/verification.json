@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19T19:02:30.530Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/001/website",
+    "name": "probenox",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": true,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [],
+      "hash": "b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "sidebar-workspace",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "orbital",
+        "family": "spatial",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": true,
+          "terminal": false,
+          "bento": false,
+          "ticker": false,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#c6ff2e",
+        "current": "#670de5",
+        "deltaE": 215.58,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.381,
+          "landmarkSimilarity": 0.214,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 65,
+              "total": 104
+            },
+            "current": {
+              "tokens": 65,
+              "total": 104
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [],
+  "warnings": [],
+  "baseline": {
+    "generatedAt": "2026-10-19T18:47:43.267Z",
+    "routes": [
+      "/"
+    ]
+  }
+}

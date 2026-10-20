@@ -1,0 +1,21 @@
+﻿import { createRequire } from 'node:module';
+import { spawn } from 'node:child_process';
+import path from 'node:path';
+const ROOT = 'E:/workspace/chuangye/solana/001/website';
+const PORT = 4453;
+const require = createRequire(path.join(ROOT, '.reskin', 'tools', 'package.json'));
+const { chromium } = require('playwright-core');
+const EXE = 'C:/Users/Administrator/AppData/Local/ms-playwright/chromium-1247/chrome-win64/chrome.exe';
+const server = spawn(process.execPath, [path.join(ROOT, 'node_modules/vite/bin/vite.js'), 'preview', '--host', '127.0.0.1', '--port', String(PORT), '--strictPort'], { cwd: ROOT, stdio: ['ignore','ignore','ignore'], windowsHide: true });
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+for (let i = 0; i < 40; i += 1) { try { const r = await fetch(`http://127.0.0.1:${PORT}/`); if (r.status < 500) break; } catch {} await sleep(400); }
+const browser = await chromium.launch({ headless: true, executablePath: EXE, args: ['--no-sandbox'] });
+const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+await page.goto(`http://127.0.0.1:${PORT}/`, { waitUntil: 'networkidle' });
+const rays = await page.locator('.orb-rays').screenshot({ path: path.join(ROOT, '.reskin', 'shots', 'mobile-rays.png') }).catch(() => null);
+const first = await page.locator('.orb-ray').first();
+console.log('first ray box', JSON.stringify(await first.boundingBox()));
+console.log('meta children', await page.locator('.orb-ray-meta').first().evaluate((el) => el.getBoundingClientRect().height));
+console.log('doc overflow', await page.evaluate(() => document.documentElement.scrollWidth + '/' + document.documentElement.clientWidth));
+await browser.close(); server.kill();
+const { execSync } = await import('node:child_process');

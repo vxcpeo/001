@@ -1,0 +1,20 @@
+import { analyzeProject, contractDiff } from 'file:///C:/Users/Administrator/.dsh/skills/reskin/scripts/inventory.mjs';
+import fs from 'node:fs';
+
+const root = 'E:/workspace/chuangye/solana/001/website';
+const cur = await analyzeProject(root);
+const base = JSON.parse(fs.readFileSync(`${root}/.reskin/baseline/inventory.json`, 'utf8'));
+console.log('archetype now:', cur.archetype.id, '/', cur.archetype.family);
+console.log('traits:', JSON.stringify(cur.archetype.traits));
+const diff = contractDiff(base.contentContract, cur.contentContract, { allowAdditions: true });
+const promote = (list) => list.filter((w) => /^(visibleText|i18n|forms): (?:added|".*" count increased)/.test(w));
+const warnings = diff.warnings;
+const blocking = [...diff.issues, ...promote(warnings)];
+const additive = warnings.filter((w) => !promote([w]).length);
+console.log('ISSUES:', diff.issues.length, 'PROMOTED:', promote(warnings).length, 'additive warnings:', additive.length);
+for (const x of diff.issues.slice(0, 40)) console.log('  ISSUE -', x);
+for (const x of promote(warnings).slice(0, 40)) console.log('  PROMOTED -', x);
+for (const x of additive.slice(0, 40)) console.log('  warn ~', x);
+console.log('BLOCKING TOTAL:', blocking.length);
+console.log('hash cur:', cur.contentContractHash.slice(0, 12), 'base:', base.contentContractHash.slice(0, 12));
+console.log('palette:', cur.palette.slice(0, 8).map((c) => c.hex).join(' '));

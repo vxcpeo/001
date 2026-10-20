@@ -1,0 +1,1482 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19T18:47:20.421Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/001/website",
+    "name": "probenox",
+    "vueVersion": "latest",
+    "nuxt": false,
+    "dependencies": [
+      "@vitejs/plugin-vue",
+      "vite",
+      "vue"
+    ],
+    "packageManager": "npm",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "frameworks": []
+  },
+  "stats": {
+    "filesScanned": 6,
+    "vueFiles": 2,
+    "routes": 1,
+    "staticTextTokens": 206,
+    "bindingTokens": 170,
+    "eventTokens": 40,
+    "classNames": 129,
+    "colors": 92
+  },
+  "routes": [
+    {
+      "path": "/",
+      "dynamic": false
+    }
+  ],
+  "unresolvedRoutes": [],
+  "archetype": {
+    "id": "sidebar-workspace",
+    "family": "shell",
+    "traits": {
+      "sidebar": true,
+      "topbar": false,
+      "cards": true,
+      "hero": true,
+      "table": false,
+      "grid": true,
+      "tabs": true,
+      "modal": true,
+      "charts": false,
+      "sticky": true,
+      "orbital": false,
+      "terminal": false,
+      "bento": false,
+      "ticker": true,
+      "gallery": false
+    }
+  },
+  "palette": [
+    {
+      "hex": "#c6ff2e",
+      "count": 12
+    },
+    {
+      "hex": "#00f0c8",
+      "count": 10
+    },
+    {
+      "hex": "#ff2d9b",
+      "count": 8
+    },
+    {
+      "hex": "#000000",
+      "count": 6
+    },
+    {
+      "hex": "#05050a",
+      "count": 6
+    },
+    {
+      "hex": "#14000b",
+      "count": 4
+    },
+    {
+      "hex": "#17000c",
+      "count": 4
+    },
+    {
+      "hex": "#f4f4ff",
+      "count": 4
+    },
+    {
+      "hex": "#030307",
+      "count": 2
+    },
+    {
+      "hex": "#06705f",
+      "count": 2
+    },
+    {
+      "hex": "#0a0a12",
+      "count": 2
+    },
+    {
+      "hex": "#0a1200",
+      "count": 2
+    },
+    {
+      "hex": "#101019",
+      "count": 2
+    },
+    {
+      "hex": "#16161f",
+      "count": 2
+    },
+    {
+      "hex": "#1e1e2b",
+      "count": 2
+    },
+    {
+      "hex": "#26263a",
+      "count": 2
+    },
+    {
+      "hex": "#3a3a55",
+      "count": 2
+    },
+    {
+      "hex": "#62627e",
+      "count": 2
+    },
+    {
+      "hex": "#7cffe8",
+      "count": 2
+    },
+    {
+      "hex": "#8b8ba8",
+      "count": 2
+    },
+    {
+      "hex": "#8c0f52",
+      "count": 2
+    },
+    {
+      "hex": "#c3c3dc",
+      "count": 2
+    },
+    {
+      "hex": "#ddff7a",
+      "count": 2
+    },
+    {
+      "hex": "#ff5ab4",
+      "count": 2
+    },
+    {
+      "hex": "#ff6a3d",
+      "count": 2
+    },
+    {
+      "hex": "#ff6fc0",
+      "count": 2
+    },
+    {
+      "hex": "#ffb59c",
+      "count": 2
+    }
+  ],
+  "fonts": [
+    {
+      "value": "'Archivo'",
+      "count": 4
+    },
+    {
+      "value": "'Plex Mono'",
+      "count": 4
+    }
+  ],
+  "classNames": [
+    "0",
+    "<",
+    "===",
+    "?",
+    "amount",
+    "amount-hint",
+    "bar",
+    "bar-actions",
+    "bar-nav",
+    "blip",
+    "btn",
+    "btn--hot",
+    "btn--line",
+    "btn--wide",
+    "card",
+    "card-clock",
+    "card-code",
+    "card-lane",
+    "card-meta",
+    "card-question",
+    "card-sides",
+    "card-slip",
+    "card-spark",
+    "card-top",
+    "card-traders",
+    "card-vol",
+    "cards",
+    "chip",
+    "chip--cta",
+    "chip--on",
+    "chip-dot",
+    "controls-right",
+    "desk",
+    "desk-actions",
+    "desk-glyph",
+    "desk-head",
+    "desk-stat",
+    "feed",
+    "feed-controls",
+    "feed-count",
+    "feed-empty",
+    "feed-head",
+    "foot",
+    "foot-mark",
+    "foot-net",
+    "hero",
+    "hero-copy",
+    "hero-cta",
+    "hero-facts",
+    "hot",
+    "item.move",
+    "lane",
+    "lanes",
+    "lede",
+    "live",
+    "mark",
+    "mark-glyph",
+    "mark-word",
+    "market.move",
+    "nl",
+    "nl-grid",
+    "nl-scan",
+    "odd",
+    "odd-head",
+    "odd-mid",
+    "odd-split",
+    "odd-ticks",
+    "odd-track",
+    "odd-yes",
+    "on:",
+    "option.available",
+    "option.id",
+    "out",
+    "panel",
+    "panel-bars",
+    "panel-foot",
+    "panel-head",
+    "panel-live",
+    "panel-rows",
+    "pick",
+    "pick--no",
+    "pick--yes",
+    "quote",
+    "quote--left",
+    "ready:",
+    "receipt.side",
+    "rule-list",
+    "rules",
+    "rules-note",
+    "search",
+    "sheet",
+    "sheet--tight",
+    "sheet-error",
+    "sheet-glyph",
+    "sheet-note",
+    "sheet-note--lead",
+    "sheet-sub",
+    "sheet-x",
+    "side",
+    "side-grid",
+    "side-no",
+    "side-yes",
+    "slip-q",
+    "slip-side",
+    "slip-sig",
+    "slips",
+    "sort",
+    "sorter",
+    "strip",
+    "strip-dim",
+    "strip-left",
+    "strip-right",
+    "strip-sep",
+    "strong",
+    "tab.name",
+    "tag",
+    "ticker",
+    "ticker-item",
+    "ticker-label",
+    "ticker-track",
+    "toast",
+    "veil",
+    "wallet-list",
+    "wallet-name",
+    "wallet-pick",
+    "wallet-row",
+    "wallet-state",
+    "warn",
+    "}"
+  ],
+  "designSignals": {
+    "frameworks": [],
+    "cssVars": [
+      "--cta",
+      "--deck",
+      "--dim",
+      "--dim-2",
+      "--display",
+      "--edge",
+      "--edge-2",
+      "--glow-hot",
+      "--glow-ice",
+      "--glow-volt",
+      "--gut",
+      "--hot",
+      "--hot-2",
+      "--hot-deep",
+      "--hot-wash",
+      "--ice",
+      "--ice-2",
+      "--ice-wash",
+      "--ink",
+      "--ink-2",
+      "--lift",
+      "--line",
+      "--mono",
+      "--no",
+      "--on",
+      "--r-md",
+      "--r-sm",
+      "--r-xs",
+      "--slab",
+      "--slab-2",
+      "--slab-3",
+      "--void",
+      "--volt",
+      "--volt-2",
+      "--volt-wash",
+      "--warn",
+      "--wide",
+      "--yes"
+    ],
+    "colorVars": [
+      {
+        "name": "--deck",
+        "value": "#0a0a12"
+      },
+      {
+        "name": "--dim",
+        "value": "#8b8ba8"
+      },
+      {
+        "name": "--dim-2",
+        "value": "#62627e"
+      },
+      {
+        "name": "--edge",
+        "value": "#26263a"
+      },
+      {
+        "name": "--edge-2",
+        "value": "#3a3a55"
+      },
+      {
+        "name": "--hot",
+        "value": "#ff2d9b"
+      },
+      {
+        "name": "--hot-2",
+        "value": "#ff6fc0"
+      },
+      {
+        "name": "--hot-deep",
+        "value": "#8c0f52"
+      },
+      {
+        "name": "--ice",
+        "value": "#00f0c8"
+      },
+      {
+        "name": "--ice-2",
+        "value": "#7cffe8"
+      },
+      {
+        "name": "--ink",
+        "value": "#f4f4ff"
+      },
+      {
+        "name": "--ink-2",
+        "value": "#c3c3dc"
+      },
+      {
+        "name": "--slab",
+        "value": "#101019"
+      },
+      {
+        "name": "--slab-2",
+        "value": "#16161f"
+      },
+      {
+        "name": "--slab-3",
+        "value": "#1e1e2b"
+      },
+      {
+        "name": "--void",
+        "value": "#05050a"
+      },
+      {
+        "name": "--volt",
+        "value": "#c6ff2e"
+      },
+      {
+        "name": "--volt-2",
+        "value": "#ddff7a"
+      },
+      {
+        "name": "--warn",
+        "value": "#ff6a3d"
+      }
+    ],
+    "mediaQueries": [
+      "@media (max-width: 1100px)",
+      "@media (max-width: 720px)",
+      "@media (max-width: 900px)",
+      "@media (prefers-reduced-motion: reduce)"
+    ],
+    "darkMode": false
+  },
+  "structure": {
+    "tagCounts": {
+      "a": 18,
+      "article": 2,
+      "aside": 2,
+      "b": 26,
+      "button": 36,
+      "dd": 22,
+      "div": 82,
+      "dl": 8,
+      "dt": 22,
+      "em": 8,
+      "footer": 2,
+      "h1": 2,
+      "h2": 10,
+      "h3": 8,
+      "header": 6,
+      "i": 10,
+      "input": 4,
+      "label": 4,
+      "li": 10,
+      "main": 2,
+      "nav": 2,
+      "ol": 2,
+      "p": 58,
+      "path": 8,
+      "rect": 4,
+      "section": 14,
+      "span": 94,
+      "strong": 14,
+      "svg": 8,
+      "template": 10,
+      "transition": 2,
+      "ul": 4
+    },
+    "depthHistogram": {
+      "0": 2,
+      "1": 18,
+      "2": 32,
+      "3": 102,
+      "4": 120,
+      "5": 138,
+      "6": 60,
+      "7": 22,
+      "8": 10
+    },
+    "maxDepth": 8,
+    "topLevelTags": [
+      "div",
+      "div"
+    ],
+    "skeletonSample": [
+      "div",
+      "  div",
+      "  div",
+      "  div",
+      "    p",
+      "      span",
+      "        i",
+      "      span",
+      "    p",
+      "      span",
+      "      strong",
+      "      span",
+      "      span",
+      "      strong",
+      "  header",
+      "    a",
+      "      span",
+      "        svg",
+      "          rect",
+      "          path",
+      "          rect",
+      "      span",
+      "        em",
+      "    nav",
+      "      a",
+      "      a",
+      "      a",
+      "    div",
+      "      button",
+      "        span",
+      "        b",
+      "      button",
+      "        span",
+      "  main",
+      "    section",
+      "      div",
+      "        p",
+      "        h1",
+      "          span",
+      "          span",
+      "          span",
+      "        p",
+      "        div",
+      "          a",
+      "          button",
+      "        dl",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "      aside",
+      "        p",
+      "          span",
+      "          span",
+      "            i",
+      "        dl",
+      "          div",
+      "            dt",
+      "            dd",
+      "        div",
+      "          span",
+      "        p",
+      "          span",
+      "          span",
+      "    section",
+      "      div",
+      "        span",
+      "          b",
+      "          span",
+      "          strong",
+      "          em",
+      "    section",
+      "      header",
+      "        div",
+      "          p",
+      "          h2",
+      "        p",
+      "          span",
+      "      div",
+      "        div",
+      "          button",
+      "            b",
+      "        div",
+      "          div",
+      "            button",
+      "          label",
+      "            input",
+      "      div",
+      "        article",
+      "          header",
+      "            span",
+      "            span",
+      "            span",
+      "          h3",
+      "          div",
+      "            div",
+      "              strong",
+      "                i",
+      "              span",
+      "                b",
+      "                b",
+      "              em",
+      "            div",
+      "              span",
+      "              span",
+      "                i",
+      "              span",
+      "          div",
+      "            span",
+      "              svg",
+      "                path",
+      "            span",
+      "            span",
+      "          div",
+      "            button"
+    ]
+  },
+  "contentContract": {
+    "schemaVersion": 1,
+    "meta": {
+      "projectName": "probenox",
+      "title": "probenox",
+      "lang": "en"
+    },
+    "routes": [
+      "/"
+    ],
+    "visibleText": [
+      {
+        "value": "- the stake plus the fee is above that.",
+        "count": 2
+      },
+      {
+        "value": ". Your key stays in the extension; this page only asks it to sign what you approve.",
+        "count": 2
+      },
+      {
+        "value": "/ 2026",
+        "count": 2
+      },
+      {
+        "value": "/ no",
+        "count": 2
+      },
+      {
+        "value": "&hellip;",
+        "count": 2
+      },
+      {
+        "value": "&middot;",
+        "count": 8
+      },
+      {
+        "value": "&middot; real wallet",
+        "count": 2
+      },
+      {
+        "value": "&middot; settled on Solana",
+        "count": 2
+      },
+      {
+        "value": "01",
+        "count": 2
+      },
+      {
+        "value": "02",
+        "count": 2
+      },
+      {
+        "value": "03",
+        "count": 2
+      },
+      {
+        "value": "Account",
+        "count": 2
+      },
+      {
+        "value": "Address",
+        "count": 2
+      },
+      {
+        "value": "arena readout",
+        "count": 2
+      },
+      {
+        "value": "Attach a wallet to price this against your real balance.",
+        "count": 2
+      },
+      {
+        "value": "Attach wallet",
+        "count": 4
+      },
+      {
+        "value": "Attach wallet to continue",
+        "count": 2
+      },
+      {
+        "value": "Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.",
+        "count": 2
+      },
+      {
+        "value": "Balance",
+        "count": 2
+      },
+      {
+        "value": "Balance on",
+        "count": 2
+      },
+      {
+        "value": "Closes",
+        "count": 2
+      },
+      {
+        "value": "cluster",
+        "count": 2
+      },
+      {
+        "value": "Desk",
+        "count": 2
+      },
+      {
+        "value": "Detach",
+        "count": 2
+      },
+      {
+        "value": "Detach wallet",
+        "count": 2
+      },
+      {
+        "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Probenox reads the chain you are actually on and pays out on the terms it publishes.",
+        "count": 2
+      },
+      {
+        "value": "explorer",
+        "count": 2
+      },
+      {
+        "value": "Explorer",
+        "count": 2
+      },
+      {
+        "value": "Feed",
+        "count": 2
+      },
+      {
+        "value": "FUTURE.",
+        "count": 2
+      },
+      {
+        "value": "Get the wallet, then reload",
+        "count": 2
+      },
+      {
+        "value": "HOW A POSITION GETS MADE",
+        "count": 2
+      },
+      {
+        "value": "in",
+        "count": 2
+      },
+      {
+        "value": "k",
+        "count": 2
+      },
+      {
+        "value": "Latest blockhash",
+        "count": 2
+      },
+      {
+        "value": "lines shown",
+        "count": 2
+      },
+      {
+        "value": "LIVE",
+        "count": 2
+      },
+      {
+        "value": "Net gain",
+        "count": 2
+      },
+      {
+        "value": "Network",
+        "count": 2
+      },
+      {
+        "value": "no",
+        "count": 2
+      },
+      {
+        "value": "NO",
+        "count": 2
+      },
+      {
+        "value": "No line matches that. Clear the search or switch lanes.",
+        "count": 2
+      },
+      {
+        "value": "No wallet listed? Install Phantom, Solflare, Backpack, Glow or Brave Wallet and reload this page. Nothing is simulated here, so a wallet really has to be present.",
+        "count": 2
+      },
+      {
+        "value": "NOX",
+        "count": 2
+      },
+      {
+        "value": "of",
+        "count": 2
+      },
+      {
+        "value": "OPEN LINES",
+        "count": 2
+      },
+      {
+        "value": "Open the feed",
+        "count": 2
+      },
+      {
+        "value": "Payout if right",
+        "count": 2
+      },
+      {
+        "value": "Pick a side",
+        "count": 2
+      },
+      {
+        "value": "position &middot;",
+        "count": 2
+      },
+      {
+        "value": "Prediction arena &middot; Solana",
+        "count": 2
+      },
+      {
+        "value": "PRICE THE",
+        "count": 2
+      },
+      {
+        "value": "Price the future. Sign the call.",
+        "count": 2
+      },
+      {
+        "value": "PROBE",
+        "count": 2
+      },
+      {
+        "value": "Probenox",
+        "count": 2
+      },
+      {
+        "value": "Probenox connects through the wallet extension you already run, on Solana",
+        "count": 2
+      },
+      {
+        "value": "PROBENOX-01",
+        "count": 2
+      },
+      {
+        "value": "Read the line",
+        "count": 2
+      },
+      {
+        "value": "Refresh",
+        "count": 2
+      },
+      {
+        "value": "Refresh balance",
+        "count": 2
+      },
+      {
+        "value": "Rules",
+        "count": 2
+      },
+      {
+        "value": "settlement",
+        "count": 2
+      },
+      {
+        "value": "Side price",
+        "count": 2
+      },
+      {
+        "value": "Sign",
+        "count": 2
+      },
+      {
+        "value": "Sign it yourself",
+        "count": 2
+      },
+      {
+        "value": "SIGN THE CALL.",
+        "count": 2
+      },
+      {
+        "value": "Signed by",
+        "count": 2
+      },
+      {
+        "value": "Signed positions",
+        "count": 2
+      },
+      {
+        "value": "SOL",
+        "count": 18
+      },
+      {
+        "value": "SOL &middot;",
+        "count": 2
+      },
+      {
+        "value": "Solana",
+        "count": 4
+      },
+      {
+        "value": "Stake",
+        "count": 2
+      },
+      {
+        "value": "streaming",
+        "count": 2
+      },
+      {
+        "value": "the feed",
+        "count": 2
+      },
+      {
+        "value": "The market program is not deployed yet, so a signed position is recorded as an on-chain transaction rather than held in a settlement pool. When the program lands on this cluster, the same button routes the position into it and the pool settles on the published rules.",
+        "count": 2
+      },
+      {
+        "value": "The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.",
+        "count": 2
+      },
+      {
+        "value": "three moves",
+        "count": 2
+      },
+      {
+        "value": "View on explorer",
+        "count": 2
+      },
+      {
+        "value": "Waiting for your wallet&hellip;",
+        "count": 2
+      },
+      {
+        "value": "Wallet",
+        "count": 4
+      },
+      {
+        "value": "Wallet holds",
+        "count": 2
+      },
+      {
+        "value": "yes",
+        "count": 4
+      },
+      {
+        "value": "YES",
+        "count": 2
+      },
+      {
+        "value": "you signed",
+        "count": 2
+      },
+      {
+        "value": "your desk",
+        "count": 2
+      },
+      {
+        "value": "your key",
+        "count": 2
+      },
+      {
+        "value": "Your wallet builds and signs the transaction. Probenox never holds your key, and the signature is the receipt the chain keeps.",
+        "count": 2
+      },
+      {
+        "value": "Your wallet signs a real transaction carrying this position note, so the call is on the public record the moment it lands. Nothing moves without your approval.",
+        "count": 2
+      }
+    ],
+    "hiddenText": [],
+    "attributes": [
+      {
+        "name": "href",
+        "value": "#desk",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "#feed",
+        "count": 6
+      },
+      {
+        "name": "href",
+        "value": "#rules",
+        "count": 2
+      },
+      {
+        "name": "name",
+        "value": "pop",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "Search lines",
+        "count": 2
+      }
+    ],
+    "bindings": [
+      {
+        "kind": "attr",
+        "expr": "`https://explorer.solana.com/?cluster=${wallet.cluster}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "explorerUrl",
+        "count": 4
+      },
+      {
+        "kind": "attr",
+        "expr": "installUrl",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(market.volume / 1000).toFixed(0)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "100 - active.yes",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "100 - market.yes",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "active.closes",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "active.code",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "active.lane",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "active.question",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "active.yes",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "balanceText",
+        "count": 8
+      },
+      {
+        "kind": "interpolation",
+        "expr": "closesIn(active.hours)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "closesIn(market.hours)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "clusterLabel",
+        "count": 14
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? 'WALLET ONLINE' : 'WALLET DETACHED'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? 'Your desk' : 'Attach a wallet'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? `wallet ${shortAddress}` : 'wallet detached'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? shortAddress : '---'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? shortAddress : 'no wallet'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connected ? walletState.providerName : 'not attached'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.code",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.label",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.move > 0 ? '+' : ''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.move.toFixed(1)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.yes",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.code",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.lane",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.move > 0 ? '+' : ''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.move.toFixed(1)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.question",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.traders",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "market.yes",
+        "count": 6
+      },
+      {
+        "kind": "interpolation",
+        "expr": "markets.length",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "netGain >= 0 ? '+' : ''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "netGain.toFixed(2)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "option.available ? 'detected' : 'not installed'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "option.label",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "option.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "payout.toFixed(2)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receipt.question",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receipt.side",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receipt.signature.slice(0, 8)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receipt.stake",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receiptFor(market.id).side",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receiptFor(market.id).stake",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "shortAddress",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "side",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sidePrice",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "stakeNumber.toFixed(2)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "stat.label",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "stat.value",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "String(receipts.length).padStart(2, '0')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "tab.count",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "tab.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "toast",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "tradeError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "visibleMarkets.length",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet.programId ? 'market program wired' : 'every position signed on-chain'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletNotice",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletState.balanceAt ? 'streaming' : 'on demand'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletState.balanceError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletState.providerName",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`https://explorer.solana.com/?cluster=${wallet.cluster}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "explorerUrl",
+        "count": 4
+      },
+      {
+        "kind": "link",
+        "expr": "installUrl",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "query",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "stake",
+        "count": 2
+      }
+    ],
+    "events": [
+      {
+        "event": "click",
+        "handler": "closeTrade",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "connect(option.id)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "connected ? openWallet() : openWallet()",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "dropWallet",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "dropWallet(); walletOpen = false",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "lane = tab.name",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "openTrade(market, 'NO')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "openTrade(market, 'YES')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "openWallet",
+        "count": 6
+      },
+      {
+        "event": "click",
+        "handler": "side = 'NO'",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "side = 'YES'",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "sort = option.id",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "submitTrade",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "wallet.refreshBalance()",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "walletOpen = false",
+        "count": 4
+      }
+    ],
+    "links": [
+      {
+        "kind": "href",
+        "target": "#desk",
+        "count": 2
+      },
+      {
+        "kind": "href",
+        "target": "#feed",
+        "count": 6
+      },
+      {
+        "kind": "href",
+        "target": "#rules",
+        "count": 2
+      }
+    ],
+    "assets": [],
+    "forms": [
+      {
+        "tag": "input",
+        "name": "",
+        "type": "number",
+        "count": 2
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "search",
+        "count": 2
+      }
+    ],
+    "i18n": [],
+    "i18nKeys": [],
+    "i18nFiles": [],
+    "api": [],
+    "env": [
+      "VITE_SOLANA_CLUSTER",
+      "VITE_SOLANA_PROGRAM_ID",
+      "VITE_SOLANA_RPC_URL"
+    ]
+  },
+  "contentContractHash": "b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6"
+}
