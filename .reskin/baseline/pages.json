@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "baseline",
-  "generatedAt": "2026-10-19T18:47:43.267Z",
+  "generatedAt": "2026-10-20T15:49:28.906Z",
   "baseUrl": "http://127.0.0.1:4317/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
@@ -15,7 +15,7 @@
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Probenox // Live prediction lines on Solana",
+          "title": "Signaris // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
           "bodyTextLength": 3417,
@@ -421,6 +421,10 @@
             "count": 2
           },
           {
+            "word": "ARIS",
+            "count": 1
+          },
+          {
             "word": "as",
             "count": 3
           },
@@ -813,10 +817,6 @@
             "count": 1
           },
           {
-            "word": "NOX",
-            "count": 1
-          },
-          {
             "word": "number",
             "count": 1
           },
@@ -918,18 +918,6 @@
           },
           {
             "word": "PRICE",
-            "count": 1
-          },
-          {
-            "word": "PROBE",
-            "count": 1
-          },
-          {
-            "word": "Probenox",
-            "count": 3
-          },
-          {
-            "word": "PROBENOX-01",
             "count": 1
           },
           {
@@ -1058,6 +1046,14 @@
           },
           {
             "word": "SIGN",
+            "count": 2
+          },
+          {
+            "word": "Signaris",
+            "count": 3
+          },
+          {
+            "word": "SIGNARIS-01",
             "count": 1
           },
           {
@@ -1283,11 +1279,11 @@
             "count": 1
           },
           {
-            "key": "aria-label=Probenox home",
+            "key": "aria-label=Search lines",
             "count": 1
           },
           {
-            "key": "aria-label=Search lines",
+            "key": "aria-label=Signaris home",
             "count": 1
           },
           {
@@ -1327,167 +1323,189 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bar",
-          "bar-actions",
-          "bar-nav",
-          "blip",
-          "btn",
-          "btn--hot",
-          "btn--line",
-          "card",
-          "card-clock",
-          "card-code",
-          "card-lane",
-          "card-meta",
-          "card-question",
-          "card-sides",
-          "card-spark",
-          "card-top",
-          "card-traders",
-          "card-vol",
-          "cards",
-          "chip",
-          "chip--cta",
-          "chip-dot",
-          "controls-right",
-          "desk",
-          "desk-actions",
-          "desk-glyph",
-          "desk-head",
-          "desk-stat",
-          "down",
-          "feed",
-          "feed-controls",
-          "feed-count",
-          "feed-head",
-          "foot",
-          "foot-mark",
-          "foot-net",
-          "hero",
-          "hero-copy",
-          "hero-cta",
-          "hero-facts",
-          "hot",
-          "lanes",
-          "lede",
-          "live",
-          "mark",
-          "mark-glyph",
-          "mark-word",
-          "nl",
-          "nl-grid",
-          "nl-scan",
-          "odd",
-          "odd-head",
-          "odd-mid",
-          "odd-split",
-          "odd-ticks",
-          "odd-track",
-          "odd-yes",
-          "on",
-          "out",
-          "panel",
-          "panel-bars",
-          "panel-foot",
-          "panel-head",
-          "panel-live",
-          "panel-rows",
-          "pick",
-          "pick--no",
-          "pick--yes",
-          "rule-list",
-          "rules",
-          "rules-note",
-          "search",
-          "sorter",
-          "strip",
-          "strip-dim",
-          "strip-left",
-          "strip-right",
-          "strip-sep",
-          "tag",
-          "ticker",
-          "ticker-item",
-          "ticker-label",
-          "ticker-track",
-          "up"
+          "is-lit",
+          "orb-aperture",
+          "orb-btn",
+          "orb-btn--accent",
+          "orb-btn--ghost",
+          "orb-chip",
+          "orb-chip-dot",
+          "orb-chip-label",
+          "orb-claim",
+          "orb-clock",
+          "orb-code",
+          "orb-core",
+          "orb-count",
+          "orb-cta",
+          "orb-delta",
+          "orb-desk",
+          "orb-desk-acts",
+          "orb-desk-disc",
+          "orb-desk-glyph",
+          "orb-desk-nodes",
+          "orb-desk-title",
+          "orb-dial",
+          "orb-dial-figure",
+          "orb-dim",
+          "orb-eyebrow",
+          "orb-facts",
+          "orb-foot",
+          "orb-foot-band",
+          "orb-foot-brand",
+          "orb-foot-net",
+          "orb-foot-strip",
+          "orb-foot-tag",
+          "orb-hair",
+          "orb-hair--end",
+          "orb-halo",
+          "orb-halo--a",
+          "orb-halo--b",
+          "orb-halo--c",
+          "orb-halos",
+          "orb-heat",
+          "orb-is-down",
+          "orb-is-up",
+          "orb-kicker",
+          "orb-lane-tab",
+          "orb-lanes",
+          "orb-lede",
+          "orb-lines",
+          "orb-lines-plate",
+          "orb-lines-title",
+          "orb-live",
+          "orb-main",
+          "orb-masthead",
+          "orb-metric",
+          "orb-metrics",
+          "orb-metrics-arc",
+          "orb-metrics-foot",
+          "orb-metrics-head",
+          "orb-metrics-title",
+          "orb-moves",
+          "orb-moves-head",
+          "orb-node",
+          "orb-pick",
+          "orb-pick--no",
+          "orb-pick--yes",
+          "orb-pip",
+          "orb-pulse",
+          "orb-ray",
+          "orb-ray-acts",
+          "orb-ray-body",
+          "orb-ray-lane",
+          "orb-ray-meta",
+          "orb-ray-q",
+          "orb-ray-tags",
+          "orb-rays",
+          "orb-ring",
+          "orb-seal",
+          "orb-seal-glyph",
+          "orb-seal-id",
+          "orb-seal-word",
+          "orb-search",
+          "orb-search-field",
+          "orb-sep",
+          "orb-sky",
+          "orb-sort",
+          "orb-spark",
+          "orb-split",
+          "orb-stage",
+          "orb-station",
+          "orb-station-pip",
+          "orb-stations",
+          "orb-step",
+          "orb-step-body",
+          "orb-step-node",
+          "orb-step-note",
+          "orb-steps",
+          "orb-steps-title",
+          "orb-stream",
+          "orb-strip-a",
+          "orb-strip-b",
+          "orb-sweep",
+          "orb-tape",
+          "orb-tape-item",
+          "orb-tape-label",
+          "orb-tape-track",
+          "orb-ticks",
+          "orb-tools",
+          "orb-vol",
+          "orb-wallet-state",
+          "orbital-shell"
         ],
         "fingerprint": [
-          "a@6:2",
-          "a@7:0",
-          "a@9:0",
-          "article@8:4+",
+          "a@10:0",
+          "a@8:0",
+          "a@8:2",
+          "a@9:1",
+          "article@8:3",
           "aside@7:4+",
-          "b@10:0",
           "b@11:0",
           "b@12:0",
           "b@9:0",
           "button@10:0",
           "button@10:1",
-          "button@7:1",
           "button@8:0",
+          "button@8:1",
           "button@9:0",
-          "button@9:1",
+          "button@9:2",
           "dd@10:0",
           "div@10:3",
+          "div@10:4+",
           "div@3:1",
-          "div@4:4+",
+          "div@4:3",
           "div@5:0",
-          "div@5:2",
-          "div@6:1",
+          "div@6:2",
+          "div@6:3",
+          "div@6:4+",
           "div@7:1",
           "div@7:2",
+          "div@7:3",
           "div@7:4+",
           "div@8:2",
+          "div@8:3",
           "div@8:4+",
+          "div@9:1",
           "div@9:2",
           "div@9:3",
           "dl@8:3",
           "dl@8:4+",
           "dt@10:0",
-          "em@11:0",
-          "em@7:0",
+          "em@10:0",
+          "em@12:0",
           "em@8:0",
           "em@9:0",
-          "footer@5:3",
-          "h1@8:3",
-          "h2@7:0",
-          "h2@9:0",
-          "h3@9:0",
-          "header@5:3",
-          "header@7:2",
-          "header@9:3",
+          "footer@5:2",
+          "h1@9:3",
+          "h2@8:0",
+          "h3@10:0",
           "i@10:0",
-          "i@12:0",
-          "i@8:0",
-          "input@10:0",
-          "label@9:1",
-          "li@8:3",
+          "i@11:0",
+          "i@9:0",
+          "input@9:0",
+          "label@8:1",
+          "li@8:2",
           "main@5:4+",
-          "nav@6:3",
+          "nav@8:3",
           "ol@7:3",
-          "p@6:2",
-          "p@6:4+",
+          "p@10:0",
           "p@7:0",
+          "p@7:2",
+          "p@7:4+",
           "p@8:0",
           "p@8:1",
-          "p@8:2",
           "p@9:0",
           "path@10:0",
-          "path@12:0",
-          "path@9:0",
-          "rect@9:0",
+          "path@11:0",
+          "path@13:0",
+          "rect@11:0",
           "section@6:1",
-          "section@6:2",
           "section@6:3",
           "section@6:4+",
           "span@10:0",
-          "span@10:1",
           "span@11:0",
+          "span@11:1",
           "span@11:2",
-          "span@11:4+",
-          "span@6:0",
-          "span@6:1",
           "span@7:0",
           "span@7:1",
           "span@8:0",
@@ -1495,518 +1513,114 @@
           "span@8:4+",
           "span@9:0",
           "span@9:1",
-          "strong@11:1",
-          "strong@7:0",
+          "strong@10:1",
           "strong@8:0",
           "strong@9:0",
-          "svg@11:1",
-          "svg@8:3",
+          "svg@10:3",
+          "svg@12:1",
           "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "main",
             "role": "",
-            "top": 35,
+            "top": 0,
             "left": 0,
             "width": 1440,
-            "height": 69
+            "height": 4758
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 61,
-            "left": 664,
-            "width": 159,
-            "height": 16
-          },
-          {
-            "tag": "main",
-            "role": "",
-            "top": 104,
-            "left": 0,
-            "width": 1440,
-            "height": 2519
+            "top": 153,
+            "left": 360,
+            "width": 720,
+            "height": 720
           },
           {
             "tag": "aside",
             "role": "",
-            "top": 239,
-            "left": 815,
-            "width": 565,
-            "height": 455
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 924,
-            "left": 60,
-            "width": 1320,
-            "height": 87
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1110,
-            "left": 79,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1110,
-            "left": 524,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1110,
-            "left": 970,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1384,
-            "left": 79,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1384,
-            "left": 524,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1384,
-            "left": 970,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1658,
-            "left": 79,
-            "width": 391,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1658,
-            "left": 524,
-            "width": 391,
-            "height": 14
+            "top": 1100,
+            "left": 200,
+            "width": 1040,
+            "height": 370
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 2623,
+            "top": 4801,
             "left": 0,
             "width": 1440,
-            "height": 79
+            "height": 136
           }
         ],
         "colors": [
           {
-            "hex": "#f4f4ff",
-            "count": 280
+            "hex": "#f2f3f7",
+            "count": 215
           },
           {
-            "hex": "#8b8ba8",
-            "count": 74
+            "hex": "#a0a1a6",
+            "count": 118
           },
           {
-            "hex": "#ff2d9b",
-            "count": 71
+            "hex": "#bc97ff",
+            "count": 54
           },
           {
-            "hex": "#c6ff2e",
-            "count": 68
+            "hex": "#cfcbdb",
+            "count": 54
           },
           {
-            "hex": "#62627e",
-            "count": 31
+            "hex": "#5ce1a0",
+            "count": 22
           },
           {
-            "hex": "#00f0c8",
-            "count": 25
+            "hex": "#ff8a8a",
+            "count": 12
           },
           {
-            "hex": "#16161f",
-            "count": 16
+            "hex": "#141415",
+            "count": 7
           },
           {
-            "hex": "#101019",
-            "count": 13
+            "hex": "#100f14",
+            "count": 5
           },
           {
-            "hex": "#c3c3dc",
-            "count": 11
+            "hex": "#121116",
+            "count": 5
           },
           {
-            "hex": "#14000b",
+            "hex": "#ffffff",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
             "count": 3
           },
           {
-            "hex": "#05050a",
-            "count": 2
-          },
-          {
-            "hex": "#17000c",
-            "count": 2
-          },
-          {
-            "hex": "#0a0a12",
+            "hex": "#000000",
             "count": 1
           },
           {
-            "hex": "#3a3a55",
+            "hex": "#08070b",
+            "count": 1
+          },
+          {
+            "hex": "#0e0618",
+            "count": 1
+          },
+          {
+            "hex": "#2a0b57",
+            "count": 1
+          },
+          {
+            "hex": "#2b2930",
             "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.strip > p.strip-left > span.strip-dim",
-            "text": "every position signed on-chain",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.strip > p.strip-right > span.strip-dim",
-            "text": "cluster",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.strip > p.strip-right > span.strip-dim",
-            "text": "settlement",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.hero-copy > h1 > span.out",
-            "text": "FUTURE.",
-            "ratio": 1,
-            "required": 3,
-            "fontSize": 88,
-            "weight": 900,
-            "color": "rgba(0, 0, 0, 0)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.hero-copy > div.hero-cta > a.btn.btn--hot",
-            "text": "Open the feed",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 700,
-            "color": "rgb(23, 0, 12)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Network",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Latest blockhash",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Wallet",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "4",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "3",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "2",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "2",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "1",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "1284 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Tech",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "533 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Culture",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "388 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "904 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Sports",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "2210 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Culture",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "612 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Tech",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "244 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "741 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "section#rules > p.rules-note",
-            "text": "The market program is not deployed yet, so a signed position is recorded as an on-chain transaction ",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "section#desk > div.desk-actions > button.btn.btn--hot",
-            "text": "Attach wallet",
-            "ratio": 1.02,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 700,
-            "color": "rgb(23, 0, 12)",
-            "background": "#0a0a12"
-          },
-          {
-            "selector": "div.nl > footer.foot > span",
-            "text": "Price the future. Sign the call.",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.nl > footer.foot > span.foot-net",
-            "text": "Solana testnet ·",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          }
-        ],
+        "contrast": [],
         "contrastChecked": 263,
         "headings": [
           {
@@ -2077,44 +1691,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "main > section.ticker > div.ticker-track",
-              "right": 6419,
-              "width": 6471
+              "selector": "main.orb-main > section.orb-tape > div.orb-tape-track",
+              "right": 6300,
+              "width": 6346
             },
             {
-              "selector": "section.ticker > div.ticker-track > span.ticker-item",
-              "right": 1514,
-              "width": 336
+              "selector": "section.orb-tape > div.orb-tape-track > span.orb-tape-item",
+              "right": 1494,
+              "width": 362
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > span.ticker-label",
-              "right": 1445,
-              "width": 218
+              "selector": "div.orb-tape-track > span.orb-tape-item > em.orb-is-up",
+              "right": 1467,
+              "width": 24
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > strong.up",
-              "right": 1476,
-              "width": 22
+              "selector": "section.orb-tape > div.orb-tape-track > span.orb-tape-item",
+              "right": 1889,
+              "width": 394
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > em.up",
-              "right": 1514,
-              "width": 29
+              "selector": "div.orb-tape-track > span.orb-tape-item > b",
+              "right": 1560,
+              "width": 39
             },
             {
-              "selector": "section.ticker > div.ticker-track > span.ticker-item",
-              "right": 1917,
-              "width": 373
+              "selector": "div.orb-tape-track > span.orb-tape-item > span.orb-tape-label",
+              "right": 1794,
+              "width": 224
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > b",
-              "right": 1585,
-              "width": 41
+              "selector": "div.orb-tape-track > span.orb-tape-item > strong.orb-is-up",
+              "right": 1822,
+              "width": 20
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > span.ticker-label",
-              "right": 1841,
-              "width": 247
+              "selector": "div.orb-tape-track > span.orb-tape-item > em.orb-is-up",
+              "right": 1861,
+              "width": 30
             }
           ]
         }
@@ -2133,13 +1747,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Probenox // Live prediction lines on Solana",
+          "title": "Signaris // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 3345,
+          "bodyTextLength": 3417,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 29
+          "focusableCount": 35
         },
         "words": [
           {
@@ -2539,6 +2153,10 @@
             "count": 2
           },
           {
+            "word": "ARIS",
+            "count": 1
+          },
+          {
             "word": "as",
             "count": 3
           },
@@ -2607,8 +2225,12 @@
             "count": 3
           },
           {
+            "word": "Closing",
+            "count": 1
+          },
+          {
             "word": "cluster",
-            "count": 2
+            "count": 3
           },
           {
             "word": "coding",
@@ -2659,6 +2281,10 @@
             "count": 1
           },
           {
+            "word": "Desk",
+            "count": 1
+          },
+          {
             "word": "detached",
             "count": 1
           },
@@ -2685,6 +2311,10 @@
           {
             "word": "feed",
             "count": 2
+          },
+          {
+            "word": "Feed",
+            "count": 1
           },
           {
             "word": "fees",
@@ -2725,6 +2355,10 @@
           {
             "word": "headsets",
             "count": 3
+          },
+          {
+            "word": "Heat",
+            "count": 1
           },
           {
             "word": "held",
@@ -2776,7 +2410,7 @@
           },
           {
             "word": "key",
-            "count": 2
+            "count": 3
           },
           {
             "word": "lands",
@@ -2915,11 +2549,11 @@
             "count": 1
           },
           {
-            "word": "NOX",
+            "word": "number",
             "count": 1
           },
           {
-            "word": "number",
+            "word": "Odds",
             "count": 1
           },
           {
@@ -3019,18 +2653,6 @@
             "count": 1
           },
           {
-            "word": "PROBE",
-            "count": 1
-          },
-          {
-            "word": "Probenox",
-            "count": 3
-          },
-          {
-            "word": "PROBENOX-01",
-            "count": 1
-          },
-          {
             "word": "program",
             "count": 2
           },
@@ -3099,6 +2721,10 @@
             "count": 2
           },
           {
+            "word": "Rules",
+            "count": 1
+          },
+          {
             "word": "run",
             "count": 1
           },
@@ -3124,7 +2750,7 @@
           },
           {
             "word": "settlement",
-            "count": 1
+            "count": 2
           },
           {
             "word": "settles",
@@ -3152,6 +2778,14 @@
           },
           {
             "word": "SIGN",
+            "count": 2
+          },
+          {
+            "word": "Signaris",
+            "count": 3
+          },
+          {
+            "word": "SIGNARIS-01",
             "count": 1
           },
           {
@@ -3220,7 +2854,7 @@
           },
           {
             "word": "testnet",
-            "count": 3
+            "count": 4
           },
           {
             "word": "than",
@@ -3316,7 +2950,7 @@
           },
           {
             "word": "your",
-            "count": 4
+            "count": 5
           },
           {
             "word": "Your",
@@ -3373,11 +3007,19 @@
             "count": 1
           },
           {
-            "key": "aria-label=Probenox home",
+            "key": "aria-label=Primary",
             "count": 1
           },
           {
             "key": "aria-label=Search lines",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Signaris home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Sort lines",
             "count": 1
           },
           {
@@ -3387,8 +3029,16 @@
         ],
         "links": [
           {
+            "href": "#desk",
+            "count": 1
+          },
+          {
             "href": "#feed",
-            "count": 2
+            "count": 3
+          },
+          {
+            "href": "#rules",
+            "count": 1
           },
           {
             "href": "https://explorer.solana.com/?cluster=testnet",
@@ -3405,160 +3055,182 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bar",
-          "bar-actions",
-          "blip",
-          "btn",
-          "btn--hot",
-          "btn--line",
-          "card",
-          "card-clock",
-          "card-code",
-          "card-lane",
-          "card-meta",
-          "card-question",
-          "card-sides",
-          "card-spark",
-          "card-top",
-          "card-traders",
-          "card-vol",
-          "cards",
-          "chip",
-          "chip--cta",
-          "chip-dot",
-          "controls-right",
-          "desk",
-          "desk-actions",
-          "desk-glyph",
-          "desk-head",
-          "desk-stat",
-          "down",
-          "feed",
-          "feed-controls",
-          "feed-count",
-          "feed-head",
-          "foot",
-          "foot-mark",
-          "foot-net",
-          "hero",
-          "hero-copy",
-          "hero-cta",
-          "hero-facts",
-          "hot",
-          "lanes",
-          "lede",
-          "live",
-          "mark",
-          "mark-glyph",
-          "mark-word",
-          "nl",
-          "nl-grid",
-          "nl-scan",
-          "odd",
-          "odd-head",
-          "odd-mid",
-          "odd-split",
-          "odd-ticks",
-          "odd-track",
-          "odd-yes",
-          "on",
-          "out",
-          "panel",
-          "panel-bars",
-          "panel-foot",
-          "panel-head",
-          "panel-live",
-          "panel-rows",
-          "pick",
-          "pick--no",
-          "pick--yes",
-          "rule-list",
-          "rules",
-          "rules-note",
-          "search",
-          "strip",
-          "strip-dim",
-          "strip-left",
-          "tag",
-          "ticker",
-          "ticker-item",
-          "ticker-label",
-          "ticker-track",
-          "up"
+          "is-lit",
+          "orb-aperture",
+          "orb-btn",
+          "orb-btn--accent",
+          "orb-btn--ghost",
+          "orb-chip",
+          "orb-chip-dot",
+          "orb-chip-label",
+          "orb-claim",
+          "orb-clock",
+          "orb-code",
+          "orb-core",
+          "orb-count",
+          "orb-cta",
+          "orb-delta",
+          "orb-desk",
+          "orb-desk-acts",
+          "orb-desk-disc",
+          "orb-desk-glyph",
+          "orb-desk-nodes",
+          "orb-desk-title",
+          "orb-dial",
+          "orb-dial-figure",
+          "orb-dim",
+          "orb-eyebrow",
+          "orb-facts",
+          "orb-foot",
+          "orb-foot-band",
+          "orb-foot-brand",
+          "orb-foot-net",
+          "orb-foot-strip",
+          "orb-foot-tag",
+          "orb-hair",
+          "orb-hair--end",
+          "orb-heat",
+          "orb-is-down",
+          "orb-is-up",
+          "orb-kicker",
+          "orb-lane-tab",
+          "orb-lanes",
+          "orb-lede",
+          "orb-lines",
+          "orb-lines-plate",
+          "orb-lines-title",
+          "orb-live",
+          "orb-main",
+          "orb-masthead",
+          "orb-metric",
+          "orb-metrics",
+          "orb-metrics-arc",
+          "orb-metrics-foot",
+          "orb-metrics-head",
+          "orb-metrics-title",
+          "orb-moves",
+          "orb-moves-head",
+          "orb-node",
+          "orb-pick",
+          "orb-pick--no",
+          "orb-pick--yes",
+          "orb-pip",
+          "orb-pulse",
+          "orb-ray",
+          "orb-ray-acts",
+          "orb-ray-body",
+          "orb-ray-lane",
+          "orb-ray-meta",
+          "orb-ray-q",
+          "orb-ray-tags",
+          "orb-rays",
+          "orb-ring",
+          "orb-seal",
+          "orb-seal-glyph",
+          "orb-seal-id",
+          "orb-seal-word",
+          "orb-search",
+          "orb-search-field",
+          "orb-sep",
+          "orb-sky",
+          "orb-sort",
+          "orb-spark",
+          "orb-split",
+          "orb-stage",
+          "orb-station",
+          "orb-station-pip",
+          "orb-stations",
+          "orb-step",
+          "orb-step-body",
+          "orb-step-node",
+          "orb-step-note",
+          "orb-steps",
+          "orb-steps-title",
+          "orb-stream",
+          "orb-strip-a",
+          "orb-strip-b",
+          "orb-tape",
+          "orb-tape-item",
+          "orb-tape-label",
+          "orb-tape-track",
+          "orb-tools",
+          "orb-vol",
+          "orb-wallet-state",
+          "orbital-shell"
         ],
         "fingerprint": [
-          "a@6:2",
-          "a@7:0",
-          "a@9:0",
-          "article@8:4+",
+          "a@10:0",
+          "a@8:0",
+          "a@8:2",
+          "a@9:1",
+          "article@8:3",
           "aside@7:4+",
-          "b@10:0",
           "b@11:0",
           "b@12:0",
           "b@9:0",
+          "button@10:0",
           "button@10:1",
-          "button@7:1",
           "button@8:0",
+          "button@8:1",
           "button@9:0",
-          "button@9:1",
+          "button@9:2",
           "dd@10:0",
           "div@10:3",
+          "div@10:4+",
           "div@3:1",
-          "div@4:4+",
+          "div@4:3",
           "div@5:0",
-          "div@5:2",
-          "div@6:1",
+          "div@6:2",
+          "div@6:3",
+          "div@6:4+",
           "div@7:1",
           "div@7:2",
+          "div@7:3",
           "div@7:4+",
           "div@8:2",
+          "div@8:3",
           "div@8:4+",
+          "div@9:1",
           "div@9:2",
           "div@9:3",
           "dl@8:3",
           "dl@8:4+",
           "dt@10:0",
-          "em@11:0",
-          "em@7:0",
+          "em@10:0",
+          "em@12:0",
           "em@8:0",
           "em@9:0",
-          "footer@5:3",
-          "h1@8:3",
-          "h2@7:0",
-          "h2@9:0",
-          "h3@9:0",
-          "header@5:3",
-          "header@7:2",
-          "header@9:3",
+          "footer@5:2",
+          "h1@9:3",
+          "h2@8:0",
+          "h3@10:0",
           "i@10:0",
-          "i@12:0",
-          "i@8:0",
-          "input@10:0",
-          "label@9:1",
-          "li@8:3",
+          "i@11:0",
+          "i@9:0",
+          "input@9:0",
+          "label@8:1",
+          "li@8:2",
           "main@5:4+",
+          "nav@8:3",
           "ol@7:3",
-          "p@6:2",
+          "p@10:0",
           "p@7:0",
+          "p@7:2",
+          "p@7:4+",
           "p@8:0",
           "p@8:1",
-          "p@8:2",
           "p@9:0",
           "path@10:0",
-          "path@12:0",
-          "path@9:0",
-          "rect@9:0",
+          "path@11:0",
+          "path@13:0",
+          "rect@11:0",
           "section@6:1",
-          "section@6:2",
           "section@6:3",
           "section@6:4+",
           "span@10:0",
-          "span@10:1",
           "span@11:0",
+          "span@11:1",
           "span@11:2",
-          "span@11:4+",
-          "span@6:0",
-          "span@6:1",
           "span@7:0",
           "span@7:1",
           "span@8:0",
@@ -3566,486 +3238,115 @@
           "span@8:4+",
           "span@9:0",
           "span@9:1",
-          "strong@11:1",
+          "strong@10:1",
           "strong@8:0",
           "strong@9:0",
-          "svg@11:1",
-          "svg@8:3",
+          "svg@10:3",
+          "svg@12:1",
           "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
-            "role": "",
-            "top": 33,
-            "left": 0,
-            "width": 390,
-            "height": 59
-          },
-          {
             "tag": "main",
             "role": "",
-            "top": 92,
+            "top": 0,
             "left": 0,
             "width": 390,
-            "height": 4959
+            "height": 4598
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 117,
+            "left": 55,
+            "width": 280,
+            "height": 125
           },
           {
             "tag": "aside",
             "role": "",
-            "top": 750,
-            "left": 16,
-            "width": 358,
-            "height": 415
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1289,
-            "left": 16,
-            "width": 358,
-            "height": 99
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1574,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1835,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2116,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2377,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2638,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2899,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 3159,
-            "left": 33,
-            "width": 324,
-            "height": 14
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 3420,
-            "left": 33,
-            "width": 324,
-            "height": 14
+            "top": 878,
+            "left": 18,
+            "width": 354,
+            "height": 436
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 5051,
+            "top": 4618,
             "left": 0,
             "width": 390,
-            "height": 127
+            "height": 189
           }
         ],
         "colors": [
           {
-            "hex": "#f4f4ff",
-            "count": 275
+            "hex": "#f2f3f7",
+            "count": 209
           },
           {
-            "hex": "#ff2d9b",
-            "count": 70
+            "hex": "#a0a1a6",
+            "count": 118
           },
           {
-            "hex": "#8b8ba8",
-            "count": 69
+            "hex": "#bc97ff",
+            "count": 54
           },
           {
-            "hex": "#c6ff2e",
-            "count": 68
+            "hex": "#cfcbdb",
+            "count": 54
           },
           {
-            "hex": "#62627e",
-            "count": 29
+            "hex": "#5ce1a0",
+            "count": 22
           },
           {
-            "hex": "#00f0c8",
-            "count": 25
+            "hex": "#ff8a8a",
+            "count": 12
           },
           {
-            "hex": "#16161f",
-            "count": 16
+            "hex": "#141415",
+            "count": 7
           },
           {
-            "hex": "#c3c3dc",
-            "count": 11
+            "hex": "#100f14",
+            "count": 5
           },
           {
-            "hex": "#101019",
-            "count": 10
+            "hex": "#121116",
+            "count": 5
           },
           {
-            "hex": "#14000b",
+            "hex": "#ffffff",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
             "count": 3
           },
           {
-            "hex": "#05050a",
-            "count": 2
+            "hex": "#000000",
+            "count": 1
           },
           {
-            "hex": "#17000c",
-            "count": 2
+            "hex": "#08070b",
+            "count": 1
           },
           {
-            "hex": "#0a0a12",
+            "hex": "#0e0618",
+            "count": 1
+          },
+          {
+            "hex": "#2a0b57",
+            "count": 1
+          },
+          {
+            "hex": "#2b2930",
             "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.strip > p.strip-left > span.strip-dim",
-            "text": "every position signed on-chain",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.hero-copy > h1 > span.out",
-            "text": "FUTURE.",
-            "ratio": 1,
-            "required": 3,
-            "fontSize": 40,
-            "weight": 900,
-            "color": "rgba(0, 0, 0, 0)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.hero-copy > div.hero-cta > a.btn.btn--hot",
-            "text": "Open the feed",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 700,
-            "color": "rgb(23, 0, 12)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Network",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Latest blockhash",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "dl.hero-facts > div > dt",
-            "text": "Wallet",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "4",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "3",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "2",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "2",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "div.lanes > button > b",
-            "text": "1",
-            "ratio": 3.21,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 700,
-            "color": "rgb(98, 98, 126)",
-            "background": "#101019"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "1284 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Tech",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "533 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Culture",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "388 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "904 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Sports",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "2210 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Culture",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "612 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Tech",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "244 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > header.card-top > span.card-lane",
-            "text": "Crypto",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 600,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "article.card > div.card-meta > span.card-traders",
-            "text": "741 in",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "section#rules > p.rules-note",
-            "text": "The market program is not deployed yet, so a signed position is recorded as an on-chain transaction ",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "section#desk > div.desk-actions > button.btn.btn--hot",
-            "text": "Attach wallet",
-            "ratio": 1.02,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 700,
-            "color": "rgb(23, 0, 12)",
-            "background": "#0a0a12"
-          },
-          {
-            "selector": "div.nl > footer.foot > span",
-            "text": "Price the future. Sign the call.",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          },
-          {
-            "selector": "div.nl > footer.foot > span.foot-net",
-            "text": "Solana testnet ·",
-            "ratio": 3.46,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(98, 98, 126)",
-            "background": "#05050a"
-          }
-        ],
-        "contrastChecked": 253,
+        "contrast": [],
+        "contrastChecked": 263,
         "headings": [
           {
             "tag": "h1",
@@ -4115,44 +3416,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "main > section.ticker > div.ticker-track",
-              "right": 6306,
-              "width": 6471
+              "selector": "main.orb-main > section.orb-tape > div.orb-tape-track",
+              "right": 5755,
+              "width": 5854
             },
             {
-              "selector": "section.ticker > div.ticker-track > span.ticker-item",
-              "right": 662,
-              "width": 416
+              "selector": "section.orb-tape > div.orb-tape-track > span.orb-tape-item",
+              "right": 650,
+              "width": 404
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > span.ticker-label",
-              "right": 593,
-              "width": 298
+              "selector": "div.orb-tape-track > span.orb-tape-item > span.orb-tape-label",
+              "right": 576,
+              "width": 271
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > strong.down",
-              "right": 624,
-              "width": 22
+              "selector": "div.orb-tape-track > span.orb-tape-item > strong.orb-is-down",
+              "right": 605,
+              "width": 20
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > em.down",
-              "right": 662,
-              "width": 29
+              "selector": "div.orb-tape-track > span.orb-tape-item > em.orb-is-down",
+              "right": 638,
+              "width": 24
             },
             {
-              "selector": "section.ticker > div.ticker-track > span.ticker-item",
-              "right": 1036,
-              "width": 344
+              "selector": "section.orb-tape > div.orb-tape-track > span.orb-tape-item",
+              "right": 988,
+              "width": 338
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > b",
-              "right": 733,
-              "width": 41
+              "selector": "div.orb-tape-track > span.orb-tape-item > b",
+              "right": 700,
+              "width": 39
             },
             {
-              "selector": "div.ticker-track > span.ticker-item > span.ticker-label",
-              "right": 967,
-              "width": 225
+              "selector": "div.orb-tape-track > span.orb-tape-item > span.orb-tape-label",
+              "right": 914,
+              "width": 205
             }
           ]
         }
@@ -4168,42 +3469,62 @@
         "samples": [
           {
             "tag": "a",
-            "text": "Probenox home",
+            "text": "Signaris home",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
+            "outlineColor": "rgb(188, 151, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(244, 244, 255)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
+            "borderColor": "rgb(43, 41, 48)",
+            "backgroundColor": "rgba(20, 20, 21, 0.78)"
           },
           {
             "tag": "a",
             "text": "FEED",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
+            "outlineColor": "rgb(188, 151, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(139, 139, 168)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
+            "borderColor": "rgb(150, 122, 201)",
+            "backgroundColor": "rgba(35, 12, 70, 0.94)"
           },
           {
             "tag": "a",
             "text": "RULES",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
+            "outlineColor": "rgb(188, 151, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(139, 139, 168)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
+            "borderColor": "rgb(150, 122, 201)",
+            "backgroundColor": "rgba(35, 12, 70, 0.94)"
           },
           {
             "tag": "a",
             "text": "DESK",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
+            "outlineColor": "rgb(188, 151, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(139, 139, 168)",
+            "borderColor": "rgb(138, 113, 184)",
+            "backgroundColor": "rgba(33, 12, 64, 0.94)"
+          },
+          {
+            "tag": "a",
+            "text": "OPEN THE FEED",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(188, 151, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(103, 13, 229)",
+            "backgroundColor": "rgb(103, 13, 229)"
+          },
+          {
+            "tag": "button",
+            "text": "ATTACH A WALLET",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(188, 151, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(43, 41, 48)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
@@ -4211,40 +3532,20 @@
             "text": "ATTACH WALLET",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
-            "boxShadow": "rgba(255, 45, 155, 0.45) 0px 0px 18px 0px",
-            "borderColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "rgb(255, 45, 155)"
-          },
-          {
-            "tag": "a",
-            "text": "OPEN THE FEED",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
-            "boxShadow": "rgba(255, 45, 155, 0.45) 0px 0px 18px 0px",
-            "borderColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "button",
-            "text": "ATTACH A WALLET",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
+            "outlineColor": "rgb(188, 151, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(58, 58, 85)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
+            "borderColor": "rgba(188, 151, 255, 0.24)",
+            "backgroundColor": "rgba(42, 11, 87, 0.45)"
           },
           {
             "tag": "button",
             "text": "ALL LANES 8",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(198, 255, 46)",
-            "boxShadow": "rgb(198, 255, 46) 0px -2px 0px 0px inset, rgba(198, 255, 46, 0.4) 0px 0px 18px 0px",
-            "borderColor": "rgb(198, 255, 46)",
-            "backgroundColor": "rgb(16, 16, 25)"
+            "outlineColor": "rgb(188, 151, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(103, 13, 229)",
+            "backgroundColor": "rgb(103, 13, 229)"
           }
         ],
         "visibleCount": 8,
@@ -4252,5 +3553,5 @@
       }
     }
   },
-  "inventoryHash": "b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6"
+  "inventoryHash": "6979f1b59b59959d557d1f9781b30cffb8190062c1ff82701a0a90441297b497"
 }

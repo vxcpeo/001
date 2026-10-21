@@ -1,5 +1,5 @@
 /**
- * Probenox wallet layer.
+ * Signaris wallet layer.
  *
  * Talks to the Solana wallet the visitor actually has installed, through the
  * provider API the wallet injects into the page. No simulated wallet and no
@@ -16,7 +16,7 @@
 
 const MEMO_PROGRAM_ID = 'MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr'
 const LAMPORTS_PER_SOL = 1_000_000_000n
-const SESSION_KEY = 'probenox.session.v1'
+const SESSION_KEY = 'signaris.session.v1'
 const SESSION_TTL_MS = 24 * 60 * 60 * 1000
 
 /** Providers we look for, in the order we offer them. */

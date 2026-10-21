@@ -1,95 +1,75 @@
-# Wireframe commitment — Agora Violet / Orbital
+# Wiring plan — Paper Protocol / Documentary Ledger
 
-Committed before any markup edit. Every route uses this archetype; there is no fallback shell.
+Selected automatically by `choose-style.mjs` (no user input):
 
-## Direction
-
-- Style: **Agora Violet** (`polygon-agora`, technical-editorial) — black ground, violet bloom,
-  hairline geometry, mono metadata gutters, index numerals.
-- Skeleton: **orbital** (spatial). Original was `sidebar-workspace` (shell).
-- Accent: `#670de5` (201.7 ΔE from the original `#c6ff2e`).
+- Style DNA: `ethereum-paper` (crypto-editorial), live-sampled from https://ethereum.org
+- Skeleton: `documentary` (editorial family)
+- Original: `orbital` (spatial), dark violet `#670de5`
+- New accent: `#0c5681`, 97.26 ΔE from the original
 
 ## New shell
 
-`OrbitalShell` is not a component file; the shell is the root of `App.vue` (single-route SPA, no router).
+`ledger-page` — a single editorial sheet, not an app frame:
 
-```
-div.orbital-shell
-├─ div.orb-sky                     (decorative bloom + horizon arc, aria-hidden)
-├─ main.orb-main
-│  ├─ section.orb-tape             (the ticker, moved to the very top as a signal tape)
-│  ├─ div.orb-stage
-│  │  ├─ div.orb-masthead          (hairline · circular brand seal · hairline)
-│  │  ├─ div.orb-ring              (square orbit field)
-│  │  │  ├─ div.orb-halos          (3 concentric circles + conic sweep, aria-hidden)
-│  │  │  ├─ nav.orb-stations       (Feed / Rules / Desk on the ring)
-│  │  │  └─ div.orb-core           (circular core: kicker, h1 claim, CTA pair)
-│  │  ├─ div.orb-aperture          (focused panel: lede + three facts)
-│  │  └─ aside.orb-metrics         (secondary arc of metrics + radial pulse + seal)
-│  ├─ section#feed.orb-lines       (centered plate head, orbit tablets, ray ledger)
-│  ├─ section#rules.orb-moves      (diagonal arc of three numbered stations)
-│  └─ section#desk.orb-desk        (wallet disc + arc of nodes + slip ledger)
-└─ footer.orb-foot                 (outer-ring band + relocated LIVE/cluster strip)
-   + trade sheet, wallet sheet, toast (overlays, unchanged behaviour)
-```
+1. `header.ledger-masthead` with the wordmark (`SIGN`/`ARIS`), the
+   "Prediction arena · Solana" imprint, and `nav.ledger-index` (Feed / Rules /
+   Desk). Old top ticker + centered orbit + floating station nav are gone.
+2. `section.ledger-wire` — the same market data as a horizontal type-set wire
+   band under the masthead, rendered as a ruled stock table, not a ticker bar.
+3. `main.ledger-main`
+   - `section.ledger-opening`: the claim as an oversized serif headline with the
+     two existing calls to action as underlined/filled editorial buttons.
+   - `div.ledger-columns`: a 7/3 grid.
+     - `.ledger-column-main`: drop-cap lede, `#feed` ledger, `#rules` numbered
+       essay, `#desk` wallet register.
+     - `section.ledger-margin` (role complementary): arena readout box, pulse
+       rule, stats, wallet chip, and the three network facts as footnotes.
+4. `footer.ledger-colophon`: brand/date, tagline, network/explorer, live strip.
+5. Two `.ledger-plate` sheets for trade and wallet, plus the toast.
 
-Landmarks: `main`, `nav` (inside the ring), `aside` (metrics), `footer`. **No `header` element
-anywhere** — the original landmark sequence (header, nav, main, aside, 9×header, footer) is gone.
+## Route mapping
 
-## Route-to-layout mapping (`/` only)
+The app has one route (`/`). Everything is composed in the new shell; no route
+keeps the old layout.
 
-| Region | Holds (content moved, never retyped) |
+| Region | Content moved there |
 |---|---|
-| `section.orb-tape` | ticker `v-for` over `[...tickerItems, ...tickerItems]` |
-| `nav.orb-stations` | the three static nav links `Feed` / `Rules` / `Desk` |
-| `div.orb-core` | `Prediction arena · Solana`, h1 spans, `Open the feed` + `{{ connected ? 'Your desk' : 'Attach a wallet' }}` |
-| `div.orb-aperture` | the hero lede paragraph + `Network` / `Latest blockhash` / `Wallet` facts |
-| `aside.orb-metrics` | `arena readout` / `streaming`, `arenaStats` v-for, the 22 pulse bars, `PROBENOX-01`, the wallet chip, wallet status |
-| `section.orb-lines` | `the feed` / `OPEN LINES` / count, lanes tablist, sort group, search input, 8 `article` rays, empty state |
-| `section.orb-moves` | `three moves` / `HOW A POSITION GETS MADE` / 3 numbered items / closing note |
-| `section.orb-desk` | `your desk`, wallet h2, Address / Balance / Signed positions nodes, actions, receipt slips |
-| `footer.orb-foot` | brand `/ 2026`, tagline, cluster + explorer link, then the LIVE + cluster/settlement strip |
+| Masthead | `SIGNARIS` wordmark, `Prediction arena · Solana`, Feed / Rules / Desk |
+| Wire band | all 8 market codes, questions, YES percentages and moves (duplicated like the old tape) |
+| Opening | `PRICE THE FUTURE. SIGN THE CALL.`, `Open the feed`, `Attach a wallet` |
+| Lede | the long "Every question here runs as a live line…" paragraph with a drop cap |
+| Ledger | `OPEN LINES`, tally, lane tabs, Heat/Odds/Closing, search, all 8 markets |
+| Rules | `HOW A POSITION GETS MADE`, steps 01–03, the settlement footnote |
+| Desk | `your desk`, `WALLET DETACHED`, Address / Balance / Signed positions, actions, receipts |
+| Margin | `arena readout`, streaming, 4 stats, `SIGNARIS-01`, wallet chip, Network / Latest blockhash / Wallet |
+| Colophon | brand `/ 2026`, tagline, `Solana … · explorer`, `LIVE`, cluster/settlement |
+| Plates | every existing trade/wallet string, field, binding and handler |
 
-## Composition change per region (not a recolor)
+## Deleted vs kept
 
-- Masthead: no top bar, no logo-left / nav-center / CTA-right. The brand is a **circular seal flanked
-  by hairlines**, centered. The wallet chip that used to sit in the top bar is relocated into the
-  **arena-readout console foot** (next to `PROBENOX-01` and the wallet state line), so the corner
-  capsule of the old top bar disappears completely.
-- Navigation: was a horizontal 3-link row in a top bar → now **three stations positioned on the
-  orbit ring** at −34°/0°/+34°, counter-rotated to stay upright; on mobile a **vertical arc**
-  (staircased column) at the top of the stage.
-- Hero: was a 2-column split (copy left / stat panel right) → now a **circular core** with the
-  claim centered, a wide **aperture panel** below it, and the metrics as a **shallow arc** of nodes.
-- Ticker: was a strip after the hero → now the **first band of the page** (signal tape).
-- Feed: was a responsive **3-column card grid** → now a staggered **ray ledger**: one row per
-  market with a circular odds dial, metadata gutter, and stacked YES/NO actions.
-- Rules: was **three equal cards in a row** → now a **diagonal arc** of numbered stations with a
-  hairlined connector.
-- Desk: was a **horizontal strip** with 3 inline stats → now a **wallet disc** with the status h2
-  inside, an arc of three nodes under it, and a slip ledger.
-- Footer: single row → **outer-ring band** plus the LIVE/cluster strip relocated from the top.
+- Deleted from the render path: `.orbital-shell`, `.orb-sky`, `.orb-masthead`,
+  the radical `.orb-ring`/`.orb-halos` hero, `.orb-stations`, `.orb-aperture`,
+  `.orb-metrics` aside, `.orb-rays` card rows, `.orb-veil`/`.orb-sheet` overlays,
+  and both global stylesheets (`meridian.css`, `meridian-orbit.css`).
+- Kept as content-only children: the market loop, lane/sort/search controls,
+  trade form, wallet catalogue, receipt list and toast — same expressions,
+  handlers, fields and copy, new wrappers only.
 
-## Old components / CSS removed from the render path
+## New presentation layer
 
-- `src/style.css` (arena skin, 35 KB) — deleted; `main.js` no longer imports it.
-- All original class names (`.nl`, `.strip`, `.bar`, `.hero`, `.panel`, `.ticker`, `.card`,
-  `.rules`, `.desk`, `.foot`, `.sheet`, `.veil`, `.toast`, …) disappear from the DOM.
-- No layout component files existed; the template is rewritten in place.
+- `src/styles/paper.css` — tokens (`--pp-*`), reset, base serif/mono type, focus,
+  selection, reduced-motion guard.
+- `src/styles/paper-ledger.css` — masthead/index/wire/opening/columns/ledger/
+  rules/desk/margin/colophon/plates and breakpoints.
+- `src/main.js` imports only those two files.
+- Breakpoints: 1180px (single column, margin below), 980px (entry re-flow),
+  760px (masthead/opening stack, single-column desk), 480px (entry single column,
+  stacked plates), plus `prefers-reduced-motion` (wire becomes a scroll rail).
 
-## New CSS
+## Design rules enforced
 
-- `src/styles/meridian.css` — tokens, reset, base type, focus, motion guard.
-- `src/styles/meridian-orbit.css` — shell, orbit, tape, lines, moves, desk, foot, sheets, responsive.
-- Token names are new (`--bg`, `--surface`, `--accent`, `--accent-safe`, `--line`, `--space-*`,
-  `--radius-*`, `--font-*`); the only names shared with the style guide are the SAML DNA tokens,
-  never the old product tokens (`--hot`, `--volt`, `--ice`, `--void`, `--slab`, …).
-- Class namespace: `orb-` / `orbital-`. Breakpoints: 1180, 980, 860 (nav), 640.
-
-## Access and responsive commitments
-
-- One `h1` (the core claim); `h2` per section; `h3` per ray and per rule.
-- Focus ring: 2px `--accent-safe`, 3px offset, on every interactive element.
-- Mobile: ring collapses (halos hidden), core becomes a rounded panel, stations become a vertical
-  arc, ray ledger becomes one column, every control stays visible (nothing hidden to fit).
-- All motion (tape drift, bloom pulse) wrapped in `@media (prefers-reduced-motion: no-preference)`.
+- One `h1` (the claim); `h2` per section; `h3` per market and step.
+- `header` / `nav` / `main` / complementary region / `footer` landmarks.
+- Visible focus ring on every control; Escape closes both plates.
+- 4.5:1 body contrast, 3:1 large text; all measurements pass the verifier.
+- No new visible copy: the only text is the existing content contract.

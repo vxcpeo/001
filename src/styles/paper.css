@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Paper Protocol — token, reset and typographic base layer.
+   Documentary Ledger skin. Presentation only: no product copy lives here.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  --pp-paper: #ffffff;
+  --pp-surface: #fffdf8;
+  --pp-surface-alt: #ede9df;
+  --pp-ink: #1b1b1b;
+  --pp-ink-soft: #3a3733;
+  --pp-muted: #6b675f;
+  --pp-accent: #0c5681;
+  --pp-accent-deep: #083a58;
+  --pp-accent-2: #8b9dff;
+  --pp-rule: #d9d3c7;
+  --pp-rule-strong: #1b1b1b;
+  --pp-success: #2f6b4f;
+  --pp-danger: #a83a2a;
+  --pp-warning: #8a5a00;
+
+  --pp-font-display: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  --pp-font-body: Charter, Georgia, 'Times New Roman', serif;
+  --pp-font-mono: 'Courier New', Consolas, ui-monospace, monospace;
+
+  --pp-display-weight: 500;
+  --pp-display-tracking: -0.028em;
+  --pp-label-tracking: 0.14em;
+
+  --pp-space-1: clamp(4px, 0.35vw, 6px);
+  --pp-space-2: clamp(8px, 0.7vw, 12px);
+  --pp-space-3: clamp(14px, 1.2vw, 20px);
+  --pp-space-4: clamp(22px, 2vw, 32px);
+  --pp-space-5: clamp(36px, 3.4vw, 56px);
+  --pp-space-6: clamp(56px, 5vw, 88px);
+  --pp-page-pad: clamp(18px, 4vw, 64px);
+  --pp-max-width: 1440px;
+
+  --pp-motion: 300ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--pp-paper);
+  background-image:
+    repeating-linear-gradient(180deg, transparent 0 31px, rgba(27, 27, 27, 0.022) 31px 32px),
+    radial-gradient(120% 60% at 100% 0%, rgba(139, 157, 255, 0.1) 0%, transparent 62%);
+  color: var(--pp-ink);
+  font-family: var(--pp-font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--pp-font-display);
+  font-weight: var(--pp-display-weight);
+  letter-spacing: var(--pp-display-tracking);
+  line-height: 0.98;
+  color: var(--pp-ink);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--pp-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--pp-accent-deep);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+dl,
+dd,
+dt,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+::selection {
+  background: var(--pp-accent);
+  color: var(--pp-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--pp-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "old": {
+    "display": "Signaris",
+    "slug": "signaris",
+    "variants": {
+      "display": "Signaris",
+      "lower": "signaris",
+      "upper": "SIGNARIS",
+      "title": "Signaris",
+      "kebab": "signaris",
+      "snake": "signaris",
+      "camel": "signaris",
+      "pascal": "Signaris",
+      "compact": "Signaris",
+      "compactLower": "signaris",
+      "first": "Signaris",
+      "firstLower": "signaris",
+      "firstUpper": "SIGNARIS"
+    },
+    "variantList": [
+      {
+        "value": "Signaris",
+        "kind": "display"
+      },
+      {
+        "value": "signaris",
+        "kind": "lower"
+      },
+      {
+        "value": "SIGNARIS",
+        "kind": "upper"
+      }
+    ],
+    "domains": [],
+    "handles": [],
+    "emails": [],
+    "packageNames": [
+      "signaris"
+    ],
+    "initials": "",
+    "allowFiles": [],
+    "allowStrings": []
+  },
+  "usedBrands": [
+    "GhostPay",
+    "Cifruna",
+    "Mathlana",
+    "Qubitlane",
+    "Zero Art Protocol",
+    "Provenia",
+    "Loch",
+    "Tidevel",
+    "Miston",
+    "Ivorane",
+    "Filza",
+    "Backers",
+    "Kudorix",
+    "Tessella",
+    "Nummula",
+    "ORAsol",
+    "Attesio",
+    "YOVINX",
+    "Settiva",
+    "Seclura",
+    "Cindral",
+    "Stakri",
+    "Tracefolio",
+    "Tracevio",
+    "lockRH",
+    "Latchera",
+    "Pretiola",
+    "Clepsyra",
+    "Signaris"
+  ],
+  "notes": ""
+}

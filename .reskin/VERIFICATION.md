@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-19T19:02:30.530Z
+Generated: 2026-10-20T15:58:27.512Z
 
-- Project: **probenox**
+- Project: **signaris**
 - URL: http://127.0.0.1:4317/
-- Original skeleton: `sidebar-workspace` (shell)
-- New skeleton: `orbital` (spatial)
-- Accent: #c6ff2e -> #670de5 (215.58 ΔE; min 30)
-- Source contract: intact (`b3ed45a1b94b`)
+- Original skeleton: `orbital` (spatial)
+- New skeleton: `marketing-stack` (editorial)
+- Accent: #670de5 -> #0c5681 (97.26 ΔE; min 30)
+- Source contract: intact (`6979f1b59b59`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.381 | 0.214 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.277 | 0.4 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 
@@ -19,7 +19,14 @@ Generated: 2026-10-19T19:02:30.530Z
 
 ## Warnings
 
-- None.
+- /: aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no
+- /: aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no
+- /: aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no
+- /: aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no
+- /: aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no
+- /: aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no
+- /: aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no
+- /: aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no
 
 ## Thresholds
 

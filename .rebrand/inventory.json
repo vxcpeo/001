@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "project": "E:\\workspace\\chuangye\\solana\\001\\website",
+  "generatedAt": "2026-10-20T23:44:35+08:00",
+  "git": {
+    "isGit": false
+  },
+  "packageManager": {
+    "name": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "stats": {
+    "files": 14,
+    "textFiles": 12,
+    "imageFiles": 2
+  },
+  "files": [
+    {
+      "path": ".env.example",
+      "kind": "text",
+      "size": 725,
+      "hash": "7095113e658cb1eeed10fcbc68f370755bc4a9b3b31e8e10a0540d9fb58df4a4",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": ".env.local",
+      "kind": "text",
+      "size": 262,
+      "hash": "37ebf72c2923519298cbe0038feec2cad265c6c3fc29b146bca15ab985e72f38",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": ".gitignore",
+      "kind": "text",
+      "size": 95,
+      "hash": "8feb42a98d723e13b544f39bdb90a8dc28a5ab46ef6a1d94b26174c4a014f068",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "index.html",
+      "kind": "text",
+      "size": 1674,
+      "hash": "8327a0e63043f1b485bb8577ef9f00cc51d02ac8ebc683ae0c7334a6a0b7b2e0",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 4
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 4
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "package.json",
+      "kind": "text",
+      "size": 285,
+      "hash": "f3cb3f813794cc839204d60cb4153a3792f133982fb8d1a1ccffad2329cb4d89",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "vite.config.js",
+      "kind": "text",
+      "size": 127,
+      "hash": "de5b56ab35f88af4c532665929cdc85a855a19209fcfa37c391daebb764ff89d",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "public/favicon.svg",
+      "kind": "text",
+      "size": 526,
+      "hash": "8543563463129ec7efec98047fe06d8a7a4b41d0d28cfab0edb59028d121bc3d",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/App.vue",
+      "kind": "text",
+      "size": 32625,
+      "hash": "6bc0f9ba7da3abbd2b201869034c73b3b8322638acfabf7cac590edeab656968",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 10
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 10
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/main.js",
+      "kind": "text",
+      "size": 158,
+      "hash": "b3beccc2fc149ca7c3530b591ec59922b954d71f19b6e3b4de773ebef2bc7963",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/solana.js",
+      "kind": "text",
+      "size": 14548,
+      "hash": "f6638ddd89c0ef2a5c996b202d324ec5bbf4d1674519afaa4c58aa9b33d92bed",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Signaris",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Signaris",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/meridian-orbit.css",
+      "kind": "text",
+      "size": 41454,
+      "hash": "3afa9eade196aa26efc4b9f2a81e148906c12368c830d4df1ae42e39d9fae249",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/meridian.css",
+      "kind": "text",
+      "size": 6529,
+      "hash": "1c373b9a2dc97e440d2dd13579034e876bcf0654f3a298e4f87fa25497e33295",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "public/favicon.svg",
+      "kind": "image",
+      "size": 526,
+      "hash": "8543563463129ec7efec98047fe06d8a7a4b41d0d28cfab0edb59028d121bc3d",
+      "brandHits": []
+    },
+    {
+      "path": "public/og.png",
+      "kind": "image",
+      "size": 162951,
+      "hash": "fea9562d56f89473dfa131b783443de60da0c8d0c1eadbe126fbd96842570ed0",
+      "brandHits": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/favicon.svg",
+      "format": "svg",
+      "kind": "favicon",
+      "bytes": 526,
+      "width": 64.0,
+      "height": 64.0,
+      "aspect": 1.0,
+      "hasAlpha": false,
+      "colors": [
+        "#050508",
+        "#00F0C8",
+        "#FF2D9B",
+        "#FF2D9B",
+        "#FF2D9B"
+      ],
+      "text": [],
+      "containsBrand": true,
+      "usedBy": [
+        "index.html"
+      ],
+      "needsVisualReview": true,
+      "title": "Signaris",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "path": "public/og.png",
+      "format": "png",
+      "kind": "og",
+      "bytes": 162951,
+      "width": 1200,
+      "height": 630,
+      "aspect": 1.905,
+      "hasAlpha": true,
+      "colors": [
+        "#05050a",
+        "#05050b",
+        "#030308",
+        "#040409",
+        "#05060b",
+        "#04040a",
+        "#07080a",
+        "#050409"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html"
+      ],
+      "needsVisualReview": true
+    }
+  ],
+  "brand": {
+    "display": "Signaris",
+    "slug": "signaris",
+    "confidence": 0.875,
+    "source": "scan",
+    "evidence": [
+      {
+        "value": "Signaris",
+        "source": "package:name",
+        "weight": 2,
+        "files": [
+          "package.json"
+        ]
+      }
+    ],
+    "alternatives": [],
+    "variants": {
+      "display": "Signaris",
+      "lower": "signaris",
+      "upper": "SIGNARIS",
+      "title": "Signaris",
+      "kebab": "signaris",
+      "snake": "signaris",
+      "camel": "signaris",
+      "pascal": "Signaris",
+      "compact": "Signaris",
+      "compactLower": "signaris",
+      "first": "Signaris",
+      "firstLower": "signaris",
+      "firstUpper": "SIGNARIS"
+    },
+    "variantList": [
+      {
+        "value": "Signaris",
+        "kind": "display"
+      },
+      {
+        "value": "signaris",
+        "kind": "lower"
+      },
+      {
+        "value": "SIGNARIS",
+        "kind": "upper"
+      }
+    ],
+    "domains": [],
+    "handles": [],
+    "emails": [],
+    "packageNames": [
+      "signaris"
+    ],
+    "initials": "",
+    "usedBrands": [
+      "GhostPay",
+      "Cifruna",
+      "Mathlana",
+      "Qubitlane",
+      "Zero Art Protocol",
+      "Provenia",
+      "Loch",
+      "Tidevel",
+      "Miston",
+      "Ivorane",
+      "Filza",
+      "Backers",
+      "Kudorix",
+      "Tessella",
+      "Nummula",
+      "ORAsol",
+      "Attesio",
+      "YOVINX",
+      "Settiva",
+      "Seclura",
+      "Cindral",
+      "Stakri",
+      "Tracefolio",
+      "Tracevio",
+      "lockRH",
+      "Latchera",
+      "Pretiola",
+      "Clepsyra",
+      "Signaris"
+    ]
+  },
+  "protected": {
+    "urls": [],
+    "hosts": [],
+    "strings": [],
+    "thirdParty": [
+      "@vitejs/plugin-vue",
+      "amazon",
+      "angular",
+      "anthropic",
+      "apple",
+      "aws",
+      "bootstrap",
+      "cloudflare",
+      "deepseek",
+      "digitalocean",
+      "discord",
+      "django",
+      "docker",
+      "facebook",
+      "fastapi",
+      "figma",
+      "flask",
+      "github",
+      "gitlab",
+      "google",
+      "googleanalytics",
+      "googletagmanager",
+      "heroku",
+      "hotjar",
+      "instagram",
+      "intercom",
+      "javascript",
+      "jquery",
+      "kubernetes",
+      "laravel",
+      "linkedin",
+      "meta",
+      "microsoft",
+      "mixpanel",
+      "netlify",
+      "nextjs",
+      "node",
+      "notion",
+      "npm",
+      "nuxt",
+      "openai",
+      "paypal",
+      "plausible",
+      "pnpm",
+      "posthog",
+      "python",
+      "rails",
+      "react",
+      "segment",
+      "sentry",
+      "shopify",
+      "slack",
+      "stripe",
+      "svelte",
+      "tailwind",
+      "tiktok",
+      "twitter",
+      "typescript",
+      "vercel",
+      "vite",
+      "vue",
+      "webpack",
+      "wordpress",
+      "x",
+      "yarn",
+      "youtube",
+      "zendesk"
+    ]
+  },
+  "palette": {
+    "primary": "#670de5",
+    "accent": "#670de5",
+    "background": "#141415",
+    "foreground": "#111827",
+    "colors": [
+      "#000000",
+      "#121116",
+      "#ffffff",
+      "#100f14",
+      "#ff2d9b",
+      "#ffeeee",
+      "#050508",
+      "#bc97ff",
+      "#221155",
+      "#0a0910",
+      "#2b2930",
+      "#7a2bf0"
+    ],
+    "cssVars": {
+      "surface": "#141415",
+      "surface-alt": "#1f1e20",
+      "accent": "#670de5",
+      "accent-safe": "#bc97ff"
+    }
+  },
+  "routes": [
+    "/"
+  ],
+  "web": {
+    "isWeb": true,
+    "entryHtml": [
+      "index.html"
+    ],
+    "hasPackageJson": true
+  },
+  "brandRegistry": {
+    "path": "brand.txt",
+    "exists": false,
+    "history": [],
+    "current": null,
+    "warnings": []
+  },
+  "warnings": []
+}

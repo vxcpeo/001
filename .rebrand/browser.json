@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-20T15:58:55.700Z",
+  "browser": {
+    "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "version": "Chrome/155.0.8059.80",
+    "headless": true,
+    "proxy": null,
+    "method": "chrome-cdp"
+  },
+  "baseUrl": "http://127.0.0.1:54207",
+  "routes": [
+    "/"
+  ],
+  "results": [
+    {
+      "route": "/",
+      "device": "desktop",
+      "url": "http://127.0.0.1:54207/",
+      "finalUrl": "http://127.0.0.1:54207/",
+      "httpStatus": 200,
+      "title": "Signaris // Live prediction lines on Solana",
+      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Signaris",
+        "signaris",
+        "signaris"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "device": "mobile",
+      "url": "http://127.0.0.1:54207/",
+      "finalUrl": "http://127.0.0.1:54207/",
+      "httpStatus": 200,
+      "title": "Signaris // Live prediction lines on Solana",
+      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Signaris",
+        "signaris",
+        "signaris"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ]
+}

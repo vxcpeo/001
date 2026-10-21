@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './styles/meridian.css'
-import './styles/meridian-orbit.css'
+import './styles/paper.css'
+import './styles/paper-ledger.css'
 
 createApp(App).mount('#app')

@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20T23:58:56+08:00",
+  "ok": false,
+  "gates": {
+    "old_brand_source": {
+      "ok": true,
+      "filesChecked": 12,
+      "hits": [],
+      "pathHits": [],
+      "allowedFiles": [
+        "REBRAND.md"
+      ]
+    },
+    "new_brand_presence": {
+      "ok": true,
+      "surfaces": {
+        "title": true,
+        "meta": true,
+        "logo": false,
+        "canonical": false,
+        "package": true,
+        "readme": false,
+        "newValues": [
+          "Signaris",
+          "signaris",
+          "signaris.xyz",
+          "signaris"
+        ]
+      },
+      "count": 3
+    },
+    "assets": {
+      "ok": true,
+      "problems": [],
+      "checks": [
+        {
+          "source": "public/favicon.svg",
+          "target": "public/favicon.svg",
+          "kind": "favicon",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\solana\\001\\website\\public\\favicon.svg",
+            "ok": true,
+            "format": "svg",
+            "bytes": 526
+          }
+        },
+        {
+          "source": "public/og.png",
+          "target": "public/og.png",
+          "kind": "og",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\solana\\001\\website\\public\\og.png",
+            "ok": true,
+            "format": "PNG",
+            "width": 1200,
+            "height": 630
+          }
+        }
+      ],
+      "manualReview": []
+    },
+    "references": {
+      "ok": true,
+      "problems": [],
+      "checked": 7
+    },
+    "build_test": {
+      "ok": true,
+      "problems": [],
+      "notes": [
+        "test skipped: script not defined"
+      ],
+      "current": {
+        "build": {
+          "script": "build",
+          "skipped": false,
+          "ok": true,
+          "code": 0,
+          "timedOut": false,
+          "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+          "stdout": "\n> signaris@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.67 kB\ndist/assets/index-DUBR7xme.css   25.33 kB │ gzip:  5.11 kB\ndist/assets/index-CUr6uoy3.js   100.19 kB │ gzip: 37.77 kB\n\n✓ built in 486ms\n",
+          "stderr": ""
+        },
+        "test": {
+          "script": "test",
+          "skipped": true,
+          "ok": true,
+          "note": "script not defined"
+        }
+      },
+      "baseline": {
+        "createdAt": "2026-10-20T23:13:26+08:00",
+        "project": "E:\\workspace\\chuangye\\solana\\001\\website",
+        "build": {
+          "script": "build",
+          "skipped": false,
+          "ok": true,
+          "code": 0,
+          "timedOut": false,
+          "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+          "stdout": "\n> probenox@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.68 kB\ndist/assets/index-D5mo5sv8.css   36.96 kB │ gzip:  7.51 kB\ndist/assets/index-DBeuNk5J.js   100.52 kB │ gzip: 37.96 kB\n\n✓ built in 325ms\n",
+          "stderr": ""
+        },
+        "test": {
+          "script": "test",
+          "skipped": true,
+          "ok": true,
+          "note": "script not defined"
+        },
+        "browser": {
+          "ok": true,
+          "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:51463 --routes /",
+          "code": 0,
+          "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:51463\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+          "stderr": "",
+          "browser": {
+            "schemaVersion": 1,
+            "checkedAt": "2026-10-20T15:13:26.144Z",
+            "browser": {
+              "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+              "version": "Chrome/155.0.8059.80",
+              "headless": true,
+              "proxy": null,
+              "method": "chrome-cdp"
+            },
+            "baseUrl": "http://127.0.0.1:51463",
+            "routes": [
+              "/"
+            ],
+            "results": [
+              {
+                "route": "/",
+                "device": "desktop",
+                "url": "http://127.0.0.1:51463/",
+                "finalUrl": "http://127.0.0.1:51463/",
+                "httpStatus": 200,
+                "title": "Probenox // Live prediction lines on Solana",
+                "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
+                "oldBrand": {
+                  "textHits": [],
+                  "attributeHits": []
+                },
+                "newBrandPresent": [],
+                "consoleErrors": [],
+                "pageErrors": [],
+                "failedRequests": []
+              },
+              {
+                "route": "/",
+                "device": "mobile",
+                "url": "http://127.0.0.1:51463/",
+                "finalUrl": "http://127.0.0.1:51463/",
+                "httpStatus": 200,
+                "title": "Probenox // Live prediction lines on Solana",
+                "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
+                "oldBrand": {
+                  "textHits": [],
+                  "attributeHits": []
+                },
+                "newBrandPresent": [],
+                "consoleErrors": [],
+                "pageErrors": [],
+                "failedRequests": []
+              }
+            ]
+          }
+        },
+        "web": true
+      }
+    },
+    "availability": {
+      "ok": true,
+      "selected": {
+        "name": "signaris",
+        "slug": "signaris"
+      },
+      "method": "chrome-cdp",
+      "mock": false,
+      "evidence": {
+        "domain": {
+          "host": "signaris.xyz",
+          "status": "available",
+          "confidence": "high",
+          "signal": "rdap-unregistered+registrar-standard-price",
+          "rdap": {
+            "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+            "status": 404,
+            "mimeType": "application/rdap+json",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+          },
+          "registrar": {
+            "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
+            "status": "available",
+            "signal": "standard-price",
+            "price": "$2.04 first year, renews at $14.21",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+          },
+          "evidence": [
+            {
+              "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
+              "state": "available",
+              "signal": "standard-price",
+              "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+            }
+          ],
+          "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+        },
+        "x": {
+          "handle": "signaris",
+          "status": "available",
+          "signal": "not-found-text",
+          "url": "https://x.com/signaris",
+          "finalUrl": "https://x.com/signaris",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
+          "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+        }
+      }
+    },
+    "brand_registry": {
+      "ok": false,
+      "problems": [
+        "brand.txt is missing at the project root",
+        "brand.txt must contain exactly one current line (found 0)",
+        "brand.txt current brand is empty",
+        "brand.txt history does not include the old brand 'Probenox'"
+      ],
+      "path": "E:/workspace/chuangye/solana/001/website/brand.txt",
+      "history": [],
+      "current": null,
+      "exists": false
+    },
+    "browser": {
+      "ok": true,
+      "problems": [],
+      "oldBrandHits": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "screenshots": [
+        "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
+        "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png"
+      ],
+      "routes": [
+        "/"
+      ],
+      "run": {
+        "ok": true,
+        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:54207 --routes /",
+        "code": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:54207\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+        "stderr": ""
+      }
+    },
+    "report": {
+      "ok": true,
+      "path": "E:/workspace/chuangye/solana/001/website/.rebrand/REPORT.md"
+    }
+  },
+  "build": {
+    "build": {
+      "script": "build",
+      "skipped": false,
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+      "stdout": "\n> signaris@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.67 kB\ndist/assets/index-DUBR7xme.css   25.33 kB │ gzip:  5.11 kB\ndist/assets/index-CUr6uoy3.js   100.19 kB │ gzip: 37.77 kB\n\n✓ built in 486ms\n",
+      "stderr": ""
+    },
+    "test": {
+      "script": "test",
+      "skipped": true,
+      "ok": true,
+      "note": "script not defined"
+    }
+  },
+  "browser": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-10-20T15:58:55.700Z",
+    "browser": {
+      "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "version": "Chrome/155.0.8059.80",
+      "headless": true,
+      "proxy": null,
+      "method": "chrome-cdp"
+    },
+    "baseUrl": "http://127.0.0.1:54207",
+    "routes": [
+      "/"
+    ],
+    "results": [
+      {
+        "route": "/",
+        "device": "desktop",
+        "url": "http://127.0.0.1:54207/",
+        "finalUrl": "http://127.0.0.1:54207/",
+        "httpStatus": 200,
+        "title": "Signaris // Live prediction lines on Solana",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Signaris",
+          "signaris",
+          "signaris"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/",
+        "device": "mobile",
+        "url": "http://127.0.0.1:54207/",
+        "finalUrl": "http://127.0.0.1:54207/",
+        "httpStatus": 200,
+        "title": "Signaris // Live prediction lines on Solana",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Signaris",
+          "signaris",
+          "signaris"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      }
+    ]
+  },
+  "availability": {
+    "selected": {
+      "name": "signaris",
+      "slug": "signaris",
+      "score": 79.0,
+      "domain": {
+        "host": "signaris.xyz",
+        "status": "available",
+        "confidence": "high",
+        "signal": "rdap-unregistered+registrar-standard-price",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+        },
+        "registrar": {
+          "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
+          "status": "available",
+          "signal": "standard-price",
+          "price": "$2.04 first year, renews at $14.21",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+        },
+        "evidence": [
+          {
+            "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
+            "state": "available",
+            "signal": "standard-price",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+          }
+        ],
+        "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+      },
+      "x": {
+        "handle": "signaris",
+        "status": "available",
+        "signal": "not-found-text",
+        "url": "https://x.com/signaris",
+        "finalUrl": "https://x.com/signaris",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
+        "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+      },
+      "verdict": "pass",
+      "checkedAt": "2026-10-20T15:38:46.724133Z"
+    },
+    "method": "chrome-cdp"
+  }
+}

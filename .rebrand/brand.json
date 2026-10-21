@@ -1,0 +1,124 @@
+{
+  "old": {
+    "display": "Probenox",
+    "slug": "probenox",
+    "variants": {
+      "display": "Probenox",
+      "lower": "probenox",
+      "upper": "PROBENOX",
+      "title": "Probenox",
+      "kebab": "probenox",
+      "snake": "probenox",
+      "camel": "probenox",
+      "pascal": "Probenox",
+      "compact": "PROBENOX",
+      "compactLower": "probenox",
+      "first": "Probenox",
+      "firstLower": "probenox",
+      "firstUpper": "PROBENOX"
+    },
+    "variantList": [
+      {
+        "value": "Probenox",
+        "kind": "display"
+      },
+      {
+        "value": "probenox",
+        "kind": "lower"
+      },
+      {
+        "value": "PROBENOX",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      "probenox.xyz"
+    ],
+    "handles": [
+      "probenox"
+    ],
+    "emails": [
+      "hello@probenox.xyz"
+    ],
+    "packageNames": [
+      "probenox",
+      "probenox-prediction-market-contract"
+    ],
+    "initials": "PN",
+    "allowFiles": [
+      "REBRAND.md"
+    ],
+    "allowStrings": [],
+    "wordmark": {
+      "split": [
+        "PROBE",
+        "NOX"
+      ],
+      "note": "The shipped wordmark is PROBE<em>NOX</em>. The scanner joins it to 'PROBE NOX'; display corrected to the actual product name Probenox. Split lockups are repaired by hand after apply.py because the seam sits inside markup."
+    }
+  },
+  "usedBrands": [
+    "NEONLINE",
+    "Neonline",
+    "Oracle Pit",
+    "Tickerloom",
+    "Probenox",
+    "PROBE NOX",
+    "GhostPay",
+    "Cifruna",
+    "Mathlana",
+    "Qubitlane",
+    "Zero Art Protocol",
+    "Provenia",
+    "Loch",
+    "Tidevel",
+    "Miston",
+    "Ivorane",
+    "Filza",
+    "Backers",
+    "Kudorix",
+    "Tessella",
+    "Nummula",
+    "ORAsol",
+    "Attesio",
+    "YOVINX",
+    "Settiva",
+    "Seclura",
+    "Cindral",
+    "Stakri",
+    "Tracefolio",
+    "Tracevio",
+    "lockRH",
+    "Latchera"
+  ],
+  "notes": "Display corrected from the scanner's joined split-wordmark 'PROBE NOX' to the actual shipped name Probenox. The variant table keeps every observed form (Probenox / probenox / PROBENOX, plus probenox.xyz). REBRAND.md is the historical changelog and is allowlisted; every live surface is replaced.",
+  "new": {
+    "display": "Signaris",
+    "slug": "signaris",
+    "handle": "signaris",
+    "domain": "signaris.xyz",
+    "email": "hello@signaris.xyz",
+    "url": "https://signaris.xyz",
+    "note": "Availability is a snapshot; register the domain and X account separately."
+  },
+  "selection": {
+    "candidate": "signaris",
+    "score": 79.0,
+    "checkedAt": "2026-10-20T15:38:46.724133Z",
+    "evidence": [
+      {
+        "kind": "domain",
+        "status": "available",
+        "signal": "rdap-unregistered+registrar-standard-price",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+      },
+      {
+        "kind": "x",
+        "status": "available",
+        "signal": "not-found-text",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png"
+      }
+    ],
+    "note": "signaris.xyz returned RDAP 404 and Porkbun listed it at the standard $2.04 first-year price with an add control; x.com/signaris returned the page-does-not-exist state. Signaris was chosen from the wave-3 shortlist; every earlier highest-scored candidate failed X or the domain."
+  }
+}

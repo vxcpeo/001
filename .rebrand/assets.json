@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-20T23:39:49+08:00",
+  "palette": {
+    "primary": "#670de5",
+    "accent": "#bc97ff",
+    "background": "#000000",
+    "foreground": "#f2f3f7"
+  },
+  "items": [
+    {
+      "source": "public/favicon.svg",
+      "generated": "E:/workspace/chuangye/solana/001/.rebrand/generated/website/public/favicon.svg",
+      "kind": "favicon",
+      "format": "svg",
+      "width": 64,
+      "height": 64,
+      "bytes": 526,
+      "manual": false,
+      "target": "public/favicon.svg"
+    },
+    {
+      "source": "public/og.png",
+      "generated": "E:/workspace/chuangye/solana/001/.rebrand/generated/website/public/og.png",
+      "kind": "og",
+      "format": "png",
+      "width": 1200,
+      "height": 630,
+      "bytes": 162951,
+      "manual": false,
+      "target": "public/og.png"
+    }
+  ],
+  "manualReview": [],
+  "generatedRoot": "E:/workspace/chuangye/solana/001/.rebrand/generated",
+  "note": "Website-scoped subset of the repo assets record used for the web-surface verification run."
+}

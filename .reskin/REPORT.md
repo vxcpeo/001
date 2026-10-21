@@ -1,136 +1,109 @@
-# Reskin report — Probenox
-
-Generated: 2026-10-20 · project `E:/workspace/chuangye/solana/001/website` (Vue 3 + Vite, single route)
+# Reskin report — Signaris / Paper Protocol
 
 ## Direction
 
-| Field | Value |
-|---|---|
-| Style | **Agora Violet** (`polygon-agora`, technical-editorial) |
-| Source DNA | [https://polygon.technology](https://polygon.technology) — live sampled, 9/10 references reachable |
-| Live sampling | **yes** (polygon 1888 ms; arbitrum.io returned HTTP 403 and was excluded) |
-| Seed | `f6b28c4bad8e4dbacbbd08626a4193849c370abc84423fe189e1a8fa8099cc36` |
-| Skeleton | **Orbital** (`orbital`, family `spatial`) |
-| Original skeleton | `sidebar-workspace` (family `shell`) |
-| Accent | `#670de5` — **215.58 ΔE** from the original `#c6ff2e` |
-| Typography | local Archivo (grotesque, weight axis) + IBM Plex Mono, re-declared as `Meridian Grotesk` / `Meridian Gutter`; no webfont download, so the build stays offline-safe |
+- **Style:** Paper Protocol — `ethereum-paper` crypto-editorial DNA (white paper,
+  ink, ether blue, serif display voice, mono marginalia).
+- **Source:** live sample of <https://ethereum.org> (3552 ms); abstract tokens only,
+  no logo, imagery, copy or code was reused.
+- **Live sampling:** 9/10 references answered (Arbitrum returned HTTP 403).
+  Selection was deterministic from the sampled palette distance plus the seed.
+- **Skeleton:** Documentary Ledger — masthead, index line, oversized serif claim,
+  7/3 ledger + marginalia, numbered essay, colophon.
+- **Original:** `orbital` (spatial), black ground, violet `#670de5`, centered
+  ring hero and a ticker bar — all removed.
 
-Only abstract design DNA was taken from the sampled references: palette family, hairline geometry,
-mono metadata gutters, index-numeral texture, measured 260 ms motion. No reference logo, image,
-copy, or code was used, and no reference brand name appears in the UI.
+> The UI was rebuilt around **Paper Protocol** / **Documentary Ledger**; the
+> original **orbital** shell and palette were removed while the content contract
+> stayed byte-for-byte intact.
 
-## Skeleton: what changed
+## Evidence
 
-The old shell was a top bar over a hero split (copy left / stat panel right), a ticker strip, a
-3-column card grid, a 3-card rules row, a horizontal desk strip and a single-line footer. That whole
-composition is gone.
-
-| Region | Original | Now |
-|---|---|---|
-| Brand | top-left logo + centered nav + right wallet chip | centered **masthead seal** between two hairlines, no top bar, no corner chip |
-| Navigation | 3 links in a horizontal top bar | 3 **stations positioned on the orbit ring** (−34° / 0° / +34°, counter-rotated upright); mobile → staircased **vertical arc** |
-| Hero | two-column split, 88 px left-aligned claim | **circular core** holding the claim + CTA pair, concentric halos, 72-tick ring and a conic sweep |
-| Metrics | right-hand stat panel with a histogram | **secondary arc** of four nodes + a radial pulse burst, with the wallet chip moved into the console foot |
-| Lede / facts | inside the hero column | **aperture panel** opening from under the ring; facts become a three-cell ruled gutter |
-| Ticker | strip under the hero | **signal tape**, now the first band of the page (seamless two-run drift) |
-| Feed | responsive 3-column card grid | staggered **ray ledger**: one row per line with a conic odds dial, metadata gutter and stacked YES/NO |
-| Rules | three equal cards in a row | **diagonal arc** of numbered stations (`01/02/03`) with a dashed footnote |
-| Desk | horizontal strip with three inline stats | **wallet disc** with the status heading inside, an arc of three nodes, then the slip ledger |
-| Footer | one row | **outer-ring band** plus the LIVE / cluster / settlement strip relocated from the top |
-| Landmarks | header, nav, main, aside, 9×header, footer (14) | main, nav, aside, footer (4) — **no `header` element anywhere** |
-
-DOM depth, child-count distribution, landmark sequence and every class name were rebuilt from
-scratch: the rendered DOM shares **no class name at all** with the original.
-
-## Verification
-
-`node scripts/verify.mjs check --project . --out .reskin` → **PASS** (exit 0, no warnings).
-
-| Gate | Threshold | Result |
-|---|---|---|
-| Source content contract | unchanged | **intact** — `b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6`, 0 issues, 0 additive warnings |
-| Rendered word parity | no removals / additions | 302 word tokens, identical multiset |
-| Rendered attribute parity | no non-aria changes | 16 attributes, identical multiset (`placeholder="Search lines"` preserved once) |
-| Form parity | identical | `input::search` visible on load; `input::number` inside the closed sheet |
-| DOM fingerprint similarity | ≤ 0.50 | **0.392** |
-| Landmark sequence similarity | ≤ 0.68 | **0.214** |
-| CSS class overlap | ≤ 0.10 | **0.000** (0 of 84 original classes reused) |
-| Accent distance | ≥ 30 ΔE | **215.58** |
-| Contrast failures | 0 | **0 / 263** text runs (baseline had 33) |
-| axe WCAG 2.x serious/critical | 0 | **0** (also 0 moderate) |
-| Console / page errors | 0 | **0** |
-| Horizontal overflow 1440 / 390 | none | **0 / 0** (scrollWidth 390 = clientWidth 390) |
-| Horizontal overflow 360 / 768 / 1024 / 1280 / 1920 | none | **0 / 0** at every width (the tape is clipped by design) |
-| Labels, alt text, accessible names | none missing | **0 issues** |
-| Keyboard focus visibility | ≥ 1 visible ring | visible 2 px `#bc97ff` ring on tab traversal |
-| Mobile navigation reachable | ≥ 1 visible route link | reachable (`#feed`, `#rules`, `#desk`) |
-
-Interaction pass in real Chrome (Playwright, headless): lane tabs filter (Crypto → 3 rows), sort
-switching (Closing puts `SOL out-earns BTC on daily fees` first), search filter (`pixel` → 1 row),
-empty state (`zzzz` → “No line matches that…”), trade sheet open / side switch / close on Escape,
-wallet sheet open / close. No console errors in any state.
+- **Content contract:** `6979f1b59b59…` (unchanged; 0 added/removed/changed source
+  tokens). Rendered words **301 → 301**, numeric tokens **104 → 104**.
+- **Verification:** `PASS` — `.reskin/VERIFICATION.md`.
+- **DOM fingerprint similarity:** **0.277** (limit 0.50).
+- **Landmark sequence similarity:** **0.400** (limit 0.68).
+- **CSS class overlap:** **0.000** (limit 0.10) — no old class token survives.
+- **Accent distance:** **97.26 ΔE** (`#670de5` → `#0c5681`; minimum 30).
+- **Routes:** `/` — HTTP 200, 0 console errors, 0 page errors.
+- **Accessibility:** axe serious/critical **0**, contrast **0/263 failures**,
+  labels and alt audit clean, visible focus on tab, mobile navigation reachable.
+- **Responsive:** no horizontal overflow at 1440×900 or 390×844; verified again in
+  the interaction probe at desktop and mobile.
+- **Interaction probe (`.probe/shoot.mjs`, injected mock provider):** the wallet
+  plate offers all five catalogued wallets as "not installed" in a clean browser;
+  with the mock provider the connect handshake runs, the balance renders
+  **2.4800 SOL** from the stubbed RPC, submitting a stake performs
+  `signTransaction` (155-byte message) then `sendTransaction`, and the row keeps
+  `you signed YES · 0.100 SOL` as its receipt. 0 console errors; no overflow.
 
 ## Screenshots
 
-- Baseline desktop — `.reskin/baseline/home-desktop.png`
-- Baseline mobile — `.reskin/baseline/home-mobile.png`
-- Current desktop — `.reskin/current/home-desktop.png`
-- Current mobile — `.reskin/current/home-mobile.png`
-- Interaction states — `.reskin/shots/` (wallet sheet, trade sheet, NO side, empty state, mobile feed)
+- Baseline (orbital): `.reskin/baseline/home-desktop.png`, `home-mobile.png`
+- Current (documentary): `.reskin/current/home-desktop.png`, `home-mobile.png`
+- Interaction set: `.reskin/shots-r5/{desktop-top,desktop-feed,desktop-empty,
+  desktop-trade,desktop-wallet,mobile-top,mobile-feed,mobile-trade}.png`
+- Side by side: `output/playwright/reskin-r5-baseline-vs-current.png`
 
-Side-by-side review: the baseline reads as a dense dark editorial board (top bar, magenta/lime/cyan
-signal, 3-column cards); the current build reads as a violet orbital instrument (bloom, ring, core,
-ledger). No shared silhouette: the largest element in the first viewport is a circle in the new UI
-versus a left-aligned headline block in the old one, navigation is on a ring rather than in a bar,
-and the data route is a ruled ledger rather than a card grid.
+The baseline is a centered dark ring with a top tape and floating station labels;
+the current page is a white broadsheet: masthead and index rule at the top, a
+left-aligned 102px serif headline, a 7-column ruled ledger and a 3-column margin.
+The first viewport, reading path, navigation pattern and data presentation all
+differ, not just the palette.
 
 ## Changes
 
-- `src/App.vue` — template fully rewritten (script block unchanged apart from its header comment):
-  new shell, orbit, tape, aperture, metrics console, ray ledger, step arc, wallet disc, foot, and
-  restyled trade / wallet sheets. Every static string, binding, handler, link, form field,
-  `aria-label`, `placeholder` and the Vue `transition name="pop"` were moved verbatim.
-- `src/styles/meridian.css` — **new** token/base layer: palette (`--accent #670de5`,
-  `--accent-safe #bc97ff`), type scale, reset, focus ring, motion guard.
-- `src/styles/meridian-orbit.css` — **new** layout layer: orbit, stations, core, aperture, metrics,
-  tape, lines, steps, desk, foot, sheets, responsive (1180 / 980 / 860 / 700 / 560).
-- `src/styles/style.css` — **deleted** (old arena skin, 35 KB) and removed from `src/main.js`.
-- `src/main.js` — imports the two new stylesheets.
-- `xa1001sol/` publish mirror — synced byte-for-byte with the new `src/` (mirror `style.css` removed)
-  so `copy.bat` stays a no-op for the source tree.
-- `.probe/verify.mjs` — the repo's own QA harness hard-coded the deleted stylesheet and its old
-  tokens (`src/style.css`, `--hot`, `--volt`, `--ice`); those assertions and the mirror parity list
-  now point at the two new stylesheets and their tokens. Every other assertion is untouched and
-  `node .probe/verify.mjs .` reports **ALL CHECKS PASS**.
-- No application logic, route, endpoint, env var or store action was touched.
+- **New shell:** `header.ledger-masthead` + `nav.ledger-index`,
+  `section.ledger-wire`, `main.ledger-main` with `section.ledger-opening`,
+  `div.ledger-columns` (`.ledger-column-main` + complementary
+  `section.ledger-margin`), `footer.ledger-colophon`.
+- **New component grammar:** ledger rows (`ol.ledger-book > li.ledger-entry`)
+  with ruled rules and tabular numerals replace the radial cards; editorial
+  numbered essay for the three moves; wallet register; paper plates for the
+  trade/wallet dialogs.
+- **New token layer:** `src/styles/paper.css` (`--pp-*` tokens, serif/mono base,
+  focus, reduced motion) and `src/styles/paper-ledger.css` (all layout).
+- **Removed:** `src/styles/meridian.css`, `src/styles/meridian-orbit.css`, both
+  old imports, and every `orb-*` class from the render path. The two retired
+  stylesheets are preserved in `output/reskin-round5-old/` for audit.
+- **Kept:** all existing markup content, bindings, `v-for` loops, handlers,
+  form fields, ids, paragraph copy, dialog copy and the `pop` transition name.
+  Script logic untouched except renaming the local `tickerItems` computed to
+  `wireItems` (presentational name only; no data or behaviour change).
+- **Theme metadata:** `theme-color` and `color-scheme` switched from the dark
+  skin to paper/light, matching the new surface.
 
-## Accessibility and responsive results
+## Accessibility and responsiveness
 
-- One `h1` (the core claim) with `h2` per section and `h3` per line / step; landmarks `main`,
-  `nav`, `aside`, `footer` all named; no duplicate ids.
-- Every control has an accessible name: the brand link, lane tabs, sort group, pick buttons, sheets
-  and close buttons; the search field is wrapped in a `<label>` plus `aria-label`.
-- Focus: 2 px `--accent-safe` ring with 3 px offset on all links, buttons and inputs; arrow-free
-  DOM order matches the visual order of the stations on the ring.
-- Contrast measured on the rendered page: **0 failures across 263 text runs** (body `#f2f3f7`,
-  meta `#a0a1a6` ≥ 7.1:1, accent text `#bc97ff` ≥ 7.9:1 on every surface; `#670de5` is used only as
-  a fill under white text at 7.6:1).
-- Status is never colour-only: `LIVE`, `streaming`, `WALLET ONLINE/DETACHED` are words.
-- Responsive: 1440 → ring + stations + core; 980 → ledger collapses to two columns; 860 → halos
-  hidden, core becomes a rounded panel, stations become a vertical arc; 700 → facts stack; 560 →
-  metrics 2×2, smaller dial, grouped ray metadata. Nothing is hidden to fit and no horizontal
-  overflow at 390 px.
-- `prefers-reduced-motion: reduce` disables the tape drift, the sweep rotation and the pulse,
-  and removes smooth scrolling.
+- Landmarks: `header`, `nav`, `main`, `role="complementary"`, `footer`; one `h1`,
+  section `h2`s, `h3`s for markets and moves; order is logical.
+- Every input has a programmatic label (`aria-label` for search and stake).
+- Focus-visible ring (2px accent, 3px offset) on links, buttons and inputs;
+  Escape closes both plates; the veil closes on self-click.
+- `prefers-reduced-motion` disables the wire marquee and the streaming dot blink.
+- Mobile: masthead stacks, opening actions become a row, market rows collapse to
+  code/quote, question, then two full-width side buttons; the margin rail moves
+  under the ledger. No content is hidden.
 
-## Known limitations
+## Warnings reviewed
 
-- Single route (`/`); no dynamic routes exist, so none were skipped.
-- Live wallet connection cannot be exercised headlessly (no extension installed); both sheets were
-  verified opened, and the wallet list renders the five detected-provider rows.
-- The `orb-pulse` bars are decorative (`aria-hidden`), as the original histogram was.
-- A skip link was not added: under this content lock any new focusable text would change the frozen
-  word multiset, and an empty link with only an `aria-label` cannot be made visible on focus. The
-  navigation is three in-page links at the top of the document, so the benefit is marginal.
+- 8 non-blocking warnings are the removed decorative probability dials
+  (`aria-label="68 percent read yes…"`). The probability is still exposed as
+  visible text in the row (big percentage + "yes 68 / no 32"), so no information
+  is lost; the dial had no other role.
+- The verifier's heuristic labels the new source `marketing-stack` because the
+  page contains both a large opening statement and "card" copy; its family is
+  `editorial`, and the implemented skeleton is the selected Documentary Ledger.
 
-> The UI was rebuilt around **Agora Violet** / **Orbital**; the original **sidebar-workspace** shell and palette were removed while the content contract stayed byte-for-byte intact.
+## Limitations
+
+- The app has a single static route (`/`); dialogs and the disconnected wallet
+  state are the only dynamic surfaces, and both were exercised manually.
+- No live wallet extension is installed in the test browser; the connected
+  wallet branch is covered by the injected mock-provider probe
+  (`output/playwright/signaris-wallet-connected.png`,
+  `signaris-trade-desktop.png`, `signaris-signed-desktop.png`) and by
+  source-contract parity.
+- The old stylesheets remain on disk only in `output/reskin-round5-old/`, outside
+  the build graph.

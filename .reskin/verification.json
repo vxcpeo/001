@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T19:02:30.530Z",
+  "generatedAt": "2026-10-20T15:58:27.512Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "probenox",
+    "name": "signaris",
     "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6"
+      "hash": "6979f1b59b59959d557d1f9781b30cffb8190062c1ff82701a0a90441297b497"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "sidebar-workspace",
-        "family": "shell",
-        "traits": {
-          "sidebar": true,
-          "topbar": false,
-          "cards": true,
-          "hero": true,
-          "table": false,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": false,
-          "sticky": true,
-          "orbital": false,
-          "terminal": false,
-          "bento": false,
-          "ticker": true,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "orbital",
         "family": "spatial",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": false
         }
       },
+      "current": {
+        "id": "marketing-stack",
+        "family": "editorial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": false,
+          "gallery": false
+        }
+      },
       "accent": {
-        "original": "#c6ff2e",
-        "current": "#670de5",
-        "deltaE": 215.58,
+        "original": "#670de5",
+        "current": "#0c5681",
+        "deltaE": 97.26,
         "min": 30
       }
     },
@@ -79,10 +79,19 @@
         "passed": true,
         "skipped": false,
         "failures": [],
-        "warnings": [],
+        "warnings": [
+          "aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no",
+          "aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no",
+          "aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no",
+          "aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no",
+          "aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no",
+          "aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no",
+          "aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no",
+          "aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no"
+        ],
         "structure": {
-          "fingerprintSimilarity": 0.381,
-          "landmarkSimilarity": 0.214,
+          "fingerprintSimilarity": 0.277,
+          "landmarkSimilarity": 0.4,
           "classOverlap": 0
         },
         "content": {
@@ -116,9 +125,18 @@
     ]
   },
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "/: aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no",
+    "/: aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no",
+    "/: aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no",
+    "/: aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no",
+    "/: aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no",
+    "/: aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no",
+    "/: aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no",
+    "/: aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no"
+  ],
   "baseline": {
-    "generatedAt": "2026-10-19T18:47:43.267Z",
+    "generatedAt": "2026-10-20T15:49:28.906Z",
     "routes": [
       "/"
     ]

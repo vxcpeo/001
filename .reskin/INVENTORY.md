@@ -1,6 +1,6 @@
-# Reskin inventory — probenox
+# Reskin inventory — signaris
 
-Generated: 2026-10-19T18:47:20.421Z
+Generated: 2026-10-20T15:48:52.423Z
 
 ## Project
 
@@ -11,16 +11,16 @@ Generated: 2026-10-19T18:47:20.421Z
 | Package manager | npm |
 | Nuxt | no |
 | CSS frameworks | none detected |
-| Files scanned | 6 (2 SFCs) |
+| Files scanned | 5 (1 SFCs) |
 
 ## Original skeleton
 
-- Archetype: **sidebar-workspace** (shell)
-- Traits: sidebar, cards, hero, grid, tabs, modal, sticky, ticker
-- Max template depth: 8
-- Top-level tags: div, div
+- Archetype: **orbital** (spatial)
+- Traits: sidebar, cards, grid, tabs, modal, sticky, orbital
+- Max template depth: 9
+- Top-level tags: div
 
-The replacement skeleton must not be `sidebar-workspace` and must not be in the same family (`shell`).
+The replacement skeleton must not be `orbital` and must not be in the same family (`spatial`).
 
 ## Routes
 
@@ -28,14 +28,14 @@ The replacement skeleton must not be `sidebar-workspace` and must not be in the 
 
 ## Palette (most used first)
 
-`#c6ff2e` (12) · `#00f0c8` (10) · `#ff2d9b` (8) · `#000000` (6) · `#05050a` (6) · `#14000b` (4) · `#17000c` (4) · `#f4f4ff` (4) · `#030307` (2) · `#06705f` (2)
+`#000000` (11) · `#121116` (7) · `#2a0b57` (6) · `#bc97ff` (6) · `#141415` (5) · `#ffffff` (5) · `#100f14` (4) · `#5ce1a0` (3) · `#670de5` (3) · `#0a0910` (2)
 
 ## Content lock
 
-- Static visible text tokens: **206**
-- Binding expressions: **170**
-- Event handlers: **40**
-- Contract hash: `b3ed45a1b94b4d2c1aed12cc31974e2a03d287b913e4a483bdd222c20391f1f6`
+- Static visible text tokens: **103**
+- Binding expressions: **85**
+- Event handlers: **20**
+- Contract hash: `6979f1b59b59959d557d1f9781b30cffb8190062c1ff82701a0a90441297b497`
 
 Everything in `.reskin/content-contract.json` is immutable: visible copy, placeholders, labels, routes, link targets, asset sources, bindings, handlers, API endpoints and i18n values. A reskin may move these tokens to new markup but may not rewrite, remove or hide them.
 
