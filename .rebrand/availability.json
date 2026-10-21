@@ -1,113 +1,113 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T12:53:18.887Z",
-  "finishedAt": "2026-10-21T12:53:30.805Z",
+  "checkedAt": "2026-10-21T14:17:19.911Z",
+  "finishedAt": "2026-10-21T14:17:38.092Z",
   "browser": {
     "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "version": "Chrome/155.0.8059.85",
     "headless": true,
     "proxy": null,
     "method": "chrome-cdp",
-    "checkedAt": "2026-10-21T12:53:30.805Z"
+    "checkedAt": "2026-10-21T14:17:38.092Z"
   },
   "candidates": [
     {
-      "name": "prismel",
-      "slug": "prismel",
-      "score": 83,
+      "name": "oddix",
+      "slug": "oddix",
+      "score": 90,
       "domain": {
-        "host": "prismel.xyz",
+        "host": "oddix.xyz",
         "status": "available",
         "confidence": "medium",
         "signal": "rdap-unregistered",
         "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
+          "url": "https://rdap.centralnic.com/xyz/domain/oddix.xyz",
           "status": 404,
           "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/oddix.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"value",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
         },
         "registrar": null,
         "evidence": [],
-        "checkedAt": "2026-10-21T12:53:20.108Z",
+        "checkedAt": "2026-10-21T14:17:20.890Z",
         "registrarErrors": [
           {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
-            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz: CDP timeout: Page.navigate"
           },
           {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
-            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz",
+            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz: CDP timeout: Page.navigate"
           },
           {
-            "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
-            "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
+            "url": "https://porkbun.com/checkout/search?q=oddix.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=oddix.xyz: CDP timeout: Page.navigate"
           }
         ]
       },
       "x": {
-        "handle": "prismel",
+        "handle": "oddix",
         "status": "available",
         "signal": "not-found-text",
-        "url": "https://x.com/prismel",
-        "checkedAt": "2026-10-21T12:53:23.869Z",
+        "url": "https://x.com/oddix",
+        "checkedAt": "2026-10-21T14:17:28.342Z",
         "httpStatus": 404,
-        "finalUrl": "https://x.com/prismel",
+        "finalUrl": "https://x.com/oddix",
         "title": "User Profile Not Found - X | 404 Error",
         "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
       },
       "verdict": "pass",
-      "checkedAt": "2026-10-21T12:53:30.342Z"
+      "checkedAt": "2026-10-21T14:17:37.696Z"
     }
   ],
   "selected": {
-    "name": "prismel",
-    "slug": "prismel",
-    "score": 83,
+    "name": "oddix",
+    "slug": "oddix",
+    "score": 90,
     "domain": {
-      "host": "prismel.xyz",
+      "host": "oddix.xyz",
       "status": "available",
       "confidence": "medium",
       "signal": "rdap-unregistered",
       "rdap": {
-        "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
+        "url": "https://rdap.centralnic.com/xyz/domain/oddix.xyz",
         "status": 404,
         "mimeType": "application/rdap+json",
-        "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
+        "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/oddix.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"value",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
       },
       "registrar": null,
       "evidence": [],
-      "checkedAt": "2026-10-21T12:53:20.108Z",
+      "checkedAt": "2026-10-21T14:17:20.890Z",
       "registrarErrors": [
         {
-          "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
-          "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+          "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz",
+          "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz: CDP timeout: Page.navigate"
         },
         {
-          "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
-          "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+          "url": "https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz",
+          "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz: CDP timeout: Page.navigate"
         },
         {
-          "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
-          "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
+          "url": "https://porkbun.com/checkout/search?q=oddix.xyz",
+          "error": "Navigation failed for https://porkbun.com/checkout/search?q=oddix.xyz: CDP timeout: Page.navigate"
         }
       ]
     },
     "x": {
-      "handle": "prismel",
+      "handle": "oddix",
       "status": "available",
       "signal": "not-found-text",
-      "url": "https://x.com/prismel",
-      "checkedAt": "2026-10-21T12:53:23.869Z",
+      "url": "https://x.com/oddix",
+      "checkedAt": "2026-10-21T14:17:28.342Z",
       "httpStatus": 404,
-      "finalUrl": "https://x.com/prismel",
+      "finalUrl": "https://x.com/oddix",
       "title": "User Profile Not Found - X | 404 Error",
       "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
-      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
+      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
     },
     "verdict": "pass",
-    "checkedAt": "2026-10-21T12:53:30.342Z"
+    "checkedAt": "2026-10-21T14:17:37.696Z"
   }
 }

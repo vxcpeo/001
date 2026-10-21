@@ -1,33 +1,33 @@
 {
   "old": {
-    "display": "Signaris",
-    "slug": "signaris",
+    "display": "Prismel",
+    "slug": "prismel",
     "variants": {
-      "display": "Signaris",
-      "lower": "signaris",
-      "upper": "SIGNARIS",
-      "title": "Signaris",
-      "kebab": "signaris",
-      "snake": "signaris",
-      "camel": "signaris",
-      "pascal": "Signaris",
-      "compact": "Signaris",
-      "compactLower": "signaris",
-      "first": "Signaris",
-      "firstLower": "signaris",
-      "firstUpper": "SIGNARIS"
+      "display": "Prismel",
+      "lower": "prismel",
+      "upper": "PRISMEL",
+      "title": "Prismel",
+      "kebab": "prismel",
+      "snake": "prismel",
+      "camel": "prismel",
+      "pascal": "Prismel",
+      "compact": "Prismel",
+      "compactLower": "prismel",
+      "first": "Prismel",
+      "firstLower": "prismel",
+      "firstUpper": "PRISMEL"
     },
     "variantList": [
       {
-        "value": "Signaris",
+        "value": "Prismel",
         "kind": "display"
       },
       {
-        "value": "signaris",
+        "value": "prismel",
         "kind": "lower"
       },
       {
-        "value": "SIGNARIS",
+        "value": "PRISMEL",
         "kind": "upper"
       }
     ],
@@ -35,7 +35,7 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "prismel"
+      "oddix"
     ],
     "initials": "",
     "allowFiles": [
@@ -76,7 +76,7 @@
     "Librova",
     "Ledgiva",
     "Actoria",
-    "Signaris"
+    "Prismel"
   ],
   "notes": ""
 }

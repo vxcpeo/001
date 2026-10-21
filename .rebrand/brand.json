@@ -1,64 +1,68 @@
 {
   "old": {
-    "display": "Signaris",
-    "slug": "signaris",
+    "display": "Prismel",
+    "slug": "prismel",
     "variants": {
-      "display": "Signaris",
-      "lower": "signaris",
-      "upper": "SIGNARIS",
-      "title": "Signaris",
-      "kebab": "signaris",
-      "snake": "signaris",
-      "camel": "signaris",
-      "pascal": "Signaris",
-      "compact": "SIGNARIS",
-      "compactLower": "signaris"
+      "display": "Prismel",
+      "lower": "prismel",
+      "upper": "PRISMEL",
+      "title": "Prismel",
+      "kebab": "prismel",
+      "snake": "prismel",
+      "camel": "prismel",
+      "pascal": "Prismel",
+      "compact": "Prismel",
+      "compactLower": "prismel",
+      "first": "Prismel",
+      "firstLower": "prismel",
+      "firstUpper": "PRISMEL"
     },
     "variantList": [
       {
-        "value": "Signaris",
+        "value": "Prismel",
         "kind": "display"
       },
       {
-        "value": "signaris",
+        "value": "prismel",
         "kind": "lower"
       },
       {
-        "value": "SIGNARIS",
+        "value": "PRISMEL",
         "kind": "upper"
       }
     ],
     "domains": [
-      "signaris.xyz"
+      "prismel.xyz"
     ],
     "handles": [
-      "signaris"
+      "prismel"
     ],
     "emails": [
-      "hello@signaris.xyz"
+      "hello@prismel.xyz"
     ],
     "packageNames": [
-      "signaris",
-      "signaris-prediction-market-contract",
-      "signaris_prediction_market"
+      "prismel",
+      "prismel-prediction-market-contract",
+      "prismel_prediction_market"
     ],
-    "initials": "SA",
+    "initials": "",
     "allowFiles": [
       "REBRAND.md"
     ],
     "allowStrings": [],
     "wordmark": {
       "split": [
-        "SIGN",
-        "ARIS"
+        "PRIS",
+        "MEL"
       ],
-      "note": "The shipped wordmark is SIGN<em>ARIS</em> (site) and SIGN/ARIS tspan lockups (social artboards). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
+      "note": "The shipped wordmark is PRIS<em>MEL</em> (site) and PRIS/MEL tspan lockups (social artboards). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
     }
   },
   "usedBrands": [
     "NEONLINE",
     "Probenox",
     "Signaris",
+    "Prismel",
     "SIGN ARIS",
     "GhostPay",
     "Cifruna",
@@ -89,35 +93,38 @@
     "Pretiola",
     "Clepsyra",
     "Trovane",
+    "Librova",
+    "Ledgiva",
+    "Actoria",
     "Oracle Pit",
     "Tickerloom"
   ],
-  "notes": "Detected display corrected from the scanner's joined split-wordmark 'SIGN ARIS' to the shipped name Signaris. The variant table keeps the three observed forms only; the split halves SIGN/ARIS are repaired by hand. REBRAND.md is the historical changelog and stays allowlisted.",
+  "notes": "Round 7. The previous brand.json still named Signaris, the Round 5 brand. brand.txt records Prismel as the current brand and the shipped copy, metadata, package names and assets all say Prismel, so the old brand for this round is Prismel. REBRAND.md stays allowlisted as the historical changelog.",
   "new": {
-    "display": "Prismel",
-    "slug": "prismel",
-    "handle": "prismel",
-    "domain": "prismel.xyz",
-    "email": "hello@prismel.xyz",
-    "url": "https://prismel.xyz",
+    "display": "Oddix",
+    "slug": "oddix",
+    "handle": "oddix",
+    "domain": "oddix.xyz",
+    "email": "hello@oddix.xyz",
+    "url": "https://oddix.xyz",
     "note": "Availability is a snapshot; register the domain and X account separately."
   },
   "selection": {
-    "candidate": "prismel",
-    "score": 83,
-    "checkedAt": "2026-10-21T12:53:18.887Z",
+    "candidate": "oddix",
+    "score": 90,
+    "checkedAt": "2026-10-21T14:17:19.911Z",
     "evidence": [
       {
         "kind": "domain",
         "status": "available",
         "signal": "rdap-unregistered",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
       },
       {
         "kind": "x",
         "status": "available",
         "signal": "not-found-text",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
       }
     ]
   }

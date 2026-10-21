@@ -1,32 +1,32 @@
-# Reskin art direction — Cobalt Blueprint
+# Reskin art direction — Abyss Liquidity
 
 > Selected automatically. Do not ask the user to confirm or choose another direction.
 
-- **Style DNA:** `base-cobalt` (optimistic-modern)
-- **Skeleton:** `bento-canvas` (spatial)
-- **Seed:** `8f80267ea62c5ce4829ee456fca0896593da40719d9b94efdd68edd38f782881`
-- **Source DNA:** [https://www.base.org](https://www.base.org)
-- **Live sampled:** yes — https://www.base.org (2737 ms)
-- **Original:** marketing-stack / dark / accent #0c5681
+- **Style DNA:** `aave-abyss` (dark-technical)
+- **Skeleton:** `command-rail` (linear)
+- **Seed:** `55c5db2db3aeda38f0618f919d2311ef56e7f99fb0934cdbbf640bee7d34012d`
+- **Source DNA:** [https://aave.com](https://aave.com)
+- **Live sampled:** yes — https://aave.com (5223 ms)
+- **Original:** dashboard-shell / light / accent #0000ff
 
 ## Why this direction
 
-The selector sampled 9/10 blockchain references, scored every direction for perceptual distance from the original accent (#0c5681) and background (#0a0a0a), added a deterministic seed jitter, and chose Cobalt Blueprint because it is 114 ΔE away from the original accent and pairs with Bento Canvas, a spatial skeleton rather than the original marketing-stack.
+The selector sampled 8/10 blockchain references, scored every direction for perceptual distance from the original accent (#0000ff) and background (#dde3e9), added a deterministic seed jitter, and chose Abyss Liquidity because it is 176 ΔE away from the original accent and pairs with Command Rail, a linear skeleton rather than the original dashboard-shell.
 
 ## Live reference sampling
 
 | Style | URL | Result | Accent sampled | Ground sampled |
 |---|---|---|---|---|
-| ethereum-paper | https://ethereum.org | ok (2468 ms) | #0c5681 | #ffffff |
-| base-cobalt | https://www.base.org | ok (2737 ms) | #0000ff | #dde3e9 |
-| polygon-agora | https://polygon.technology | ok (3007 ms) | #670de5 | #000000 |
-| solana-spectrum | https://solana.com | ok (3428 ms) | #9945ff | #000000 |
+| ethereum-paper | https://ethereum.org | ok (3597 ms) | #0c5681 | #ffffff |
+| base-cobalt | https://www.base.org | ok (4178 ms) | #0000ff | #dde3e9 |
+| polygon-agora | https://polygon.technology | ok (5577 ms) | #670de5 | #000000 |
+| solana-spectrum | https://solana.com | ok (5994 ms) | #9945ff | #000000 |
 | arbitrum-signal | https://arbitrum.io | failed: HTTP 403 | — | — |
-| aave-abyss | https://aave.com | ok (3027 ms) | #ff0000 | #000000 |
-| cosmos-orbit | https://cosmos.network | ok (3581 ms) | #40b3ff | #000000 |
-| optimism-poster | https://www.optimism.io | ok (7179 ms) | #ff0421 | #fafaf9 |
-| uniswap-bubblegum | https://uniswap.org | ok (7263 ms) | — | #ffffff |
-| sui-tidal | https://sui.io | ok (5191 ms) | #298dff | #ffffff |
+| aave-abyss | https://aave.com | ok (5223 ms) | #ff0000 | #000000 |
+| optimism-poster | https://www.optimism.io | ok (8792 ms) | #ff0421 | #fafaf9 |
+| cosmos-orbit | https://cosmos.network | ok (4735 ms) | #40b3ff | #000000 |
+| uniswap-bubblegum | https://uniswap.org | ok (9991 ms) | — | #ffffff |
+| sui-tidal | https://sui.io | failed: timeout | — | — |
 
 Live sampling is evidence, not a copy target. Never download or reuse a reference site's logo, imagery, copy, or code. Use only the abstract tokens below.
 
@@ -34,68 +34,68 @@ Live sampling is evidence, not a copy target. Never download or reuse a referenc
 
 | Candidate | Score | Accent ΔE from original | Layout | Live |
 |---|---:|---:|---|---|
-| Cobalt Blueprint | 0.9566 | 114.2 | bento-canvas | yes |
-| Bubblegum Exchange | 0.9158 | 81.2 | split-stage | yes |
-| Abyss Liquidity | 0.8472 | 130.1 | orbital | yes |
-| Poster Optimism | 0.7943 | 119.7 | ticker-stage | yes |
-| Tidal Sui | 0.7838 | 43.6 | split-stage | yes |
-| Spectrum Terminal | 0.7541 | 89.2 | ticker-stage | yes |
-| Agora Violet | 0.7529 | 89.5 | bento-canvas | yes |
-| Signal Navy | 0.6638 | 42.5 | terminal-console | no |
-| Cosmos Orbit | 0.5873 | 39.1 | orbital | yes |
-| Paper Protocol | 0.4222 | 0 | split-stage | yes |
+| Abyss Liquidity | 0.9616 | 176.3 | command-rail | yes |
+| Signal Navy | 0.9301 | 120.4 | command-rail | no |
+| Tidal Sui | 0.886 | 85.2 | split-stage | no |
+| Cosmos Orbit | 0.8276 | 112.4 | gallery-scroll | yes |
+| Spectrum Terminal | 0.804 | 35.6 | gallery-scroll | yes |
+| Poster Optimism | 0.7908 | 168.7 | gallery-scroll | yes |
+| Bubblegum Exchange | 0.7883 | 113.7 | bento-canvas | yes |
+| Agora Violet | 0.7698 | 36.7 | bento-canvas | yes |
+| Paper Protocol | 0.7591 | 114.2 | gallery-scroll | yes |
+| Cobalt Blueprint | 0.4728 | 0 | bento-canvas | yes |
 
 ## Skeleton brief
 
-**Bento Canvas** — no persistent sidebar; 12-column modular tile grid with mixed spans; one oversized anchor tile per page; tiles touch a shared canvas instead of sitting in a content well; navigation is a slim top index, not a full-width app bar.
+**Command Rail** — 72-84px icon-only rail on one edge; floating command bar detached from the top edge; content is full-bleed with an asymmetric left margin; page title is set as a large running head, not a toolbar label; rail uses glyphs and rotated micro-labels instead of text menu rows.
 
-Navigation: Slim top index with section names; active item is a filled chip; actions live in the hero tile or a floating corner dock.
+Navigation: Icon rail with accessible names and a command bar (search + primary action). The rail is visually a spine, not a sidebar: no logo block, no long labels, no 240px panel.
 
 Structure:
-1. slim top index
-1. oversized anchor tile (8 columns) + two stacked support tiles (4 columns)
-1. three equal data tiles
-1. full-bleed data band
-1. thin footer line
+1. fixed 76px glyph rail
+1. floating command bar offset 24px from the top
+1. oversized running head
+1. two-column data stage with an off-center gutter
+1. bottom status strip
 
-Content mapping: Put the page's primary number or title in the anchor tile. Distribute secondary metrics into support tiles. Tables become full-bleed bands with sticky column labels. Forms become a two-column tile with the submit action in the tile footer.
+Content mapping: Keep every route label as the accessible name of a rail glyph and as the running head. Put page actions in the command bar. Main data gets the wide column; secondary data gets a narrow marginal column.
 
-Recipe: `display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:clamp(10px,1.2vw,18px); .tile{grid-column:span 4;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius-md)} .tile--anchor{grid-column:span 8;min-height:clamp(280px,38vh,460px)}`
+Recipe: `body{padding-left:76px}.rail{position:fixed;inset:0 auto 0 0;width:76px;display:flex;flex-direction:column;align-items:center;gap:12px}.command{position:sticky;top:18px;margin:18px 24px 0;display:flex;gap:12px;border:1px solid var(--line);border-radius:var(--radius-lg);backdrop-filter:blur(16px)}.stage{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.45fr);gap:clamp(24px,4vw,64px)}`
 
-Risks: tiles can become the old cards with new paint; must vary spans and alignment, not just card radius
+Risks: a 240px labelled sidebar is the old skeleton in disguise; rail icons need visible focus and accessible names
 
 ## Design tokens
 
 ```css
 :root {
-  --bg: #dde3e9;
-  --surface: #FFFFFF;
-  --surface-alt: #EFEFEA;
-  --ink: #0A0B0D;
-  --muted: #6F6F6F;
-  --accent: #0000ff;
-  --accent-safe: #0000ff;
-  --accent-2: #7575FF;
-  --line: #E2E2DC;
-  --success: #00875A;
-  --danger: #C4320A;
-  --warning: #9A6700;
+  --bg: #000000;
+  --surface: #111A24;
+  --surface-alt: #182533;
+  --ink: #F4F7FA;
+  --muted: #8FA3B5;
+  --accent: #ff0000;
+  --accent-safe: #ff0000;
+  --accent-2: #ff00ff;
+  --line: #1E2A36;
+  --success: #5CE1A0;
+  --danger: #FF7A7A;
+  --warning: #F2C94C;
 
-  --font-display: "Inter Tight", "Segoe UI", system-ui, sans-serif;
-  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Cascadia Mono", ui-monospace, monospace;
-  --display-weight: 620;
+  --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-mono: "Cascadia Mono", ui-monospace, monospace;
+  --display-weight: 650;
   --display-tracking: -0.035em;
-  --label-tracking: 0.08em;
+  --label-tracking: 0.1em;
 
   --radius-sm: 10px;
-  --radius-md: 18px;
-  --radius-lg: 30px;
-  --border: 1px solid var(--line);
-  --shadow: 0 24px 60px rgba(10, 11, 13, 0.08);
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --border: 1px solid rgba(143, 163, 181, 0.18);
+  --shadow: 0 26px 70px rgba(0, 0, 0, 0.5);
 
-  --motion-duration: 170ms;
-  --motion-ease: cubic-bezier(.2,.8,.2,1);
+  --motion-duration: 240ms;
+  --motion-ease: cubic-bezier(.22,1,.36,1);
   --space-1: clamp(4px, .35vw, 6px);
   --space-2: clamp(8px, .7vw, 12px);
   --space-3: clamp(14px, 1.2vw, 20px);
@@ -109,18 +109,18 @@ Risks: tiles can become the old cards with new paint; must vary spans and alignm
 
 ## Component grammar
 
-- Surface: 1px solid var(--line); radius 18px; shadow 0 24px 60px rgba(10, 11, 13, 0.08).
-- Type: display **"Inter Tight", "Segoe UI", system-ui, sans-serif** at weight 620, tracking -0.035em; body **"Inter", "Segoe UI", system-ui, sans-serif**; numerals and micro-labels **"Geist Mono", "Cascadia Mono", ui-monospace, monospace**.
-- Texture: blueprint hairlines, cobalt focus rings, monochrome diagrams, large numeric counters.
-- Motion: crisp, 170ms, cubic-bezier(.2,.8,.2,1). Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
-- Density: airy. Keep body text >= 14px and body contrast >= 4.5:1.
+- Surface: 1px solid rgba(143, 163, 181, 0.18); radius 16px; shadow 0 26px 70px rgba(0, 0, 0, 0.5).
+- Type: display **"Trebuchet MS", "Segoe UI", sans-serif** at weight 650, tracking -0.035em; body **"Segoe UI", "Helvetica Neue", sans-serif**; numerals and micro-labels **"Cascadia Mono", ui-monospace, monospace**.
+- Texture: liquid glass, teal-magenta glow, fine grid, data sparklines.
+- Motion: fluid, 240ms, cubic-bezier(.22,1,.36,1). Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
+- Density: comfortable. Keep body text >= 14px and body contrast >= 4.5:1.
 - Use `--accent-safe` for text and icons on `--bg`; use `--accent` for fills and large shapes.
 
 ## Originality guard
 
 The replacement must satisfy all of these:
 
-1. The source inventory archetype is `marketing-stack`; the new skeleton is `bento-canvas`. Do not fall back to the old shell during implementation.
+1. The source inventory archetype is `dashboard-shell`; the new skeleton is `command-rail`. Do not fall back to the old shell during implementation.
 2. Do not reuse any original class name, CSS selector, design token name, or original accent family.
 3. Rewrite templates, not only CSS. Every route must visibly use the new skeleton.
 4. Keep every token in `.reskin/content-contract.json`; move it, never rewrite it.
@@ -128,4 +128,4 @@ The replacement must satisfy all of these:
 
 ## Commit statement
 
-Use this sentence in the final report: "The UI was rebuilt around Cobalt Blueprint / Bento Canvas; the original marketing-stack shell and palette were removed while the content contract stayed byte-for-byte intact."
+Use this sentence in the final report: "The UI was rebuilt around Abyss Liquidity / Command Rail; the original dashboard-shell shell and palette were removed while the content contract stayed byte-for-byte intact."

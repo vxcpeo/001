@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-21T13:40:08.724Z
+Generated: 2026-10-21T14:48:13.043Z
 
-- Project: **prismel**
+- Project: **oddix**
 - URL: http://127.0.0.1:4317/
-- Original skeleton: `marketing-stack` (editorial)
-- New skeleton: `dashboard-shell` (shell)
-- Accent: #0c5681 -> #0000ff (114.22 ΔE; min 30)
-- Source contract: intact (`73b5e20bf78b`)
+- Original skeleton: `dashboard-shell` (shell)
+- New skeleton: `document-flow` (editorial)
+- Accent: #0000ff -> #ff0000 (176.33 ΔE; min 30)
+- Source contract: intact (`8f04bb8dd058`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.299 | 0.5 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.16 | 0.5 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 
@@ -19,7 +19,7 @@ Generated: 2026-10-21T13:40:08.724Z
 
 ## Warnings
 
-- /: aria attribute added: aria-label=Network
+- None.
 
 ## Thresholds
 

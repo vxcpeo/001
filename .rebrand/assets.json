@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-21T21:38:45+08:00",
+  "generatedAt": "2026-10-21T22:43:12+08:00",
   "palette": {
-    "primary": "#0000ff",
-    "accent": "#0000ff",
-    "background": "#ffffff",
+    "primary": "#ff0000",
+    "accent": "#ff0000",
+    "background": "#111a24",
     "foreground": "#111827"
   },
   "items": [
@@ -14,7 +14,7 @@
       "format": "svg",
       "width": 64,
       "height": 64,
-      "bytes": 574,
+      "bytes": 1003,
       "manual": false
     },
     {
@@ -24,7 +24,7 @@
       "format": "png",
       "width": 1200,
       "height": 630,
-      "bytes": 16728,
+      "bytes": 14064,
       "manual": false
     }
   ],

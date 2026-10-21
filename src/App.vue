@@ -3,8 +3,9 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { createWallet, describeError } from './solana.js'
 
 /* ---------------------------------------------------------------------------
-   Prismel - live prediction arena.
-   Cobalt Blueprint skin: cobalt accent on a cool blueprint ground, Inter Tight display voice, mono data gutters.
+   Oddix - live prediction arena.
+   Abyss Liquidity skin: a dark technical ground, liquid-glass marginalia and a
+   command rail. Presentation lives in src/styles/abyss.css.
    --------------------------------------------------------------------------- */
 
 const wallet = createWallet({
@@ -72,7 +73,7 @@ let toastTimer = 0
 
 function loadReceipts() {
   try {
-    const raw = localStorage.getItem('prismel.receipts.v1')
+    const raw = localStorage.getItem('oddix.receipts.v1')
     return raw ? JSON.parse(raw) : []
   } catch {
     return []
@@ -82,7 +83,7 @@ function loadReceipts() {
 function saveReceipt(receipt) {
   receipts.value = [receipt, ...receipts.value].slice(0, 40)
   try {
-    localStorage.setItem('prismel.receipts.v1', JSON.stringify(receipts.value))
+    localStorage.setItem('oddix.receipts.v1', JSON.stringify(receipts.value))
   } catch {
     /* storage is optional; the on-chain signature is the real record */
   }
@@ -246,7 +247,7 @@ async function submitTrade() {
   tradeError.value = ''
   const market = active.value
   try {
-    const note = `Prismel|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
+    const note = `Oddix|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
     const result = await wallet.signMemo(note)
     saveReceipt({
       marketId: market.id,
@@ -307,390 +308,433 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="bp-page">
-    <header class="bp-topbar">
-      <a class="bp-brand" href="#feed" aria-label="Prismel home">
-        <span class="bp-brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" focusable="false">
-            <path d="M32 12 54 48H10Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" />
-            <path d="M2 32h16" stroke="currentColor" stroke-width="4" stroke-linecap="square" />
-            <path d="M45 32 60 22M45 32h15M45 32 60 42" stroke="currentColor" stroke-width="3" stroke-linecap="square" />
-          </svg>
-        </span>
-        <span class="bp-brand-word">PRIS<em>MEL</em></span>
+  <div class="ox-page">
+    <nav class="ox-rail" aria-label="Primary">
+      <span class="ox-rail-crest" aria-hidden="true">
+        <svg viewBox="0 0 64 64" focusable="false">
+          <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+          <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+        </svg>
+      </span>
+
+      <a class="ox-rail-link" href="#feed">
+        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
+        </svg>
+        <span class="ox-rail-label">Feed</span>
       </a>
-      <p class="bp-imprint">Prediction arena &middot; Solana</p>
-      <nav class="bp-nav" aria-label="Primary">
-        <a class="bp-nav-link" href="#feed">Feed</a>
-        <a class="bp-nav-link" href="#rules">Rules</a>
-        <a class="bp-nav-link" href="#desk">Desk</a>
-      </nav>
-    </header>
 
-    <aside class="bp-wire" aria-label="Latest lines">
-      <div class="bp-wire-track">
-        <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="bp-wire-item">
-          <b>{{ item.code }}</b>
-          <span class="bp-wire-label">{{ item.label }}</span>
-          <strong :class="item.move < 0 ? 'bp-down' : 'bp-up'">{{ item.yes }}%</strong>
-          <em :class="item.move < 0 ? 'bp-down' : 'bp-up'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
-        </span>
-      </div>
-    </aside>
+      <a class="ox-rail-link" href="#rules">
+        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 6h9M4 12h9M4 18h9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
+          <circle cx="18" cy="6" r="2" fill="currentColor" />
+          <circle cx="18" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.5" />
+          <circle cx="18" cy="18" r="2" fill="currentColor" />
+        </svg>
+        <span class="ox-rail-label">Rules</span>
+      </a>
 
-    <main class="bp-canvas">
-      <section class="bp-tile bp-hero" aria-labelledby="bp-claim">
-        <h1 id="bp-claim" class="bp-claim">
-          <span>PRICE THE</span>
-          <span>FUTURE.</span>
-          <span>SIGN THE CALL.</span>
-        </h1>
-        <div class="bp-hero-actions">
-          <a class="bp-action bp-action--fill" href="#feed">Open the feed</a>
-          <button class="bp-action" type="button" @click="connected ? openWallet() : openWallet()">
+      <a class="ox-rail-link" href="#desk">
+        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="3.5" y="6" width="17" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7" />
+          <path d="M3.5 10.5h17" fill="none" stroke="currentColor" stroke-width="1.7" />
+          <path d="M7 14.5h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
+        </svg>
+        <span class="ox-rail-label">Desk</span>
+      </a>
+
+      <span class="ox-rail-spine" aria-hidden="true"></span>
+      <span class="ox-rail-end" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          <path d="M12 2.5 21.5 12 12 21.5 2.5 12Z" fill="none" stroke="currentColor" stroke-width="1.4" />
+        </svg>
+      </span>
+    </nav>
+
+    <div class="ox-shell">
+      <header class="ox-command">
+        <a class="ox-brand" href="#feed" aria-label="Oddix home">
+          <span class="ox-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+              <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+              <rect x="28.9" y="28.9" width="6.2" height="6.2" rx="1" fill="#ff0000" />
+            </svg>
+          </span>
+          <span class="ox-brand-word">ODD<em>IX</em></span>
+        </a>
+        <p class="ox-imprint">Prediction arena &middot; Solana</p>
+
+        <div class="ox-command-tools">
+          <label class="ox-search">
+            <svg class="ox-search-glyph" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <path d="M10.6 10.6 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" />
+            </svg>
+            <input v-model="query" class="ox-search-input" type="search" placeholder="Search lines" aria-label="Search lines" />
+          </label>
+          <a class="ox-act ox-act--primary" href="#feed">Open the feed</a>
+          <button class="ox-act" type="button" @click="connected ? openWallet() : openWallet()">
             {{ connected ? 'Your desk' : 'Attach a wallet' }}
           </button>
         </div>
-        <p class="bp-hero-rule" aria-hidden="true"><i></i><i></i><i></i></p>
-      </section>
+      </header>
 
-      <aside class="bp-tile bp-readout" aria-label="Arena readout">
-        <div class="bp-readout-head">
-          <span class="bp-kicker bp-kicker--invert">arena readout</span>
-          <span class="bp-stream"><i></i>streaming</span>
-        </div>
-        <dl class="bp-stats">
-          <div v-for="stat in arenaStats" :key="stat.label" class="bp-stat">
-            <dt>{{ stat.label }}</dt>
-            <dd>{{ stat.value }}</dd>
+      <main class="ox-main">
+        <section class="ox-head" aria-labelledby="ox-claim">
+          <h1 id="ox-claim" class="ox-claim">
+            <span>PRICE THE</span>
+            <span>FUTURE.</span>
+            <span class="ox-claim-accent">SIGN THE CALL.</span>
+          </h1>
+          <p class="ox-standfirst">
+            Every question here runs as a live line. The crowd sets the number, you take a side, and the
+            wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
+            readout names, with nothing standing in for your key.
+            Oddix reads the chain you are actually on and pays out on the terms it publishes.
+          </p>
+        </section>
+
+        <section class="ox-tape" aria-label="Latest lines">
+          <div class="ox-tape-track">
+            <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="ox-tape-item">
+              <b>{{ item.code }}</b>
+              <span class="ox-tape-label">{{ item.label }}</span>
+              <strong :class="item.move < 0 ? 'ox-down' : 'ox-up'">{{ item.yes }}%</strong>
+              <em :class="item.move < 0 ? 'ox-down' : 'ox-up'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
+            </span>
           </div>
-        </dl>
-        <div class="bp-pulse" aria-hidden="true">
-          <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
-        </div>
-        <div class="bp-readout-foot">
-          <span class="bp-seal">PRISMEL-01</span>
-          <button v-if="connected" class="bp-chip" type="button" @click="openWallet">
-            <span class="bp-chip-dot"></span>
-            {{ shortAddress }}
-            <b>{{ balanceText }} SOL</b>
-          </button>
-          <button v-else class="bp-chip" type="button" @click="openWallet">
-            <span class="bp-chip-dot"></span>
-            <span>Attach wallet</span>
-          </button>
-          <span class="bp-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
-        </div>
-        <dl class="bp-facts">
-          <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
-          <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
-          <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
-        </dl>
-      </aside>
+        </section>
 
-      <section class="bp-tile bp-brief">
-        <p class="bp-lede">
-          Every question here runs as a live line. The crowd sets the number, you take a side, and the
-          wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
-          readout names, with nothing standing in for your key.
-          Prismel reads the chain you are actually on and pays out on the terms it publishes.
-        </p>
-      </section>
-
-      <section id="desk" class="bp-tile bp-desk">
-        <div class="bp-desk-head">
-          <span class="bp-desk-glyph" aria-hidden="true">
-            <svg viewBox="0 0 64 64" focusable="false">
-              <path d="M32 12 54 48H10Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" />
-              <path d="M2 32h16" stroke="currentColor" stroke-width="4" stroke-linecap="square" />
-              <path d="M45 32 60 22M45 32h15M45 32 60 42" stroke="currentColor" stroke-width="3" stroke-linecap="square" />
-            </svg>
-          </span>
-          <div>
-            <p class="bp-kicker">your desk</p>
-            <h2 class="bp-h2">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
-          </div>
-        </div>
-
-        <div class="bp-nodes">
-          <div class="bp-node">
-            <span>Address</span>
-            <strong>{{ connected ? shortAddress : '---' }}</strong>
-          </div>
-          <div class="bp-node">
-            <span>Balance on {{ clusterLabel }}</span>
-            <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
-          </div>
-          <div class="bp-node">
-            <span>Signed positions</span>
-            <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
-          </div>
-        </div>
-
-        <div class="bp-desk-actions">
-          <a v-if="connected" class="bp-action" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
-          <button v-if="connected" class="bp-action" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
-            Refresh balance
-          </button>
-          <button v-if="connected" class="bp-action" type="button" @click="dropWallet">Detach wallet</button>
-          <button v-else class="bp-action bp-action--fill" type="button" @click="openWallet">Attach wallet</button>
-        </div>
-
-        <ul v-if="receipts.length" class="bp-slips">
-          <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
-            <span class="bp-slip-side" :class="receipt.side === 'YES' ? 'bp-up' : 'bp-down'">{{ receipt.side }}</span>
-            <span class="bp-slip-q">{{ receipt.question }}</span>
-            <span class="bp-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
-          </li>
-        </ul>
-      </section>
-
-      <section id="feed" class="bp-feed" aria-labelledby="bp-feed-title">
-        <header class="bp-feed-head">
-          <div>
-            <p class="bp-kicker">the feed</p>
-            <h2 id="bp-feed-title" class="bp-h2">OPEN LINES</h2>
-          </div>
-          <p class="bp-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
-        </header>
-
-        <div class="bp-feed-tools">
-          <div class="bp-lanes" role="tablist" aria-label="Lanes">
-            <button
-              v-for="tab in laneTabs"
-              :key="tab.name"
-              type="button"
-              role="tab"
-              class="bp-lane"
-              :aria-selected="lane === tab.name"
-              :class="{ 'bp-on': lane === tab.name }"
-              @click="lane = tab.name"
-            >
-              {{ tab.name }}<b>{{ tab.count }}</b>
-            </button>
-          </div>
-
-          <div class="bp-tools">
-            <div class="bp-sorts" role="group" aria-label="Sort lines">
-              <button
-                v-for="option in sorts"
-                :key="option.id"
-                type="button"
-                :class="{ 'bp-on': sort === option.id }"
-                @click="sort = option.id"
-              >
-                {{ option.label }}
-              </button>
-            </div>
-            <label class="bp-search">
-              <input v-model="query" class="bp-search-field" type="search" placeholder="Search lines" aria-label="Search lines" />
-            </label>
-          </div>
-        </div>
-
-        <ol class="bp-book">
-          <li v-for="market in visibleMarkets" :key="market.id" class="bp-row">
-            <div class="bp-row-id">
-              <span class="bp-code">{{ market.code }}</span>
-              <span class="bp-lane-name">{{ market.lane }}</span>
-              <span class="bp-clock">{{ closesIn(market.hours) }}</span>
+        <div class="ox-stage">
+          <section id="feed" class="ox-feed" aria-labelledby="ox-feed-title">
+            <div class="ox-feed-head">
+              <div>
+                <p class="ox-kicker">the feed</p>
+                <h2 id="ox-feed-title" class="ox-feed-title">OPEN LINES</h2>
+              </div>
+              <p class="ox-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
             </div>
 
-            <div class="bp-row-main">
-              <h3 class="bp-question">{{ market.question }}</h3>
-              <div class="bp-row-meta">
-                <span class="bp-spark">
-                  <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
-                    <path :d="sparkPath(market.spark)" fill="none" :class="market.move < 0 ? 'bp-down' : 'bp-up'" stroke-width="2" />
-                  </svg>
-                </span>
-                <span class="bp-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></span>
-                <span class="bp-delta">
-                  <em :class="market.move < 0 ? 'bp-down' : 'bp-up'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
-                </span>
-                <span class="bp-volume">${{ (market.volume / 1000).toFixed(0) }}k</span>
-                <span class="bp-heat">{{ market.traders }} in</span>
+            <div class="ox-tools">
+              <div class="ox-lanes" role="tablist" aria-label="Lanes">
+                <button
+                  v-for="tab in laneTabs"
+                  :key="tab.name"
+                  type="button"
+                  role="tab"
+                  class="ox-lane"
+                  :aria-selected="lane === tab.name"
+                  :class="{ 'ox-on': lane === tab.name }"
+                  @click="lane = tab.name"
+                >
+                  {{ tab.name }}<b>{{ tab.count }}</b>
+                </button>
+              </div>
+
+              <div class="ox-sorts" role="group" aria-label="Sort lines">
+                <button
+                  v-for="option in sorts"
+                  :key="option.id"
+                  type="button"
+                  class="ox-sort"
+                  :class="{ 'ox-on': sort === option.id }"
+                  @click="sort = option.id"
+                >
+                  {{ option.label }}
+                </button>
               </div>
             </div>
 
-            <div class="bp-row-quote">
-              <strong class="bp-quote">{{ market.yes }}<i>%</i></strong>
-            </div>
+            <ol class="ox-book">
+              <li v-for="market in visibleMarkets" :key="market.id" class="ox-row">
+                <div class="ox-row-id">
+                  <span class="ox-code">{{ market.code }}</span>
+                  <span class="ox-lane-name">{{ market.lane }}</span>
+                  <span class="ox-clock">{{ closesIn(market.hours) }}</span>
+                </div>
 
-            <div class="bp-row-sides">
-              <button class="bp-side bp-side--yes" type="button" @click="openTrade(market, 'YES')">
-                yes<b>{{ market.yes }}%</b>
-              </button>
-              <button class="bp-side bp-side--no" type="button" @click="openTrade(market, 'NO')">
-                no<b>{{ 100 - market.yes }}%</b>
-              </button>
-              <p v-if="receiptFor(market.id)" class="bp-slip-line">
-                you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
-              </p>
-            </div>
-          </li>
-        </ol>
+                <div class="ox-row-main">
+                  <h3 class="ox-question">{{ market.question }}</h3>
+                  <div class="ox-row-meta">
+                    <span class="ox-spark">
+                      <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
+                        <path :d="sparkPath(market.spark)" :class="market.move < 0 ? 'ox-down' : 'ox-up'" />
+                      </svg>
+                    </span>
+                    <span class="ox-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></span>
+                    <span class="ox-delta">
+                      <em :class="market.move < 0 ? 'ox-down' : 'ox-up'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
+                    </span>
+                    <span class="ox-volume">${{ (market.volume / 1000).toFixed(0) }}k</span>
+                    <span class="ox-heat">{{ market.traders }} in</span>
+                  </div>
+                </div>
 
-        <p v-if="!visibleMarkets.length" class="bp-empty">
-          No line matches that. Clear the search or switch lanes.
-        </p>
-      </section>
+                <div class="ox-row-quote">
+                  <strong class="ox-quote">{{ market.yes }}<i>%</i></strong>
+                </div>
 
-      <section id="rules" class="bp-rules" aria-labelledby="bp-rules-title">
-        <div class="bp-rules-head">
-          <p class="bp-kicker">three moves</p>
-          <h2 id="bp-rules-title" class="bp-h2">HOW A POSITION GETS MADE</h2>
+                <div class="ox-row-sides">
+                  <button class="ox-side ox-side--yes" type="button" @click="openTrade(market, 'YES')">
+                    yes<b>{{ market.yes }}%</b>
+                  </button>
+                  <button class="ox-side ox-side--no" type="button" @click="openTrade(market, 'NO')">
+                    no<b>{{ 100 - market.yes }}%</b>
+                  </button>
+                  <p v-if="receiptFor(market.id)" class="ox-slip">
+                    you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
+                  </p>
+                </div>
+              </li>
+            </ol>
+
+            <p v-if="!visibleMarkets.length" class="ox-empty">
+              No line matches that. Clear the search or switch lanes.
+            </p>
+          </section>
+
+          <div class="ox-margin">
+            <section class="ox-panel ox-readout" aria-label="Arena readout">
+              <div class="ox-readout-head">
+                <span class="ox-kicker">arena readout</span>
+                <span class="ox-stream"><i aria-hidden="true"></i>streaming</span>
+              </div>
+              <dl class="ox-stats">
+                <div v-for="stat in arenaStats" :key="stat.label" class="ox-stat">
+                  <dt>{{ stat.label }}</dt>
+                  <dd>{{ stat.value }}</dd>
+                </div>
+              </dl>
+              <div class="ox-pulse" aria-hidden="true">
+                <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
+              </div>
+              <div class="ox-readout-foot">
+                <span class="ox-seal">ODDIX-01</span>
+                <button v-if="connected" class="ox-chip" type="button" @click="openWallet">
+                  <span class="ox-chip-dot" aria-hidden="true"></span>
+                  {{ shortAddress }}
+                  <b>{{ balanceText }} SOL</b>
+                </button>
+                <button v-else class="ox-chip" type="button" @click="openWallet">
+                  <span class="ox-chip-dot" aria-hidden="true"></span>
+                  <span>Attach wallet</span>
+                </button>
+                <span class="ox-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
+              </div>
+              <dl class="ox-facts">
+                <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
+                <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
+                <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
+              </dl>
+            </section>
+
+            <section id="desk" class="ox-panel ox-desk">
+              <div class="ox-desk-head">
+                <span class="ox-desk-glyph" aria-hidden="true">
+                  <svg viewBox="0 0 64 64" focusable="false">
+                    <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+                    <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <p class="ox-kicker">your desk</p>
+                  <h2 class="ox-desk-title">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
+                </div>
+              </div>
+
+              <div class="ox-nodes">
+                <div class="ox-node">
+                  <span>Address</span>
+                  <strong>{{ connected ? shortAddress : '---' }}</strong>
+                </div>
+                <div class="ox-node">
+                  <span>Balance on {{ clusterLabel }}</span>
+                  <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
+                </div>
+                <div class="ox-node">
+                  <span>Signed positions</span>
+                  <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
+                </div>
+              </div>
+
+              <div class="ox-desk-actions">
+                <a v-if="connected" class="ox-act" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
+                <button v-if="connected" class="ox-act" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
+                  Refresh balance
+                </button>
+                <button v-if="connected" class="ox-act" type="button" @click="dropWallet">Detach wallet</button>
+                <button v-else class="ox-act ox-act--primary" type="button" @click="openWallet">Attach wallet</button>
+              </div>
+
+              <ul v-if="receipts.length" class="ox-slips">
+                <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
+                  <span class="ox-slip-side" :class="receipt.side === 'YES' ? 'ox-up' : 'ox-down'">{{ receipt.side }}</span>
+                  <span class="ox-slip-q">{{ receipt.question }}</span>
+                  <span class="ox-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
-        <ol class="bp-moves">
-          <li class="bp-tile bp-move">
-            <b class="bp-move-no">01</b>
-            <div class="bp-move-body">
-              <h3>Read the line</h3>
-              <p>The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.</p>
-            </div>
-          </li>
-          <li class="bp-tile bp-move">
-            <b class="bp-move-no">02</b>
-            <div class="bp-move-body">
-              <h3>Pick a side</h3>
-              <p>Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.</p>
-            </div>
-          </li>
-          <li class="bp-tile bp-move">
-            <b class="bp-move-no">03</b>
-            <div class="bp-move-body">
-              <h3>Sign it yourself</h3>
-              <p>Your wallet builds and signs the transaction. Prismel never holds your key, and the signature is the receipt the chain keeps.</p>
-            </div>
-          </li>
-        </ol>
-        <p class="bp-note">
-          The market program is not deployed yet, so a signed position is recorded as an on-chain
-          transaction rather than held in a settlement pool. When the program lands on this cluster,
-          the same button routes the position into it and the pool settles on the published rules.
-        </p>
-      </section>
-    </main>
 
-    <footer class="bp-footer">
-      <div class="bp-footer-top">
-        <span class="bp-footer-brand">Prismel <em>/ 2026</em></span>
-        <span class="bp-footer-tag">Price the future. Sign the call.</span>
-        <nav class="bp-footer-net" aria-label="Network">
-          Solana {{ clusterLabel }} &middot;
-          <a :href="`https://explorer.solana.com/?cluster=${wallet.cluster}`" target="_blank" rel="noreferrer">explorer</a>
-        </nav>
-      </div>
-      <div class="bp-footer-bottom">
-        <p class="bp-footer-live">
-          <span class="bp-live"><i></i>LIVE</span>
-          <span class="bp-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
-        </p>
-        <p class="bp-footer-meta">
-          <span class="bp-dim">cluster</span>
-          <strong>{{ clusterLabel }}</strong>
-          <span class="bp-sep">/</span>
-          <span class="bp-dim">settlement</span>
-          <strong>your key</strong>
-        </p>
-      </div>
-    </footer>
+        <section id="rules" class="ox-moves" aria-labelledby="ox-moves-title">
+          <div class="ox-moves-head">
+            <div>
+              <p class="ox-kicker">three moves</p>
+              <h2 id="ox-moves-title" class="ox-section-title">HOW A POSITION GETS MADE</h2>
+            </div>
+          </div>
+          <ol class="ox-moves-list">
+            <li class="ox-move">
+              <b class="ox-move-no">01</b>
+              <div class="ox-move-body">
+                <h3>Read the line</h3>
+                <p>The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.</p>
+              </div>
+            </li>
+            <li class="ox-move">
+              <b class="ox-move-no">02</b>
+              <div class="ox-move-body">
+                <h3>Pick a side</h3>
+                <p>Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.</p>
+              </div>
+            </li>
+            <li class="ox-move">
+              <b class="ox-move-no">03</b>
+              <div class="ox-move-body">
+                <h3>Sign it yourself</h3>
+                <p>Your wallet builds and signs the transaction. Oddix never holds your key, and the signature is the receipt the chain keeps.</p>
+              </div>
+            </li>
+          </ol>
+          <p class="ox-note">
+            The market program is not deployed yet, so a signed position is recorded as an on-chain
+            transaction rather than held in a settlement pool. When the program lands on this cluster,
+            the same button routes the position into it and the pool settles on the published rules.
+          </p>
+        </section>
+      </main>
 
-    <div v-if="tradeOpen && active" class="bp-veil" @click.self="closeTrade">
-      <section class="bp-sheet" role="dialog" aria-modal="true" aria-labelledby="trade-title">
-        <button class="bp-sheet-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
-        <p class="bp-kicker">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
-        <h2 id="trade-title" class="bp-sheet-title">{{ active.question }}</h2>
-        <p class="bp-sheet-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
+      <footer class="ox-status">
+        <div class="ox-status-top">
+          <span class="ox-status-brand">Oddix <em>/ 2026</em></span>
+          <span class="ox-status-tag">Price the future. Sign the call.</span>
+          <nav class="ox-status-net" aria-label="Network">
+            Solana {{ clusterLabel }} &middot;
+            <a :href="`https://explorer.solana.com/?cluster=${wallet.cluster}`" target="_blank" rel="noreferrer">explorer</a>
+          </nav>
+        </div>
+        <div class="ox-status-bottom">
+          <p class="ox-status-live">
+            <span class="ox-live"><i aria-hidden="true"></i>LIVE</span>
+            <span class="ox-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
+          </p>
+          <p class="ox-status-meta">
+            <span class="ox-dim">cluster</span>
+            <strong>{{ clusterLabel }}</strong>
+            <span class="ox-sep">/</span>
+            <span class="ox-dim">settlement</span>
+            <strong>your key</strong>
+          </p>
+        </div>
+      </footer>
+    </div>
 
-        <div class="bp-plate-sides" role="group" aria-label="Pick a side">
-          <button type="button" class="bp-plate-side" :class="{ 'bp-on': side === 'YES' }" @click="side = 'YES'">
+    <div v-if="tradeOpen && active" class="ox-veil" @click.self="closeTrade">
+      <section class="ox-drawer" role="dialog" aria-modal="true" aria-labelledby="ox-trade-title">
+        <button class="ox-drawer-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
+        <p class="ox-kicker">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
+        <h2 id="ox-trade-title" class="ox-drawer-title">{{ active.question }}</h2>
+        <p class="ox-drawer-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
+
+        <div class="ox-plate-sides" role="group" aria-label="Pick a side">
+          <button type="button" class="ox-plate-side" :class="{ 'ox-on': side === 'YES' }" @click="side = 'YES'">
             <span>YES</span><b>{{ active.yes }}%</b>
           </button>
-          <button type="button" class="bp-plate-side" :class="{ 'bp-on': side === 'NO' }" @click="side = 'NO'">
+          <button type="button" class="ox-plate-side" :class="{ 'ox-on': side === 'NO' }" @click="side = 'NO'">
             <span>NO</span><b>{{ 100 - active.yes }}%</b>
           </button>
         </div>
 
-        <label class="bp-stake">
+        <label class="ox-stake">
           <span>Stake</span>
           <input v-model="stake" type="number" min="0.01" step="0.01" inputmode="decimal" aria-label="Stake in SOL" />
           <b>SOL</b>
         </label>
-        <p v-if="connected" class="bp-hint">
-          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="bp-warn"> - the stake plus the fee is above that.</span>
+        <p v-if="connected" class="ox-hint">
+          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="ox-warn"> - the stake plus the fee is above that.</span>
         </p>
-        <p v-else class="bp-hint">Attach a wallet to price this against your real balance.</p>
+        <p v-else class="ox-hint">Attach a wallet to price this against your real balance.</p>
 
-        <dl class="bp-quote-table">
+        <dl class="ox-quote-table">
           <div><dt>Side price</dt><dd>{{ sidePrice }}%</dd></div>
-          <div><dt>Payout if right</dt><dd class="bp-strong">{{ payout.toFixed(2) }} SOL</dd></div>
+          <div><dt>Payout if right</dt><dd class="ox-strong">{{ payout.toFixed(2) }} SOL</dd></div>
           <div><dt>Net gain</dt><dd>{{ netGain >= 0 ? '+' : '' }}{{ netGain.toFixed(2) }} SOL</dd></div>
           <div><dt>Signed by</dt><dd>{{ connected ? shortAddress : 'no wallet' }}</dd></div>
         </dl>
 
-        <p v-if="tradeError" class="bp-error">{{ tradeError }}</p>
+        <p v-if="tradeError" class="ox-error">{{ tradeError }}</p>
 
-        <button class="bp-action bp-action--fill bp-action--wide" type="button" :disabled="submitting" @click="submitTrade">
+        <button class="ox-act ox-act--primary ox-act--wide" type="button" :disabled="submitting" @click="submitTrade">
           <template v-if="!connected">Attach wallet to continue</template>
           <template v-else-if="submitting">Waiting for your wallet&hellip;</template>
           <template v-else>Sign {{ side }} position &middot; {{ stakeNumber.toFixed(2) }} SOL</template>
         </button>
-        <p class="bp-sheet-note">
+        <p class="ox-drawer-note">
           Your wallet signs a real transaction carrying this position note, so the call is on the public
           record the moment it lands. Nothing moves without your approval.
         </p>
       </section>
     </div>
 
-    <div v-if="walletOpen" class="bp-veil" @click.self="walletOpen = false">
-      <section class="bp-sheet" role="dialog" aria-modal="true" aria-labelledby="wallet-title">
-        <button class="bp-sheet-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
-        <span class="bp-sheet-glyph" aria-hidden="true">
+    <div v-if="walletOpen" class="ox-veil" @click.self="walletOpen = false">
+      <section class="ox-drawer" role="dialog" aria-modal="true" aria-labelledby="ox-wallet-title">
+        <button class="ox-drawer-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
+        <span class="ox-drawer-glyph" aria-hidden="true">
           <svg viewBox="0 0 64 64" focusable="false">
-            <path d="M32 12 54 48H10Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" />
-            <path d="M2 32h16" stroke="currentColor" stroke-width="4" stroke-linecap="square" />
-            <path d="M45 32 60 22M45 32h15M45 32 60 42" stroke="currentColor" stroke-width="3" stroke-linecap="square" />
+            <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+            <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
           </svg>
         </span>
-        <p class="bp-kicker">{{ clusterLabel }} &middot; real wallet</p>
-        <h2 id="wallet-title" class="bp-sheet-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
+        <p class="ox-kicker">{{ clusterLabel }} &middot; real wallet</p>
+        <h2 id="ox-wallet-title" class="ox-drawer-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
 
         <template v-if="connected">
-          <dl class="bp-quote-table bp-quote-table--left">
+          <dl class="ox-quote-table ox-quote-table--left">
             <div><dt>Account</dt><dd>{{ shortAddress }}</dd></div>
             <div><dt>Wallet</dt><dd>{{ walletState.providerName }}</dd></div>
-            <div><dt>Balance</dt><dd class="bp-strong">{{ balanceText }} SOL</dd></div>
+            <div><dt>Balance</dt><dd class="ox-strong">{{ balanceText }} SOL</dd></div>
           </dl>
-          <p v-if="walletState.balanceError" class="bp-error">{{ walletState.balanceError }}</p>
-          <div class="bp-wallet-row">
-            <button class="bp-action" type="button" @click="wallet.refreshBalance()">Refresh</button>
-            <a class="bp-action" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
-            <button class="bp-action" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
+          <p v-if="walletState.balanceError" class="ox-error">{{ walletState.balanceError }}</p>
+          <div class="ox-wallet-row">
+            <button class="ox-act" type="button" @click="wallet.refreshBalance()">Refresh</button>
+            <a class="ox-act" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
+            <button class="ox-act" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
           </div>
         </template>
 
         <template v-else>
-          <p class="bp-sheet-sub">
-            Prismel connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
+          <p class="ox-drawer-sub">
+            Oddix connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
             Your key stays in the extension; this page only asks it to sign what you approve.
           </p>
-          <p v-if="walletNotice" class="bp-sheet-note bp-sheet-note--lead">{{ walletNotice }}</p>
-          <ul class="bp-wallet-list">
+          <p v-if="walletNotice" class="ox-drawer-note ox-drawer-note--lead">{{ walletNotice }}</p>
+          <ul class="ox-wallet-list">
             <li v-for="option in walletCatalog" :key="option.id">
-              <button class="bp-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
-                <span class="bp-wallet-name">{{ option.name }}</span>
-                <span class="bp-wallet-flag" :class="{ 'bp-on': option.available }">
+              <button class="ox-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
+                <span class="ox-wallet-name">{{ option.name }}</span>
+                <span class="ox-wallet-flag" :class="{ 'ox-on': option.available }">
                   {{ option.available ? 'detected' : 'not installed' }}
                 </span>
               </button>
             </li>
           </ul>
-          <p v-if="walletError" class="bp-error">{{ walletError }}</p>
-          <a v-if="installUrl" class="bp-action bp-action--wide" :href="installUrl" target="_blank" rel="noreferrer">
+          <p v-if="walletError" class="ox-error">{{ walletError }}</p>
+          <a v-if="installUrl" class="ox-act ox-act--wide" :href="installUrl" target="_blank" rel="noreferrer">
             Get the wallet, then reload
           </a>
-          <p class="bp-sheet-note">
+          <p class="ox-drawer-note">
             No wallet listed? Install Phantom, Solflare, Backpack, Glow or Brave Wallet and reload this page.
             Nothing is simulated here, so a wallet really has to be present.
           </p>
@@ -699,7 +743,7 @@ onBeforeUnmount(() => {
     </div>
 
     <transition name="pop">
-      <p v-if="toast" class="bp-toast" role="status" aria-live="polite">{{ toast }}</p>
+      <p v-if="toast" class="ox-toast" role="status" aria-live="polite">{{ toast }}</p>
     </transition>
   </div>
 </template>

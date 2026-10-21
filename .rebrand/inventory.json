@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "E:\\workspace\\chuangye\\solana\\001\\website",
-  "generatedAt": "2026-10-21T21:38:44+08:00",
+  "generatedAt": "2026-10-21T22:43:04+08:00",
   "git": {
     "isGit": false
   },
@@ -10,16 +10,16 @@
     "lockfile": "package-lock.json"
   },
   "stats": {
-    "files": 14,
-    "textFiles": 12,
+    "files": 13,
+    "textFiles": 11,
     "imageFiles": 2
   },
   "files": [
     {
       "path": ".env.example",
       "kind": "text",
-      "size": 724,
-      "hash": "b0e3c896d79ddc81af66788d63d21ea98748a9e1b3004be5dee81cefeb4638b2",
+      "size": 722,
+      "hash": "fe012faa074cc70d53988c58b211dd175277512252b666aff82794b9c148cc09",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -28,8 +28,8 @@
     {
       "path": ".env.local",
       "kind": "text",
-      "size": 261,
-      "hash": "0382f5bf28e00ca5925ac47506575d70d251e66a3fb8499f225526ac9a65de8d",
+      "size": 259,
+      "hash": "64c65bb8038fcc6c31413a44b51aeca00917cbaa9d7d4d5e5e0f73c71a6ad6ec",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -48,8 +48,8 @@
     {
       "path": "index.html",
       "kind": "text",
-      "size": 1671,
-      "hash": "c28c08dc4c8923b7d6f4c83a9e41410bddf2ce046ff4c76805c974800af68921",
+      "size": 1662,
+      "hash": "b26731309bb134bb2e09b47143788a69aa42e11fd8b0807158c9fe90488fe7f5",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -58,8 +58,8 @@
     {
       "path": "package.json",
       "kind": "text",
-      "size": 284,
-      "hash": "a0074c36ceb0dc2cab4198af7beba611aa3d522b1f2f9de6c7c7f74bcec1897d",
+      "size": 282,
+      "hash": "818d6f25f3c93af46acf2313aa47888b289818b0057d4e6c58e7d8f60f1381bc",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -78,8 +78,8 @@
     {
       "path": "public/favicon.svg",
       "kind": "text",
-      "size": 502,
-      "hash": "fe7c9c773397aa5e9cd33c235147cda7c5e5cd2053e8a4274d6c94b2919dcad1",
+      "size": 435,
+      "hash": "fffa1f28dbde92ab408d6e240226b4dedf59ec60d964c42fa59a8778e6cad426",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -88,8 +88,8 @@
     {
       "path": "src/App.vue",
       "kind": "text",
-      "size": 31096,
-      "hash": "03da6bd88e91d04093b1d711bf354591e6bec3dc679963a5e3b3ce7aef0e91f9",
+      "size": 33284,
+      "hash": "b67346dc1e97f9b85e73526b8a01820205563491f92b860a0f9ba9466f5d0dd6",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -98,8 +98,8 @@
     {
       "path": "src/main.js",
       "kind": "text",
-      "size": 166,
-      "hash": "453d98c3cb79d50b23ea26f3440f59a7df6ad999d0a804ea583896e35d914331",
+      "size": 118,
+      "hash": "c7f0db8bde2aefeadcee8f10e099117a33d74a224a55e2ab48ce43ea9765d787",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -108,28 +108,18 @@
     {
       "path": "src/solana.js",
       "kind": "text",
-      "size": 14546,
-      "hash": "c66f9333c5fb6ffb32481b9990329117f12066b236b55e0181b86a0e7a1f67ae",
+      "size": 14542,
+      "hash": "f27ec4368931dab660a5662531e6ea837236ad58dcfb239e6d4cf46b00b5d5c6",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
       "protectedHits": []
     },
     {
-      "path": "src/styles/blueprint-bento.css",
+      "path": "src/styles/abyss.css",
       "kind": "text",
-      "size": 26370,
-      "hash": "f9fe0ad95f1d392d792b19b7f2cc19660400eb61f2f98ccb51006d1eb2110d59",
-      "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
-      "protectedHits": []
-    },
-    {
-      "path": "src/styles/blueprint.css",
-      "kind": "text",
-      "size": 3941,
-      "hash": "5b5e9dc00ee31b56549620716290f3dfba58d4de0a889de78d3edd70856c1b3d",
+      "size": 39431,
+      "hash": "8413fc2ded1c2d60f8ddeed796c6d1fd4845fc2909fa42f0b20e997d0e477764",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -138,15 +128,15 @@
     {
       "path": "public/favicon.svg",
       "kind": "image",
-      "size": 502,
-      "hash": "fe7c9c773397aa5e9cd33c235147cda7c5e5cd2053e8a4274d6c94b2919dcad1",
+      "size": 435,
+      "hash": "fffa1f28dbde92ab408d6e240226b4dedf59ec60d964c42fa59a8778e6cad426",
       "brandHits": []
     },
     {
       "path": "public/og.png",
       "kind": "image",
-      "size": 128879,
-      "hash": "50b58011f08c60c31a901377b4b10409983ba7b12ad56c4ac577769a2cca5088",
+      "size": 294816,
+      "hash": "f7b1443bda7a82de6eef43086e560f22a79680e5d13d1a201fed7dc05f71e78c",
       "brandHits": []
     }
   ],
@@ -155,16 +145,16 @@
       "path": "public/favicon.svg",
       "format": "svg",
       "kind": "favicon",
-      "bytes": 502,
+      "bytes": 435,
       "width": 64.0,
       "height": 64.0,
       "aspect": 1.0,
       "hasAlpha": false,
       "colors": [
-        "#0000ff",
+        "#0b0b0c",
         "#ffffff",
         "#ffffff",
-        "#ffffff"
+        "#0b0b0c"
       ],
       "text": [],
       "containsBrand": false,
@@ -172,27 +162,27 @@
         "index.html"
       ],
       "needsVisualReview": true,
-      "title": "Prismel",
+      "title": "Oddix",
       "viewBox": "0 0 64 64"
     },
     {
       "path": "public/og.png",
       "format": "png",
       "kind": "og",
-      "bytes": 128879,
+      "bytes": 294816,
       "width": 1200,
       "height": 630,
       "aspect": 1.905,
       "hasAlpha": true,
       "colors": [
-        "#ffffff",
-        "#0a0b0d",
-        "#dde3e9",
-        "#08090b",
-        "#b6bbc1",
-        "#17181b",
-        "#292b2e",
-        "#e3e5e6"
+        "#000000",
+        "#101923",
+        "#160d11",
+        "#0e161e",
+        "#010000",
+        "#0d151d",
+        "#1e1015",
+        "#150d10"
       ],
       "text": [],
       "containsBrand": false,
@@ -203,13 +193,13 @@
     }
   ],
   "brand": {
-    "display": "Signaris",
-    "slug": "signaris",
+    "display": "Prismel",
+    "slug": "prismel",
     "confidence": 1.0,
     "source": "brand.json",
     "evidence": [
       {
-        "value": "Signaris",
+        "value": "Prismel",
         "source": "existing brand.json",
         "weight": 100,
         "file": ".rebrand/brand.json"
@@ -217,31 +207,31 @@
     ],
     "alternatives": [],
     "variants": {
-      "display": "Signaris",
-      "lower": "signaris",
-      "upper": "SIGNARIS",
-      "title": "Signaris",
-      "kebab": "signaris",
-      "snake": "signaris",
-      "camel": "signaris",
-      "pascal": "Signaris",
-      "compact": "Signaris",
-      "compactLower": "signaris",
-      "first": "Signaris",
-      "firstLower": "signaris",
-      "firstUpper": "SIGNARIS"
+      "display": "Prismel",
+      "lower": "prismel",
+      "upper": "PRISMEL",
+      "title": "Prismel",
+      "kebab": "prismel",
+      "snake": "prismel",
+      "camel": "prismel",
+      "pascal": "Prismel",
+      "compact": "Prismel",
+      "compactLower": "prismel",
+      "first": "Prismel",
+      "firstLower": "prismel",
+      "firstUpper": "PRISMEL"
     },
     "variantList": [
       {
-        "value": "Signaris",
+        "value": "Prismel",
         "kind": "display"
       },
       {
-        "value": "signaris",
+        "value": "prismel",
         "kind": "lower"
       },
       {
-        "value": "SIGNARIS",
+        "value": "PRISMEL",
         "kind": "upper"
       }
     ],
@@ -249,7 +239,7 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "prismel"
+      "oddix"
     ],
     "initials": "",
     "usedBrands": [
@@ -285,7 +275,7 @@
       "Librova",
       "Ledgiva",
       "Actoria",
-      "Signaris"
+      "Prismel"
     ]
   },
   "protected": {
@@ -363,30 +353,30 @@
     ]
   },
   "palette": {
-    "primary": "#0000ff",
-    "accent": "#0000ff",
-    "background": "#ffffff",
+    "primary": "#ff0000",
+    "accent": "#ff0000",
+    "background": "#111a24",
     "foreground": "#111827",
     "colors": [
       "#ffffff",
+      "#000000",
       "#ffeeee",
-      "#9aa3b1",
-      "#dde3e9",
-      "#0000ff",
+      "#0b0b0c",
+      "#ff0000",
       "#221155",
-      "#1a1d23",
-      "#f4f6f8",
-      "#b9c0cc",
-      "#37d67a",
-      "#e6eaf0",
-      "#eef1f4"
+      "#0b1219",
+      "#ff2d2d",
+      "#111a24",
+      "#182533",
+      "#f4f7fa",
+      "#c9d6e2"
     ],
     "cssVars": {
-      "surface": "#ffffff",
-      "surface-alt": "#eef1f4",
-      "accent": "#0000ff",
-      "accent-deep": "#0000d6",
-      "accent-2": "#7575ff"
+      "ox-surface": "#111a24",
+      "ox-surface-2": "#182533",
+      "ox-accent": "#ff0000",
+      "ox-accent-ink": "#ff6b6b",
+      "ox-accent-2": "#ff00ff"
     }
   },
   "routes": [

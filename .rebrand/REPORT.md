@@ -1,38 +1,36 @@
-# Rebrand report — website scope (Signaris → Prismel)
+# Rebrand report — web surface (`website/`)
 
-> Scope note: this directory holds the **web-surface** run of the rebrand verifier.
-> The authoritative report, naming record and evidence live in the repo-root
-> `.rebrand/REPORT.md`; this file records what the `website/` scope can prove.
-
-- Date: 2026-10-21 (Round 6)
-- Old brand: **Signaris** → New brand: **Prismel** (`prismel.xyz` / `@prismel`)
-- Registry: repo-root `brand.txt` — `history: NEONLINE, Probenox, Signaris`,
-  `current: Prismel`
-- Run: `verify.py --project website --out website/.rebrand --browser --no-install`
+- Project scope: `E:\workspace\chuangye\solana\001\website`
+- Old brand: **Prismel** · New brand: **Oddix** (`oddix.xyz` / @oddix)
+- This run covers only the Vite app; the repo-root run in `../.rebrand/` covers
+  the registry, contracts, social assets and the rest of the tree.
+- Verdict for this scope: **all applicable gates pass** — `brand_registry` is the
+  one exception, by construction: the registry is the repo-root `brand.txt`, which
+  does not exist inside `website/` and is validated by the root run.
 
 ## Gates
 
-| Gate | Result | Note |
+| Gate | Result | Detail |
 |---|---|---|
-| old_brand_source | **PASS** | 0 old-brand text or path hits in the site source |
-| new_brand_presence | **PASS** | Prismel in HTML, App.vue, package names |
-| assets | **PASS** | `public/favicon.svg` (vector prism), `public/og.png` 1200×630 |
-| references | **PASS** | `/favicon.svg`, `/og.png`, `/src/main.js`, `/fonts/*` all resolve |
-| build_test | **PASS** | `vite build` |
-| availability | **PASS** | `prismel` from the root evidence set |
-| brand_registry | **FAIL — structural** | the single `brand.txt` lives at the repo root; the root run validates it |
-| browser | **PASS** | real Chrome at 1440×900 and 390×844: 0 old-brand text/attribute hits, 0 console errors, 0 page errors, 0 failed local requests |
-| report | **PASS** | this file |
+| old_brand_source | PASS | 0 file hits, 0 path hits |
+| new_brand_presence | PASS | title, meta, package surfaces found |
+| assets | PASS | favicon + OG recorded, hash-matched |
+| references | PASS | 7 checked, 0 problems |
+| build_test | PASS | `vite build` (test script not defined) |
+| availability | PASS | selected oddix via chrome-cdp |
+| brand_registry | FAIL | registry lives at the repo root |
+| browser | PASS | 2 screenshots, 0 old-brand DOM hits, 0 page errors, 0 failed requests |
 
-The only failing gate is structural: there is one brand registry for the whole
-repository, so a `website/`-rooted run cannot find it. It is validated by the
-root run, which in turn cannot resolve the Vite app's root-absolute asset URLs —
-hence the two complementary runs.
+## Browser evidence
 
-## Screenshots
+- `/` at 1440×900: `screenshots/root-desktop.png`
+- `/` at 390×844: `screenshots/root-mobile.png`
+- `browser.json` holds the rendered-DOM audit: no old-brand text or attributes,
+  no console or page errors, no failed requests.
 
-- `screenshots/root-desktop.png` (1440×900)
-- `screenshots/root-mobile.png` (390×844)
+## Notes
 
-These are post-rebrand **and** post-reskin captures: the Cobalt Blueprint / Bento
-Canvas UI described in `website/.reskin/REPORT.md`.
+- The generated template for this file is written in the skill's default text and
+  reports the registry failure as a whole-scope FAIL; this report replaces it with
+  the scope-accurate verdict.
+- Round 7 evidence for the presentation rebuild is in `../.reskin/REPORT.md`.

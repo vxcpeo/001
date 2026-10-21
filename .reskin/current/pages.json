@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "current",
-  "generatedAt": "2026-10-21T13:40:02.739Z",
+  "generatedAt": "2026-10-21T14:48:08.927Z",
   "baseUrl": "http://127.0.0.1:4317/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
@@ -15,10 +15,10 @@
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Prismel // Live prediction lines on Solana",
+          "title": "Oddix // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 3412,
+          "bodyTextLength": 3402,
           "scrollWidth": 1440,
           "clientWidth": 1440,
           "focusableCount": 35
@@ -669,6 +669,10 @@
             "count": 1
           },
           {
+            "word": "IX",
+            "count": 1
+          },
+          {
             "word": "keeps",
             "count": 1
           },
@@ -769,10 +773,6 @@
             "count": 1
           },
           {
-            "word": "MEL",
-            "count": 1
-          },
-          {
             "word": "model",
             "count": 3
           },
@@ -818,6 +818,18 @@
           },
           {
             "word": "number",
+            "count": 1
+          },
+          {
+            "word": "ODD",
+            "count": 1
+          },
+          {
+            "word": "Oddix",
+            "count": 3
+          },
+          {
+            "word": "ODDIX-01",
             "count": 1
           },
           {
@@ -918,18 +930,6 @@
           },
           {
             "word": "PRICE",
-            "count": 1
-          },
-          {
-            "word": "PRIS",
-            "count": 1
-          },
-          {
-            "word": "Prismel",
-            "count": 3
-          },
-          {
-            "word": "PRISMEL-01",
             "count": 1
           },
           {
@@ -1251,11 +1251,11 @@
             "count": 1
           },
           {
-            "key": "aria-label=Primary",
+            "key": "aria-label=Oddix home",
             "count": 1
           },
           {
-            "key": "aria-label=Prismel home",
+            "key": "aria-label=Primary",
             "count": 1
           },
           {
@@ -1299,316 +1299,306 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bp-action",
-          "bp-action--fill",
-          "bp-book",
-          "bp-brand",
-          "bp-brand-mark",
-          "bp-brand-word",
-          "bp-brief",
-          "bp-canvas",
-          "bp-chip",
-          "bp-chip-dot",
-          "bp-claim",
-          "bp-clock",
-          "bp-code",
-          "bp-delta",
-          "bp-desk",
-          "bp-desk-actions",
-          "bp-desk-glyph",
-          "bp-desk-head",
-          "bp-dim",
-          "bp-down",
-          "bp-facts",
-          "bp-feed",
-          "bp-feed-head",
-          "bp-feed-tools",
-          "bp-footer",
-          "bp-footer-bottom",
-          "bp-footer-brand",
-          "bp-footer-live",
-          "bp-footer-meta",
-          "bp-footer-net",
-          "bp-footer-tag",
-          "bp-footer-top",
-          "bp-h2",
-          "bp-heat",
-          "bp-hero",
-          "bp-hero-actions",
-          "bp-hero-rule",
-          "bp-imprint",
-          "bp-kicker",
-          "bp-kicker--invert",
-          "bp-lane",
-          "bp-lane-name",
-          "bp-lanes",
-          "bp-lede",
-          "bp-live",
-          "bp-move",
-          "bp-move-body",
-          "bp-move-no",
-          "bp-moves",
-          "bp-nav",
-          "bp-nav-link",
-          "bp-node",
-          "bp-nodes",
-          "bp-note",
-          "bp-on",
-          "bp-page",
-          "bp-pulse",
-          "bp-question",
-          "bp-quote",
-          "bp-readout",
-          "bp-readout-foot",
-          "bp-readout-head",
-          "bp-row",
-          "bp-row-id",
-          "bp-row-main",
-          "bp-row-meta",
-          "bp-row-quote",
-          "bp-row-sides",
-          "bp-rules",
-          "bp-rules-head",
-          "bp-seal",
-          "bp-search",
-          "bp-search-field",
-          "bp-sep",
-          "bp-side",
-          "bp-side--no",
-          "bp-side--yes",
-          "bp-sorts",
-          "bp-spark",
-          "bp-split",
-          "bp-stat",
-          "bp-stats",
-          "bp-stream",
-          "bp-tally",
-          "bp-tile",
-          "bp-tools",
-          "bp-topbar",
-          "bp-up",
-          "bp-volume",
-          "bp-wallet-state",
-          "bp-wire",
-          "bp-wire-item",
-          "bp-wire-label",
-          "bp-wire-track"
+          "ox-act",
+          "ox-act--primary",
+          "ox-book",
+          "ox-brand",
+          "ox-brand-mark",
+          "ox-brand-word",
+          "ox-chip",
+          "ox-chip-dot",
+          "ox-claim",
+          "ox-claim-accent",
+          "ox-clock",
+          "ox-code",
+          "ox-command",
+          "ox-command-tools",
+          "ox-delta",
+          "ox-desk",
+          "ox-desk-actions",
+          "ox-desk-glyph",
+          "ox-desk-head",
+          "ox-desk-title",
+          "ox-dim",
+          "ox-down",
+          "ox-facts",
+          "ox-feed",
+          "ox-feed-head",
+          "ox-feed-title",
+          "ox-head",
+          "ox-heat",
+          "ox-imprint",
+          "ox-kicker",
+          "ox-lane",
+          "ox-lane-name",
+          "ox-lanes",
+          "ox-live",
+          "ox-main",
+          "ox-margin",
+          "ox-move",
+          "ox-move-body",
+          "ox-move-no",
+          "ox-moves",
+          "ox-moves-head",
+          "ox-moves-list",
+          "ox-node",
+          "ox-nodes",
+          "ox-note",
+          "ox-on",
+          "ox-page",
+          "ox-panel",
+          "ox-pulse",
+          "ox-question",
+          "ox-quote",
+          "ox-rail",
+          "ox-rail-crest",
+          "ox-rail-end",
+          "ox-rail-glyph",
+          "ox-rail-label",
+          "ox-rail-link",
+          "ox-rail-spine",
+          "ox-readout",
+          "ox-readout-foot",
+          "ox-readout-head",
+          "ox-row",
+          "ox-row-id",
+          "ox-row-main",
+          "ox-row-meta",
+          "ox-row-quote",
+          "ox-row-sides",
+          "ox-seal",
+          "ox-search",
+          "ox-search-glyph",
+          "ox-search-input",
+          "ox-section-title",
+          "ox-sep",
+          "ox-shell",
+          "ox-side",
+          "ox-side--no",
+          "ox-side--yes",
+          "ox-sort",
+          "ox-sorts",
+          "ox-spark",
+          "ox-split",
+          "ox-stage",
+          "ox-standfirst",
+          "ox-stat",
+          "ox-stats",
+          "ox-status",
+          "ox-status-bottom",
+          "ox-status-brand",
+          "ox-status-live",
+          "ox-status-meta",
+          "ox-status-net",
+          "ox-status-tag",
+          "ox-status-top",
+          "ox-stream",
+          "ox-tally",
+          "ox-tape",
+          "ox-tape-item",
+          "ox-tape-label",
+          "ox-tape-track",
+          "ox-tools",
+          "ox-up",
+          "ox-volume",
+          "ox-wallet-state"
         ],
         "fingerprint": [
           "a@6:2",
-          "a@7:0",
+          "a@7:2",
           "a@8:0",
-          "aside@5:1",
-          "aside@6:4+",
+          "a@9:0",
           "b@10:0",
-          "b@11:0",
           "b@12:0",
-          "b@8:0",
-          "b@9:0",
-          "button@10:0",
-          "button@10:1",
+          "b@13:0",
+          "b@14:0",
+          "button@11:0",
+          "button@11:1",
+          "button@11:2",
+          "button@12:1",
           "button@8:0",
-          "button@8:2",
-          "button@9:1",
-          "dd@9:0",
+          "circle@10:0",
+          "circle@8:0",
+          "dd@12:0",
+          "div@10:1",
+          "div@10:2",
+          "div@10:3",
           "div@10:4+",
+          "div@11:1",
+          "div@11:2",
+          "div@11:3",
+          "div@12:4+",
           "div@3:1",
-          "div@4:4+",
-          "div@6:2",
-          "div@6:3",
-          "div@6:4+",
-          "div@7:1",
+          "div@4:2",
+          "div@5:3",
           "div@7:2",
           "div@7:3",
-          "div@7:4+",
+          "div@8:1",
           "div@8:2",
           "div@8:4+",
-          "div@9:1",
           "div@9:2",
-          "div@9:3",
-          "dl@7:3",
-          "dl@7:4+",
-          "dt@9:0",
-          "em@12:0",
-          "em@8:0",
-          "footer@5:2",
-          "h1@7:3",
-          "h2@8:0",
-          "h2@9:0",
-          "h3@10:0",
-          "header@5:3",
-          "header@7:2",
-          "i@11:0",
-          "i@8:0",
-          "i@9:0",
-          "input@10:0",
-          "label@9:1",
-          "li@8:2",
-          "li@8:4+",
-          "main@5:4+",
-          "nav@6:3",
-          "nav@7:1",
-          "ol@7:3",
-          "ol@7:4+",
+          "dl@10:3",
+          "dl@10:4+",
+          "dt@12:0",
+          "em@10:0",
+          "em@14:0",
+          "em@9:0",
+          "footer@6:2",
+          "h1@8:3",
+          "h2@10:0",
+          "h2@11:0",
+          "h2@12:0",
+          "h3@11:0",
+          "h3@12:0",
+          "header@6:3",
+          "i@10:0",
+          "i@12:0",
+          "i@13:0",
+          "input@9:0",
+          "label@8:2",
+          "li@10:4+",
+          "li@9:2",
+          "main@6:4+",
+          "nav@5:4+",
+          "nav@8:1",
+          "ol@8:3",
+          "ol@9:4+",
           "p@10:0",
-          "p@6:0",
+          "p@11:0",
+          "p@12:0",
           "p@7:0",
-          "p@7:2",
-          "p@7:3",
-          "p@7:4+",
           "p@8:0",
-          "p@9:0",
+          "p@8:2",
+          "p@8:4+",
           "path@10:0",
           "path@13:0",
-          "path@9:0",
-          "section@6:1",
-          "section@6:3",
+          "path@15:0",
+          "path@8:0",
+          "rect@10:0",
+          "rect@8:0",
+          "section@7:1",
+          "section@7:2",
+          "section@7:3",
+          "section@8:3",
+          "section@9:3",
+          "section@9:4+",
           "span@10:0",
           "span@11:0",
           "span@11:1",
-          "span@11:2",
+          "span@12:0",
+          "span@13:0",
+          "span@13:1",
+          "span@13:2",
+          "span@6:0",
+          "span@6:1",
           "span@7:0",
-          "span@7:1",
-          "span@7:4+",
           "span@8:0",
           "span@8:1",
           "span@9:0",
-          "strong@10:1",
-          "strong@8:0",
+          "span@9:1",
+          "span@9:4+",
+          "strong@10:0",
+          "strong@12:0",
+          "strong@12:1",
           "strong@9:0",
-          "svg@12:1",
-          "svg@8:3",
+          "svg@12:2",
+          "svg@14:1",
+          "svg@7:1",
+          "svg@7:2",
+          "svg@7:3",
+          "svg@7:4+",
+          "svg@9:2",
           "svg@9:3"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "nav",
             "role": "",
             "top": 0,
             "left": 0,
-            "width": 1440,
-            "height": 59
+            "width": 76,
+            "height": 900
           },
           {
-            "tag": "nav",
+            "tag": "header",
             "role": "",
-            "top": 9,
-            "left": 1198,
-            "width": 184,
-            "height": 40
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 59,
-            "left": 0,
-            "width": 1440,
-            "height": 37
+            "top": 16,
+            "left": 125,
+            "width": 1266,
+            "height": 60
           },
           {
             "tag": "main",
             "role": "",
-            "top": 96,
-            "left": 0,
-            "width": 1440,
-            "height": 2116
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 128,
-            "left": 952,
-            "width": 430,
-            "height": 465
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 921,
-            "left": 89,
-            "width": 1263,
-            "height": 48
+            "top": 76,
+            "left": 125,
+            "width": 1266,
+            "height": 2016
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 2255,
-            "left": 0,
-            "width": 1440,
-            "height": 123
+            "top": 2178,
+            "left": 125,
+            "width": 1266,
+            "height": 128
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 2284,
-            "left": 1231,
-            "width": 151,
-            "height": 17
+            "top": 2210,
+            "left": 1229,
+            "width": 162,
+            "height": 16
           }
         ],
         "colors": [
           {
-            "hex": "#0a0b0d",
-            "count": 186
+            "hex": "#f4f7fa",
+            "count": 208
           },
           {
-            "hex": "#565c66",
-            "count": 112
+            "hex": "#8fa3b5",
+            "count": 124
           },
           {
-            "hex": "#0000ff",
+            "hex": "#ff6b6b",
             "count": 45
           },
           {
-            "hex": "#ffffff",
-            "count": 41
+            "hex": "#67798b",
+            "count": 43
           },
           {
-            "hex": "#f4f6f8",
-            "count": 35
+            "hex": "#c9d6e2",
+            "count": 26
           },
           {
-            "hex": "#333a44",
-            "count": 32
-          },
-          {
-            "hex": "#006c48",
+            "hex": "#5ce1a0",
             "count": 21
           },
           {
-            "hex": "#b3310a",
+            "hex": "#ff7a7a",
             "count": 12
           },
           {
-            "hex": "#9aa3b1",
+            "hex": "#ff0000",
+            "count": 9
+          },
+          {
+            "hex": "#000000",
             "count": 8
           },
           {
-            "hex": "#eef1f4",
+            "hex": "#ffffff",
             "count": 5
           },
           {
-            "hex": "#7575ff",
-            "count": 4
-          },
-          {
-            "hex": "#e6eaf0",
+            "hex": "#0d151d",
             "count": 3
           },
           {
-            "hex": "#b9c0cc",
-            "count": 2
-          },
-          {
-            "hex": "#dde3e9",
-            "count": 2
-          },
-          {
-            "hex": "#37d67a",
-            "count": 1
-          },
-          {
-            "hex": "#b6c0cb",
+            "hex": "#0d141c",
             "count": 1
           }
         ],
@@ -1618,10 +1608,6 @@
           {
             "tag": "h1",
             "text": "PRICE THE FUTURE. SIGN THE CALL."
-          },
-          {
-            "tag": "h2",
-            "text": "WALLET DETACHED"
           },
           {
             "tag": "h2",
@@ -1661,6 +1647,10 @@
           },
           {
             "tag": "h2",
+            "text": "WALLET DETACHED"
+          },
+          {
+            "tag": "h2",
             "text": "HOW A POSITION GETS MADE"
           },
           {
@@ -1683,44 +1673,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "aside.bp-wire > div.bp-wire-track > span.bp-wire-item",
-              "right": 1640,
-              "width": 308
+              "selector": "main.ox-main > section.ox-tape > div.ox-tape-track",
+              "right": 5825,
+              "width": 5795
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > span.bp-wire-label",
-              "right": 1578,
+              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
+              "right": 1797,
+              "width": 361
+            },
+            {
+              "selector": "div.ox-tape-track > span.ox-tape-item > b",
+              "right": 1493,
+              "width": 35
+            },
+            {
+              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
+              "right": 1708,
               "width": 206
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > strong.bp-up",
-              "right": 1605,
+              "selector": "div.ox-tape-track > span.ox-tape-item > strong.ox-up",
+              "right": 1735,
               "width": 18
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > em.bp-up",
-              "right": 1640,
-              "width": 28
+              "selector": "div.ox-tape-track > span.ox-tape-item > em.ox-up",
+              "right": 1774,
+              "width": 30
             },
             {
-              "selector": "aside.bp-wire > div.bp-wire-track > span.bp-wire-item",
-              "right": 1972,
-              "width": 302
+              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
+              "right": 2170,
+              "width": 373
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > b",
-              "right": 1703,
-              "width": 33
-            },
-            {
-              "selector": "div.bp-wire-track > span.bp-wire-item > span.bp-wire-label",
-              "right": 1916,
-              "width": 206
-            },
-            {
-              "selector": "div.bp-wire-track > span.bp-wire-item > strong.bp-down",
-              "right": 1942,
-              "width": 18
+              "selector": "div.ox-tape-track > span.ox-tape-item > b",
+              "right": 1854,
+              "width": 35
             }
           ]
         }
@@ -1739,10 +1729,10 @@
       },
       "mobile": {
         "meta": {
-          "title": "Prismel // Live prediction lines on Solana",
+          "title": "Oddix // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 3412,
+          "bodyTextLength": 3402,
           "scrollWidth": 390,
           "clientWidth": 390,
           "focusableCount": 35
@@ -2393,6 +2383,10 @@
             "count": 1
           },
           {
+            "word": "IX",
+            "count": 1
+          },
+          {
             "word": "keeps",
             "count": 1
           },
@@ -2493,10 +2487,6 @@
             "count": 1
           },
           {
-            "word": "MEL",
-            "count": 1
-          },
-          {
             "word": "model",
             "count": 3
           },
@@ -2542,6 +2532,18 @@
           },
           {
             "word": "number",
+            "count": 1
+          },
+          {
+            "word": "ODD",
+            "count": 1
+          },
+          {
+            "word": "Oddix",
+            "count": 3
+          },
+          {
+            "word": "ODDIX-01",
             "count": 1
           },
           {
@@ -2642,18 +2644,6 @@
           },
           {
             "word": "PRICE",
-            "count": 1
-          },
-          {
-            "word": "PRIS",
-            "count": 1
-          },
-          {
-            "word": "Prismel",
-            "count": 3
-          },
-          {
-            "word": "PRISMEL-01",
             "count": 1
           },
           {
@@ -2975,11 +2965,11 @@
             "count": 1
           },
           {
-            "key": "aria-label=Primary",
+            "key": "aria-label=Oddix home",
             "count": 1
           },
           {
-            "key": "aria-label=Prismel home",
+            "key": "aria-label=Primary",
             "count": 1
           },
           {
@@ -3023,316 +3013,304 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bp-action",
-          "bp-action--fill",
-          "bp-book",
-          "bp-brand",
-          "bp-brand-mark",
-          "bp-brand-word",
-          "bp-brief",
-          "bp-canvas",
-          "bp-chip",
-          "bp-chip-dot",
-          "bp-claim",
-          "bp-clock",
-          "bp-code",
-          "bp-delta",
-          "bp-desk",
-          "bp-desk-actions",
-          "bp-desk-glyph",
-          "bp-desk-head",
-          "bp-dim",
-          "bp-down",
-          "bp-facts",
-          "bp-feed",
-          "bp-feed-head",
-          "bp-feed-tools",
-          "bp-footer",
-          "bp-footer-bottom",
-          "bp-footer-brand",
-          "bp-footer-live",
-          "bp-footer-meta",
-          "bp-footer-net",
-          "bp-footer-tag",
-          "bp-footer-top",
-          "bp-h2",
-          "bp-heat",
-          "bp-hero",
-          "bp-hero-actions",
-          "bp-hero-rule",
-          "bp-imprint",
-          "bp-kicker",
-          "bp-kicker--invert",
-          "bp-lane",
-          "bp-lane-name",
-          "bp-lanes",
-          "bp-lede",
-          "bp-live",
-          "bp-move",
-          "bp-move-body",
-          "bp-move-no",
-          "bp-moves",
-          "bp-nav",
-          "bp-nav-link",
-          "bp-node",
-          "bp-nodes",
-          "bp-note",
-          "bp-on",
-          "bp-page",
-          "bp-pulse",
-          "bp-question",
-          "bp-quote",
-          "bp-readout",
-          "bp-readout-foot",
-          "bp-readout-head",
-          "bp-row",
-          "bp-row-id",
-          "bp-row-main",
-          "bp-row-meta",
-          "bp-row-quote",
-          "bp-row-sides",
-          "bp-rules",
-          "bp-rules-head",
-          "bp-seal",
-          "bp-search",
-          "bp-search-field",
-          "bp-sep",
-          "bp-side",
-          "bp-side--no",
-          "bp-side--yes",
-          "bp-sorts",
-          "bp-spark",
-          "bp-split",
-          "bp-stat",
-          "bp-stats",
-          "bp-stream",
-          "bp-tally",
-          "bp-tile",
-          "bp-tools",
-          "bp-topbar",
-          "bp-up",
-          "bp-volume",
-          "bp-wallet-state",
-          "bp-wire",
-          "bp-wire-item",
-          "bp-wire-label",
-          "bp-wire-track"
+          "ox-act",
+          "ox-act--primary",
+          "ox-book",
+          "ox-brand",
+          "ox-brand-mark",
+          "ox-brand-word",
+          "ox-chip",
+          "ox-chip-dot",
+          "ox-claim",
+          "ox-claim-accent",
+          "ox-clock",
+          "ox-code",
+          "ox-command",
+          "ox-command-tools",
+          "ox-delta",
+          "ox-desk",
+          "ox-desk-actions",
+          "ox-desk-glyph",
+          "ox-desk-head",
+          "ox-desk-title",
+          "ox-dim",
+          "ox-down",
+          "ox-facts",
+          "ox-feed",
+          "ox-feed-head",
+          "ox-feed-title",
+          "ox-head",
+          "ox-heat",
+          "ox-imprint",
+          "ox-kicker",
+          "ox-lane",
+          "ox-lane-name",
+          "ox-lanes",
+          "ox-live",
+          "ox-main",
+          "ox-margin",
+          "ox-move",
+          "ox-move-body",
+          "ox-move-no",
+          "ox-moves",
+          "ox-moves-head",
+          "ox-moves-list",
+          "ox-node",
+          "ox-nodes",
+          "ox-note",
+          "ox-on",
+          "ox-page",
+          "ox-panel",
+          "ox-pulse",
+          "ox-question",
+          "ox-quote",
+          "ox-rail",
+          "ox-rail-glyph",
+          "ox-rail-label",
+          "ox-rail-link",
+          "ox-readout",
+          "ox-readout-foot",
+          "ox-readout-head",
+          "ox-row",
+          "ox-row-id",
+          "ox-row-main",
+          "ox-row-meta",
+          "ox-row-quote",
+          "ox-row-sides",
+          "ox-seal",
+          "ox-search",
+          "ox-search-glyph",
+          "ox-search-input",
+          "ox-section-title",
+          "ox-sep",
+          "ox-shell",
+          "ox-side",
+          "ox-side--no",
+          "ox-side--yes",
+          "ox-sort",
+          "ox-sorts",
+          "ox-spark",
+          "ox-split",
+          "ox-stage",
+          "ox-standfirst",
+          "ox-stat",
+          "ox-stats",
+          "ox-status",
+          "ox-status-bottom",
+          "ox-status-brand",
+          "ox-status-live",
+          "ox-status-meta",
+          "ox-status-net",
+          "ox-status-tag",
+          "ox-status-top",
+          "ox-stream",
+          "ox-tally",
+          "ox-tape",
+          "ox-tape-item",
+          "ox-tape-label",
+          "ox-tape-track",
+          "ox-tools",
+          "ox-up",
+          "ox-volume",
+          "ox-wallet-state"
         ],
         "fingerprint": [
           "a@6:2",
-          "a@7:0",
+          "a@7:2",
           "a@8:0",
-          "aside@5:1",
-          "aside@6:4+",
+          "a@9:0",
           "b@10:0",
-          "b@11:0",
           "b@12:0",
-          "b@8:0",
-          "b@9:0",
-          "button@10:0",
-          "button@10:1",
+          "b@13:0",
+          "b@14:0",
+          "button@11:0",
+          "button@11:1",
+          "button@11:2",
+          "button@12:1",
           "button@8:0",
-          "button@8:2",
-          "button@9:1",
-          "dd@9:0",
+          "circle@10:0",
+          "circle@8:0",
+          "dd@12:0",
+          "div@10:1",
+          "div@10:2",
+          "div@10:3",
           "div@10:4+",
+          "div@11:1",
+          "div@11:2",
+          "div@11:3",
+          "div@12:4+",
           "div@3:1",
-          "div@4:4+",
-          "div@6:2",
-          "div@6:3",
-          "div@6:4+",
-          "div@7:1",
+          "div@4:2",
+          "div@5:3",
           "div@7:2",
           "div@7:3",
-          "div@7:4+",
+          "div@8:1",
           "div@8:2",
           "div@8:4+",
-          "div@9:1",
           "div@9:2",
-          "div@9:3",
-          "dl@7:3",
-          "dl@7:4+",
-          "dt@9:0",
-          "em@12:0",
-          "em@8:0",
-          "footer@5:2",
-          "h1@7:3",
-          "h2@8:0",
-          "h2@9:0",
-          "h3@10:0",
-          "header@5:3",
-          "header@7:2",
-          "i@11:0",
-          "i@8:0",
-          "i@9:0",
-          "input@10:0",
-          "label@9:1",
-          "li@8:2",
-          "li@8:4+",
-          "main@5:4+",
-          "nav@6:3",
-          "nav@7:1",
-          "ol@7:3",
-          "ol@7:4+",
+          "dl@10:3",
+          "dl@10:4+",
+          "dt@12:0",
+          "em@10:0",
+          "em@14:0",
+          "em@9:0",
+          "footer@6:2",
+          "h1@8:3",
+          "h2@10:0",
+          "h2@11:0",
+          "h2@12:0",
+          "h3@11:0",
+          "h3@12:0",
+          "header@6:3",
+          "i@10:0",
+          "i@12:0",
+          "i@13:0",
+          "input@9:0",
+          "label@8:2",
+          "li@10:4+",
+          "li@9:2",
+          "main@6:4+",
+          "nav@5:4+",
+          "nav@8:1",
+          "ol@8:3",
+          "ol@9:4+",
           "p@10:0",
-          "p@6:0",
+          "p@11:0",
+          "p@12:0",
           "p@7:0",
-          "p@7:2",
-          "p@7:3",
-          "p@7:4+",
           "p@8:0",
-          "p@9:0",
+          "p@8:2",
+          "p@8:4+",
           "path@10:0",
           "path@13:0",
-          "path@9:0",
-          "section@6:1",
-          "section@6:3",
+          "path@15:0",
+          "path@8:0",
+          "rect@10:0",
+          "rect@8:0",
+          "section@7:1",
+          "section@7:2",
+          "section@7:3",
+          "section@8:3",
+          "section@9:3",
+          "section@9:4+",
           "span@10:0",
           "span@11:0",
           "span@11:1",
-          "span@11:2",
+          "span@12:0",
+          "span@13:0",
+          "span@13:1",
+          "span@13:2",
           "span@7:0",
-          "span@7:1",
-          "span@7:4+",
           "span@8:0",
           "span@8:1",
           "span@9:0",
-          "strong@10:1",
-          "strong@8:0",
+          "span@9:1",
+          "span@9:4+",
+          "strong@10:0",
+          "strong@12:0",
+          "strong@12:1",
           "strong@9:0",
-          "svg@12:1",
-          "svg@8:3",
+          "svg@12:2",
+          "svg@14:1",
+          "svg@7:1",
+          "svg@7:3",
+          "svg@7:4+",
+          "svg@9:2",
           "svg@9:3"
         ],
         "landmarks": [
           {
-            "tag": "header",
-            "role": "",
-            "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 78
-          },
-          {
             "tag": "nav",
             "role": "",
-            "top": 8,
-            "left": 222,
-            "width": 150,
-            "height": 39
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 78,
+            "top": 772,
             "left": 0,
             "width": 390,
-            "height": 37
+            "height": 72
+          },
+          {
+            "tag": "header",
+            "role": "",
+            "top": 12,
+            "left": 14,
+            "width": 362,
+            "height": 172
           },
           {
             "tag": "main",
             "role": "",
-            "top": 114,
-            "left": 0,
-            "width": 390,
-            "height": 3930
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 383,
-            "left": 18,
-            "width": 354,
-            "height": 429
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1466,
-            "left": 37,
-            "width": 316,
-            "height": 38
+            "top": 184,
+            "left": 14,
+            "width": 362,
+            "height": 3629
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 4068,
-            "left": 0,
-            "width": 390,
-            "height": 189
+            "top": 3859,
+            "left": 14,
+            "width": 362,
+            "height": 204
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 4133,
-            "left": 18,
-            "width": 151,
-            "height": 17
+            "top": 3943,
+            "left": 14,
+            "width": 155,
+            "height": 16
           }
         ],
         "colors": [
           {
-            "hex": "#0a0b0d",
-            "count": 186
+            "hex": "#f4f7fa",
+            "count": 207
           },
           {
-            "hex": "#565c66",
-            "count": 112
+            "hex": "#8fa3b5",
+            "count": 124
           },
           {
-            "hex": "#0000ff",
-            "count": 45
-          },
-          {
-            "hex": "#ffffff",
+            "hex": "#ff6b6b",
             "count": 41
           },
           {
-            "hex": "#f4f6f8",
-            "count": 35
+            "hex": "#67798b",
+            "count": 40
           },
           {
-            "hex": "#333a44",
-            "count": 32
+            "hex": "#c9d6e2",
+            "count": 26
           },
           {
-            "hex": "#006c48",
+            "hex": "#5ce1a0",
             "count": 21
           },
           {
-            "hex": "#b3310a",
+            "hex": "#ff7a7a",
             "count": 12
           },
           {
-            "hex": "#9aa3b1",
+            "hex": "#ff0000",
+            "count": 9
+          },
+          {
+            "hex": "#000000",
             "count": 8
           },
           {
-            "hex": "#eef1f4",
+            "hex": "#ffffff",
             "count": 5
           },
           {
-            "hex": "#7575ff",
-            "count": 4
-          },
-          {
-            "hex": "#e6eaf0",
+            "hex": "#0d151d",
             "count": 3
           },
           {
-            "hex": "#b9c0cc",
-            "count": 2
-          },
-          {
-            "hex": "#dde3e9",
-            "count": 2
-          },
-          {
-            "hex": "#37d67a",
+            "hex": "#080d14",
             "count": 1
           },
           {
-            "hex": "#b6c0cb",
+            "hex": "#0d141c",
             "count": 1
           }
         ],
@@ -3342,10 +3320,6 @@
           {
             "tag": "h1",
             "text": "PRICE THE FUTURE. SIGN THE CALL."
-          },
-          {
-            "tag": "h2",
-            "text": "WALLET DETACHED"
           },
           {
             "tag": "h2",
@@ -3385,6 +3359,10 @@
           },
           {
             "tag": "h2",
+            "text": "WALLET DETACHED"
+          },
+          {
+            "tag": "h2",
             "text": "HOW A POSITION GETS MADE"
           },
           {
@@ -3407,44 +3385,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "aside.bp-wire > div.bp-wire-track > span.bp-wire-item",
-              "right": 640,
-              "width": 302
+              "selector": "main.ox-main > section.ox-tape > div.ox-tape-track",
+              "right": 5314,
+              "width": 5408
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > span.bp-wire-label",
-              "right": 584,
-              "width": 206
+              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
+              "right": 596,
+              "width": 370
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > strong.bp-down",
-              "right": 610,
-              "width": 18
+              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
+              "right": 516,
+              "width": 226
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > em.bp-down",
-              "right": 640,
+              "selector": "div.ox-tape-track > span.ox-tape-item > strong.ox-down",
+              "right": 542,
+              "width": 17
+            },
+            {
+              "selector": "div.ox-tape-track > span.ox-tape-item > em.ox-down",
+              "right": 573,
               "width": 22
             },
             {
-              "selector": "aside.bp-wire > div.bp-wire-track > span.bp-wire-item",
-              "right": 955,
-              "width": 284
+              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
+              "right": 910,
+              "width": 315
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > b",
-              "right": 703,
+              "selector": "div.ox-tape-track > span.ox-tape-item > b",
+              "right": 651,
               "width": 33
             },
             {
-              "selector": "div.bp-wire-track > span.bp-wire-item > span.bp-wire-label",
-              "right": 898,
-              "width": 187
-            },
-            {
-              "selector": "div.bp-wire-track > span.bp-wire-item > strong.bp-up",
-              "right": 925,
-              "width": 18
+              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
+              "right": 830,
+              "width": 171
             }
           ]
         }
@@ -3460,86 +3438,86 @@
         "samples": [
           {
             "tag": "a",
-            "text": "Prismel home",
+            "text": "FEED",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
+            "outlineColor": "rgb(255, 107, 107)",
             "boxShadow": "none",
-            "borderColor": "rgb(10, 11, 13)",
+            "borderColor": "rgba(143, 163, 181, 0.1)",
+            "backgroundColor": "rgba(255, 255, 255, 0.027)"
+          },
+          {
+            "tag": "a",
+            "text": "RULES",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 107, 107)",
+            "boxShadow": "none",
+            "borderColor": "rgba(143, 163, 181, 0.098)",
+            "backgroundColor": "rgba(255, 255, 255, 0.027)"
+          },
+          {
+            "tag": "a",
+            "text": "DESK",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 107, 107)",
+            "boxShadow": "none",
+            "borderColor": "rgba(143, 163, 181, 0.114)",
+            "backgroundColor": "rgba(255, 255, 255, 0.03)"
+          },
+          {
+            "tag": "a",
+            "text": "Oddix home",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 107, 107)",
+            "boxShadow": "none",
+            "borderColor": "rgb(244, 247, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "input",
+            "text": "Search lines",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(244, 247, 250)",
+            "boxShadow": "none",
+            "borderColor": "rgb(244, 247, 250)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "a",
-            "text": "Feed",
+            "text": "OPEN THE FEED",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
+            "outlineColor": "rgb(255, 107, 107)",
             "boxShadow": "none",
-            "borderColor": "rgb(10, 11, 13)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Rules",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
-            "boxShadow": "none",
-            "borderColor": "rgb(10, 11, 13)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Desk",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
-            "boxShadow": "none",
-            "borderColor": "rgb(10, 11, 13)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "div",
-            "text": "LN-01 BTC closes the month above $100k 68% +8.2 LN-02 The ne",
-            "outlineStyle": "auto",
-            "outlineWidth": "1px",
-            "outlineColor": "rgb(16, 16, 16)",
-            "boxShadow": "none",
-            "borderColor": "rgb(10, 11, 13)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Open the feed",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
-            "boxShadow": "none",
-            "borderColor": "rgb(0, 0, 255)",
-            "backgroundColor": "rgb(0, 0, 255)"
+            "borderColor": "rgb(255, 0, 0)",
+            "backgroundColor": "rgb(255, 0, 0)"
           },
           {
             "tag": "button",
-            "text": "Attach a wallet",
+            "text": "ATTACH A WALLET",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
+            "outlineColor": "rgb(255, 107, 107)",
             "boxShadow": "none",
-            "borderColor": "rgb(182, 192, 203)",
-            "backgroundColor": "rgb(255, 255, 255)"
+            "borderColor": "rgba(143, 163, 181, 0.16)",
+            "backgroundColor": "rgba(255, 255, 255, 0.04)"
           },
           {
             "tag": "button",
-            "text": "Attach wallet",
+            "text": "ALL LANES 8",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(0, 0, 255)",
+            "outlineColor": "rgb(255, 107, 107)",
             "boxShadow": "none",
-            "borderColor": "rgba(255, 255, 255, 0.22)",
-            "backgroundColor": "rgba(255, 255, 255, 0.05)"
+            "borderColor": "rgb(255, 0, 0)",
+            "backgroundColor": "rgb(255, 0, 0)"
           }
         ],
-        "visibleCount": 8,
+        "visibleCount": 7,
         "passed": true
       }
     }

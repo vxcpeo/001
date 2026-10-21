@@ -1,6 +1,6 @@
-# Reskin inventory — prismel
+# Reskin inventory — oddix
 
-Generated: 2026-10-21T13:07:17.727Z
+Generated: 2026-10-21T14:22:53.225Z
 
 ## Project
 
@@ -15,12 +15,12 @@ Generated: 2026-10-21T13:07:17.727Z
 
 ## Original skeleton
 
-- Archetype: **marketing-stack** (editorial)
-- Traits: cards, hero, grid, tabs, modal, charts, sticky
-- Max template depth: 11
+- Archetype: **dashboard-shell** (shell)
+- Traits: sidebar, topbar, cards, hero, grid, tabs, modal, sticky, bento
+- Max template depth: 9
 - Top-level tags: div
 
-The replacement skeleton must not be `marketing-stack` and must not be in the same family (`editorial`).
+The replacement skeleton must not be `dashboard-shell` and must not be in the same family (`shell`).
 
 ## Routes
 
@@ -28,14 +28,14 @@ The replacement skeleton must not be `marketing-stack` and must not be in the sa
 
 ## Palette (most used first)
 
-`#1b1b1b` (3) · `#ede9df` (2) · `#083a58` (1) · `#0c5681` (1) · `#2f6b4f` (1) · `#3a3733` (1) · `#6b675f` (1) · `#8a5a00` (1) · `#8b9dff` (1) · `#a83a2a` (1)
+`#ffffff` (9) · `#0a0b0d` (4) · `#9aa3b1` (3) · `#dde3e9` (3) · `#0000ff` (2) · `#006c48` (2) · `#b3310a` (2) · `#0000d6` (1) · `#1a1d23` (1) · `#333a44` (1)
 
 ## Content lock
 
 - Static visible text tokens: **103**
 - Binding expressions: **85**
 - Event handlers: **20**
-- Contract hash: `73b5e20bf78b27c263d33928c71fa07b05861c1d16639feefde97b032f1962fc`
+- Contract hash: `8f04bb8dd0587d2d28600ef045ba1223069fca28ee8a17962316aad4ccfac67f`
 
 Everything in `.reskin/content-contract.json` is immutable: visible copy, placeholders, labels, routes, link targets, asset sources, bindings, handlers, API endpoints and i18n values. A reskin may move these tokens to new markup but may not rewrite, remove or hide them.
 

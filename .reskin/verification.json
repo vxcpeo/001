@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T13:40:08.724Z",
+  "generatedAt": "2026-10-21T14:48:13.043Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "prismel",
+    "name": "oddix",
     "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "73b5e20bf78b27c263d33928c71fa07b05861c1d16639feefde97b032f1962fc"
+      "hash": "8f04bb8dd0587d2d28600ef045ba1223069fca28ee8a17962316aad4ccfac67f"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "marketing-stack",
-        "family": "editorial",
-        "traits": {
-          "sidebar": false,
-          "topbar": false,
-          "cards": true,
-          "hero": true,
-          "table": false,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": true,
-          "sticky": true,
-          "orbital": false,
-          "terminal": false,
-          "bento": false,
-          "ticker": false,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "dashboard-shell",
         "family": "shell",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": false
         }
       },
+      "current": {
+        "id": "document-flow",
+        "family": "editorial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": false,
+          "gallery": false
+        }
+      },
       "accent": {
-        "original": "#0c5681",
-        "current": "#0000ff",
-        "deltaE": 114.22,
+        "original": "#0000ff",
+        "current": "#ff0000",
+        "deltaE": 176.33,
         "min": 30
       }
     },
@@ -79,11 +79,9 @@
         "passed": true,
         "skipped": false,
         "failures": [],
-        "warnings": [
-          "aria attribute added: aria-label=Network"
-        ],
+        "warnings": [],
         "structure": {
-          "fingerprintSimilarity": 0.299,
+          "fingerprintSimilarity": 0.16,
           "landmarkSimilarity": 0.5,
           "classOverlap": 0
         },
@@ -118,11 +116,9 @@
     ]
   },
   "failures": [],
-  "warnings": [
-    "/: aria attribute added: aria-label=Network"
-  ],
+  "warnings": [],
   "baseline": {
-    "generatedAt": "2026-10-21T13:08:32.884Z",
+    "generatedAt": "2026-10-21T14:23:57.538Z",
     "routes": [
       "/"
     ]

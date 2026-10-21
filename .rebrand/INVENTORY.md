@@ -1,29 +1,29 @@
 # Brand inventory
 
 - Project: `E:\workspace\chuangye\solana\001\website`
-- Generated: 2026-10-21T21:38:44+08:00
-- Files scanned: 14 (12 text, 2 images)
+- Generated: 2026-10-21T22:43:04+08:00
+- Files scanned: 13 (11 text, 2 images)
 
 ## Detected brand
 
-- Display: **Signaris**
-- Slug: `signaris`
+- Display: **Prismel**
+- Slug: `prismel`
 - Confidence: 1.0
 - Source: brand.json
 
 ### Evidence
 
-- `existing brand.json` weight=100 value=Signaris files=None
+- `existing brand.json` weight=100 value=Prismel files=None
 
 ### Variants to replace
 
-- `Signaris` (display)
-- `signaris` (lower)
-- `SIGNARIS` (upper)
+- `Prismel` (display)
+- `prismel` (lower)
+- `PRISMEL` (upper)
 
 ### Package names
 
-- `prismel`
+- `oddix`
 
 ## Protected / preserved
 
