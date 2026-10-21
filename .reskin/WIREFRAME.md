@@ -1,75 +1,59 @@
-# Wiring plan — Paper Protocol / Documentary Ledger
+# Wireframe — Cobalt Blueprint / Bento Canvas
 
-Selected automatically by `choose-style.mjs` (no user input):
+Committed direction for the Round 6 rebuild. The selected style and skeleton come
+from `.reskin/style.json`; this file records how the existing content was moved
+into that skeleton before the template was written.
 
-- Style DNA: `ethereum-paper` (crypto-editorial), live-sampled from https://ethereum.org
-- Skeleton: `documentary` (editorial family)
-- Original: `orbital` (spatial), dark violet `#670de5`
-- New accent: `#0c5681`, 97.26 ΔE from the original
+## Shell
 
-## New shell
+| Item | Old (Paper Protocol / Documentary Ledger) | New (Cobalt Blueprint / Bento Canvas) |
+|---|---|---|
+| Shell class | `ledger-page` | `bp-page` |
+| Top region | full-width masthead with imprint + index line | slim sticky top index: brand lockup, mono imprint, pill navigation |
+| Data band | `ledger-wire` section under the masthead | `bp-wire` **aside** (full-bleed ticker, horizontal scroll) |
+| Body | one main column + a narrow marginal rail inside it | 12-column bento canvas of white tiles on a graph-paper ground |
+| Main composition | opening claim, ledger rows, essay, register | anchor hero tile + ink readout tile; brief tile + desk tile; full-bleed feed band; rules row |
+| Footer | editorial colophon | thin footer: brand / tagline / network nav + live strip |
+| Dialogs | full-screen veil + centred plate | same semantics, `bp-veil` + `bp-sheet`, restyled only |
 
-`ledger-page` — a single editorial sheet, not an app frame:
+## Route-to-layout mapping
 
-1. `header.ledger-masthead` with the wordmark (`SIGN`/`ARIS`), the
-   "Prediction arena · Solana" imprint, and `nav.ledger-index` (Feed / Rules /
-   Desk). Old top ticker + centered orbit + floating station nav are gone.
-2. `section.ledger-wire` — the same market data as a horizontal type-set wire
-   band under the masthead, rendered as a ruled stock table, not a ticker bar.
-3. `main.ledger-main`
-   - `section.ledger-opening`: the claim as an oversized serif headline with the
-     two existing calls to action as underlined/filled editorial buttons.
-   - `div.ledger-columns`: a 7/3 grid.
-     - `.ledger-column-main`: drop-cap lede, `#feed` ledger, `#rules` numbered
-       essay, `#desk` wallet register.
-     - `section.ledger-margin` (role complementary): arena readout box, pulse
-       rule, stats, wallet chip, and the three network facts as footnotes.
-4. `footer.ledger-colophon`: brand/date, tagline, network/explorer, live strip.
-5. Two `.ledger-plate` sheets for trade and wallet, plus the toast.
+Only one static route exists (`/`).
 
-## Route mapping
+| Region | Tile span | Existing content it carries |
+|---|---|---|
+| `header.bp-topbar` | full width | brand `PRIS`/`MEL`, `Prediction arena · Solana`, nav `Feed` / `Rules` / `Desk` |
+| `aside.bp-wire` | full width | `wireItems` ticker: code, question, yes %, move |
+| `section.bp-hero` | 8 cols (anchor) | `h1` claim, `Open the feed`, `{{ connected ? 'Your desk' : 'Attach a wallet' }}` |
+| `aside.bp-readout` | 4 cols, ink | `arena readout`, `streaming`, four `arenaStats`, pulse bars, `PRISMEL-01`, wallet chip, wallet state, three facts |
+| `section.bp-brief` | 4 cols | the lede paragraph |
+| `section#desk.bp-desk` | 8 cols | `your desk`, wallet-state `h2`, `Address` / `Balance on …` / `Signed positions`, four actions, receipt slips |
+| `section#feed.bp-feed` | 12 cols, band | feed head, tally, lanes tablist, sorts, search input, 8 market rows (code, lane, clock, question, spark, split, delta, volume, heat, quote, YES/NO buttons, receipt line), empty state |
+| `section#rules` | 12 cols | `three moves`, `HOW A POSITION GETS MADE`, three numbered move tiles, program note |
+| `footer.bp-footer` | full width | brand / `2026`, tagline, network + `explorer` (`nav[aria-label=Network]`), `LIVE`, program text, cluster / settlement strip |
+| `bp-veil` sheets | overlay | trade sheet and wallet sheet, all branches preserved |
+| `transition name="pop"` | overlay | toast |
 
-The app has one route (`/`). Everything is composed in the new shell; no route
-keeps the old layout.
+## Components
 
-| Region | Content moved there |
-|---|---|
-| Masthead | `SIGNARIS` wordmark, `Prediction arena · Solana`, Feed / Rules / Desk |
-| Wire band | all 8 market codes, questions, YES percentages and moves (duplicated like the old tape) |
-| Opening | `PRICE THE FUTURE. SIGN THE CALL.`, `Open the feed`, `Attach a wallet` |
-| Lede | the long "Every question here runs as a live line…" paragraph with a drop cap |
-| Ledger | `OPEN LINES`, tally, lane tabs, Heat/Odds/Closing, search, all 8 markets |
-| Rules | `HOW A POSITION GETS MADE`, steps 01–03, the settlement footnote |
-| Desk | `your desk`, `WALLET DETACHED`, Address / Balance / Signed positions, actions, receipts |
-| Margin | `arena readout`, streaming, 4 stats, `SIGNARIS-01`, wallet chip, Network / Latest blockhash / Wallet |
-| Colophon | brand `/ 2026`, tagline, `Solana … · explorer`, `LIVE`, cluster/settlement |
-| Plates | every existing trade/wallet string, field, binding and handler |
+- **Deleted from the render path:** the whole `ledger-*` template, `paper.css`,
+  `paper-ledger.css` (archived to `output/reskin-round6-old/`), the old serif /
+  Courier type stacks and every `--pp-*` token.
+- **Kept as content only:** the wallet catalogue, market data, dialog branches,
+  receipt list, empty state, toast; the `<script setup>` block is unchanged
+  except one presentation comment.
+- **New:** `bp-` shell + tiles + sheet primitives, inline prism mark in the header
+  and desk glyph, ink instrument panel, blueprint hairline ground, cobalt
+  focus ring.
 
-## Deleted vs kept
+## Tokens and breakpoints
 
-- Deleted from the render path: `.orbital-shell`, `.orb-sky`, `.orb-masthead`,
-  the radical `.orb-ring`/`.orb-halos` hero, `.orb-stations`, `.orb-aperture`,
-  `.orb-metrics` aside, `.orb-rays` card rows, `.orb-veil`/`.orb-sheet` overlays,
-  and both global stylesheets (`meridian.css`, `meridian-orbit.css`).
-- Kept as content-only children: the market loop, lane/sort/search controls,
-  trade form, wallet catalogue, receipt list and toast — same expressions,
-  handlers, fields and copy, new wrappers only.
-
-## New presentation layer
-
-- `src/styles/paper.css` — tokens (`--pp-*`), reset, base serif/mono type, focus,
-  selection, reduced-motion guard.
-- `src/styles/paper-ledger.css` — masthead/index/wire/opening/columns/ledger/
-  rules/desk/margin/colophon/plates and breakpoints.
-- `src/main.js` imports only those two files.
-- Breakpoints: 1180px (single column, margin below), 980px (entry re-flow),
-  760px (masthead/opening stack, single-column desk), 480px (entry single column,
-  stacked plates), plus `prefers-reduced-motion` (wire becomes a scroll rail).
-
-## Design rules enforced
-
-- One `h1` (the claim); `h2` per section; `h3` per market and step.
-- `header` / `nav` / `main` / complementary region / `footer` landmarks.
-- Visible focus ring on every control; Escape closes both plates.
-- 4.5:1 body contrast, 3:1 large text; all measurements pass the verifier.
-- No new visible copy: the only text is the existing content contract.
+- `src/styles/blueprint.css` — tokens, reset, typographic base, focus, motion,
+  `.bp-kicker` / `.bp-h2` / status colours.
+- `src/styles/blueprint-bento.css` — shell, 12-column canvas, tiles, feed bands,
+  sheets, footer, responsive rules.
+- Breakpoints: `1100px` (hero/readout/brief/desk become full width), `860px`
+  (moves stack, desk nodes stack, feed rows become `id | quote`, `main`,
+  `sides` grid areas), `620px` (index wraps under the brand, claim shrinks,
+  tools go full width).
+- Mobile keeps every string visible; nothing is hidden to avoid layout work.

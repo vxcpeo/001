@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T23:58:56+08:00",
+  "generatedAt": "2026-10-21T21:39:50+08:00",
   "ok": false,
   "gates": {
     "old_brand_source": {
@@ -22,10 +22,10 @@
         "package": true,
         "readme": false,
         "newValues": [
-          "Signaris",
-          "signaris",
-          "signaris.xyz",
-          "signaris"
+          "Prismel",
+          "prismel",
+          "prismel.xyz",
+          "prismel"
         ]
       },
       "count": 3
@@ -43,7 +43,7 @@
             "path": "E:\\workspace\\chuangye\\solana\\001\\website\\public\\favicon.svg",
             "ok": true,
             "format": "svg",
-            "bytes": 526
+            "bytes": 502
           }
         },
         {
@@ -81,7 +81,7 @@
           "code": 0,
           "timedOut": false,
           "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-          "stdout": "\n> signaris@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.67 kB\ndist/assets/index-DUBR7xme.css   25.33 kB │ gzip:  5.11 kB\ndist/assets/index-CUr6uoy3.js   100.19 kB │ gzip: 37.77 kB\n\n✓ built in 486ms\n",
+          "stdout": "\n> prismel@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.68 kB\ndist/assets/index-DAOWlI4C.css   22.85 kB │ gzip:  5.20 kB\ndist/assets/index-CKF3tU_o.js   100.13 kB │ gzip: 37.77 kB\n\n✓ built in 371ms\n",
           "stderr": ""
         },
         "test": {
@@ -91,131 +91,58 @@
           "note": "script not defined"
         }
       },
-      "baseline": {
-        "createdAt": "2026-10-20T23:13:26+08:00",
-        "project": "E:\\workspace\\chuangye\\solana\\001\\website",
-        "build": {
-          "script": "build",
-          "skipped": false,
-          "ok": true,
-          "code": 0,
-          "timedOut": false,
-          "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-          "stdout": "\n> probenox@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.68 kB\ndist/assets/index-D5mo5sv8.css   36.96 kB │ gzip:  7.51 kB\ndist/assets/index-DBeuNk5J.js   100.52 kB │ gzip: 37.96 kB\n\n✓ built in 325ms\n",
-          "stderr": ""
-        },
-        "test": {
-          "script": "test",
-          "skipped": true,
-          "ok": true,
-          "note": "script not defined"
-        },
-        "browser": {
-          "ok": true,
-          "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:51463 --routes /",
-          "code": 0,
-          "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:51463\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
-          "stderr": "",
-          "browser": {
-            "schemaVersion": 1,
-            "checkedAt": "2026-10-20T15:13:26.144Z",
-            "browser": {
-              "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-              "version": "Chrome/155.0.8059.80",
-              "headless": true,
-              "proxy": null,
-              "method": "chrome-cdp"
-            },
-            "baseUrl": "http://127.0.0.1:51463",
-            "routes": [
-              "/"
-            ],
-            "results": [
-              {
-                "route": "/",
-                "device": "desktop",
-                "url": "http://127.0.0.1:51463/",
-                "finalUrl": "http://127.0.0.1:51463/",
-                "httpStatus": 200,
-                "title": "Probenox // Live prediction lines on Solana",
-                "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
-                "oldBrand": {
-                  "textHits": [],
-                  "attributeHits": []
-                },
-                "newBrandPresent": [],
-                "consoleErrors": [],
-                "pageErrors": [],
-                "failedRequests": []
-              },
-              {
-                "route": "/",
-                "device": "mobile",
-                "url": "http://127.0.0.1:51463/",
-                "finalUrl": "http://127.0.0.1:51463/",
-                "httpStatus": 200,
-                "title": "Probenox // Live prediction lines on Solana",
-                "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
-                "oldBrand": {
-                  "textHits": [],
-                  "attributeHits": []
-                },
-                "newBrandPresent": [],
-                "consoleErrors": [],
-                "pageErrors": [],
-                "failedRequests": []
-              }
-            ]
-          }
-        },
-        "web": true
-      }
+      "baseline": null
     },
     "availability": {
       "ok": true,
       "selected": {
-        "name": "signaris",
-        "slug": "signaris"
+        "name": "prismel",
+        "slug": "prismel"
       },
       "method": "chrome-cdp",
       "mock": false,
       "evidence": {
         "domain": {
-          "host": "signaris.xyz",
+          "host": "prismel.xyz",
           "status": "available",
-          "confidence": "high",
-          "signal": "rdap-unregistered+registrar-standard-price",
+          "confidence": "medium",
+          "signal": "rdap-unregistered",
           "rdap": {
-            "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+            "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
             "status": 404,
             "mimeType": "application/rdap+json",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+            "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
           },
-          "registrar": {
-            "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-            "status": "available",
-            "signal": "standard-price",
-            "price": "$2.04 first year, renews at $14.21",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
-          },
-          "evidence": [
+          "registrar": null,
+          "evidence": [],
+          "checkedAt": "2026-10-21T12:53:20.108Z",
+          "registrarErrors": [
             {
-              "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-              "state": "available",
-              "signal": "standard-price",
-              "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+              "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
+              "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+            },
+            {
+              "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
+              "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+            },
+            {
+              "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
+              "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
             }
-          ],
-          "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+          ]
         },
         "x": {
-          "handle": "signaris",
+          "handle": "prismel",
           "status": "available",
           "signal": "not-found-text",
-          "url": "https://x.com/signaris",
-          "finalUrl": "https://x.com/signaris",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
-          "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+          "url": "https://x.com/prismel",
+          "checkedAt": "2026-10-21T12:53:23.869Z",
+          "httpStatus": 404,
+          "finalUrl": "https://x.com/prismel",
+          "title": "User Profile Not Found - X | 404 Error",
+          "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
         }
       }
     },
@@ -225,7 +152,7 @@
         "brand.txt is missing at the project root",
         "brand.txt must contain exactly one current line (found 0)",
         "brand.txt current brand is empty",
-        "brand.txt history does not include the old brand 'Probenox'"
+        "brand.txt history does not include the old brand 'Signaris'"
       ],
       "path": "E:/workspace/chuangye/solana/001/website/brand.txt",
       "history": [],
@@ -247,9 +174,9 @@
       ],
       "run": {
         "ok": true,
-        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:54207 --routes /",
+        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:54200 --routes /",
         "code": 0,
-        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:54207\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:54200\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
         "stderr": ""
       }
     },
@@ -266,7 +193,7 @@
       "code": 0,
       "timedOut": false,
       "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-      "stdout": "\n> signaris@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.67 kB\ndist/assets/index-DUBR7xme.css   25.33 kB │ gzip:  5.11 kB\ndist/assets/index-CUr6uoy3.js   100.19 kB │ gzip: 37.77 kB\n\n✓ built in 486ms\n",
+      "stdout": "\n> prismel@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.68 kB\ndist/assets/index-DAOWlI4C.css   22.85 kB │ gzip:  5.20 kB\ndist/assets/index-CKF3tU_o.js   100.13 kB │ gzip: 37.77 kB\n\n✓ built in 371ms\n",
       "stderr": ""
     },
     "test": {
@@ -278,15 +205,15 @@
   },
   "browser": {
     "schemaVersion": 1,
-    "checkedAt": "2026-10-20T15:58:55.700Z",
+    "checkedAt": "2026-10-21T13:39:49.996Z",
     "browser": {
       "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-      "version": "Chrome/155.0.8059.80",
+      "version": "Chrome/155.0.8059.85",
       "headless": true,
       "proxy": null,
       "method": "chrome-cdp"
     },
-    "baseUrl": "http://127.0.0.1:54207",
+    "baseUrl": "http://127.0.0.1:54200",
     "routes": [
       "/"
     ],
@@ -294,19 +221,19 @@
       {
         "route": "/",
         "device": "desktop",
-        "url": "http://127.0.0.1:54207/",
-        "finalUrl": "http://127.0.0.1:54207/",
+        "url": "http://127.0.0.1:54200/",
+        "finalUrl": "http://127.0.0.1:54200/",
         "httpStatus": 200,
-        "title": "Signaris // Live prediction lines on Solana",
+        "title": "Prismel // Live prediction lines on Solana",
         "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
         "oldBrand": {
           "textHits": [],
           "attributeHits": []
         },
         "newBrandPresent": [
-          "Signaris",
-          "signaris",
-          "signaris"
+          "Prismel",
+          "prismel",
+          "prismel"
         ],
         "consoleErrors": [],
         "pageErrors": [],
@@ -315,19 +242,19 @@
       {
         "route": "/",
         "device": "mobile",
-        "url": "http://127.0.0.1:54207/",
-        "finalUrl": "http://127.0.0.1:54207/",
+        "url": "http://127.0.0.1:54200/",
+        "finalUrl": "http://127.0.0.1:54200/",
         "httpStatus": 200,
-        "title": "Signaris // Live prediction lines on Solana",
+        "title": "Prismel // Live prediction lines on Solana",
         "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
         "oldBrand": {
           "textHits": [],
           "attributeHits": []
         },
         "newBrandPresent": [
-          "Signaris",
-          "signaris",
-          "signaris"
+          "Prismel",
+          "prismel",
+          "prismel"
         ],
         "consoleErrors": [],
         "pageErrors": [],
@@ -337,48 +264,53 @@
   },
   "availability": {
     "selected": {
-      "name": "signaris",
-      "slug": "signaris",
-      "score": 79.0,
+      "name": "prismel",
+      "slug": "prismel",
+      "score": 83,
       "domain": {
-        "host": "signaris.xyz",
+        "host": "prismel.xyz",
         "status": "available",
-        "confidence": "high",
-        "signal": "rdap-unregistered+registrar-standard-price",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
         "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+          "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
           "status": 404,
           "mimeType": "application/rdap+json",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
         },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-          "status": "available",
-          "signal": "standard-price",
-          "price": "$2.04 first year, renews at $14.21",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
-        },
-        "evidence": [
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T12:53:20.108Z",
+        "registrarErrors": [
           {
-            "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-            "state": "available",
-            "signal": "standard-price",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
+            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
           }
-        ],
-        "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+        ]
       },
       "x": {
-        "handle": "signaris",
+        "handle": "prismel",
         "status": "available",
         "signal": "not-found-text",
-        "url": "https://x.com/signaris",
-        "finalUrl": "https://x.com/signaris",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
-        "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+        "url": "https://x.com/prismel",
+        "checkedAt": "2026-10-21T12:53:23.869Z",
+        "httpStatus": 404,
+        "finalUrl": "https://x.com/prismel",
+        "title": "User Profile Not Found - X | 404 Error",
+        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
       },
       "verdict": "pass",
-      "checkedAt": "2026-10-20T15:38:46.724133Z"
+      "checkedAt": "2026-10-21T12:53:30.342Z"
     },
     "method": "chrome-cdp"
   }

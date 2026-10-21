@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "E:\\workspace\\chuangye\\solana\\001\\website",
-  "generatedAt": "2026-10-20T23:44:35+08:00",
+  "generatedAt": "2026-10-21T21:38:44+08:00",
   "git": {
     "isGit": false
   },
@@ -18,41 +18,21 @@
     {
       "path": ".env.example",
       "kind": "text",
-      "size": 725,
-      "hash": "7095113e658cb1eeed10fcbc68f370755bc4a9b3b31e8e10a0540d9fb58df4a4",
+      "size": 724,
+      "hash": "b0e3c896d79ddc81af66788d63d21ea98748a9e1b3004be5dee81cefeb4638b2",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
       "path": ".env.local",
       "kind": "text",
-      "size": 262,
-      "hash": "37ebf72c2923519298cbe0038feec2cad265c6c3fc29b146bca15ab985e72f38",
+      "size": 261,
+      "hash": "0382f5bf28e00ca5925ac47506575d70d251e66a3fb8499f225526ac9a65de8d",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
@@ -68,41 +48,21 @@
     {
       "path": "index.html",
       "kind": "text",
-      "size": 1674,
-      "hash": "8327a0e63043f1b485bb8577ef9f00cc51d02ac8ebc683ae0c7334a6a0b7b2e0",
+      "size": 1671,
+      "hash": "c28c08dc4c8923b7d6f4c83a9e41410bddf2ce046ff4c76805c974800af68921",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 4
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 4
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
       "path": "package.json",
       "kind": "text",
-      "size": 285,
-      "hash": "f3cb3f813794cc839204d60cb4153a3792f133982fb8d1a1ccffad2329cb4d89",
+      "size": 284,
+      "hash": "a0074c36ceb0dc2cab4198af7beba611aa3d522b1f2f9de6c7c7f74bcec1897d",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 1
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
@@ -118,48 +78,28 @@
     {
       "path": "public/favicon.svg",
       "kind": "text",
-      "size": 526,
-      "hash": "8543563463129ec7efec98047fe06d8a7a4b41d0d28cfab0edb59028d121bc3d",
+      "size": 502,
+      "hash": "fe7c9c773397aa5e9cd33c235147cda7c5e5cd2053e8a4274d6c94b2919dcad1",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 2
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 2
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
       "path": "src/App.vue",
       "kind": "text",
-      "size": 32625,
-      "hash": "6bc0f9ba7da3abbd2b201869034c73b3b8322638acfabf7cac590edeab656968",
+      "size": 31096,
+      "hash": "03da6bd88e91d04093b1d711bf354591e6bec3dc679963a5e3b3ce7aef0e91f9",
       "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 10
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 10
-        }
-      ],
+      "hits": [],
+      "brandHits": [],
       "protectedHits": []
     },
     {
       "path": "src/main.js",
       "kind": "text",
-      "size": 158,
-      "hash": "b3beccc2fc149ca7c3530b591ec59922b954d71f19b6e3b4de773ebef2bc7963",
+      "size": 166,
+      "hash": "453d98c3cb79d50b23ea26f3440f59a7df6ad999d0a804ea583896e35d914331",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -168,38 +108,28 @@
     {
       "path": "src/solana.js",
       "kind": "text",
-      "size": 14548,
-      "hash": "f6638ddd89c0ef2a5c996b202d324ec5bbf4d1674519afaa4c58aa9b33d92bed",
-      "encoding": "utf-8",
-      "hits": [
-        {
-          "value": "Signaris",
-          "count": 2
-        }
-      ],
-      "brandHits": [
-        {
-          "value": "Signaris",
-          "count": 2
-        }
-      ],
-      "protectedHits": []
-    },
-    {
-      "path": "src/styles/meridian-orbit.css",
-      "kind": "text",
-      "size": 41454,
-      "hash": "3afa9eade196aa26efc4b9f2a81e148906c12368c830d4df1ae42e39d9fae249",
+      "size": 14546,
+      "hash": "c66f9333c5fb6ffb32481b9990329117f12066b236b55e0181b86a0e7a1f67ae",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
       "protectedHits": []
     },
     {
-      "path": "src/styles/meridian.css",
+      "path": "src/styles/blueprint-bento.css",
       "kind": "text",
-      "size": 6529,
-      "hash": "1c373b9a2dc97e440d2dd13579034e876bcf0654f3a298e4f87fa25497e33295",
+      "size": 26370,
+      "hash": "f9fe0ad95f1d392d792b19b7f2cc19660400eb61f2f98ccb51006d1eb2110d59",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/blueprint.css",
+      "kind": "text",
+      "size": 3941,
+      "hash": "5b5e9dc00ee31b56549620716290f3dfba58d4de0a889de78d3edd70856c1b3d",
       "encoding": "utf-8",
       "hits": [],
       "brandHits": [],
@@ -208,15 +138,15 @@
     {
       "path": "public/favicon.svg",
       "kind": "image",
-      "size": 526,
-      "hash": "8543563463129ec7efec98047fe06d8a7a4b41d0d28cfab0edb59028d121bc3d",
+      "size": 502,
+      "hash": "fe7c9c773397aa5e9cd33c235147cda7c5e5cd2053e8a4274d6c94b2919dcad1",
       "brandHits": []
     },
     {
       "path": "public/og.png",
       "kind": "image",
-      "size": 162951,
-      "hash": "fea9562d56f89473dfa131b783443de60da0c8d0c1eadbe126fbd96842570ed0",
+      "size": 128879,
+      "hash": "50b58011f08c60c31a901377b4b10409983ba7b12ad56c4ac577769a2cca5088",
       "brandHits": []
     }
   ],
@@ -225,45 +155,44 @@
       "path": "public/favicon.svg",
       "format": "svg",
       "kind": "favicon",
-      "bytes": 526,
+      "bytes": 502,
       "width": 64.0,
       "height": 64.0,
       "aspect": 1.0,
       "hasAlpha": false,
       "colors": [
-        "#050508",
-        "#00F0C8",
-        "#FF2D9B",
-        "#FF2D9B",
-        "#FF2D9B"
+        "#0000ff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff"
       ],
       "text": [],
-      "containsBrand": true,
+      "containsBrand": false,
       "usedBy": [
         "index.html"
       ],
       "needsVisualReview": true,
-      "title": "Signaris",
+      "title": "Prismel",
       "viewBox": "0 0 64 64"
     },
     {
       "path": "public/og.png",
       "format": "png",
       "kind": "og",
-      "bytes": 162951,
+      "bytes": 128879,
       "width": 1200,
       "height": 630,
       "aspect": 1.905,
       "hasAlpha": true,
       "colors": [
-        "#05050a",
-        "#05050b",
-        "#030308",
-        "#040409",
-        "#05060b",
-        "#04040a",
-        "#07080a",
-        "#050409"
+        "#ffffff",
+        "#0a0b0d",
+        "#dde3e9",
+        "#08090b",
+        "#b6bbc1",
+        "#17181b",
+        "#292b2e",
+        "#e3e5e6"
       ],
       "text": [],
       "containsBrand": false,
@@ -276,16 +205,14 @@
   "brand": {
     "display": "Signaris",
     "slug": "signaris",
-    "confidence": 0.875,
-    "source": "scan",
+    "confidence": 1.0,
+    "source": "brand.json",
     "evidence": [
       {
         "value": "Signaris",
-        "source": "package:name",
-        "weight": 2,
-        "files": [
-          "package.json"
-        ]
+        "source": "existing brand.json",
+        "weight": 100,
+        "file": ".rebrand/brand.json"
       }
     ],
     "alternatives": [],
@@ -322,7 +249,7 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "signaris"
+      "prismel"
     ],
     "initials": "",
     "usedBrands": [
@@ -354,6 +281,10 @@
       "Latchera",
       "Pretiola",
       "Clepsyra",
+      "Trovane",
+      "Librova",
+      "Ledgiva",
+      "Actoria",
       "Signaris"
     ]
   },
@@ -432,29 +363,30 @@
     ]
   },
   "palette": {
-    "primary": "#670de5",
-    "accent": "#670de5",
-    "background": "#141415",
+    "primary": "#0000ff",
+    "accent": "#0000ff",
+    "background": "#ffffff",
     "foreground": "#111827",
     "colors": [
-      "#000000",
-      "#121116",
       "#ffffff",
-      "#100f14",
-      "#ff2d9b",
       "#ffeeee",
-      "#050508",
-      "#bc97ff",
+      "#9aa3b1",
+      "#dde3e9",
+      "#0000ff",
       "#221155",
-      "#0a0910",
-      "#2b2930",
-      "#7a2bf0"
+      "#1a1d23",
+      "#f4f6f8",
+      "#b9c0cc",
+      "#37d67a",
+      "#e6eaf0",
+      "#eef1f4"
     ],
     "cssVars": {
-      "surface": "#141415",
-      "surface-alt": "#1f1e20",
-      "accent": "#670de5",
-      "accent-safe": "#bc97ff"
+      "surface": "#ffffff",
+      "surface-alt": "#eef1f4",
+      "accent": "#0000ff",
+      "accent-deep": "#0000d6",
+      "accent-2": "#7575ff"
     }
   },
   "routes": [

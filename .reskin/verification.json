@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T15:58:27.512Z",
+  "generatedAt": "2026-10-21T13:40:08.724Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "signaris",
+    "name": "prismel",
     "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "6979f1b59b59959d557d1f9781b30cffb8190062c1ff82701a0a90441297b497"
+      "hash": "73b5e20bf78b27c263d33928c71fa07b05861c1d16639feefde97b032f1962fc"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "orbital",
-        "family": "spatial",
-        "traits": {
-          "sidebar": true,
-          "topbar": false,
-          "cards": true,
-          "hero": false,
-          "table": false,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": false,
-          "sticky": true,
-          "orbital": true,
-          "terminal": false,
-          "bento": false,
-          "ticker": false,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "marketing-stack",
         "family": "editorial",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": false
         }
       },
+      "current": {
+        "id": "dashboard-shell",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": true,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": true,
+          "ticker": false,
+          "gallery": false
+        }
+      },
       "accent": {
-        "original": "#670de5",
-        "current": "#0c5681",
-        "deltaE": 97.26,
+        "original": "#0c5681",
+        "current": "#0000ff",
+        "deltaE": 114.22,
         "min": 30
       }
     },
@@ -80,18 +80,11 @@
         "skipped": false,
         "failures": [],
         "warnings": [
-          "aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no",
-          "aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no",
-          "aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no",
-          "aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no",
-          "aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no",
-          "aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no",
-          "aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no",
-          "aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no"
+          "aria attribute added: aria-label=Network"
         ],
         "structure": {
-          "fingerprintSimilarity": 0.277,
-          "landmarkSimilarity": 0.4,
+          "fingerprintSimilarity": 0.299,
+          "landmarkSimilarity": 0.5,
           "classOverlap": 0
         },
         "content": {
@@ -126,17 +119,10 @@
   },
   "failures": [],
   "warnings": [
-    "/: aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no",
-    "/: aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no",
-    "/: aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no",
-    "/: aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no",
-    "/: aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no",
-    "/: aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no",
-    "/: aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no",
-    "/: aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no"
+    "/: aria attribute added: aria-label=Network"
   ],
   "baseline": {
-    "generatedAt": "2026-10-20T15:49:28.906Z",
+    "generatedAt": "2026-10-21T13:08:32.884Z",
     "routes": [
       "/"
     ]

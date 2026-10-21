@@ -1,0 +1,200 @@
+/* ==========================================================================
+   Cobalt Blueprint — token, reset and typographic base layer.
+   Presentation only: no product copy lives here.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  --bg: #dde3e9;
+  --surface: #ffffff;
+  --surface-alt: #eef1f4;
+  --ink: #0a0b0d;
+  --ink-soft: #333a44;
+  --muted: #565c66;
+  --accent: #0000ff;
+  --accent-deep: #0000d6;
+  --accent-2: #7575ff;
+  --line: #cdd4dc;
+  --line-strong: #b6c0cb;
+  --success: #006c48;
+  --danger: #b3310a;
+  --warning: #8a5a00;
+
+  --font-display: 'Inter Tight', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'Cascadia Mono', 'SFMono-Regular', Consolas, ui-monospace, monospace;
+  --display-weight: 640;
+  --display-tracking: -0.035em;
+  --label-tracking: 0.08em;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 30px;
+  --shadow: 0 24px 60px rgba(10, 11, 13, 0.08);
+
+  --motion-duration: 170ms;
+  --motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --space-1: clamp(4px, 0.35vw, 6px);
+  --space-2: clamp(8px, 0.7vw, 12px);
+  --space-3: clamp(14px, 1.2vw, 20px);
+  --space-4: clamp(22px, 2vw, 32px);
+  --space-5: clamp(36px, 3.4vw, 56px);
+  --space-6: clamp(56px, 5vw, 88px);
+  --page-pad: clamp(18px, 4vw, 64px);
+  --max-width: 1440px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(1100px 520px at 78% -12%, rgba(0, 0, 255, 0.1), transparent 62%),
+    linear-gradient(rgba(0, 0, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 255, 0.055) 1px, transparent 1px);
+  background-size: auto, 28px 28px, 28px 28px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+::selection {
+  background: rgba(0, 0, 255, 0.18);
+  color: var(--ink);
+}
+
+:where(a, button, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.bp-kicker {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.bp-kicker--invert {
+  color: var(--accent-2);
+}
+
+.bp-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.5vw, 32px);
+  font-weight: var(--display-weight);
+  letter-spacing: var(--display-tracking);
+  line-height: 1.02;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.bp-up {
+  color: var(--success);
+}
+
+.bp-down {
+  color: var(--danger);
+}
+
+.bp-dim {
+  color: var(--muted);
+}
+
+.bp-strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.bp-error {
+  margin: 10px 0;
+  padding: 8px 10px;
+  border: 1px solid rgba(179, 49, 10, 0.35);
+  border-radius: 8px;
+  background: rgba(179, 49, 10, 0.06);
+  color: var(--danger);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.bp-warn {
+  color: var(--danger);
+}
+
+.pop-enter-active,
+.pop-leave-active {
+  transition:
+    opacity var(--motion-duration) var(--motion-ease),
+    transform var(--motion-duration) var(--motion-ease);
+}
+
+.pop-enter-from,
+.pop-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 10px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

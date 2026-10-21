@@ -35,10 +35,12 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "signaris"
+      "prismel"
     ],
     "initials": "",
-    "allowFiles": [],
+    "allowFiles": [
+      "REBRAND.md"
+    ],
     "allowStrings": []
   },
   "usedBrands": [
@@ -70,6 +72,10 @@
     "Latchera",
     "Pretiola",
     "Clepsyra",
+    "Trovane",
+    "Librova",
+    "Ledgiva",
+    "Actoria",
     "Signaris"
   ],
   "notes": ""

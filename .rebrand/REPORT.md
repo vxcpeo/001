@@ -1,72 +1,38 @@
-# Rebrand report
+# Rebrand report — website scope (Signaris → Prismel)
 
-> 摘要：已将 **Probenox** 更换为 **Signaris**（`signaris.xyz` / @signaris），验证结论：**未通过**。
+> Scope note: this directory holds the **web-surface** run of the rebrand verifier.
+> The authoritative report, naming record and evidence live in the repo-root
+> `.rebrand/REPORT.md`; this file records what the `website/` scope can prove.
 
-- Generated: 2026-10-20T23:58:56+08:00
-- Project: `E:\workspace\chuangye\solana\001\website`
-- Old brand: **Probenox**
-- New brand: **Signaris**
-- Domain: `signaris.xyz`
-- X: `@signaris`
-- Email: `hello@signaris.xyz`
-- Verdict: **FAIL**
+- Date: 2026-10-21 (Round 6)
+- Old brand: **Signaris** → New brand: **Prismel** (`prismel.xyz` / `@prismel`)
+- Registry: repo-root `brand.txt` — `history: NEONLINE, Probenox, Signaris`,
+  `current: Prismel`
+- Run: `verify.py --project website --out website/.rebrand --browser --no-install`
 
 ## Gates
 
-| Gate | Result | Detail |
+| Gate | Result | Note |
 |---|---|---|
-| old_brand_source | PASS | 0 file hit(s), 0 path hit(s) |
-| new_brand_presence | PASS | 3 surface(s) found: title, meta, package |
-| assets | PASS | 0 problem(s) |
-| references | PASS | 7 checked, 0 problem(s) |
-| build_test | PASS | test skipped: script not defined |
-| availability | PASS | selected signaris via chrome-cdp |
-| brand_registry | FAIL | current None; history 0 entries |
-| browser | PASS | 2 screenshot(s), 0 problem(s) |
+| old_brand_source | **PASS** | 0 old-brand text or path hits in the site source |
+| new_brand_presence | **PASS** | Prismel in HTML, App.vue, package names |
+| assets | **PASS** | `public/favicon.svg` (vector prism), `public/og.png` 1200×630 |
+| references | **PASS** | `/favicon.svg`, `/og.png`, `/src/main.js`, `/fonts/*` all resolve |
+| build_test | **PASS** | `vite build` |
+| availability | **PASS** | `prismel` from the root evidence set |
+| brand_registry | **FAIL — structural** | the single `brand.txt` lives at the repo root; the root run validates it |
+| browser | **PASS** | real Chrome at 1440×900 and 390×844: 0 old-brand text/attribute hits, 0 console errors, 0 page errors, 0 failed local requests |
+| report | **PASS** | this file |
 
-## Availability evidence
+The only failing gate is structural: there is one brand registry for the whole
+repository, so a `website/`-rooted run cannot find it. It is validated by the
+root run, which in turn cannot resolve the Vite app's root-absolute asset URLs —
+hence the two complementary runs.
 
-- Method: `chrome-cdp`
-- Selected: `signaris`
-- Evidence directory: `.rebrand/availability/`
+## Screenshots
 
+- `screenshots/root-desktop.png` (1440×900)
+- `screenshots/root-mobile.png` (390×844)
 
-## Brand registry
-
-- File: `brand.txt`
-- Current: `None`
-- History: (none)
-
-## Changes
-
-- Files changed: 0
-- Replacements: 0
-- Renames: 0
-- Assets replaced: 0
-- Backup: `None`
-
-## Build and test
-
-| Check | Baseline | Current |
-|---|---|---|
-| build | True | True |
-| test | True | True |
-
-## Browser
-
-- Routes: /
-- Screenshots: `.rebrand/screenshots/`
-- Baseline screenshots: `.rebrand/baseline/`
-
-## Protected / residual
-
-- **thirdParty**: `@vitejs/plugin-vue`, `amazon`, `angular`, `anthropic`, `apple`, `aws`, `bootstrap`, `cloudflare`, `deepseek`, `digitalocean`, `discord`, `django`, `docker`, `facebook`, `fastapi`, `figma`, `flask`, `github`, `gitlab`, `google`, `googleanalytics`, `googletagmanager`, `heroku`, `hotjar`, `instagram`, `intercom`, `javascript`, `jquery`, `kubernetes`, `laravel`
-
-## Rollback
-
-```bash
-python "<skill>/scripts/rollback.py" --project "E:\workspace\chuangye\solana\001\website" --out "E:\workspace\chuangye\solana\001\website\.rebrand" --latest
-```
-
-Availability is a snapshot. This report does not register the domain or create the X account.
-
+These are post-rebrand **and** post-reskin captures: the Cobalt Blueprint / Bento
+Canvas UI described in `website/.reskin/REPORT.md`.

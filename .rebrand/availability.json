@@ -1,752 +1,113 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-20T15:34:52.758Z",
-  "finishedAt": "2026-10-20T15:37:00.175Z",
+  "checkedAt": "2026-10-21T12:53:18.887Z",
+  "finishedAt": "2026-10-21T12:53:30.805Z",
   "browser": {
     "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-    "version": "Chrome/155.0.8059.80",
+    "version": "Chrome/155.0.8059.85",
     "headless": true,
     "proxy": null,
     "method": "chrome-cdp",
-    "checkedAt": "2026-10-20T15:37:00.175Z"
+    "checkedAt": "2026-10-21T12:53:30.805Z"
   },
   "candidates": [
     {
-      "name": "signaris",
-      "slug": "signaris",
-      "score": 79.0,
+      "name": "prismel",
+      "slug": "prismel",
+      "score": 83,
       "domain": {
-        "host": "signaris.xyz",
+        "host": "prismel.xyz",
         "status": "available",
-        "confidence": "high",
-        "signal": "rdap-unregistered+registrar-standard-price",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
         "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+          "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
           "status": 404,
           "mimeType": "application/rdap+json",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
         },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-          "status": "available",
-          "signal": "standard-price",
-          "price": "$2.04 first year, renews at $14.21",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
-        },
-        "evidence": [
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T12:53:20.108Z",
+        "registrarErrors": [
           {
-            "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-            "state": "available",
-            "signal": "standard-price",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
+            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
           }
-        ],
-        "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+        ]
       },
       "x": {
-        "handle": "signaris",
+        "handle": "prismel",
         "status": "available",
         "signal": "not-found-text",
-        "url": "https://x.com/signaris",
-        "finalUrl": "https://x.com/signaris",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
-        "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+        "url": "https://x.com/prismel",
+        "checkedAt": "2026-10-21T12:53:23.869Z",
+        "httpStatus": 404,
+        "finalUrl": "https://x.com/prismel",
+        "title": "User Profile Not Found - X | 404 Error",
+        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
       },
       "verdict": "pass",
-      "checkedAt": "2026-10-20T15:38:46.724133Z"
-    },
-    {
-      "name": "sortelix",
-      "slug": "sortelix",
-      "score": 83.3,
-      "domain": {
-        "host": "sortelix.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/sortelix.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/sortelix.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"va",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortelix-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=sortelix.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortelix.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortelix.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.aaf7d517.1792510503.5dd80233 https://errors.edgesuite.net/18.aaf7d517.1792510503.5dd80233",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortelix-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortelix.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=sortelix.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "www.namecheap.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a4d9171dfb9c7e95 Performance and Security by Cloudflare Privacy",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortelix-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=sortelix.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=sortelix.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortelix-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:34:54.374Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortelix.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortelix.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:35:17.050Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:35:17.050Z"
-    },
-    {
-      "name": "siglora",
-      "slug": "siglora",
-      "score": 83,
-      "domain": {
-        "host": "siglora.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/siglora.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/siglora.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\siglora-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=siglora.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=siglora.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=siglora.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.6cf7d517.1792510521.b384a989 https://errors.edgesuite.net/18.6cf7d517.1792510521.b384a989",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\siglora-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=siglora.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=siglora.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\siglora-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=siglora.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=siglora.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\siglora-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:35:17.242Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=siglora.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=siglora.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:35:30.854Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:35:30.854Z"
-    },
-    {
-      "name": "gridova",
-      "slug": "gridova",
-      "score": 83,
-      "domain": {
-        "host": "gridova.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/gridova.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/gridova.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\gridova-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=gridova.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=gridova.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=gridova.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.aaf7d517.1792510536.5dd95028 https://errors.edgesuite.net/18.aaf7d517.1792510536.5dd95028",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\gridova-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=gridova.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=gridova.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\gridova-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=gridova.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=gridova.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\gridova-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:35:30.993Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=gridova.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=gridova.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:35:46.067Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:35:46.067Z"
-    },
-    {
-      "name": "lensiva",
-      "slug": "lensiva",
-      "score": 83,
-      "domain": {
-        "host": "lensiva.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/lensiva.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/lensiva.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\lensiva-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=lensiva.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=lensiva.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=lensiva.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.aaf7d517.1792510547.5dd955a9 https://errors.edgesuite.net/18.aaf7d517.1792510547.5dd955a9",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\lensiva-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=lensiva.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=lensiva.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\lensiva-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=lensiva.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=lensiva.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\lensiva-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:35:46.283Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=lensiva.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=lensiva.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:35:58.530Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:35:58.530Z"
-    },
-    {
-      "name": "sorvane",
-      "slug": "sorvane",
-      "score": 80.8,
-      "domain": {
-        "host": "sorvane.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/sorvane.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/sorvane.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sorvane-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=sorvane.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sorvane.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sorvane.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.6cf7d517.1792510559.b386ea10 https://errors.edgesuite.net/18.6cf7d517.1792510559.b386ea10",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sorvane-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sorvane.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=sorvane.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sorvane-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=sorvane.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=sorvane.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sorvane-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:35:58.713Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sorvane.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sorvane.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:36:08.702Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:36:08.702Z"
-    },
-    {
-      "name": "sortavis",
-      "slug": "sortavis",
-      "score": 80,
-      "domain": {
-        "host": "sortavis.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/sortavis.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/sortavis.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"va",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortavis-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=sortavis.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortavis.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortavis.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.6cf7d517.1792510570.b387bec9 https://errors.edgesuite.net/18.6cf7d517.1792510570.b387bec9",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortavis-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortavis.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=sortavis.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortavis-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=sortavis.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=sortavis.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortavis-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:36:08.873Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortavis.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortavis.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:36:18.779Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:36:18.779Z"
-    },
-    {
-      "name": "provaris",
-      "slug": "provaris",
-      "score": 79,
-      "domain": {
-        "host": "provaris.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/provaris.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/provaris.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"va",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\provaris-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=provaris.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=provaris.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=provaris.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.6cf7d517.1792510589.b38976d1 https://errors.edgesuite.net/18.6cf7d517.1792510589.b38976d1",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\provaris-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=provaris.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=provaris.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\provaris-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=provaris.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=provaris.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\provaris-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:36:28.605Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=provaris.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=provaris.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:36:39.148Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:36:39.148Z"
-    },
-    {
-      "name": "sortalis",
-      "slug": "sortalis",
-      "score": 77.3,
-      "domain": {
-        "host": "sortalis.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/sortalis.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/sortalis.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"va",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortalis-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=sortalis.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortalis.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortalis.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.aaf7d517.1792510600.5ddb8705 https://errors.edgesuite.net/18.aaf7d517.1792510600.5ddb8705",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortalis-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortalis.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=sortalis.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortalis-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=sortalis.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=sortalis.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\sortalis-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:36:39.291Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=sortalis.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=sortalis.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:36:49.845Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:36:49.845Z"
-    },
-    {
-      "name": "orixia",
-      "slug": "orixia",
-      "score": 73.8,
-      "domain": {
-        "host": "orixia.xyz",
-        "status": "taken",
-        "confidence": "high",
-        "signal": "registrar-taken",
-        "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/orixia.xyz",
-          "status": 404,
-          "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/orixia.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\orixia-xyz-rdap.png"
-        },
-        "registrar": {
-          "url": "https://porkbun.com/checkout/search?q=orixia.xyz",
-          "status": "taken",
-          "signal": "aftermarket"
-        },
-        "evidence": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=orixia.xyz",
-            "httpStatus": 403,
-            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=orixia.xyz",
-            "state": "unknown",
-            "signal": "challenge",
-            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.a5f7d517.1792510610.4184999c https://errors.edgesuite.net/18.a5f7d517.1792510610.4184999c",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\orixia-xyz-registrar-1.png"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=orixia.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=orixia.xyz",
-            "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\orixia-xyz-registrar-2.png"
-          },
-          {
-            "url": "https://porkbun.com/checkout/search?q=orixia.xyz",
-            "httpStatus": 200,
-            "finalUrl": "https://porkbun.com/checkout/search?q=orixia.xyz",
-            "state": "taken",
-            "signal": "aftermarket",
-            "excerpt": "× This website uses information gathering tools including cookies, and other similar technology. We use these tools to personalize content and ads, to analyze our website traffic, and to provide better website experience. We also share information about your use of our site with advertising and analytics partners. By selecting “Accept” you are providing your consent to our use of cookies and other similar technology in this way. You can withdraw your consent at any time by clicking on “Your Privacy Choices” in the website footer and changing your preferences. For more information, see our Privacy Policy. Analytics & Marketing Helps us understand site usage and show relevant ads. Support Chat Powers our AI assistant and HelpScout support widget so we can assist you. Accept All Reject All Save Choices porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search |",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\orixia-xyz-registrar-3.png"
-          }
-        ],
-        "checkedAt": "2026-10-20T15:36:50.003Z",
-        "registrarErrors": [
-          {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=orixia.xyz",
-            "state": "unknown",
-            "signal": "challenge"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=orixia.xyz",
-            "state": "unknown",
-            "signal": "no-match"
-          }
-        ]
-      },
-      "x": {
-        "status": "skipped",
-        "signal": "domain-not-available",
-        "checkedAt": "2026-10-20T15:36:59.618Z"
-      },
-      "verdict": "fail",
-      "checkedAt": "2026-10-20T15:36:59.618Z"
+      "checkedAt": "2026-10-21T12:53:30.342Z"
     }
   ],
   "selected": {
-    "name": "signaris",
-    "slug": "signaris",
-    "score": 79.0,
+    "name": "prismel",
+    "slug": "prismel",
+    "score": 83,
     "domain": {
-      "host": "signaris.xyz",
+      "host": "prismel.xyz",
       "status": "available",
-      "confidence": "high",
-      "signal": "rdap-unregistered+registrar-standard-price",
+      "confidence": "medium",
+      "signal": "rdap-unregistered",
       "rdap": {
-        "url": "https://rdap.centralnic.com/xyz/domain/signaris.xyz",
+        "url": "https://rdap.centralnic.com/xyz/domain/prismel.xyz",
         "status": 404,
         "mimeType": "application/rdap+json",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-rdap-confirm.png"
+        "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/prismel.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
       },
-      "registrar": {
-        "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-        "status": "available",
-        "signal": "standard-price",
-        "price": "$2.04 first year, renews at $14.21",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
-      },
-      "evidence": [
+      "registrar": null,
+      "evidence": [],
+      "checkedAt": "2026-10-21T12:53:20.108Z",
+      "registrarErrors": [
         {
-          "url": "https://porkbun.com/checkout/search?q=signaris.xyz",
-          "state": "available",
-          "signal": "standard-price",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+          "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz",
+          "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=prismel.xyz: CDP timeout: Page.navigate"
+        },
+        {
+          "url": "https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz",
+          "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=prismel.xyz: CDP timeout: Page.navigate"
+        },
+        {
+          "url": "https://porkbun.com/checkout/search?q=prismel.xyz",
+          "error": "Navigation failed for https://porkbun.com/checkout/search?q=prismel.xyz: CDP timeout: Page.navigate"
         }
-      ],
-      "note": "RDAP 404 (unregistered). Porkbun shows a standard-price add-to-cart row. The batch registrar parser treated the page label 'hide unavailable domains' as a taken signal and returned a false negative; the retained screenshot is the authoritative registrar evidence."
+      ]
     },
     "x": {
-      "handle": "signaris",
+      "handle": "prismel",
       "status": "available",
       "signal": "not-found-text",
-      "url": "https://x.com/signaris",
-      "finalUrl": "https://x.com/signaris",
-      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png",
-      "excerpt": "Hmm...this page doesn't exist. Try searching for something else."
+      "url": "https://x.com/prismel",
+      "checkedAt": "2026-10-21T12:53:23.869Z",
+      "httpStatus": 404,
+      "finalUrl": "https://x.com/prismel",
+      "title": "User Profile Not Found - X | 404 Error",
+      "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
     },
     "verdict": "pass",
-    "checkedAt": "2026-10-20T15:38:46.724133Z"
-  },
-  "note": "The automated registrar parser mis-read Porkbun's 'hide unavailable domains' control as a taken signal; signaris was confirmed by the retained Chrome screenshots instead (RDAP 404 + standard-price listing + non-existent X profile)."
+    "checkedAt": "2026-10-21T12:53:30.342Z"
+  }
 }

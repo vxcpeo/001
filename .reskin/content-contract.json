@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "signaris",
-    "title": "signaris",
+    "projectName": "prismel",
+    "title": "prismel",
     "lang": "en"
   },
   "routes": [
@@ -66,10 +66,6 @@
       "count": 1
     },
     {
-      "value": "ARIS",
-      "count": 1
-    },
-    {
       "value": "Attach a wallet to price this against your real balance.",
       "count": 1
     },
@@ -114,7 +110,7 @@
       "count": 1
     },
     {
-      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Signaris reads the chain you are actually on and pays out on the terms it publishes.",
+      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Prismel reads the chain you are actually on and pays out on the terms it publishes.",
       "count": 1
     },
     {
@@ -159,6 +155,10 @@
     },
     {
       "value": "LIVE",
+      "count": 1
+    },
+    {
+      "value": "MEL",
       "count": 1
     },
     {
@@ -222,6 +222,22 @@
       "count": 1
     },
     {
+      "value": "PRIS",
+      "count": 1
+    },
+    {
+      "value": "Prismel",
+      "count": 1
+    },
+    {
+      "value": "Prismel connects through the wallet extension you already run, on Solana",
+      "count": 1
+    },
+    {
+      "value": "PRISMEL-01",
+      "count": 1
+    },
+    {
       "value": "Read the line",
       "count": 1
     },
@@ -250,27 +266,11 @@
       "count": 1
     },
     {
-      "value": "SIGN",
-      "count": 1
-    },
-    {
       "value": "Sign it yourself",
       "count": 1
     },
     {
       "value": "SIGN THE CALL.",
-      "count": 1
-    },
-    {
-      "value": "Signaris",
-      "count": 1
-    },
-    {
-      "value": "Signaris connects through the wallet extension you already run, on Solana",
-      "count": 1
-    },
-    {
-      "value": "SIGNARIS-01",
       "count": 1
     },
     {
@@ -354,7 +354,7 @@
       "count": 1
     },
     {
-      "value": "Your wallet builds and signs the transaction. Signaris never holds your key, and the signature is the receipt the chain keeps.",
+      "value": "Your wallet builds and signs the transaction. Prismel never holds your key, and the signature is the receipt the chain keeps.",
       "count": 1
     },
     {

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T15:48:52.423Z",
+  "generatedAt": "2026-10-21T13:07:17.727Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "signaris",
+    "name": "prismel",
     "vueVersion": "latest",
     "nuxt": false,
     "dependencies": [
@@ -26,8 +26,8 @@
     "staticTextTokens": 103,
     "bindingTokens": 85,
     "eventTokens": 20,
-    "classNames": 145,
-    "colors": 75
+    "classNames": 126,
+    "colors": 16
   },
   "routes": [
     {
@@ -37,20 +37,20 @@
   ],
   "unresolvedRoutes": [],
   "archetype": {
-    "id": "orbital",
-    "family": "spatial",
+    "id": "marketing-stack",
+    "family": "editorial",
     "traits": {
-      "sidebar": true,
+      "sidebar": false,
       "topbar": false,
       "cards": true,
-      "hero": false,
+      "hero": true,
       "table": false,
       "grid": true,
       "tabs": true,
       "modal": true,
-      "charts": false,
+      "charts": true,
       "sticky": true,
-      "orbital": true,
+      "orbital": false,
       "terminal": false,
       "bento": false,
       "ticker": false,
@@ -59,390 +59,285 @@
   },
   "palette": [
     {
-      "hex": "#000000",
-      "count": 11
+      "hex": "#1b1b1b",
+      "count": 3
     },
     {
-      "hex": "#121116",
-      "count": 7
+      "hex": "#ede9df",
+      "count": 2
     },
     {
-      "hex": "#2a0b57",
-      "count": 6
+      "hex": "#083a58",
+      "count": 1
     },
     {
-      "hex": "#bc97ff",
-      "count": 6
+      "hex": "#0c5681",
+      "count": 1
     },
     {
-      "hex": "#141415",
-      "count": 5
+      "hex": "#2f6b4f",
+      "count": 1
+    },
+    {
+      "hex": "#3a3733",
+      "count": 1
+    },
+    {
+      "hex": "#6b675f",
+      "count": 1
+    },
+    {
+      "hex": "#8a5a00",
+      "count": 1
+    },
+    {
+      "hex": "#8b9dff",
+      "count": 1
+    },
+    {
+      "hex": "#a83a2a",
+      "count": 1
+    },
+    {
+      "hex": "#d9d3c7",
+      "count": 1
+    },
+    {
+      "hex": "#fffdf8",
+      "count": 1
     },
     {
       "hex": "#ffffff",
-      "count": 5
-    },
-    {
-      "hex": "#100f14",
-      "count": 4
-    },
-    {
-      "hex": "#5ce1a0",
-      "count": 3
-    },
-    {
-      "hex": "#670de5",
-      "count": 3
-    },
-    {
-      "hex": "#0a0910",
-      "count": 2
-    },
-    {
-      "hex": "#1f1e20",
-      "count": 2
-    },
-    {
-      "hex": "#2b2930",
-      "count": 2
-    },
-    {
-      "hex": "#43147f",
-      "count": 2
-    },
-    {
-      "hex": "#7a2bf0",
-      "count": 2
-    },
-    {
-      "hex": "#ff8a8a",
-      "count": 2
-    },
-    {
-      "hex": "#040209",
-      "count": 1
-    },
-    {
-      "hex": "#08070b",
-      "count": 1
-    },
-    {
-      "hex": "#0a090d",
-      "count": 1
-    },
-    {
-      "hex": "#0d0c11",
-      "count": 1
-    },
-    {
-      "hex": "#0e0618",
-      "count": 1
-    },
-    {
-      "hex": "#1e1d23",
-      "count": 1
-    },
-    {
-      "hex": "#241f2c",
-      "count": 1
-    },
-    {
-      "hex": "#2a2433",
-      "count": 1
-    },
-    {
-      "hex": "#a0a1a6",
-      "count": 1
-    },
-    {
-      "hex": "#cfcbdb",
-      "count": 1
-    },
-    {
-      "hex": "#e8e2f5",
-      "count": 1
-    },
-    {
-      "hex": "#f2c94c",
-      "count": 1
-    },
-    {
-      "hex": "#f2f3f7",
       "count": 1
     }
   ],
-  "fonts": [
-    {
-      "value": "'Meridian Grotesk'",
-      "count": 2
-    },
-    {
-      "value": "'Meridian Gutter'",
-      "count": 2
-    }
-  ],
+  "fonts": [],
   "classNames": [
     "0",
     "<",
     "===",
     "?",
     "item.move",
+    "ledger-action",
+    "ledger-action--fill",
+    "ledger-action--wide",
+    "ledger-book",
+    "ledger-brand",
+    "ledger-brand-mark",
+    "ledger-brand-word",
+    "ledger-chip",
+    "ledger-chip-dot",
+    "ledger-claim",
+    "ledger-clock",
+    "ledger-code",
+    "ledger-colophon",
+    "ledger-colophon-bottom",
+    "ledger-colophon-brand",
+    "ledger-colophon-net",
+    "ledger-colophon-tag",
+    "ledger-colophon-top",
+    "ledger-column-main",
+    "ledger-columns",
+    "ledger-delta",
+    "ledger-desk",
+    "ledger-desk-acts",
+    "ledger-desk-glyph",
+    "ledger-desk-head",
+    "ledger-desk-nodes",
+    "ledger-dim",
+    "ledger-empty",
+    "ledger-entry",
+    "ledger-entry-code",
+    "ledger-entry-main",
+    "ledger-entry-meta",
+    "ledger-entry-quote",
+    "ledger-entry-sides",
+    "ledger-error",
+    "ledger-facts",
+    "ledger-feed",
+    "ledger-headline",
+    "ledger-headline--desk",
+    "ledger-heat",
+    "ledger-hint",
+    "ledger-imprint",
+    "ledger-index",
+    "ledger-kicker",
+    "ledger-lane",
+    "ledger-lane-name",
+    "ledger-lanes",
+    "ledger-lede",
+    "ledger-live",
+    "ledger-main",
+    "ledger-margin",
+    "ledger-masthead",
+    "ledger-masthead-row",
+    "ledger-move",
+    "ledger-move-body",
+    "ledger-move-no",
+    "ledger-moves",
+    "ledger-node",
+    "ledger-note",
+    "ledger-opening",
+    "ledger-opening-actions",
+    "ledger-page",
+    "ledger-plate",
+    "ledger-plate-glyph",
+    "ledger-plate-note",
+    "ledger-plate-note--lead",
+    "ledger-plate-side",
+    "ledger-plate-sub",
+    "ledger-plate-title",
+    "ledger-plate-x",
+    "ledger-pulse",
+    "ledger-question",
+    "ledger-quote",
+    "ledger-quote-table",
+    "ledger-quote-table--left",
+    "ledger-readout",
+    "ledger-readout-foot",
+    "ledger-readout-head",
+    "ledger-rules",
+    "ledger-seal-id",
+    "ledger-search",
+    "ledger-search-field",
+    "ledger-section-head",
+    "ledger-sep",
+    "ledger-side",
+    "ledger-side--no",
+    "ledger-side--yes",
+    "ledger-sides",
+    "ledger-slip",
+    "ledger-slip-q",
+    "ledger-slip-side",
+    "ledger-slip-sig",
+    "ledger-slips",
+    "ledger-sorts",
+    "ledger-spark",
+    "ledger-split",
+    "ledger-stake",
+    "ledger-stat",
+    "ledger-stats",
+    "ledger-stream",
+    "ledger-strip-a",
+    "ledger-strip-b",
+    "ledger-strong",
+    "ledger-tally",
+    "ledger-toast",
+    "ledger-tools",
+    "ledger-veil",
+    "ledger-volume",
+    "ledger-wallet-flag",
+    "ledger-wallet-list",
+    "ledger-wallet-name",
+    "ledger-wallet-pick",
+    "ledger-wallet-row",
+    "ledger-wallet-state",
+    "ledger-warn",
+    "ledger-wire",
+    "ledger-wire-item",
+    "ledger-wire-label",
+    "ledger-wire-track",
     "market.move",
-    "orb-aperture",
-    "orb-btn",
-    "orb-btn--accent",
-    "orb-btn--ghost",
-    "orb-btn--wide",
-    "orb-chip",
-    "orb-chip--on",
-    "orb-chip-dot",
-    "orb-chip-label",
-    "orb-claim",
-    "orb-clock",
-    "orb-code",
-    "orb-core",
-    "orb-count",
-    "orb-cta",
-    "orb-delta",
-    "orb-desk",
-    "orb-desk-acts",
-    "orb-desk-disc",
-    "orb-desk-glyph",
-    "orb-desk-nodes",
-    "orb-desk-title",
-    "orb-dial",
-    "orb-dial-figure",
-    "orb-dim",
-    "orb-empty",
-    "orb-error",
-    "orb-eyebrow",
-    "orb-facts",
-    "orb-foot",
-    "orb-foot-band",
-    "orb-foot-brand",
-    "orb-foot-net",
-    "orb-foot-strip",
-    "orb-foot-tag",
-    "orb-hair",
-    "orb-hair--end",
-    "orb-halo",
-    "orb-halo--a",
-    "orb-halo--b",
-    "orb-halo--c",
-    "orb-halos",
-    "orb-heat",
-    "orb-hint",
-    "orb-kicker",
-    "orb-lane-tab",
-    "orb-lanes",
-    "orb-lede",
-    "orb-lines",
-    "orb-lines-plate",
-    "orb-lines-title",
-    "orb-live",
-    "orb-main",
-    "orb-masthead",
-    "orb-metric",
-    "orb-metrics",
-    "orb-metrics-arc",
-    "orb-metrics-foot",
-    "orb-metrics-head",
-    "orb-metrics-title",
-    "orb-moves",
-    "orb-moves-head",
-    "orb-node",
-    "orb-pick",
-    "orb-pick--no",
-    "orb-pick--yes",
-    "orb-pip",
-    "orb-pulse",
-    "orb-quote",
-    "orb-quote--left",
-    "orb-ray",
-    "orb-ray-acts",
-    "orb-ray-body",
-    "orb-ray-lane",
-    "orb-ray-meta",
-    "orb-ray-q",
-    "orb-ray-slip",
-    "orb-ray-tags",
-    "orb-rays",
-    "orb-ring",
-    "orb-seal",
-    "orb-seal-glyph",
-    "orb-seal-id",
-    "orb-seal-word",
-    "orb-search",
-    "orb-search-field",
-    "orb-sep",
-    "orb-sheet",
-    "orb-sheet-glyph",
-    "orb-sheet-note",
-    "orb-sheet-note--lead",
-    "orb-sheet-sub",
-    "orb-sheet-title",
-    "orb-sheet-x",
-    "orb-side",
-    "orb-side--no",
-    "orb-side--yes",
-    "orb-side-grid",
-    "orb-sky",
-    "orb-slip-q",
-    "orb-slip-side",
-    "orb-slip-sig",
-    "orb-slips",
-    "orb-sort",
-    "orb-spark",
-    "orb-split",
-    "orb-stage",
-    "orb-stake",
-    "orb-station",
-    "orb-station-pip",
-    "orb-stations",
-    "orb-step",
-    "orb-step-body",
-    "orb-step-node",
-    "orb-step-note",
-    "orb-steps",
-    "orb-steps-title",
-    "orb-stream",
-    "orb-strip-a",
-    "orb-strip-b",
-    "orb-strong",
-    "orb-sweep",
-    "orb-tape",
-    "orb-tape-item",
-    "orb-tape-label",
-    "orb-tape-track",
-    "orb-ticks",
-    "orb-toast",
-    "orb-tools",
-    "orb-veil",
-    "orb-vol",
-    "orb-wallet-list",
-    "orb-wallet-name",
-    "orb-wallet-pick",
-    "orb-wallet-row",
-    "orb-wallet-state",
-    "orb-warn",
-    "orbital-shell",
     "receipt.side"
   ],
   "designSignals": {
     "frameworks": [],
     "cssVars": [
-      "--accent",
-      "--accent-safe",
-      "--angle",
-      "--bg",
-      "--danger",
-      "--display-tracking",
-      "--display-weight",
-      "--font-body",
-      "--font-display",
-      "--font-mono",
-      "--ghost",
-      "--ink",
-      "--ink-2",
-      "--label-tracking",
-      "--line",
-      "--line-soft",
-      "--max-width",
-      "--motion-duration",
-      "--motion-ease",
-      "--muted",
+      "--fill",
       "--no",
-      "--page-pad",
-      "--radius",
-      "--radius-lg",
-      "--radius-md",
-      "--radius-pill",
-      "--radius-sm",
-      "--shadow-disc",
-      "--shadow-panel",
-      "--space-1",
-      "--space-2",
-      "--space-3",
-      "--space-4",
-      "--space-5",
-      "--space-6",
-      "--success",
-      "--surface",
-      "--surface-alt",
-      "--violet-deep",
-      "--violet-haze",
-      "--violet-rim",
-      "--violet-wash",
-      "--warning",
+      "--pp-accent",
+      "--pp-accent-2",
+      "--pp-accent-deep",
+      "--pp-danger",
+      "--pp-display-tracking",
+      "--pp-display-weight",
+      "--pp-font-body",
+      "--pp-font-display",
+      "--pp-font-mono",
+      "--pp-ink",
+      "--pp-ink-soft",
+      "--pp-label-tracking",
+      "--pp-max-width",
+      "--pp-motion",
+      "--pp-muted",
+      "--pp-page-pad",
+      "--pp-paper",
+      "--pp-rule",
+      "--pp-rule-strong",
+      "--pp-space-1",
+      "--pp-space-2",
+      "--pp-space-3",
+      "--pp-space-4",
+      "--pp-space-5",
+      "--pp-space-6",
+      "--pp-success",
+      "--pp-surface",
+      "--pp-surface-alt",
+      "--pp-warning",
       "--yes"
     ],
     "colorVars": [
       {
-        "name": "--accent",
-        "value": "#670de5"
+        "name": "--pp-accent",
+        "value": "#0c5681"
       },
       {
-        "name": "--accent-safe",
-        "value": "#bc97ff"
+        "name": "--pp-accent-2",
+        "value": "#8b9dff"
       },
       {
-        "name": "--bg",
-        "value": "#000000"
+        "name": "--pp-accent-deep",
+        "value": "#083a58"
       },
       {
-        "name": "--danger",
-        "value": "#ff8a8a"
+        "name": "--pp-danger",
+        "value": "#a83a2a"
       },
       {
-        "name": "--ink",
-        "value": "#f2f3f7"
+        "name": "--pp-ink",
+        "value": "#1b1b1b"
       },
       {
-        "name": "--ink-2",
-        "value": "#cfcbdb"
+        "name": "--pp-ink-soft",
+        "value": "#3a3733"
       },
       {
-        "name": "--line",
-        "value": "#2b2930"
+        "name": "--pp-muted",
+        "value": "#6b675f"
       },
       {
-        "name": "--line-soft",
-        "value": "#1e1d23"
+        "name": "--pp-paper",
+        "value": "#ffffff"
       },
       {
-        "name": "--muted",
-        "value": "#a0a1a6"
+        "name": "--pp-rule",
+        "value": "#d9d3c7"
       },
       {
-        "name": "--success",
-        "value": "#5ce1a0"
+        "name": "--pp-rule-strong",
+        "value": "#1b1b1b"
       },
       {
-        "name": "--surface",
-        "value": "#141415"
+        "name": "--pp-success",
+        "value": "#2f6b4f"
       },
       {
-        "name": "--surface-alt",
-        "value": "#1f1e20"
+        "name": "--pp-surface",
+        "value": "#fffdf8"
       },
       {
-        "name": "--violet-deep",
-        "value": "#2a0b57"
+        "name": "--pp-surface-alt",
+        "value": "#ede9df"
       },
       {
-        "name": "--violet-rim",
-        "value": "#bc97ff"
-      },
-      {
-        "name": "--warning",
-        "value": "#f2c94c"
+        "name": "--pp-warning",
+        "value": "#8a5a00"
       }
     ],
     "mediaQueries": [
       "@media (max-width: 1180px)",
-      "@media (max-width: 560px)",
-      "@media (max-width: 700px)",
-      "@media (max-width: 860px)",
+      "@media (max-width: 480px)",
+      "@media (max-width: 760px)",
       "@media (max-width: 980px)",
       "@media (prefers-reduced-motion: no-preference)",
       "@media (prefers-reduced-motion: reduce)"
@@ -452,12 +347,10 @@
   "structure": {
     "tagCounts": {
       "a": 9,
-      "article": 1,
-      "aside": 1,
       "b": 13,
       "button": 18,
       "dd": 11,
-      "div": 50,
+      "div": 46,
       "dl": 4,
       "dt": 11,
       "em": 4,
@@ -465,18 +358,19 @@
       "h1": 1,
       "h2": 5,
       "h3": 4,
+      "header": 1,
       "i": 4,
       "input": 2,
       "label": 2,
-      "li": 5,
+      "li": 6,
       "main": 1,
       "nav": 1,
-      "ol": 1,
+      "ol": 2,
       "p": 27,
       "path": 4,
       "rect": 2,
-      "section": 6,
-      "span": 56,
+      "section": 8,
+      "span": 45,
       "strong": 7,
       "svg": 4,
       "template": 5,
@@ -485,148 +379,150 @@
     },
     "depthHistogram": {
       "0": 1,
-      "1": 6,
+      "1": 7,
       "2": 10,
-      "3": 40,
-      "4": 68,
-      "5": 72,
-      "6": 45,
-      "7": 16,
-      "8": 4,
-      "9": 1
+      "3": 33,
+      "4": 49,
+      "5": 42,
+      "6": 47,
+      "7": 32,
+      "8": 17,
+      "9": 8,
+      "10": 4,
+      "11": 1
     },
-    "maxDepth": 9,
+    "maxDepth": 11,
     "topLevelTags": [
       "div"
     ],
     "skeletonSample": [
       "div",
-      "  div",
+      "  header",
+      "    div",
+      "      a",
+      "        span",
+      "          svg",
+      "            rect",
+      "            path",
+      "            rect",
+      "        span",
+      "          em",
+      "      p",
+      "    nav",
+      "      a",
+      "      a",
+      "      a",
+      "  section",
+      "    div",
+      "      span",
+      "        b",
+      "        span",
+      "        strong",
+      "        em",
       "  main",
       "    section",
-      "      div",
+      "      h1",
       "        span",
-      "          b",
-      "          span",
-      "          strong",
-      "          em",
+      "        span",
+      "        span",
+      "      div",
+      "        a",
+      "        button",
       "    div",
       "      div",
-      "        span",
-      "        a",
-      "          span",
-      "            svg",
-      "              rect",
-      "              path",
-      "              rect",
-      "          span",
-      "            em",
-      "        span",
-      "      div",
-      "        div",
-      "          span",
-      "          span",
-      "          span",
-      "          span",
-      "          span",
-      "        nav",
-      "          a",
-      "            span",
-      "          a",
-      "            span",
-      "          a",
-      "            span",
-      "        div",
+      "        p",
+      "        section",
+      "          div",
+      "            p",
+      "            h2",
+      "            p",
+      "          div",
+      "            button",
+      "              b",
+      "          div",
+      "            div",
+      "              button",
+      "            label",
+      "              input",
+      "          ol",
+      "            li",
+      "              div",
+      "                span",
+      "                span",
+      "                span",
+      "              div",
+      "                h3",
+      "                div",
+      "                  span",
+      "                    svg",
+      "                    path",
+      "                  span",
+      "                    b",
+      "                    b",
+      "                  span",
+      "                    em",
+      "                  span",
+      "                  span",
+      "              div",
+      "                strong",
+      "                  i",
+      "              div",
+      "                button",
+      "                  b",
+      "                button",
+      "                  b",
+      "                p",
       "          p",
-      "          h1",
+      "        section",
+      "          div",
+      "            p",
+      "            h2",
+      "          ol",
+      "            li",
+      "              b",
+      "              div",
+      "                h3",
+      "                p",
+      "            li",
+      "              b",
+      "              div",
+      "                h3",
+      "                p",
+      "            li",
+      "              b",
+      "              div",
+      "                h3",
+      "                p",
+      "          p",
+      "        section",
+      "          div",
       "            span",
-      "            span",
-      "            span",
+      "              svg",
+      "                path",
+      "            p",
+      "            h2",
+      "          div",
+      "            div",
+      "              span",
+      "              strong",
+      "            div",
+      "              span",
+      "              strong",
+      "                i",
+      "            div",
+      "              span",
+      "              strong",
       "          div",
       "            a",
       "            button",
-      "      div",
-      "        p",
-      "        dl",
-      "          div",
-      "            dt",
-      "            dd",
-      "          div",
-      "            dt",
-      "            dd",
-      "          div",
-      "            dt",
-      "            dd",
-      "      aside",
-      "        div",
-      "          span",
-      "          span",
-      "            i",
-      "        dl",
-      "          div",
-      "            dt",
-      "            dd",
-      "        div",
-      "          span",
-      "        div",
-      "          span",
-      "          button",
-      "            span",
-      "            b",
-      "          button",
-      "            span",
-      "            span",
-      "          span",
-      "    section",
-      "      div",
-      "        p",
-      "        h2",
-      "        p",
-      "          span",
-      "      div",
-      "        button",
-      "          b",
-      "      div",
-      "        div",
-      "          button",
-      "        label",
-      "          input",
-      "      div",
-      "        article",
-      "          div",
-      "            strong",
-      "              i",
-      "          div",
-      "            div",
-      "              span",
-      "              span",
-      "              span",
-      "            h3",
-      "            div",
-      "              span",
-      "                svg",
-      "                  path",
-      "              span",
-      "                b",
-      "                b",
-      "              span",
-      "                em",
-      "              span",
-      "              span",
-      "          div",
-      "            button",
-      "              b",
-      "            button",
-      "              b",
-      "            p",
-      "      p"
+      "            button"
     ]
   },
   "contentContract": {
     "schemaVersion": 1,
     "meta": {
-      "projectName": "signaris",
-      "title": "signaris",
+      "projectName": "prismel",
+      "title": "prismel",
       "lang": "en"
     },
     "routes": [
@@ -690,10 +586,6 @@
         "count": 1
       },
       {
-        "value": "ARIS",
-        "count": 1
-      },
-      {
         "value": "Attach a wallet to price this against your real balance.",
         "count": 1
       },
@@ -738,7 +630,7 @@
         "count": 1
       },
       {
-        "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Signaris reads the chain you are actually on and pays out on the terms it publishes.",
+        "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Prismel reads the chain you are actually on and pays out on the terms it publishes.",
         "count": 1
       },
       {
@@ -783,6 +675,10 @@
       },
       {
         "value": "LIVE",
+        "count": 1
+      },
+      {
+        "value": "MEL",
         "count": 1
       },
       {
@@ -846,6 +742,22 @@
         "count": 1
       },
       {
+        "value": "PRIS",
+        "count": 1
+      },
+      {
+        "value": "Prismel",
+        "count": 1
+      },
+      {
+        "value": "Prismel connects through the wallet extension you already run, on Solana",
+        "count": 1
+      },
+      {
+        "value": "PRISMEL-01",
+        "count": 1
+      },
+      {
         "value": "Read the line",
         "count": 1
       },
@@ -874,27 +786,11 @@
         "count": 1
       },
       {
-        "value": "SIGN",
-        "count": 1
-      },
-      {
         "value": "Sign it yourself",
         "count": 1
       },
       {
         "value": "SIGN THE CALL.",
-        "count": 1
-      },
-      {
-        "value": "Signaris",
-        "count": 1
-      },
-      {
-        "value": "Signaris connects through the wallet extension you already run, on Solana",
-        "count": 1
-      },
-      {
-        "value": "SIGNARIS-01",
         "count": 1
       },
       {
@@ -978,7 +874,7 @@
         "count": 1
       },
       {
-        "value": "Your wallet builds and signs the transaction. Signaris never holds your key, and the signature is the receipt the chain keeps.",
+        "value": "Your wallet builds and signs the transaction. Prismel never holds your key, and the signature is the receipt the chain keeps.",
         "count": 1
       },
       {
@@ -1490,5 +1386,5 @@
       "VITE_SOLANA_RPC_URL"
     ]
   },
-  "contentContractHash": "6979f1b59b59959d557d1f9781b30cffb8190062c1ff82701a0a90441297b497"
+  "contentContractHash": "73b5e20bf78b27c263d33928c71fa07b05861c1d16639feefde97b032f1962fc"
 }

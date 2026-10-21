@@ -1,69 +1,65 @@
 {
   "old": {
-    "display": "Probenox",
-    "slug": "probenox",
+    "display": "Signaris",
+    "slug": "signaris",
     "variants": {
-      "display": "Probenox",
-      "lower": "probenox",
-      "upper": "PROBENOX",
-      "title": "Probenox",
-      "kebab": "probenox",
-      "snake": "probenox",
-      "camel": "probenox",
-      "pascal": "Probenox",
-      "compact": "PROBENOX",
-      "compactLower": "probenox",
-      "first": "Probenox",
-      "firstLower": "probenox",
-      "firstUpper": "PROBENOX"
+      "display": "Signaris",
+      "lower": "signaris",
+      "upper": "SIGNARIS",
+      "title": "Signaris",
+      "kebab": "signaris",
+      "snake": "signaris",
+      "camel": "signaris",
+      "pascal": "Signaris",
+      "compact": "SIGNARIS",
+      "compactLower": "signaris"
     },
     "variantList": [
       {
-        "value": "Probenox",
+        "value": "Signaris",
         "kind": "display"
       },
       {
-        "value": "probenox",
+        "value": "signaris",
         "kind": "lower"
       },
       {
-        "value": "PROBENOX",
+        "value": "SIGNARIS",
         "kind": "upper"
       }
     ],
     "domains": [
-      "probenox.xyz"
+      "signaris.xyz"
     ],
     "handles": [
-      "probenox"
+      "signaris"
     ],
     "emails": [
-      "hello@probenox.xyz"
+      "hello@signaris.xyz"
     ],
     "packageNames": [
-      "probenox",
-      "probenox-prediction-market-contract"
+      "signaris",
+      "signaris-prediction-market-contract",
+      "signaris_prediction_market"
     ],
-    "initials": "PN",
+    "initials": "SA",
     "allowFiles": [
       "REBRAND.md"
     ],
     "allowStrings": [],
     "wordmark": {
       "split": [
-        "PROBE",
-        "NOX"
+        "SIGN",
+        "ARIS"
       ],
-      "note": "The shipped wordmark is PROBE<em>NOX</em>. The scanner joins it to 'PROBE NOX'; display corrected to the actual product name Probenox. Split lockups are repaired by hand after apply.py because the seam sits inside markup."
+      "note": "The shipped wordmark is SIGN<em>ARIS</em> (site) and SIGN/ARIS tspan lockups (social artboards). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
     }
   },
   "usedBrands": [
     "NEONLINE",
-    "Neonline",
-    "Oracle Pit",
-    "Tickerloom",
     "Probenox",
-    "PROBE NOX",
+    "Signaris",
+    "SIGN ARIS",
     "GhostPay",
     "Cifruna",
     "Mathlana",
@@ -89,36 +85,40 @@
     "Tracefolio",
     "Tracevio",
     "lockRH",
-    "Latchera"
+    "Latchera",
+    "Pretiola",
+    "Clepsyra",
+    "Trovane",
+    "Oracle Pit",
+    "Tickerloom"
   ],
-  "notes": "Display corrected from the scanner's joined split-wordmark 'PROBE NOX' to the actual shipped name Probenox. The variant table keeps every observed form (Probenox / probenox / PROBENOX, plus probenox.xyz). REBRAND.md is the historical changelog and is allowlisted; every live surface is replaced.",
+  "notes": "Detected display corrected from the scanner's joined split-wordmark 'SIGN ARIS' to the shipped name Signaris. The variant table keeps the three observed forms only; the split halves SIGN/ARIS are repaired by hand. REBRAND.md is the historical changelog and stays allowlisted.",
   "new": {
-    "display": "Signaris",
-    "slug": "signaris",
-    "handle": "signaris",
-    "domain": "signaris.xyz",
-    "email": "hello@signaris.xyz",
-    "url": "https://signaris.xyz",
+    "display": "Prismel",
+    "slug": "prismel",
+    "handle": "prismel",
+    "domain": "prismel.xyz",
+    "email": "hello@prismel.xyz",
+    "url": "https://prismel.xyz",
     "note": "Availability is a snapshot; register the domain and X account separately."
   },
   "selection": {
-    "candidate": "signaris",
-    "score": 79.0,
-    "checkedAt": "2026-10-20T15:38:46.724133Z",
+    "candidate": "prismel",
+    "score": 83,
+    "checkedAt": "2026-10-21T12:53:18.887Z",
     "evidence": [
       {
         "kind": "domain",
         "status": "available",
-        "signal": "rdap-unregistered+registrar-standard-price",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-xyz-registrar-confirm.png"
+        "signal": "rdap-unregistered",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-xyz-rdap.png"
       },
       {
         "kind": "x",
         "status": "available",
         "signal": "not-found-text",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\signaris-x-confirm.png"
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\prismel-x.png"
       }
-    ],
-    "note": "signaris.xyz returned RDAP 404 and Porkbun listed it at the standard $2.04 first-year price with an add control; x.com/signaris returned the page-does-not-exist state. Signaris was chosen from the wave-3 shortlist; every earlier highest-scored candidate failed X or the domain."
+    ]
   }
 }

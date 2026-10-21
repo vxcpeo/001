@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-20T15:58:27.512Z
+Generated: 2026-10-21T13:40:08.724Z
 
-- Project: **signaris**
+- Project: **prismel**
 - URL: http://127.0.0.1:4317/
-- Original skeleton: `orbital` (spatial)
-- New skeleton: `marketing-stack` (editorial)
-- Accent: #670de5 -> #0c5681 (97.26 ΔE; min 30)
-- Source contract: intact (`6979f1b59b59`)
+- Original skeleton: `marketing-stack` (editorial)
+- New skeleton: `dashboard-shell` (shell)
+- Accent: #0c5681 -> #0000ff (114.22 ΔE; min 30)
+- Source contract: intact (`73b5e20bf78b`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.277 | 0.4 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.299 | 0.5 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 
@@ -19,14 +19,7 @@ Generated: 2026-10-20T15:58:27.512Z
 
 ## Warnings
 
-- /: aria attribute changed/removed: aria-label=21 percent read yes, 79 percent read no
-- /: aria attribute changed/removed: aria-label=29 percent read yes, 71 percent read no
-- /: aria attribute changed/removed: aria-label=34 percent read yes, 66 percent read no
-- /: aria attribute changed/removed: aria-label=43 percent read yes, 57 percent read no
-- /: aria attribute changed/removed: aria-label=57 percent read yes, 43 percent read no
-- /: aria attribute changed/removed: aria-label=62 percent read yes, 38 percent read no
-- /: aria attribute changed/removed: aria-label=68 percent read yes, 32 percent read no
-- /: aria attribute changed/removed: aria-label=76 percent read yes, 24 percent read no
+- /: aria attribute added: aria-label=Network
 
 ## Thresholds
 
