@@ -1,54 +1,45 @@
-# Wireframe commitment — Oddix, Round 7
-
-Direction: **Abyss Liquidity** (`aave-abyss`, dark-technical) × **Command Rail**
-(`command-rail`, linear). Original: `dashboard-shell` (bento + sticky index, light).
+# Reskin wireframe — Round 8 (Tidal Sui / Gallery Scroll)
 
 ## Shell
 
-- `OxShell.vue` is not a separate component: the shell is the root `<div class="ox-page">`
-  in `App.vue`, the only route component. Old shell classes (`bp-*`) are gone from the
-  render path; `blueprint.css` / `blueprint-bento.css` are removed from `main.js` and
-  archived.
-- New global sheet: `src/styles/abyss.css` (tokens + reset + shell + components,
-  `ox-` prefix only).
-- One route `/` → Command Rail layout.
+- New shell: **Tidal Gallery** (`td-` namespace), one route `/`.
+- The old shell (`ox-page` fixed glyph rail + command bar + feed/margin stage + status
+  strip) is deleted from the render path. `src/styles/abyss.css` stops being imported;
+  the new token + layout layer is `src/styles/tidal.css`.
+- Landmarks: `header` (opening panel), `nav` (floating dock), `main` (three scenes),
+  `footer` (closing panel). Dialogs stay outside every landmark.
 
-## Region map (desktop ≥ 1024px)
+## Route `/` mapping
 
-| Region | Element | Content it carries |
+| Scene | Anchor | Holds |
 |---|---|---|
-| Fixed spine | `nav.ox-rail` (aria-label `Primary`), 76px, left edge | the three nav targets: Feed, Rules, Desk as glyph + rotated micro-label; no logo block |
-| Floating command bar | `header.ox-command`, sticky 18px from top | brand lockup (`ODD`/`IX` + diamond mark, `href="#feed"`), imprint `Prediction arena · Solana`, the search field (`Search lines`), `Open the feed`, `Attach a wallet` / `Your desk` |
-| Running head | `section.ox-head` | `h1` `PRICE THE / FUTURE. / SIGN THE CALL.` at display scale, then the lede paragraph as a standfirst |
-| Tape | `aside.ox-tape` (aria-label `Latest lines`) | the `wireItems` marquee, unchanged v-for |
-| Data stage | `div.ox-stage`: `section#feed` (1.55fr) + `aside.ox-margin` (.45fr) | feed: lanes, sorts, book rows, empty state. margin: arena readout (`08`, `$1.53M`, `6,916`, `0.20%`, pulse, seal, wallet chip, facts) then `section#desk` (wallet nodes, actions, receipts) |
-| Moves | `section#rules.ox-moves` | `three moves`, `HOW A POSITION GETS MADE`, 01/02/03, note |
-| Status strip | `footer.ox-status` | brand/2026, tagline, network nav, `LIVE`, program line, cluster/settlement |
-| Trade + wallet | `div.ox-veil` + `section.ox-drawer` (right drawer, role=dialog) | unchanged dialogs, restyled as a right-hand command drawer |
-| Toast | `p.ox-toast` (role=status) | unchanged |
+| Opening panel | — | brand lockup `CALL/OVA`, imprint, `h1`, standfirst, search field, `Open the feed`, wallet button |
+| The feed | `#feed` | kicker + `OPEN LINES` + tally, wire rail, lane tabs, sorts, horizontal snap rail of 8 line cards, empty state |
+| Arena readout + desk | `#desk` | four monumental stats, pulse glyph, seal + streaming, wallet chip + facts, desk card with nodes, actions, receipts |
+| Three moves | `#rules` | kicker + `HOW A POSITION GETS MADE`, three tall move panels, closing note |
+| Closing panel | — | brand `/ 2026`, tagline, network + explorer link, LIVE strip, cluster/settlement |
+| Floating dock | — | `Feed` / `Rules` / `Desk` anchors: the only navigation |
 
-## Mobile (≤ 720px)
+## Composition change vs the original
 
-- The rail becomes a fixed bottom glyph bar (three links, visible labels, 74px),
-  keyboard reachable, no hamburger, no hidden nav.
-- Command bar collapses to two rows: brand + actions, search full width.
-- Stage becomes a single linear column: head → tape → feed → readout → desk →
-  rules → status. Nothing is hidden or reordered out of existence.
-- Display type clamps down; every control stays ≥ 44px tall.
+- Zero conventional header: the brand, claim and actions live inside a full-viewport
+  opening panel, not a sticky command bar.
+- The market table becomes a horizontal, snap-scrolling rail of framed cards; the
+  margin readout becomes a full scene with typographic stats.
+- Navigation moves from a fixed left glyph rail to a floating bottom dock.
+- The footer becomes a dark full-bleed closing panel instead of a thin status strip.
+- Mobile: scenes stay linear, the rail keeps horizontal snap with visible cues, the
+  dock becomes a full-width bottom bar; nothing is hidden.
 
-## Deletions / retentions
+## Tokens and breakpoints
 
-- Deleted from render path: `bp-page` shell, `bp-topbar`, `bp-wire`, `bp-canvas`,
-  bento tiles, `bp-footer`, bento CSS. Archived under `output/reskin-round7-old/`.
-- Retained as content-only markup: the wire aside, readout `dl`, facts, receipts,
-  lane tabs, sorts, search, book rows, dialogs, toast — all bindings, handlers and
-  text tokens moved verbatim.
-- New CSS token file and breakpoints: 1280 / 1024 / 720 / 480.
+- Tokens come from `.reskin/STYLE.md` (white ground, `#298dff` accent, ink `#081B2B`,
+  Segoe UI Variable Display / Cascadia Mono mood, radius 12/22/36).
+- Breakpoints: `1080px` (readout splits), `760px` (single column, dock bar),
+  `520px` (tight type scale).
 
-## Rules of the rebuild
+## Content contract
 
-- Zero `bp-` classes, zero `--bp-` tokens, zero shared selectors.
-- No new visible copy; no duplicated tokens; no CSS `content:` copy.
-- Accent `#ff0000` fills, `#ff6b6b` for accent text on glass; teal/magenta glow only
-  as decoration behind content.
-- `prefers-reduced-motion` guards the marquee, the pulse and the drawer.
+Every static token, binding, handler, href, form field, placeholder and accessibility
+name in `.reskin/content-contract.json` is moved into the new markup unchanged, with
+the same multiplicity.

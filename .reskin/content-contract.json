@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "oddix",
-    "title": "oddix",
+    "projectName": "callova",
+    "title": "callova",
     "lang": "en"
   },
   "routes": [
@@ -90,6 +90,22 @@
       "count": 1
     },
     {
+      "value": "CALL",
+      "count": 1
+    },
+    {
+      "value": "Callova",
+      "count": 1
+    },
+    {
+      "value": "Callova connects through the wallet extension you already run, on Solana",
+      "count": 1
+    },
+    {
+      "value": "CALLOVA-01",
+      "count": 1
+    },
+    {
       "value": "Closes",
       "count": 1
     },
@@ -110,7 +126,7 @@
       "count": 1
     },
     {
-      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Oddix reads the chain you are actually on and pays out on the terms it publishes.",
+      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Callova reads the chain you are actually on and pays out on the terms it publishes.",
       "count": 1
     },
     {
@@ -139,10 +155,6 @@
     },
     {
       "value": "in",
-      "count": 1
-    },
-    {
-      "value": "IX",
       "count": 1
     },
     {
@@ -186,22 +198,6 @@
       "count": 1
     },
     {
-      "value": "ODD",
-      "count": 1
-    },
-    {
-      "value": "Oddix",
-      "count": 1
-    },
-    {
-      "value": "Oddix connects through the wallet extension you already run, on Solana",
-      "count": 1
-    },
-    {
-      "value": "ODDIX-01",
-      "count": 1
-    },
-    {
       "value": "of",
       "count": 1
     },
@@ -211,6 +207,10 @@
     },
     {
       "value": "Open the feed",
+      "count": 1
+    },
+    {
+      "value": "OVA",
       "count": 1
     },
     {
@@ -354,7 +354,7 @@
       "count": 1
     },
     {
-      "value": "Your wallet builds and signs the transaction. Oddix never holds your key, and the signature is the receipt the chain keeps.",
+      "value": "Your wallet builds and signs the transaction. Callova never holds your key, and the signature is the receipt the chain keeps.",
       "count": 1
     },
     {

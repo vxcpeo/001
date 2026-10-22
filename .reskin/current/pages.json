@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "current",
-  "generatedAt": "2026-10-21T14:48:08.927Z",
+  "generatedAt": "2026-10-21T18:51:33.585Z",
   "baseUrl": "http://127.0.0.1:4317/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
@@ -15,13 +15,13 @@
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Oddix // Live prediction lines on Solana",
+          "title": "Callova // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 3402,
+          "bodyTextLength": 3412,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 35
+          "focusableCount": 36
         },
         "words": [
           {
@@ -470,6 +470,14 @@
           },
           {
             "word": "CALL",
+            "count": 2
+          },
+          {
+            "word": "Callova",
+            "count": 3
+          },
+          {
+            "word": "CALLOVA-01",
             "count": 1
           },
           {
@@ -669,10 +677,6 @@
             "count": 1
           },
           {
-            "word": "IX",
-            "count": 1
-          },
-          {
             "word": "keeps",
             "count": 1
           },
@@ -821,18 +825,6 @@
             "count": 1
           },
           {
-            "word": "ODD",
-            "count": 1
-          },
-          {
-            "word": "Oddix",
-            "count": 3
-          },
-          {
-            "word": "ODDIX-01",
-            "count": 1
-          },
-          {
             "word": "Odds",
             "count": 1
           },
@@ -875,6 +867,10 @@
           {
             "word": "outsell",
             "count": 3
+          },
+          {
+            "word": "OVA",
+            "count": 1
           },
           {
             "word": "pass",
@@ -1239,6 +1235,10 @@
             "count": 1
           },
           {
+            "key": "aria-label=Callova home",
+            "count": 1
+          },
+          {
             "key": "aria-label=Lanes",
             "count": 1
           },
@@ -1248,10 +1248,6 @@
           },
           {
             "key": "aria-label=Network",
-            "count": 1
-          },
-          {
-            "key": "aria-label=Oddix home",
             "count": 1
           },
           {
@@ -1299,198 +1295,179 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "ox-act",
-          "ox-act--primary",
-          "ox-book",
-          "ox-brand",
-          "ox-brand-mark",
-          "ox-brand-word",
-          "ox-chip",
-          "ox-chip-dot",
-          "ox-claim",
-          "ox-claim-accent",
-          "ox-clock",
-          "ox-code",
-          "ox-command",
-          "ox-command-tools",
-          "ox-delta",
-          "ox-desk",
-          "ox-desk-actions",
-          "ox-desk-glyph",
-          "ox-desk-head",
-          "ox-desk-title",
-          "ox-dim",
-          "ox-down",
-          "ox-facts",
-          "ox-feed",
-          "ox-feed-head",
-          "ox-feed-title",
-          "ox-head",
-          "ox-heat",
-          "ox-imprint",
-          "ox-kicker",
-          "ox-lane",
-          "ox-lane-name",
-          "ox-lanes",
-          "ox-live",
-          "ox-main",
-          "ox-margin",
-          "ox-move",
-          "ox-move-body",
-          "ox-move-no",
-          "ox-moves",
-          "ox-moves-head",
-          "ox-moves-list",
-          "ox-node",
-          "ox-nodes",
-          "ox-note",
-          "ox-on",
-          "ox-page",
-          "ox-panel",
-          "ox-pulse",
-          "ox-question",
-          "ox-quote",
-          "ox-rail",
-          "ox-rail-crest",
-          "ox-rail-end",
-          "ox-rail-glyph",
-          "ox-rail-label",
-          "ox-rail-link",
-          "ox-rail-spine",
-          "ox-readout",
-          "ox-readout-foot",
-          "ox-readout-head",
-          "ox-row",
-          "ox-row-id",
-          "ox-row-main",
-          "ox-row-meta",
-          "ox-row-quote",
-          "ox-row-sides",
-          "ox-seal",
-          "ox-search",
-          "ox-search-glyph",
-          "ox-search-input",
-          "ox-section-title",
-          "ox-sep",
-          "ox-shell",
-          "ox-side",
-          "ox-side--no",
-          "ox-side--yes",
-          "ox-sort",
-          "ox-sorts",
-          "ox-spark",
-          "ox-split",
-          "ox-stage",
-          "ox-standfirst",
-          "ox-stat",
-          "ox-stats",
-          "ox-status",
-          "ox-status-bottom",
-          "ox-status-brand",
-          "ox-status-live",
-          "ox-status-meta",
-          "ox-status-net",
-          "ox-status-tag",
-          "ox-status-top",
-          "ox-stream",
-          "ox-tally",
-          "ox-tape",
-          "ox-tape-item",
-          "ox-tape-label",
-          "ox-tape-track",
-          "ox-tools",
-          "ox-up",
-          "ox-volume",
-          "ox-wallet-state"
+          "td-act",
+          "td-act--primary",
+          "td-aside-block",
+          "td-chip",
+          "td-chip-dot",
+          "td-claim",
+          "td-claim-accent",
+          "td-clock",
+          "td-code",
+          "td-cue",
+          "td-cue-line",
+          "td-cue-tick",
+          "td-desk-actions",
+          "td-desk-card",
+          "td-desk-glyph",
+          "td-desk-head",
+          "td-dim",
+          "td-display",
+          "td-dock",
+          "td-dock-dot",
+          "td-dock-link",
+          "td-facts",
+          "td-feed",
+          "td-filters",
+          "td-gain",
+          "td-gallery",
+          "td-heat",
+          "td-imprint",
+          "td-is-on",
+          "td-kicker",
+          "td-lane",
+          "td-lane-tag",
+          "td-lanes",
+          "td-line",
+          "td-line-figure",
+          "td-line-meta",
+          "td-line-top",
+          "td-live",
+          "td-loss",
+          "td-mark",
+          "td-mark-glyph",
+          "td-mark-word",
+          "td-move",
+          "td-move-body",
+          "td-move-no",
+          "td-moves",
+          "td-node",
+          "td-nodes",
+          "td-note",
+          "td-opening",
+          "td-opening-actions",
+          "td-opening-bar",
+          "td-opening-body",
+          "td-outro",
+          "td-outro-bottom",
+          "td-outro-brand",
+          "td-outro-inner",
+          "td-outro-live",
+          "td-outro-meta",
+          "td-outro-net",
+          "td-outro-tag",
+          "td-outro-top",
+          "td-page",
+          "td-primary",
+          "td-pulse",
+          "td-question",
+          "td-quiet",
+          "td-quote",
+          "td-rail",
+          "td-rail-wrap",
+          "td-readout",
+          "td-readout-head",
+          "td-readout-main",
+          "td-rules",
+          "td-scene",
+          "td-scene-head",
+          "td-seal",
+          "td-seal-row",
+          "td-search",
+          "td-sep",
+          "td-sides",
+          "td-sort",
+          "td-sorts",
+          "td-spark",
+          "td-split",
+          "td-standfirst",
+          "td-stat",
+          "td-stats",
+          "td-stream",
+          "td-take",
+          "td-take--no",
+          "td-take--yes",
+          "td-tally",
+          "td-tape",
+          "td-tape-item",
+          "td-tape-label",
+          "td-tape-rail",
+          "td-tide",
+          "td-volume",
+          "td-wallet-state",
+          "td-wash"
         ],
         "fingerprint": [
           "a@6:2",
           "a@7:2",
-          "a@8:0",
           "a@9:0",
           "b@10:0",
+          "b@11:0",
           "b@12:0",
-          "b@13:0",
-          "b@14:0",
-          "button@11:0",
+          "b@9:0",
           "button@11:1",
-          "button@11:2",
-          "button@12:1",
-          "button@8:0",
-          "circle@10:0",
-          "circle@8:0",
-          "dd@12:0",
-          "div@10:1",
+          "button@9:0",
+          "button@9:1",
+          "button@9:2",
+          "circle@11:0",
+          "dd@10:0",
           "div@10:2",
           "div@10:3",
-          "div@10:4+",
-          "div@11:1",
-          "div@11:2",
-          "div@11:3",
-          "div@12:4+",
           "div@3:1",
-          "div@4:2",
-          "div@5:3",
+          "div@4:4+",
+          "div@5:1",
+          "div@6:2",
+          "div@7:1",
           "div@7:2",
           "div@7:3",
+          "div@7:4+",
           "div@8:1",
           "div@8:2",
+          "div@8:3",
           "div@8:4+",
           "div@9:2",
-          "dl@10:3",
-          "dl@10:4+",
-          "dt@12:0",
+          "dl@8:3",
+          "dl@8:4+",
+          "dt@10:0",
           "em@10:0",
-          "em@14:0",
+          "em@11:0",
           "em@9:0",
-          "footer@6:2",
-          "h1@8:3",
+          "footer@5:1",
+          "h1@7:3",
           "h2@10:0",
-          "h2@11:0",
-          "h2@12:0",
-          "h3@11:0",
-          "h3@12:0",
-          "header@6:3",
+          "h2@7:0",
+          "h2@9:0",
+          "h3@10:0",
+          "header@5:3",
           "i@10:0",
           "i@12:0",
-          "i@13:0",
-          "input@9:0",
-          "label@8:2",
-          "li@10:4+",
-          "li@9:2",
-          "main@6:4+",
-          "nav@5:4+",
+          "input@10:0",
+          "label@9:2",
+          "li@8:2",
+          "li@9:4+",
+          "main@5:3",
+          "nav@5:3",
           "nav@8:1",
-          "ol@8:3",
-          "ol@9:4+",
+          "ol@7:3",
+          "ol@8:4+",
           "p@10:0",
-          "p@11:0",
-          "p@12:0",
+          "p@10:2",
+          "p@10:3",
           "p@7:0",
           "p@8:0",
           "p@8:2",
           "p@8:4+",
+          "p@9:0",
           "path@10:0",
+          "path@11:0",
           "path@13:0",
-          "path@15:0",
-          "path@8:0",
+          "path@7:0",
           "rect@10:0",
-          "rect@8:0",
-          "section@7:1",
-          "section@7:2",
-          "section@7:3",
-          "section@8:3",
-          "section@9:3",
-          "section@9:4+",
+          "section@6:2",
+          "section@6:4+",
           "span@10:0",
           "span@11:0",
           "span@11:1",
-          "span@12:0",
-          "span@13:0",
-          "span@13:1",
-          "span@13:2",
-          "span@6:0",
-          "span@6:1",
           "span@7:0",
           "span@8:0",
           "span@8:1",
@@ -1498,107 +1475,122 @@
           "span@9:1",
           "span@9:4+",
           "strong@10:0",
-          "strong@12:0",
-          "strong@12:1",
+          "strong@11:1",
           "strong@9:0",
-          "svg@12:2",
-          "svg@14:1",
-          "svg@7:1",
-          "svg@7:2",
-          "svg@7:3",
-          "svg@7:4+",
-          "svg@9:2",
+          "svg@10:2",
+          "svg@12:1",
+          "svg@6:3",
           "svg@9:3"
         ],
         "landmarks": [
           {
-            "tag": "nav",
+            "tag": "header",
             "role": "",
-            "top": 0,
+            "top": -283,
             "left": 0,
-            "width": 76,
+            "width": 1440,
             "height": 900
           },
           {
-            "tag": "header",
-            "role": "",
-            "top": 16,
-            "left": 125,
-            "width": 1266,
-            "height": 60
-          },
-          {
             "tag": "main",
-            "role": "",
-            "top": 76,
-            "left": 125,
-            "width": 1266,
-            "height": 2016
+            "role": "main",
+            "top": 617,
+            "left": 0,
+            "width": 1440,
+            "height": 2167
           },
           {
             "tag": "footer",
-            "role": "",
-            "top": 2178,
-            "left": 125,
-            "width": 1266,
-            "height": 128
+            "role": "contentinfo",
+            "top": 2844,
+            "left": 0,
+            "width": 1440,
+            "height": 356
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 2210,
-            "left": 1229,
-            "width": 162,
-            "height": 16
+            "top": 2965,
+            "left": 1215,
+            "width": 168,
+            "height": 17
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 828,
+            "left": 598,
+            "width": 244,
+            "height": 54
           }
         ],
         "colors": [
           {
-            "hex": "#f4f7fa",
-            "count": 208
+            "hex": "#081b2b",
+            "count": 205
           },
           {
-            "hex": "#8fa3b5",
-            "count": 124
+            "hex": "#5b7185",
+            "count": 121
           },
           {
-            "hex": "#ff6b6b",
-            "count": 45
+            "hex": "#087a55",
+            "count": 33
           },
           {
-            "hex": "#67798b",
-            "count": 43
-          },
-          {
-            "hex": "#c9d6e2",
-            "count": 26
-          },
-          {
-            "hex": "#5ce1a0",
-            "count": 21
-          },
-          {
-            "hex": "#ff7a7a",
-            "count": 12
-          },
-          {
-            "hex": "#ff0000",
-            "count": 9
-          },
-          {
-            "hex": "#000000",
-            "count": 8
+            "hex": "#0b4f9e",
+            "count": 25
           },
           {
             "hex": "#ffffff",
-            "count": 5
+            "count": 23
           },
           {
-            "hex": "#0d151d",
+            "hex": "#f3f9ff",
+            "count": 22
+          },
+          {
+            "hex": "#0d71e3",
+            "count": 20
+          },
+          {
+            "hex": "#b42318",
+            "count": 18
+          },
+          {
+            "hex": "#38536a",
+            "count": 16
+          },
+          {
+            "hex": "#e8f3ff",
+            "count": 9
+          },
+          {
+            "hex": "#e7f2ff",
+            "count": 8
+          },
+          {
+            "hex": "#f1f5f9",
+            "count": 8
+          },
+          {
+            "hex": "#4da2ff",
+            "count": 6
+          },
+          {
+            "hex": "#298dff",
+            "count": 4
+          },
+          {
+            "hex": "#1c6bcc",
             "count": 3
           },
           {
-            "hex": "#0d141c",
+            "hex": "#44607a",
+            "count": 3
+          },
+          {
+            "hex": "#b9d4ec",
             "count": 1
           }
         ],
@@ -1673,44 +1665,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "main.ox-main > section.ox-tape > div.ox-tape-track",
-              "right": 5825,
-              "width": 5795
+              "selector": "div.td-page > div.td-wash > svg.td-tide",
+              "right": 1526,
+              "width": 1066
             },
             {
-              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
-              "right": 1797,
-              "width": 361
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 1526,
+              "width": 1066
             },
             {
-              "selector": "div.ox-tape-track > span.ox-tape-item > b",
-              "right": 1493,
-              "width": 35
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 1526,
+              "width": 1066
             },
             {
-              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
-              "right": 1708,
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 1526,
+              "width": 1066
+            },
+            {
+              "selector": "section#feed > div.td-tape > div.td-tape-rail",
+              "right": 5416,
+              "width": 5358
+            },
+            {
+              "selector": "div.td-tape > div.td-tape-rail > span.td-tape-item",
+              "right": 1686,
+              "width": 306
+            },
+            {
+              "selector": "div.td-tape-rail > span.td-tape-item > span.td-tape-label",
+              "right": 1624,
               "width": 206
             },
             {
-              "selector": "div.ox-tape-track > span.ox-tape-item > strong.ox-up",
-              "right": 1735,
+              "selector": "div.td-tape-rail > span.td-tape-item > strong.td-gain",
+              "right": 1650,
               "width": 18
-            },
-            {
-              "selector": "div.ox-tape-track > span.ox-tape-item > em.ox-up",
-              "right": 1774,
-              "width": 30
-            },
-            {
-              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
-              "right": 2170,
-              "width": 373
-            },
-            {
-              "selector": "div.ox-tape-track > span.ox-tape-item > b",
-              "right": 1854,
-              "width": 35
             }
           ]
         }
@@ -1729,13 +1721,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Oddix // Live prediction lines on Solana",
+          "title": "Callova // Live prediction lines on Solana",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 3402,
+          "bodyTextLength": 3412,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 35
+          "focusableCount": 36
         },
         "words": [
           {
@@ -2184,6 +2176,14 @@
           },
           {
             "word": "CALL",
+            "count": 2
+          },
+          {
+            "word": "Callova",
+            "count": 3
+          },
+          {
+            "word": "CALLOVA-01",
             "count": 1
           },
           {
@@ -2383,10 +2383,6 @@
             "count": 1
           },
           {
-            "word": "IX",
-            "count": 1
-          },
-          {
             "word": "keeps",
             "count": 1
           },
@@ -2535,18 +2531,6 @@
             "count": 1
           },
           {
-            "word": "ODD",
-            "count": 1
-          },
-          {
-            "word": "Oddix",
-            "count": 3
-          },
-          {
-            "word": "ODDIX-01",
-            "count": 1
-          },
-          {
             "word": "Odds",
             "count": 1
           },
@@ -2589,6 +2573,10 @@
           {
             "word": "outsell",
             "count": 3
+          },
+          {
+            "word": "OVA",
+            "count": 1
           },
           {
             "word": "pass",
@@ -2953,6 +2941,10 @@
             "count": 1
           },
           {
+            "key": "aria-label=Callova home",
+            "count": 1
+          },
+          {
             "key": "aria-label=Lanes",
             "count": 1
           },
@@ -2962,10 +2954,6 @@
           },
           {
             "key": "aria-label=Network",
-            "count": 1
-          },
-          {
-            "key": "aria-label=Oddix home",
             "count": 1
           },
           {
@@ -3013,193 +3001,179 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "ox-act",
-          "ox-act--primary",
-          "ox-book",
-          "ox-brand",
-          "ox-brand-mark",
-          "ox-brand-word",
-          "ox-chip",
-          "ox-chip-dot",
-          "ox-claim",
-          "ox-claim-accent",
-          "ox-clock",
-          "ox-code",
-          "ox-command",
-          "ox-command-tools",
-          "ox-delta",
-          "ox-desk",
-          "ox-desk-actions",
-          "ox-desk-glyph",
-          "ox-desk-head",
-          "ox-desk-title",
-          "ox-dim",
-          "ox-down",
-          "ox-facts",
-          "ox-feed",
-          "ox-feed-head",
-          "ox-feed-title",
-          "ox-head",
-          "ox-heat",
-          "ox-imprint",
-          "ox-kicker",
-          "ox-lane",
-          "ox-lane-name",
-          "ox-lanes",
-          "ox-live",
-          "ox-main",
-          "ox-margin",
-          "ox-move",
-          "ox-move-body",
-          "ox-move-no",
-          "ox-moves",
-          "ox-moves-head",
-          "ox-moves-list",
-          "ox-node",
-          "ox-nodes",
-          "ox-note",
-          "ox-on",
-          "ox-page",
-          "ox-panel",
-          "ox-pulse",
-          "ox-question",
-          "ox-quote",
-          "ox-rail",
-          "ox-rail-glyph",
-          "ox-rail-label",
-          "ox-rail-link",
-          "ox-readout",
-          "ox-readout-foot",
-          "ox-readout-head",
-          "ox-row",
-          "ox-row-id",
-          "ox-row-main",
-          "ox-row-meta",
-          "ox-row-quote",
-          "ox-row-sides",
-          "ox-seal",
-          "ox-search",
-          "ox-search-glyph",
-          "ox-search-input",
-          "ox-section-title",
-          "ox-sep",
-          "ox-shell",
-          "ox-side",
-          "ox-side--no",
-          "ox-side--yes",
-          "ox-sort",
-          "ox-sorts",
-          "ox-spark",
-          "ox-split",
-          "ox-stage",
-          "ox-standfirst",
-          "ox-stat",
-          "ox-stats",
-          "ox-status",
-          "ox-status-bottom",
-          "ox-status-brand",
-          "ox-status-live",
-          "ox-status-meta",
-          "ox-status-net",
-          "ox-status-tag",
-          "ox-status-top",
-          "ox-stream",
-          "ox-tally",
-          "ox-tape",
-          "ox-tape-item",
-          "ox-tape-label",
-          "ox-tape-track",
-          "ox-tools",
-          "ox-up",
-          "ox-volume",
-          "ox-wallet-state"
+          "td-act",
+          "td-act--primary",
+          "td-aside-block",
+          "td-chip",
+          "td-chip-dot",
+          "td-claim",
+          "td-claim-accent",
+          "td-clock",
+          "td-code",
+          "td-cue",
+          "td-cue-line",
+          "td-cue-tick",
+          "td-desk-actions",
+          "td-desk-card",
+          "td-desk-glyph",
+          "td-desk-head",
+          "td-dim",
+          "td-display",
+          "td-dock",
+          "td-dock-dot",
+          "td-dock-link",
+          "td-facts",
+          "td-feed",
+          "td-filters",
+          "td-gain",
+          "td-gallery",
+          "td-heat",
+          "td-imprint",
+          "td-is-on",
+          "td-kicker",
+          "td-lane",
+          "td-lane-tag",
+          "td-lanes",
+          "td-line",
+          "td-line-figure",
+          "td-line-meta",
+          "td-line-top",
+          "td-live",
+          "td-loss",
+          "td-mark",
+          "td-mark-glyph",
+          "td-mark-word",
+          "td-move",
+          "td-move-body",
+          "td-move-no",
+          "td-moves",
+          "td-node",
+          "td-nodes",
+          "td-note",
+          "td-opening",
+          "td-opening-actions",
+          "td-opening-bar",
+          "td-opening-body",
+          "td-outro",
+          "td-outro-bottom",
+          "td-outro-brand",
+          "td-outro-inner",
+          "td-outro-live",
+          "td-outro-meta",
+          "td-outro-net",
+          "td-outro-tag",
+          "td-outro-top",
+          "td-page",
+          "td-primary",
+          "td-pulse",
+          "td-question",
+          "td-quiet",
+          "td-quote",
+          "td-rail",
+          "td-rail-wrap",
+          "td-readout",
+          "td-readout-head",
+          "td-readout-main",
+          "td-rules",
+          "td-scene",
+          "td-scene-head",
+          "td-seal",
+          "td-seal-row",
+          "td-search",
+          "td-sep",
+          "td-sides",
+          "td-sort",
+          "td-sorts",
+          "td-spark",
+          "td-split",
+          "td-standfirst",
+          "td-stat",
+          "td-stats",
+          "td-stream",
+          "td-take",
+          "td-take--no",
+          "td-take--yes",
+          "td-tally",
+          "td-tape",
+          "td-tape-item",
+          "td-tape-label",
+          "td-tape-rail",
+          "td-tide",
+          "td-volume",
+          "td-wallet-state",
+          "td-wash"
         ],
         "fingerprint": [
           "a@6:2",
           "a@7:2",
-          "a@8:0",
           "a@9:0",
           "b@10:0",
+          "b@11:0",
           "b@12:0",
-          "b@13:0",
-          "b@14:0",
-          "button@11:0",
+          "b@9:0",
           "button@11:1",
-          "button@11:2",
-          "button@12:1",
-          "button@8:0",
-          "circle@10:0",
-          "circle@8:0",
-          "dd@12:0",
-          "div@10:1",
+          "button@9:0",
+          "button@9:1",
+          "button@9:2",
+          "circle@11:0",
+          "dd@10:0",
           "div@10:2",
           "div@10:3",
-          "div@10:4+",
-          "div@11:1",
-          "div@11:2",
-          "div@11:3",
-          "div@12:4+",
           "div@3:1",
-          "div@4:2",
-          "div@5:3",
+          "div@4:4+",
+          "div@5:1",
+          "div@6:2",
+          "div@7:1",
           "div@7:2",
           "div@7:3",
+          "div@7:4+",
           "div@8:1",
           "div@8:2",
+          "div@8:3",
           "div@8:4+",
           "div@9:2",
-          "dl@10:3",
-          "dl@10:4+",
-          "dt@12:0",
+          "dl@8:3",
+          "dl@8:4+",
+          "dt@10:0",
           "em@10:0",
-          "em@14:0",
+          "em@11:0",
           "em@9:0",
-          "footer@6:2",
-          "h1@8:3",
+          "footer@5:1",
+          "h1@7:3",
           "h2@10:0",
-          "h2@11:0",
-          "h2@12:0",
-          "h3@11:0",
-          "h3@12:0",
-          "header@6:3",
+          "h2@7:0",
+          "h2@9:0",
+          "h3@10:0",
+          "header@5:3",
           "i@10:0",
           "i@12:0",
-          "i@13:0",
-          "input@9:0",
-          "label@8:2",
-          "li@10:4+",
-          "li@9:2",
-          "main@6:4+",
-          "nav@5:4+",
+          "input@10:0",
+          "label@9:2",
+          "li@8:2",
+          "li@9:4+",
+          "main@5:3",
+          "nav@5:3",
           "nav@8:1",
-          "ol@8:3",
-          "ol@9:4+",
+          "ol@7:3",
+          "ol@8:4+",
           "p@10:0",
-          "p@11:0",
-          "p@12:0",
+          "p@10:2",
+          "p@10:3",
           "p@7:0",
           "p@8:0",
           "p@8:2",
           "p@8:4+",
+          "p@9:0",
           "path@10:0",
+          "path@11:0",
           "path@13:0",
-          "path@15:0",
-          "path@8:0",
+          "path@7:0",
           "rect@10:0",
-          "rect@8:0",
-          "section@7:1",
-          "section@7:2",
-          "section@7:3",
-          "section@8:3",
-          "section@9:3",
-          "section@9:4+",
+          "section@6:2",
+          "section@6:4+",
           "span@10:0",
           "span@11:0",
           "span@11:1",
-          "span@12:0",
-          "span@13:0",
-          "span@13:1",
-          "span@13:2",
           "span@7:0",
           "span@8:0",
           "span@8:1",
@@ -3207,110 +3181,122 @@
           "span@9:1",
           "span@9:4+",
           "strong@10:0",
-          "strong@12:0",
-          "strong@12:1",
+          "strong@11:1",
           "strong@9:0",
-          "svg@12:2",
-          "svg@14:1",
-          "svg@7:1",
-          "svg@7:3",
-          "svg@7:4+",
-          "svg@9:2",
+          "svg@10:2",
+          "svg@12:1",
+          "svg@6:3",
           "svg@9:3"
         ],
         "landmarks": [
           {
-            "tag": "nav",
-            "role": "",
-            "top": 772,
-            "left": 0,
-            "width": 390,
-            "height": 72
-          },
-          {
             "tag": "header",
             "role": "",
-            "top": 12,
-            "left": 14,
-            "width": 362,
-            "height": 172
+            "top": 0,
+            "left": 0,
+            "width": 390,
+            "height": 657
           },
           {
             "tag": "main",
-            "role": "",
-            "top": 184,
-            "left": 14,
-            "width": 362,
-            "height": 3629
+            "role": "main",
+            "top": 657,
+            "left": 0,
+            "width": 390,
+            "height": 2669
           },
           {
             "tag": "footer",
-            "role": "",
-            "top": 3859,
-            "left": 14,
-            "width": 362,
-            "height": 204
+            "role": "contentinfo",
+            "top": 3356,
+            "left": 0,
+            "width": 390,
+            "height": 341
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 3943,
-            "left": 14,
-            "width": 155,
-            "height": 16
+            "top": 3486,
+            "left": 18,
+            "width": 160,
+            "height": 17
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 791,
+            "left": 0,
+            "width": 390,
+            "height": 53
           }
         ],
         "colors": [
           {
-            "hex": "#f4f7fa",
-            "count": 207
+            "hex": "#081b2b",
+            "count": 205
           },
           {
-            "hex": "#8fa3b5",
-            "count": 124
+            "hex": "#5b7185",
+            "count": 121
           },
           {
-            "hex": "#ff6b6b",
-            "count": 41
+            "hex": "#087a55",
+            "count": 33
           },
           {
-            "hex": "#67798b",
-            "count": 40
-          },
-          {
-            "hex": "#c9d6e2",
-            "count": 26
-          },
-          {
-            "hex": "#5ce1a0",
-            "count": 21
-          },
-          {
-            "hex": "#ff7a7a",
-            "count": 12
-          },
-          {
-            "hex": "#ff0000",
-            "count": 9
-          },
-          {
-            "hex": "#000000",
-            "count": 8
+            "hex": "#0b4f9e",
+            "count": 25
           },
           {
             "hex": "#ffffff",
-            "count": 5
+            "count": 23
           },
           {
-            "hex": "#0d151d",
+            "hex": "#f3f9ff",
+            "count": 22
+          },
+          {
+            "hex": "#0d71e3",
+            "count": 20
+          },
+          {
+            "hex": "#b42318",
+            "count": 18
+          },
+          {
+            "hex": "#38536a",
+            "count": 16
+          },
+          {
+            "hex": "#e8f3ff",
+            "count": 9
+          },
+          {
+            "hex": "#e7f2ff",
+            "count": 8
+          },
+          {
+            "hex": "#f1f5f9",
+            "count": 8
+          },
+          {
+            "hex": "#4da2ff",
+            "count": 6
+          },
+          {
+            "hex": "#298dff",
+            "count": 4
+          },
+          {
+            "hex": "#1c6bcc",
             "count": 3
           },
           {
-            "hex": "#080d14",
-            "count": 1
+            "hex": "#44607a",
+            "count": 3
           },
           {
-            "hex": "#0d141c",
+            "hex": "#b9d4ec",
             "count": 1
           }
         ],
@@ -3385,44 +3371,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "main.ox-main > section.ox-tape > div.ox-tape-track",
-              "right": 5314,
-              "width": 5408
+              "selector": "div.td-page > div.td-wash > svg.td-tide",
+              "right": 413,
+              "width": 289
             },
             {
-              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
-              "right": 596,
-              "width": 370
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 413,
+              "width": 289
             },
             {
-              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
-              "right": 516,
-              "width": 226
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 413,
+              "width": 289
             },
             {
-              "selector": "div.ox-tape-track > span.ox-tape-item > strong.ox-down",
-              "right": 542,
+              "selector": "div.td-wash > svg.td-tide > path",
+              "right": 413,
+              "width": 289
+            },
+            {
+              "selector": "section#feed > div.td-tape > div.td-tape-rail",
+              "right": 4665,
+              "width": 4647
+            },
+            {
+              "selector": "div.td-tape > div.td-tape-rail > span.td-tape-item",
+              "right": 584,
+              "width": 277
+            },
+            {
+              "selector": "div.td-tape-rail > span.td-tape-item > span.td-tape-label",
+              "right": 531,
+              "width": 187
+            },
+            {
+              "selector": "div.td-tape-rail > span.td-tape-item > strong.td-loss",
+              "right": 556,
               "width": 17
-            },
-            {
-              "selector": "div.ox-tape-track > span.ox-tape-item > em.ox-down",
-              "right": 573,
-              "width": 22
-            },
-            {
-              "selector": "section.ox-tape > div.ox-tape-track > span.ox-tape-item",
-              "right": 910,
-              "width": 315
-            },
-            {
-              "selector": "div.ox-tape-track > span.ox-tape-item > b",
-              "right": 651,
-              "width": 33
-            },
-            {
-              "selector": "div.ox-tape-track > span.ox-tape-item > span.ox-tape-label",
-              "right": 830,
-              "width": 171
             }
           ]
         }
@@ -3438,52 +3424,22 @@
         "samples": [
           {
             "tag": "a",
-            "text": "FEED",
+            "text": "Callova home",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
+            "outlineColor": "rgb(13, 113, 227)",
             "boxShadow": "none",
-            "borderColor": "rgba(143, 163, 181, 0.1)",
-            "backgroundColor": "rgba(255, 255, 255, 0.027)"
-          },
-          {
-            "tag": "a",
-            "text": "RULES",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
-            "boxShadow": "none",
-            "borderColor": "rgba(143, 163, 181, 0.098)",
-            "backgroundColor": "rgba(255, 255, 255, 0.027)"
-          },
-          {
-            "tag": "a",
-            "text": "DESK",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
-            "boxShadow": "none",
-            "borderColor": "rgba(143, 163, 181, 0.114)",
-            "backgroundColor": "rgba(255, 255, 255, 0.03)"
-          },
-          {
-            "tag": "a",
-            "text": "Oddix home",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
-            "boxShadow": "none",
-            "borderColor": "rgb(244, 247, 250)",
+            "borderColor": "rgb(8, 27, 43)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "input",
             "text": "Search lines",
-            "outlineStyle": "none",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(244, 247, 250)",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(13, 113, 227)",
             "boxShadow": "none",
-            "borderColor": "rgb(244, 247, 250)",
+            "borderColor": "rgb(8, 27, 43)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
@@ -3491,33 +3447,63 @@
             "text": "OPEN THE FEED",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
-            "boxShadow": "none",
-            "borderColor": "rgb(255, 0, 0)",
-            "backgroundColor": "rgb(255, 0, 0)"
+            "outlineColor": "rgb(13, 113, 227)",
+            "boxShadow": "rgba(13, 113, 227, 0.28) 0px 16px 34px 0px",
+            "borderColor": "rgb(13, 113, 227)",
+            "backgroundColor": "rgb(13, 113, 227)"
           },
           {
             "tag": "button",
             "text": "ATTACH A WALLET",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
+            "outlineColor": "rgb(13, 113, 227)",
             "boxShadow": "none",
-            "borderColor": "rgba(143, 163, 181, 0.16)",
-            "backgroundColor": "rgba(255, 255, 255, 0.04)"
+            "borderColor": "rgb(216, 231, 245)",
+            "backgroundColor": "rgba(255, 255, 255, 0.9)"
+          },
+          {
+            "tag": "div",
+            "text": "Latest lines",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(13, 113, 227)",
+            "boxShadow": "none",
+            "borderColor": "rgb(216, 231, 245) rgb(8, 27, 43)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "button",
             "text": "ALL LANES 8",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(255, 107, 107)",
+            "outlineColor": "rgb(13, 113, 227)",
             "boxShadow": "none",
-            "borderColor": "rgb(255, 0, 0)",
-            "backgroundColor": "rgb(255, 0, 0)"
+            "borderColor": "rgb(8, 27, 43)",
+            "backgroundColor": "rgb(8, 27, 43)"
+          },
+          {
+            "tag": "button",
+            "text": "TRENDING 4",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(13, 113, 227)",
+            "boxShadow": "none",
+            "borderColor": "rgb(216, 231, 245)",
+            "backgroundColor": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "button",
+            "text": "CRYPTO 3",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(13, 113, 227)",
+            "boxShadow": "none",
+            "borderColor": "rgb(216, 231, 245)",
+            "backgroundColor": "rgb(255, 255, 255)"
           }
         ],
-        "visibleCount": 7,
+        "visibleCount": 8,
         "passed": true
       }
     }

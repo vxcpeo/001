@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "E:\\workspace\\chuangye\\solana\\001\\website",
-  "generatedAt": "2026-10-21T22:43:04+08:00",
+  "generatedAt": "2026-10-22T02:27:55+08:00",
   "git": {
     "isGit": false
   },
@@ -18,21 +18,41 @@
     {
       "path": ".env.example",
       "kind": "text",
-      "size": 722,
-      "hash": "fe012faa074cc70d53988c58b211dd175277512252b666aff82794b9c148cc09",
+      "size": 724,
+      "hash": "bf6ec1c31a217e4cedab7109c5fc9a250d3a57b71bcd45da9cb98b19f55c2918",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
       "protectedHits": []
     },
     {
       "path": ".env.local",
       "kind": "text",
-      "size": 259,
-      "hash": "64c65bb8038fcc6c31413a44b51aeca00917cbaa9d7d4d5e5e0f73c71a6ad6ec",
+      "size": 261,
+      "hash": "05351f237bdbb93e3258db308267b5d48e4f6f6609163c5717a745b390e4ca8b",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
       "protectedHits": []
     },
     {
@@ -48,21 +68,41 @@
     {
       "path": "index.html",
       "kind": "text",
-      "size": 1662,
-      "hash": "b26731309bb134bb2e09b47143788a69aa42e11fd8b0807158c9fe90488fe7f5",
+      "size": 1670,
+      "hash": "bfdba7fbdf843451386757a42e0ee1d83b04a46a6376a977e1613472adb4a995",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 4
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 4
+        }
+      ],
       "protectedHits": []
     },
     {
       "path": "package.json",
       "kind": "text",
-      "size": 282,
-      "hash": "818d6f25f3c93af46acf2313aa47888b289818b0057d4e6c58e7d8f60f1381bc",
+      "size": 284,
+      "hash": "231a539eae87dd9834ec3eb8a2ec00f3f97b5865cb9c141d942e4ac4c1d9ada5",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
       "protectedHits": []
     },
     {
@@ -78,21 +118,41 @@
     {
       "path": "public/favicon.svg",
       "kind": "text",
-      "size": 435,
-      "hash": "fffa1f28dbde92ab408d6e240226b4dedf59ec60d964c42fa59a8778e6cad426",
+      "size": 446,
+      "hash": "31b698f8b039aa285a67c45ccd20133344aec1db78cac8a56cda6bd0786dffcd",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 2
+        }
+      ],
       "protectedHits": []
     },
     {
       "path": "src/App.vue",
       "kind": "text",
-      "size": 33284,
-      "hash": "b67346dc1e97f9b85e73526b8a01820205563491f92b860a0f9ba9466f5d0dd6",
+      "size": 34055,
+      "hash": "e3834328c35fc633863384f6e1aa167aaad902ca5bb4d1e44033afc259b1d7b4",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 10
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 10
+        }
+      ],
       "protectedHits": []
     },
     {
@@ -108,35 +168,55 @@
     {
       "path": "src/solana.js",
       "kind": "text",
-      "size": 14542,
-      "hash": "f27ec4368931dab660a5662531e6ea837236ad58dcfb239e6d4cf46b00b5d5c6",
+      "size": 14546,
+      "hash": "ce6d13b00e1953b6d56bb49f67be5c49fe087f222e61ef6286408fa329331bfd",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 2
+        }
+      ],
       "protectedHits": []
     },
     {
       "path": "src/styles/abyss.css",
       "kind": "text",
-      "size": 39431,
-      "hash": "8413fc2ded1c2d60f8ddeed796c6d1fd4845fc2909fa42f0b20e997d0e477764",
+      "size": 39433,
+      "hash": "3d731607c1b68456301fb0e86e0e9656e5866763249e34089d9667f6002cab2e",
       "encoding": "utf-8",
-      "hits": [],
-      "brandHits": [],
+      "hits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Callova",
+          "count": 1
+        }
+      ],
       "protectedHits": []
     },
     {
       "path": "public/favicon.svg",
       "kind": "image",
-      "size": 435,
-      "hash": "fffa1f28dbde92ab408d6e240226b4dedf59ec60d964c42fa59a8778e6cad426",
+      "size": 446,
+      "hash": "31b698f8b039aa285a67c45ccd20133344aec1db78cac8a56cda6bd0786dffcd",
       "brandHits": []
     },
     {
       "path": "public/og.png",
       "kind": "image",
-      "size": 294816,
-      "hash": "f7b1443bda7a82de6eef43086e560f22a79680e5d13d1a201fed7dc05f71e78c",
+      "size": 295588,
+      "hash": "438f90e1c349a8351a70c43904929f011ddac51f5d189227ad3dccc689c23cf3",
       "brandHits": []
     }
   ],
@@ -145,31 +225,31 @@
       "path": "public/favicon.svg",
       "format": "svg",
       "kind": "favicon",
-      "bytes": 435,
+      "bytes": 446,
       "width": 64.0,
       "height": 64.0,
       "aspect": 1.0,
       "hasAlpha": false,
       "colors": [
         "#0b0b0c",
-        "#ffffff",
+        "#ff0000",
         "#ffffff",
         "#0b0b0c"
       ],
       "text": [],
-      "containsBrand": false,
+      "containsBrand": true,
       "usedBy": [
         "index.html"
       ],
       "needsVisualReview": true,
-      "title": "Oddix",
+      "title": "Callova",
       "viewBox": "0 0 64 64"
     },
     {
       "path": "public/og.png",
       "format": "png",
       "kind": "og",
-      "bytes": 294816,
+      "bytes": 295588,
       "width": 1200,
       "height": 630,
       "aspect": 1.905,
@@ -177,12 +257,12 @@
       "colors": [
         "#000000",
         "#101923",
+        "#010000",
         "#160d11",
         "#0e161e",
-        "#010000",
-        "#0d151d",
+        "#0d151c",
         "#1e1015",
-        "#150d10"
+        "#0d151d"
       ],
       "text": [],
       "containsBrand": false,
@@ -193,45 +273,47 @@
     }
   ],
   "brand": {
-    "display": "Prismel",
-    "slug": "prismel",
-    "confidence": 1.0,
-    "source": "brand.json",
+    "display": "Callova",
+    "slug": "callova",
+    "confidence": 0.875,
+    "source": "scan",
     "evidence": [
       {
-        "value": "Prismel",
-        "source": "existing brand.json",
-        "weight": 100,
-        "file": ".rebrand/brand.json"
+        "value": "Callova",
+        "source": "package:name",
+        "weight": 2,
+        "files": [
+          "package.json"
+        ]
       }
     ],
     "alternatives": [],
     "variants": {
-      "display": "Prismel",
-      "lower": "prismel",
-      "upper": "PRISMEL",
-      "title": "Prismel",
-      "kebab": "prismel",
-      "snake": "prismel",
-      "camel": "prismel",
-      "pascal": "Prismel",
-      "compact": "Prismel",
-      "compactLower": "prismel",
-      "first": "Prismel",
-      "firstLower": "prismel",
-      "firstUpper": "PRISMEL"
+      "display": "Callova",
+      "lower": "callova",
+      "upper": "CALLOVA",
+      "title": "Callova",
+      "kebab": "callova",
+      "snake": "callova",
+      "camel": "callova",
+      "pascal": "Callova",
+      "compact": "Callova",
+      "compactLower": "callova",
+      "first": "Callova",
+      "firstLower": "callova",
+      "firstUpper": "CALLOVA"
     },
     "variantList": [
       {
-        "value": "Prismel",
+        "value": "Callova",
         "kind": "display"
       },
       {
-        "value": "prismel",
+        "value": "callova",
         "kind": "lower"
       },
       {
-        "value": "PRISMEL",
+        "value": "CALLOVA",
         "kind": "upper"
       }
     ],
@@ -239,7 +321,7 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "oddix"
+      "callova"
     ],
     "initials": "",
     "usedBrands": [
@@ -275,7 +357,24 @@
       "Librova",
       "Ledgiva",
       "Actoria",
-      "Prismel"
+      "Custoria",
+      "Remitia",
+      "Holdavia",
+      "QUIVANTA",
+      "Leverix",
+      "Veilary",
+      "Fractio",
+      "Qubitess",
+      "Voxcora",
+      "Honoro",
+      "COWL",
+      "Veiline",
+      "Dueframe",
+      "Tranova",
+      "Quittra",
+      "Voxanote",
+      "Sonira",
+      "Callova"
     ]
   },
   "protected": {
@@ -360,9 +459,9 @@
     "colors": [
       "#ffffff",
       "#000000",
+      "#ff0000",
       "#ffeeee",
       "#0b0b0c",
-      "#ff0000",
       "#221155",
       "#0b1219",
       "#ff2d2d",

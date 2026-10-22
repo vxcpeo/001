@@ -3,9 +3,10 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { createWallet, describeError } from './solana.js'
 
 /* ---------------------------------------------------------------------------
-   Oddix - live prediction arena.
-   Abyss Liquidity skin: a dark technical ground, liquid-glass marginalia and a
-   command rail. Presentation lives in src/styles/abyss.css.
+   Callova - live prediction arena.
+   Tidal Sui / Gallery Scroll skin: a white tidal ground, full-viewport scenes,
+   a snap-scrolling line rail and a floating dock. Presentation lives in
+   src/styles/tidal.css.
    --------------------------------------------------------------------------- */
 
 const wallet = createWallet({
@@ -73,7 +74,7 @@ let toastTimer = 0
 
 function loadReceipts() {
   try {
-    const raw = localStorage.getItem('oddix.receipts.v1')
+    const raw = localStorage.getItem('callova.receipts.v1')
     return raw ? JSON.parse(raw) : []
   } catch {
     return []
@@ -83,7 +84,7 @@ function loadReceipts() {
 function saveReceipt(receipt) {
   receipts.value = [receipt, ...receipts.value].slice(0, 40)
   try {
-    localStorage.setItem('oddix.receipts.v1', JSON.stringify(receipts.value))
+    localStorage.setItem('callova.receipts.v1', JSON.stringify(receipts.value))
   } catch {
     /* storage is optional; the on-chain signature is the real record */
   }
@@ -247,7 +248,7 @@ async function submitTrade() {
   tradeError.value = ''
   const market = active.value
   try {
-    const note = `Oddix|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
+    const note = `Callova|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
     const result = await wallet.signMemo(note)
     saveReceipt({
       marketId: market.id,
@@ -308,433 +309,422 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="ox-page">
-    <nav class="ox-rail" aria-label="Primary">
-      <span class="ox-rail-crest" aria-hidden="true">
-        <svg viewBox="0 0 64 64" focusable="false">
-          <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
-          <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
-        </svg>
-      </span>
+  <div class="td-page">
+    <div class="td-wash" aria-hidden="true">
+      <svg class="td-tide" viewBox="0 0 1440 640" aria-hidden="true" focusable="false">
+        <path d="M0 300C180 210 320 400 520 330S880 160 1120 280 1360 360 1440 300" />
+        <path d="M0 380C200 300 340 470 560 400S920 240 1160 350 1380 430 1440 380" />
+        <path d="M0 460C220 380 360 540 600 470S960 320 1200 420 1400 500 1440 460" />
+      </svg>
+    </div>
 
-      <a class="ox-rail-link" href="#feed">
-        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
-        </svg>
-        <span class="ox-rail-label">Feed</span>
-      </a>
-
-      <a class="ox-rail-link" href="#rules">
-        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path d="M4 6h9M4 12h9M4 18h9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
-          <circle cx="18" cy="6" r="2" fill="currentColor" />
-          <circle cx="18" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.5" />
-          <circle cx="18" cy="18" r="2" fill="currentColor" />
-        </svg>
-        <span class="ox-rail-label">Rules</span>
-      </a>
-
-      <a class="ox-rail-link" href="#desk">
-        <svg class="ox-rail-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <rect x="3.5" y="6" width="17" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7" />
-          <path d="M3.5 10.5h17" fill="none" stroke="currentColor" stroke-width="1.7" />
-          <path d="M7 14.5h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" />
-        </svg>
-        <span class="ox-rail-label">Desk</span>
-      </a>
-
-      <span class="ox-rail-spine" aria-hidden="true"></span>
-      <span class="ox-rail-end" aria-hidden="true">
-        <svg viewBox="0 0 24 24" focusable="false">
-          <path d="M12 2.5 21.5 12 12 21.5 2.5 12Z" fill="none" stroke="currentColor" stroke-width="1.4" />
-        </svg>
-      </span>
-    </nav>
-
-    <div class="ox-shell">
-      <header class="ox-command">
-        <a class="ox-brand" href="#feed" aria-label="Oddix home">
-          <span class="ox-brand-mark" aria-hidden="true">
+    <header class="td-opening">
+      <div class="td-opening-bar">
+        <a class="td-mark" href="#feed" aria-label="Callova home">
+          <span class="td-mark-glyph" aria-hidden="true">
             <svg viewBox="0 0 64 64" focusable="false">
               <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
               <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
-              <rect x="28.9" y="28.9" width="6.2" height="6.2" rx="1" fill="#ff0000" />
+              <rect x="28.9" y="28.9" width="6.2" height="6.2" rx="1" fill="#298dff" />
             </svg>
           </span>
-          <span class="ox-brand-word">ODD<em>IX</em></span>
+          <span class="td-mark-word">CALL<em>OVA</em></span>
         </a>
-        <p class="ox-imprint">Prediction arena &middot; Solana</p>
+        <p class="td-imprint">Prediction arena &middot; Solana</p>
+      </div>
 
-        <div class="ox-command-tools">
-          <label class="ox-search">
-            <svg class="ox-search-glyph" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-              <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4" />
-              <path d="M10.6 10.6 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" />
-            </svg>
-            <input v-model="query" class="ox-search-input" type="search" placeholder="Search lines" aria-label="Search lines" />
-          </label>
-          <a class="ox-act ox-act--primary" href="#feed">Open the feed</a>
-          <button class="ox-act" type="button" @click="connected ? openWallet() : openWallet()">
-            {{ connected ? 'Your desk' : 'Attach a wallet' }}
-          </button>
-        </div>
-      </header>
+      <div class="td-opening-body">
+        <h1 class="td-claim">
+          <span>PRICE THE</span>
+          <span>FUTURE.</span>
+          <span class="td-claim-accent">SIGN THE CALL.</span>
+        </h1>
 
-      <main class="ox-main">
-        <section class="ox-head" aria-labelledby="ox-claim">
-          <h1 id="ox-claim" class="ox-claim">
-            <span>PRICE THE</span>
-            <span>FUTURE.</span>
-            <span class="ox-claim-accent">SIGN THE CALL.</span>
-          </h1>
-          <p class="ox-standfirst">
+        <div class="td-aside-block">
+          <p class="td-standfirst">
             Every question here runs as a live line. The crowd sets the number, you take a side, and the
             wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
             readout names, with nothing standing in for your key.
-            Oddix reads the chain you are actually on and pays out on the terms it publishes.
+            Callova reads the chain you are actually on and pays out on the terms it publishes.
           </p>
-        </section>
 
-        <section class="ox-tape" aria-label="Latest lines">
-          <div class="ox-tape-track">
-            <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="ox-tape-item">
-              <b>{{ item.code }}</b>
-              <span class="ox-tape-label">{{ item.label }}</span>
-              <strong :class="item.move < 0 ? 'ox-down' : 'ox-up'">{{ item.yes }}%</strong>
-              <em :class="item.move < 0 ? 'ox-down' : 'ox-up'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
-            </span>
+          <div class="td-opening-actions">
+            <label class="td-search">
+              <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+                <path d="M10.6 10.6 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" />
+              </svg>
+              <input v-model="query" type="search" placeholder="Search lines" aria-label="Search lines" />
+            </label>
+            <a class="td-primary" href="#feed">Open the feed</a>
+            <button class="td-quiet" type="button" @click="connected ? openWallet() : openWallet()">
+              {{ connected ? 'Your desk' : 'Attach a wallet' }}
+            </button>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <div class="ox-stage">
-          <section id="feed" class="ox-feed" aria-labelledby="ox-feed-title">
-            <div class="ox-feed-head">
-              <div>
-                <p class="ox-kicker">the feed</p>
-                <h2 id="ox-feed-title" class="ox-feed-title">OPEN LINES</h2>
-              </div>
-              <p class="ox-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
-            </div>
+      <div class="td-cue" aria-hidden="true">
+        <span class="td-cue-tick"></span>
+        <span class="td-cue-line"></span>
+      </div>
+    </header>
 
-            <div class="ox-tools">
-              <div class="ox-lanes" role="tablist" aria-label="Lanes">
-                <button
-                  v-for="tab in laneTabs"
-                  :key="tab.name"
-                  type="button"
-                  role="tab"
-                  class="ox-lane"
-                  :aria-selected="lane === tab.name"
-                  :class="{ 'ox-on': lane === tab.name }"
-                  @click="lane = tab.name"
-                >
-                  {{ tab.name }}<b>{{ tab.count }}</b>
-                </button>
-              </div>
+    <main class="td-gallery" role="main">
+      <section id="feed" class="td-scene td-feed" aria-labelledby="td-feed-title">
+        <div class="td-scene-head">
+          <div>
+            <p class="td-kicker">the feed</p>
+            <h2 id="td-feed-title" class="td-display">OPEN LINES</h2>
+          </div>
+          <p class="td-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
+        </div>
 
-              <div class="ox-sorts" role="group" aria-label="Sort lines">
-                <button
-                  v-for="option in sorts"
-                  :key="option.id"
-                  type="button"
-                  class="ox-sort"
-                  :class="{ 'ox-on': sort === option.id }"
-                  @click="sort = option.id"
-                >
-                  {{ option.label }}
-                </button>
-              </div>
-            </div>
-
-            <ol class="ox-book">
-              <li v-for="market in visibleMarkets" :key="market.id" class="ox-row">
-                <div class="ox-row-id">
-                  <span class="ox-code">{{ market.code }}</span>
-                  <span class="ox-lane-name">{{ market.lane }}</span>
-                  <span class="ox-clock">{{ closesIn(market.hours) }}</span>
-                </div>
-
-                <div class="ox-row-main">
-                  <h3 class="ox-question">{{ market.question }}</h3>
-                  <div class="ox-row-meta">
-                    <span class="ox-spark">
-                      <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
-                        <path :d="sparkPath(market.spark)" :class="market.move < 0 ? 'ox-down' : 'ox-up'" />
-                      </svg>
-                    </span>
-                    <span class="ox-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></span>
-                    <span class="ox-delta">
-                      <em :class="market.move < 0 ? 'ox-down' : 'ox-up'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
-                    </span>
-                    <span class="ox-volume">${{ (market.volume / 1000).toFixed(0) }}k</span>
-                    <span class="ox-heat">{{ market.traders }} in</span>
-                  </div>
-                </div>
-
-                <div class="ox-row-quote">
-                  <strong class="ox-quote">{{ market.yes }}<i>%</i></strong>
-                </div>
-
-                <div class="ox-row-sides">
-                  <button class="ox-side ox-side--yes" type="button" @click="openTrade(market, 'YES')">
-                    yes<b>{{ market.yes }}%</b>
-                  </button>
-                  <button class="ox-side ox-side--no" type="button" @click="openTrade(market, 'NO')">
-                    no<b>{{ 100 - market.yes }}%</b>
-                  </button>
-                  <p v-if="receiptFor(market.id)" class="ox-slip">
-                    you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
-                  </p>
-                </div>
-              </li>
-            </ol>
-
-            <p v-if="!visibleMarkets.length" class="ox-empty">
-              No line matches that. Clear the search or switch lanes.
-            </p>
-          </section>
-
-          <div class="ox-margin">
-            <section class="ox-panel ox-readout" aria-label="Arena readout">
-              <div class="ox-readout-head">
-                <span class="ox-kicker">arena readout</span>
-                <span class="ox-stream"><i aria-hidden="true"></i>streaming</span>
-              </div>
-              <dl class="ox-stats">
-                <div v-for="stat in arenaStats" :key="stat.label" class="ox-stat">
-                  <dt>{{ stat.label }}</dt>
-                  <dd>{{ stat.value }}</dd>
-                </div>
-              </dl>
-              <div class="ox-pulse" aria-hidden="true">
-                <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
-              </div>
-              <div class="ox-readout-foot">
-                <span class="ox-seal">ODDIX-01</span>
-                <button v-if="connected" class="ox-chip" type="button" @click="openWallet">
-                  <span class="ox-chip-dot" aria-hidden="true"></span>
-                  {{ shortAddress }}
-                  <b>{{ balanceText }} SOL</b>
-                </button>
-                <button v-else class="ox-chip" type="button" @click="openWallet">
-                  <span class="ox-chip-dot" aria-hidden="true"></span>
-                  <span>Attach wallet</span>
-                </button>
-                <span class="ox-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
-              </div>
-              <dl class="ox-facts">
-                <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
-                <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
-                <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
-              </dl>
-            </section>
-
-            <section id="desk" class="ox-panel ox-desk">
-              <div class="ox-desk-head">
-                <span class="ox-desk-glyph" aria-hidden="true">
-                  <svg viewBox="0 0 64 64" focusable="false">
-                    <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
-                    <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
-                  </svg>
-                </span>
-                <div>
-                  <p class="ox-kicker">your desk</p>
-                  <h2 class="ox-desk-title">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
-                </div>
-              </div>
-
-              <div class="ox-nodes">
-                <div class="ox-node">
-                  <span>Address</span>
-                  <strong>{{ connected ? shortAddress : '---' }}</strong>
-                </div>
-                <div class="ox-node">
-                  <span>Balance on {{ clusterLabel }}</span>
-                  <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
-                </div>
-                <div class="ox-node">
-                  <span>Signed positions</span>
-                  <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
-                </div>
-              </div>
-
-              <div class="ox-desk-actions">
-                <a v-if="connected" class="ox-act" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
-                <button v-if="connected" class="ox-act" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
-                  Refresh balance
-                </button>
-                <button v-if="connected" class="ox-act" type="button" @click="dropWallet">Detach wallet</button>
-                <button v-else class="ox-act ox-act--primary" type="button" @click="openWallet">Attach wallet</button>
-              </div>
-
-              <ul v-if="receipts.length" class="ox-slips">
-                <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
-                  <span class="ox-slip-side" :class="receipt.side === 'YES' ? 'ox-up' : 'ox-down'">{{ receipt.side }}</span>
-                  <span class="ox-slip-q">{{ receipt.question }}</span>
-                  <span class="ox-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
-                </li>
-              </ul>
-            </section>
+        <div class="td-tape" role="region" aria-label="Latest lines" tabindex="0">
+          <div class="td-tape-rail">
+            <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="td-tape-item">
+              <b>{{ item.code }}</b>
+              <span class="td-tape-label">{{ item.label }}</span>
+              <strong :class="item.move < 0 ? 'td-loss' : 'td-gain'">{{ item.yes }}%</strong>
+              <em :class="item.move < 0 ? 'td-loss' : 'td-gain'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
+            </span>
           </div>
         </div>
 
-        <section id="rules" class="ox-moves" aria-labelledby="ox-moves-title">
-          <div class="ox-moves-head">
+        <div class="td-filters">
+          <div class="td-lanes" role="tablist" aria-label="Lanes">
+            <button
+              v-for="tab in laneTabs"
+              :key="tab.name"
+              type="button"
+              role="tab"
+              class="td-lane"
+              :aria-selected="lane === tab.name"
+              :class="{ 'td-is-on': lane === tab.name }"
+              @click="lane = tab.name"
+            >
+              {{ tab.name }}<b>{{ tab.count }}</b>
+            </button>
+          </div>
+
+          <div class="td-sorts" role="group" aria-label="Sort lines">
+            <button
+              v-for="option in sorts"
+              :key="option.id"
+              type="button"
+              class="td-sort"
+              :class="{ 'td-is-on': sort === option.id }"
+              @click="sort = option.id"
+            >
+              {{ option.label }}
+            </button>
+          </div>
+        </div>
+
+        <div class="td-rail-wrap">
+          <ol class="td-rail">
+          <li v-for="market in visibleMarkets" :key="market.id" class="td-line">
+            <div class="td-line-top">
+              <span class="td-code">{{ market.code }}</span>
+              <span class="td-lane-tag">{{ market.lane }}</span>
+              <span class="td-clock">{{ closesIn(market.hours) }}</span>
+            </div>
+
+            <h3 class="td-question">{{ market.question }}</h3>
+
+            <div class="td-line-figure">
+              <strong class="td-quote">{{ market.yes }}<i>%</i></strong>
+              <span class="td-spark">
+                <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
+                  <path :d="sparkPath(market.spark)" :class="market.move < 0 ? 'td-loss' : 'td-gain'" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="td-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></p>
+
+            <p class="td-line-meta">
+              <em :class="market.move < 0 ? 'td-loss' : 'td-gain'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
+              <span class="td-volume">${{ (market.volume / 1000).toFixed(0) }}k</span>
+              <span class="td-heat">{{ market.traders }} in</span>
+            </p>
+
+            <div class="td-sides">
+              <button class="td-take td-take--yes" type="button" @click="openTrade(market, 'YES')">
+                yes<b>{{ market.yes }}%</b>
+              </button>
+              <button class="td-take td-take--no" type="button" @click="openTrade(market, 'NO')">
+                no<b>{{ 100 - market.yes }}%</b>
+              </button>
+            </div>
+
+            <p v-if="receiptFor(market.id)" class="td-slip">
+              you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
+            </p>
+          </li>
+          </ol>
+        </div>
+
+        <p v-if="!visibleMarkets.length" class="td-empty">
+          No line matches that. Clear the search or switch lanes.
+        </p>
+      </section>
+
+      <section id="desk" class="td-scene td-readout" aria-label="Arena readout">
+        <div class="td-readout-main">
+          <div class="td-readout-head">
+            <p class="td-kicker">arena readout</p>
+            <span class="td-stream"><i aria-hidden="true"></i>streaming</span>
+          </div>
+
+          <dl class="td-stats">
+            <div v-for="stat in arenaStats" :key="stat.label" class="td-stat">
+              <dt>{{ stat.label }}</dt>
+              <dd>{{ stat.value }}</dd>
+            </div>
+          </dl>
+
+          <div class="td-pulse" aria-hidden="true">
+            <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
+          </div>
+
+          <div class="td-seal-row">
+            <span class="td-seal">CALLOVA-01</span>
+            <button v-if="connected" class="td-chip" type="button" @click="openWallet">
+              <span class="td-chip-dot" aria-hidden="true"></span>
+              {{ shortAddress }}
+              <b>{{ balanceText }} SOL</b>
+            </button>
+            <button v-else class="td-chip" type="button" @click="openWallet">
+              <span class="td-chip-dot" aria-hidden="true"></span>
+              <span>Attach wallet</span>
+            </button>
+            <span class="td-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
+          </div>
+
+          <dl class="td-facts">
+            <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
+            <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
+            <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
+          </dl>
+        </div>
+
+        <div class="td-desk-card">
+          <div class="td-desk-head">
+            <span class="td-desk-glyph" aria-hidden="true">
+              <svg viewBox="0 0 64 64" focusable="false">
+                <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+                <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+              </svg>
+            </span>
             <div>
-              <p class="ox-kicker">three moves</p>
-              <h2 id="ox-moves-title" class="ox-section-title">HOW A POSITION GETS MADE</h2>
+              <p class="td-kicker">your desk</p>
+              <h2 id="td-desk-title" class="td-display">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
             </div>
           </div>
-          <ol class="ox-moves-list">
-            <li class="ox-move">
-              <b class="ox-move-no">01</b>
-              <div class="ox-move-body">
-                <h3>Read the line</h3>
-                <p>The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.</p>
-              </div>
-            </li>
-            <li class="ox-move">
-              <b class="ox-move-no">02</b>
-              <div class="ox-move-body">
-                <h3>Pick a side</h3>
-                <p>Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.</p>
-              </div>
-            </li>
-            <li class="ox-move">
-              <b class="ox-move-no">03</b>
-              <div class="ox-move-body">
-                <h3>Sign it yourself</h3>
-                <p>Your wallet builds and signs the transaction. Oddix never holds your key, and the signature is the receipt the chain keeps.</p>
-              </div>
-            </li>
-          </ol>
-          <p class="ox-note">
-            The market program is not deployed yet, so a signed position is recorded as an on-chain
-            transaction rather than held in a settlement pool. When the program lands on this cluster,
-            the same button routes the position into it and the pool settles on the published rules.
-          </p>
-        </section>
-      </main>
 
-      <footer class="ox-status">
-        <div class="ox-status-top">
-          <span class="ox-status-brand">Oddix <em>/ 2026</em></span>
-          <span class="ox-status-tag">Price the future. Sign the call.</span>
-          <nav class="ox-status-net" aria-label="Network">
+          <div class="td-nodes">
+            <div class="td-node">
+              <span>Address</span>
+              <strong>{{ connected ? shortAddress : '---' }}</strong>
+            </div>
+            <div class="td-node">
+              <span>Balance on {{ clusterLabel }}</span>
+              <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
+            </div>
+            <div class="td-node">
+              <span>Signed positions</span>
+              <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
+            </div>
+          </div>
+
+          <div class="td-desk-actions">
+            <a v-if="connected" class="td-act" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
+            <button v-if="connected" class="td-act" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
+              Refresh balance
+            </button>
+            <button v-if="connected" class="td-act" type="button" @click="dropWallet">Detach wallet</button>
+            <button v-else class="td-act td-act--primary" type="button" @click="openWallet">Attach wallet</button>
+          </div>
+
+          <ul v-if="receipts.length" class="td-slips">
+            <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
+              <span class="td-slip-side" :class="receipt.side === 'YES' ? 'td-gain' : 'td-loss'">{{ receipt.side }}</span>
+              <span class="td-slip-q">{{ receipt.question }}</span>
+              <span class="td-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="rules" class="td-scene td-rules" aria-labelledby="td-rules-title">
+        <p class="td-kicker">three moves</p>
+        <h2 id="td-rules-title" class="td-display">HOW A POSITION GETS MADE</h2>
+
+        <ol class="td-moves">
+          <li class="td-move">
+            <b class="td-move-no">01</b>
+            <div class="td-move-body">
+              <h3>Read the line</h3>
+              <p>The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.</p>
+            </div>
+          </li>
+          <li class="td-move">
+            <b class="td-move-no">02</b>
+            <div class="td-move-body">
+              <h3>Pick a side</h3>
+              <p>Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.</p>
+            </div>
+          </li>
+          <li class="td-move">
+            <b class="td-move-no">03</b>
+            <div class="td-move-body">
+              <h3>Sign it yourself</h3>
+              <p>Your wallet builds and signs the transaction. Callova never holds your key, and the signature is the receipt the chain keeps.</p>
+            </div>
+          </li>
+        </ol>
+
+        <p class="td-note">
+          The market program is not deployed yet, so a signed position is recorded as an on-chain
+          transaction rather than held in a settlement pool. When the program lands on this cluster,
+          the same button routes the position into it and the pool settles on the published rules.
+        </p>
+      </section>
+    </main>
+
+    <footer class="td-outro" role="contentinfo">
+      <div class="td-outro-inner">
+        <div class="td-outro-top">
+          <span class="td-outro-brand">Callova <em>/ 2026</em></span>
+          <span class="td-outro-tag">Price the future. Sign the call.</span>
+          <nav class="td-outro-net" aria-label="Network">
             Solana {{ clusterLabel }} &middot;
             <a :href="`https://explorer.solana.com/?cluster=${wallet.cluster}`" target="_blank" rel="noreferrer">explorer</a>
           </nav>
         </div>
-        <div class="ox-status-bottom">
-          <p class="ox-status-live">
-            <span class="ox-live"><i aria-hidden="true"></i>LIVE</span>
-            <span class="ox-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
+        <div class="td-outro-bottom">
+          <p class="td-outro-live">
+            <span class="td-live"><i aria-hidden="true"></i>LIVE</span>
+            <span class="td-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
           </p>
-          <p class="ox-status-meta">
-            <span class="ox-dim">cluster</span>
+          <p class="td-outro-meta">
+            <span class="td-dim">cluster</span>
             <strong>{{ clusterLabel }}</strong>
-            <span class="ox-sep">/</span>
-            <span class="ox-dim">settlement</span>
+            <span class="td-sep">/</span>
+            <span class="td-dim">settlement</span>
             <strong>your key</strong>
           </p>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
-    <div v-if="tradeOpen && active" class="ox-veil" @click.self="closeTrade">
-      <section class="ox-drawer" role="dialog" aria-modal="true" aria-labelledby="ox-trade-title">
-        <button class="ox-drawer-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
-        <p class="ox-kicker">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
-        <h2 id="ox-trade-title" class="ox-drawer-title">{{ active.question }}</h2>
-        <p class="ox-drawer-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
+    <nav class="td-dock" aria-label="Primary">
+      <a class="td-dock-link" href="#feed">
+        <span class="td-dock-dot" aria-hidden="true"></span><span>Feed</span>
+      </a>
+      <a class="td-dock-link" href="#rules">
+        <span class="td-dock-dot" aria-hidden="true"></span><span>Rules</span>
+      </a>
+      <a class="td-dock-link" href="#desk">
+        <span class="td-dock-dot" aria-hidden="true"></span><span>Desk</span>
+      </a>
+    </nav>
 
-        <div class="ox-plate-sides" role="group" aria-label="Pick a side">
-          <button type="button" class="ox-plate-side" :class="{ 'ox-on': side === 'YES' }" @click="side = 'YES'">
+    <div v-if="tradeOpen && active" class="td-veil" @click.self="closeTrade">
+      <section class="td-sheet" role="dialog" aria-modal="true" aria-labelledby="td-trade-title">
+        <button class="td-sheet-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
+        <p class="td-kicker">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
+        <h2 id="td-trade-title" class="td-sheet-title">{{ active.question }}</h2>
+        <p class="td-sheet-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
+
+        <div class="td-plate-sides" role="group" aria-label="Pick a side">
+          <button type="button" class="td-plate-side" :class="{ 'td-on': side === 'YES' }" @click="side = 'YES'">
             <span>YES</span><b>{{ active.yes }}%</b>
           </button>
-          <button type="button" class="ox-plate-side" :class="{ 'ox-on': side === 'NO' }" @click="side = 'NO'">
+          <button type="button" class="td-plate-side" :class="{ 'td-on': side === 'NO' }" @click="side = 'NO'">
             <span>NO</span><b>{{ 100 - active.yes }}%</b>
           </button>
         </div>
 
-        <label class="ox-stake">
+        <label class="td-stake">
           <span>Stake</span>
           <input v-model="stake" type="number" min="0.01" step="0.01" inputmode="decimal" aria-label="Stake in SOL" />
           <b>SOL</b>
         </label>
-        <p v-if="connected" class="ox-hint">
-          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="ox-warn"> - the stake plus the fee is above that.</span>
+        <p v-if="connected" class="td-hint">
+          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="td-warn"> - the stake plus the fee is above that.</span>
         </p>
-        <p v-else class="ox-hint">Attach a wallet to price this against your real balance.</p>
+        <p v-else class="td-hint">Attach a wallet to price this against your real balance.</p>
 
-        <dl class="ox-quote-table">
+        <dl class="td-quote-table">
           <div><dt>Side price</dt><dd>{{ sidePrice }}%</dd></div>
-          <div><dt>Payout if right</dt><dd class="ox-strong">{{ payout.toFixed(2) }} SOL</dd></div>
+          <div><dt>Payout if right</dt><dd class="td-strong">{{ payout.toFixed(2) }} SOL</dd></div>
           <div><dt>Net gain</dt><dd>{{ netGain >= 0 ? '+' : '' }}{{ netGain.toFixed(2) }} SOL</dd></div>
           <div><dt>Signed by</dt><dd>{{ connected ? shortAddress : 'no wallet' }}</dd></div>
         </dl>
 
-        <p v-if="tradeError" class="ox-error">{{ tradeError }}</p>
+        <p v-if="tradeError" class="td-error">{{ tradeError }}</p>
 
-        <button class="ox-act ox-act--primary ox-act--wide" type="button" :disabled="submitting" @click="submitTrade">
+        <button class="td-act td-act--primary td-act--wide" type="button" :disabled="submitting" @click="submitTrade">
           <template v-if="!connected">Attach wallet to continue</template>
           <template v-else-if="submitting">Waiting for your wallet&hellip;</template>
           <template v-else>Sign {{ side }} position &middot; {{ stakeNumber.toFixed(2) }} SOL</template>
         </button>
-        <p class="ox-drawer-note">
+        <p class="td-note-small">
           Your wallet signs a real transaction carrying this position note, so the call is on the public
           record the moment it lands. Nothing moves without your approval.
         </p>
       </section>
     </div>
 
-    <div v-if="walletOpen" class="ox-veil" @click.self="walletOpen = false">
-      <section class="ox-drawer" role="dialog" aria-modal="true" aria-labelledby="ox-wallet-title">
-        <button class="ox-drawer-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
-        <span class="ox-drawer-glyph" aria-hidden="true">
+    <div v-if="walletOpen" class="td-veil" @click.self="walletOpen = false">
+      <section class="td-sheet" role="dialog" aria-modal="true" aria-labelledby="td-wallet-title">
+        <button class="td-sheet-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
+        <span class="td-sheet-glyph" aria-hidden="true">
           <svg viewBox="0 0 64 64" focusable="false">
             <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
             <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
           </svg>
         </span>
-        <p class="ox-kicker">{{ clusterLabel }} &middot; real wallet</p>
-        <h2 id="ox-wallet-title" class="ox-drawer-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
+        <p class="td-kicker">{{ clusterLabel }} &middot; real wallet</p>
+        <h2 id="td-wallet-title" class="td-sheet-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
 
         <template v-if="connected">
-          <dl class="ox-quote-table ox-quote-table--left">
+          <dl class="td-quote-table td-quote-table--left">
             <div><dt>Account</dt><dd>{{ shortAddress }}</dd></div>
             <div><dt>Wallet</dt><dd>{{ walletState.providerName }}</dd></div>
-            <div><dt>Balance</dt><dd class="ox-strong">{{ balanceText }} SOL</dd></div>
+            <div><dt>Balance</dt><dd class="td-strong">{{ balanceText }} SOL</dd></div>
           </dl>
-          <p v-if="walletState.balanceError" class="ox-error">{{ walletState.balanceError }}</p>
-          <div class="ox-wallet-row">
-            <button class="ox-act" type="button" @click="wallet.refreshBalance()">Refresh</button>
-            <a class="ox-act" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
-            <button class="ox-act" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
+          <p v-if="walletState.balanceError" class="td-error">{{ walletState.balanceError }}</p>
+          <div class="td-wallet-row">
+            <button class="td-act" type="button" @click="wallet.refreshBalance()">Refresh</button>
+            <a class="td-act" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
+            <button class="td-act" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
           </div>
         </template>
 
         <template v-else>
-          <p class="ox-drawer-sub">
-            Oddix connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
+          <p class="td-sheet-sub">
+            Callova connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
             Your key stays in the extension; this page only asks it to sign what you approve.
           </p>
-          <p v-if="walletNotice" class="ox-drawer-note ox-drawer-note--lead">{{ walletNotice }}</p>
-          <ul class="ox-wallet-list">
+          <p v-if="walletNotice" class="td-note-small">{{ walletNotice }}</p>
+          <ul class="td-wallet-list">
             <li v-for="option in walletCatalog" :key="option.id">
-              <button class="ox-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
-                <span class="ox-wallet-name">{{ option.name }}</span>
-                <span class="ox-wallet-flag" :class="{ 'ox-on': option.available }">
+              <button class="td-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
+                <span class="td-wallet-name">{{ option.name }}</span>
+                <span class="td-wallet-flag" :class="{ 'td-on': option.available }">
                   {{ option.available ? 'detected' : 'not installed' }}
                 </span>
               </button>
             </li>
           </ul>
-          <p v-if="walletError" class="ox-error">{{ walletError }}</p>
-          <a v-if="installUrl" class="ox-act ox-act--wide" :href="installUrl" target="_blank" rel="noreferrer">
+          <p v-if="walletError" class="td-error">{{ walletError }}</p>
+          <a v-if="installUrl" class="td-act td-act--wide" :href="installUrl" target="_blank" rel="noreferrer">
             Get the wallet, then reload
           </a>
-          <p class="ox-drawer-note">
+          <p class="td-note-small">
             No wallet listed? Install Phantom, Solflare, Backpack, Glow or Brave Wallet and reload this page.
             Nothing is simulated here, so a wallet really has to be present.
           </p>
@@ -743,7 +733,7 @@ onBeforeUnmount(() => {
     </div>
 
     <transition name="pop">
-      <p v-if="toast" class="ox-toast" role="status" aria-live="polite">{{ toast }}</p>
+      <p v-if="toast" class="td-toast" role="status" aria-live="polite">{{ toast }}</p>
     </transition>
   </div>
 </template>

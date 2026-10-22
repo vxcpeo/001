@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-21T14:48:13.043Z
+Generated: 2026-10-21T18:51:38.641Z
 
-- Project: **oddix**
+- Project: **callova**
 - URL: http://127.0.0.1:4317/
-- Original skeleton: `dashboard-shell` (shell)
-- New skeleton: `document-flow` (editorial)
-- Accent: #0000ff -> #ff0000 (176.33 ΔE; min 30)
-- Source contract: intact (`8f04bb8dd058`)
+- Original skeleton: `document-flow` (editorial)
+- New skeleton: `gallery-scroll` (spatial)
+- Accent: #ff0000 -> #298dff (148.1 ΔE; min 30)
+- Source contract: intact (`35d743d3a63c`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.16 | 0.5 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.279 | 0.4 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-20T23:13:26+08:00",
+  "createdAt": "2026-10-22T02:28:08+08:00",
   "project": "E:\\workspace\\chuangye\\solana\\001\\website",
   "build": {
     "script": "build",
@@ -8,7 +8,7 @@
     "code": 0,
     "timedOut": false,
     "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-    "stdout": "\n> probenox@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 13 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.77 kB │ gzip:  0.68 kB\ndist/assets/index-D5mo5sv8.css   36.96 kB │ gzip:  7.51 kB\ndist/assets/index-DBeuNk5J.js   100.52 kB │ gzip: 37.96 kB\n\n✓ built in 325ms\n",
+    "stdout": "\n> callova@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 12 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.76 kB │ gzip:  0.68 kB\ndist/assets/index-Bhqwdbbo.css   29.92 kB │ gzip:  6.36 kB\ndist/assets/index-HaG56S9d.js   101.80 kB │ gzip: 38.06 kB\n\n✓ built in 272ms\n",
     "stderr": ""
   },
   "test": {
@@ -19,21 +19,21 @@
   },
   "browser": {
     "ok": true,
-    "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:51463 --routes /",
+    "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:62649 --routes /",
     "code": 0,
-    "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:51463\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+    "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:62649\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
     "stderr": "",
     "browser": {
       "schemaVersion": 1,
-      "checkedAt": "2026-10-20T15:13:26.144Z",
+      "checkedAt": "2026-10-21T18:28:07.642Z",
       "browser": {
         "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "version": "Chrome/155.0.8059.80",
+        "version": "Chrome/155.0.8059.85",
         "headless": true,
         "proxy": null,
         "method": "chrome-cdp"
       },
-      "baseUrl": "http://127.0.0.1:51463",
+      "baseUrl": "http://127.0.0.1:62649",
       "routes": [
         "/"
       ],
@@ -41,16 +41,20 @@
         {
           "route": "/",
           "device": "desktop",
-          "url": "http://127.0.0.1:51463/",
-          "finalUrl": "http://127.0.0.1:51463/",
+          "url": "http://127.0.0.1:62649/",
+          "finalUrl": "http://127.0.0.1:62649/",
           "httpStatus": 200,
-          "title": "Probenox // Live prediction lines on Solana",
+          "title": "Callova // Live prediction lines on Solana",
           "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
           "oldBrand": {
             "textHits": [],
             "attributeHits": []
           },
-          "newBrandPresent": [],
+          "newBrandPresent": [
+            "Callova",
+            "callova",
+            "callova"
+          ],
           "consoleErrors": [],
           "pageErrors": [],
           "failedRequests": []
@@ -58,16 +62,20 @@
         {
           "route": "/",
           "device": "mobile",
-          "url": "http://127.0.0.1:51463/",
-          "finalUrl": "http://127.0.0.1:51463/",
+          "url": "http://127.0.0.1:62649/",
+          "finalUrl": "http://127.0.0.1:62649/",
           "httpStatus": 200,
-          "title": "Probenox // Live prediction lines on Solana",
+          "title": "Callova // Live prediction lines on Solana",
           "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
           "oldBrand": {
             "textHits": [],
             "attributeHits": []
           },
-          "newBrandPresent": [],
+          "newBrandPresent": [
+            "Callova",
+            "callova",
+            "callova"
+          ],
           "consoleErrors": [],
           "pageErrors": [],
           "failedRequests": []

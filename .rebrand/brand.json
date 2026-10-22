@@ -1,49 +1,49 @@
 {
   "old": {
-    "display": "Prismel",
-    "slug": "prismel",
+    "display": "Oddix",
+    "slug": "oddix",
     "variants": {
-      "display": "Prismel",
-      "lower": "prismel",
-      "upper": "PRISMEL",
-      "title": "Prismel",
-      "kebab": "prismel",
-      "snake": "prismel",
-      "camel": "prismel",
-      "pascal": "Prismel",
-      "compact": "Prismel",
-      "compactLower": "prismel",
-      "first": "Prismel",
-      "firstLower": "prismel",
-      "firstUpper": "PRISMEL"
+      "display": "Oddix",
+      "lower": "oddix",
+      "upper": "ODDIX",
+      "title": "Oddix",
+      "kebab": "oddix",
+      "snake": "oddix",
+      "camel": "oddix",
+      "pascal": "Oddix",
+      "compact": "Oddix",
+      "compactLower": "oddix",
+      "first": "Oddix",
+      "firstLower": "oddix",
+      "firstUpper": "ODDIX"
     },
     "variantList": [
       {
-        "value": "Prismel",
+        "value": "Oddix",
         "kind": "display"
       },
       {
-        "value": "prismel",
+        "value": "oddix",
         "kind": "lower"
       },
       {
-        "value": "PRISMEL",
+        "value": "ODDIX",
         "kind": "upper"
       }
     ],
     "domains": [
-      "prismel.xyz"
+      "oddix.xyz"
     ],
     "handles": [
-      "prismel"
+      "oddix"
     ],
     "emails": [
-      "hello@prismel.xyz"
+      "hello@oddix.xyz"
     ],
     "packageNames": [
-      "prismel",
-      "prismel-prediction-market-contract",
-      "prismel_prediction_market"
+      "oddix",
+      "oddix-prediction-market-contract",
+      "oddix_prediction_market"
     ],
     "initials": "",
     "allowFiles": [
@@ -52,18 +52,13 @@
     "allowStrings": [],
     "wordmark": {
       "split": [
-        "PRIS",
-        "MEL"
+        "ODD",
+        "IX"
       ],
-      "note": "The shipped wordmark is PRIS<em>MEL</em> (site) and PRIS/MEL tspan lockups (social artboards). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
+      "note": "The shipped wordmark is ODD<em>IX</em> (site) and ODD/IX tspan lockups (social artboards, launch loop). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
     }
   },
   "usedBrands": [
-    "NEONLINE",
-    "Probenox",
-    "Signaris",
-    "Prismel",
-    "SIGN ARIS",
     "GhostPay",
     "Cifruna",
     "Mathlana",
@@ -96,36 +91,33 @@
     "Librova",
     "Ledgiva",
     "Actoria",
-    "Oracle Pit",
-    "Tickerloom"
+    "Custoria",
+    "Remitia",
+    "Holdavia",
+    "QUIVANTA",
+    "Leverix",
+    "Veilary",
+    "Fractio",
+    "Qubitess",
+    "Voxcora",
+    "Honoro",
+    "COWL",
+    "Veiline",
+    "Dueframe",
+    "Tranova",
+    "Quittra",
+    "Voxanote",
+    "Sonira",
+    "Callova"
   ],
-  "notes": "Round 7. The previous brand.json still named Signaris, the Round 5 brand. brand.txt records Prismel as the current brand and the shipped copy, metadata, package names and assets all say Prismel, so the old brand for this round is Prismel. REBRAND.md stays allowlisted as the historical changelog.",
+  "notes": "Round 8 web scope. The site was already rebranded by the root apply pass; this scope re-verifies the built Vite app (root-absolute URLs resolve here) and captures the browser evidence.",
   "new": {
-    "display": "Oddix",
-    "slug": "oddix",
-    "handle": "oddix",
-    "domain": "oddix.xyz",
-    "email": "hello@oddix.xyz",
-    "url": "https://oddix.xyz",
+    "display": "Callova",
+    "slug": "callova",
+    "handle": "callova",
+    "domain": "callova.xyz",
+    "email": "hello@callova.xyz",
+    "url": "https://callova.xyz",
     "note": "Availability is a snapshot; register the domain and X account separately."
-  },
-  "selection": {
-    "candidate": "oddix",
-    "score": 90,
-    "checkedAt": "2026-10-21T14:17:19.911Z",
-    "evidence": [
-      {
-        "kind": "domain",
-        "status": "available",
-        "signal": "rdap-unregistered",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
-      },
-      {
-        "kind": "x",
-        "status": "available",
-        "signal": "not-found-text",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
-      }
-    ]
   }
 }

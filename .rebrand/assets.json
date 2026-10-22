@@ -1,33 +1,49 @@
 {
-  "generatedAt": "2026-10-21T22:43:12+08:00",
-  "palette": {
-    "primary": "#ff0000",
-    "accent": "#ff0000",
-    "background": "#111a24",
-    "foreground": "#111827"
-  },
-  "items": [
-    {
-      "source": "public/favicon.svg",
-      "generated": "E:/workspace/chuangye/solana/001/website/.rebrand/generated/public/favicon.svg",
-      "kind": "favicon",
-      "format": "svg",
-      "width": 64,
-      "height": 64,
-      "bytes": 1003,
-      "manual": false
-    },
-    {
-      "source": "public/og.png",
-      "generated": "E:/workspace/chuangye/solana/001/website/.rebrand/generated/public/og.png",
-      "kind": "og",
-      "format": "png",
-      "width": 1200,
-      "height": 630,
-      "bytes": 14064,
-      "manual": false
-    }
+ "generatedAt": "web-scope",
+ "palette": {
+  "primary": "#ff0000",
+  "accent": "#ff00ff",
+  "background": "#000000",
+  "foreground": "#f4f7fa",
+  "colors": [
+   "#ffffff",
+   "#ff6b6b",
+   "#ff0000",
+   "#8fa3b5",
+   "#f4f7fa",
+   "#67798b",
+   "#000000",
+   "#ff00ff",
+   "#c9d6e2",
+   "#5ce1a0",
+   "#0b0b0c",
+   "#2ebac6"
   ],
-  "manualReview": [],
-  "generatedRoot": "E:/workspace/chuangye/solana/001/website/.rebrand/generated"
+  "cssVars": {
+   "ox-surface": "#111a24",
+   "ox-surface-2": "#182533",
+   "ox-accent": "#ff0000",
+   "ox-accent-ink": "#ff6b6b",
+   "ox-accent-2": "#ff00ff"
+  },
+  "note": "foreground/background corrected to the shipped abyss tokens (white type on black) so generated assets are legible; primary stays the site signal red"
+ },
+ "items": [
+  {
+   "source": "public/favicon.svg",
+   "generated": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\generated\\public\\favicon.svg",
+   "kind": "favicon",
+   "format": "svg",
+   "bytes": 446
+  },
+  {
+   "source": "public/og.png",
+   "generated": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\generated\\public\\og.png",
+   "kind": "og",
+   "format": "png",
+   "width": 1200,
+   "height": 630,
+   "bytes": 295588
+  }
+ ]
 }

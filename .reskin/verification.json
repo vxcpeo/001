@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T14:48:13.043Z",
+  "generatedAt": "2026-10-21T18:51:38.641Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "oddix",
+    "name": "callova",
     "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "8f04bb8dd0587d2d28600ef045ba1223069fca28ee8a17962316aad4ccfac67f"
+      "hash": "35d743d3a63c101952a810965e1be5068688a656bf474017a8982670d4716a2e"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "dashboard-shell",
-        "family": "shell",
-        "traits": {
-          "sidebar": true,
-          "topbar": true,
-          "cards": true,
-          "hero": true,
-          "table": false,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": false,
-          "sticky": true,
-          "orbital": false,
-          "terminal": false,
-          "bento": true,
-          "ticker": false,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "document-flow",
         "family": "editorial",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": false
         }
       },
+      "current": {
+        "id": "gallery-scroll",
+        "family": "spatial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": false,
+          "gallery": true
+        }
+      },
       "accent": {
-        "original": "#0000ff",
-        "current": "#ff0000",
-        "deltaE": 176.33,
+        "original": "#ff0000",
+        "current": "#298dff",
+        "deltaE": 148.1,
         "min": 30
       }
     },
@@ -81,8 +81,8 @@
         "failures": [],
         "warnings": [],
         "structure": {
-          "fingerprintSimilarity": 0.16,
-          "landmarkSimilarity": 0.5,
+          "fingerprintSimilarity": 0.279,
+          "landmarkSimilarity": 0.4,
           "classOverlap": 0
         },
         "content": {
@@ -118,7 +118,7 @@
   "failures": [],
   "warnings": [],
   "baseline": {
-    "generatedAt": "2026-10-21T14:23:57.538Z",
+    "generatedAt": "2026-10-21T18:29:20.930Z",
     "routes": [
       "/"
     ]

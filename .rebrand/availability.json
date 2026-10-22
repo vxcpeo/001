@@ -1,113 +1,914 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T14:17:19.911Z",
-  "finishedAt": "2026-10-21T14:17:38.092Z",
+  "checkedAt": "2026-10-21T18:19:23.177Z",
+  "finishedAt": "2026-10-21T18:21:11.526Z",
   "browser": {
     "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "version": "Chrome/155.0.8059.85",
     "headless": true,
     "proxy": null,
     "method": "chrome-cdp",
-    "checkedAt": "2026-10-21T14:17:38.092Z"
+    "checkedAt": "2026-10-21T18:21:11.526Z"
   },
   "candidates": [
     {
-      "name": "oddix",
-      "slug": "oddix",
+      "name": "receipt",
+      "slug": "receipt",
+      "score": 96,
+      "domain": {
+        "host": "receipt.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/receipt.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D2849281-CNIC\",\"ldhName\":\"receipt.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns3.afternic.com\",\"handle\":\"H5608703-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/receipt.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns3.afternic.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns4.afternic.com\",\"handle\":\"H6636452-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/receipt.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns4.afternic.com\"}]}],\"secureDNS\":{\"delegationSigned\":false},\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"146\",\"roles\":[\"registrar\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"GoDaddy.com, LLC\"]]],\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/receipt.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/entity\\/146\"},{\"title\":\"Registrar's Website\",\"rel\":\"about\",\"value\":\"https:\\/\\/rdap.godaddy.com\\/v1\\/\",\"href\":\"https:\\/\\/www.godaddy.com\\/\"}],\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"not applicable\",\"roles\":[\"abuse\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"Abuse Contact",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\receipt-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:24.203Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:27.376Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:27.376Z"
+    },
+    {
+      "name": "tally",
+      "slug": "tally",
       "score": 90,
       "domain": {
-        "host": "oddix.xyz",
+        "host": "tally.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/tally.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D2738374-CNIC\",\"ldhName\":\"tally.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-cloud-e1.googledomains.com\",\"handle\":\"H5492555-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/tally.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-cloud-e1.googledomains.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-cloud-e2.googledomains.com\",\"handle\":\"H5492558-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/tally.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-cloud-e2.googledomains.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-cloud-e3.googledomains.com\",\"handle\":\"H5492564-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/tally.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-cloud-e3.googledomains.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-cloud-e4.googledomains.com\",\"handle\":\"H5492570-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/tally.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\tally-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:27.465Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:28.234Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:28.234Z"
+    },
+    {
+      "name": "callux",
+      "slug": "callux",
+      "score": 90,
+      "domain": {
+        "host": "callux.xyz",
         "status": "available",
         "confidence": "medium",
         "signal": "rdap-unregistered",
         "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/oddix.xyz",
+          "url": "https://rdap.centralnic.com/xyz/domain/callux.xyz",
           "status": 404,
           "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/oddix.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"value",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callux.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callux-xyz-rdap.png"
         },
         "registrar": null,
         "evidence": [],
-        "checkedAt": "2026-10-21T14:17:20.890Z",
+        "checkedAt": "2026-10-21T18:19:28.323Z",
         "registrarErrors": [
           {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz",
-            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz: CDP timeout: Page.navigate"
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callux.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callux.xyz: CDP timeout: Page.navigate"
           },
           {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz",
-            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz: CDP timeout: Page.navigate"
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callux.xyz",
+            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=callux.xyz: CDP timeout: Page.navigate"
           },
           {
-            "url": "https://porkbun.com/checkout/search?q=oddix.xyz",
-            "error": "Navigation failed for https://porkbun.com/checkout/search?q=oddix.xyz: CDP timeout: Page.navigate"
+            "url": "https://porkbun.com/checkout/search?q=callux.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=callux.xyz: CDP timeout: Page.navigate"
           }
         ]
       },
       "x": {
-        "handle": "oddix",
+        "handle": "callux",
+        "status": "taken",
+        "signal": "profile-dom",
+        "url": "https://x.com/callux",
+        "checkedAt": "2026-10-21T18:19:31.770Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/callux",
+        "title": "Lux (@Callux) / X",
+        "excerpt": "Lux 24.8K posts Lux @Callux Founded @notwoways | @afterpartyldn | instagram.com/callux Digital Creator business@callux.co.uk youtube.com/callux Born March 11 Joined November 2010 987 Following 1.5M Followers Mention Follow Posts Replies Reposts Media Lux @Callux Dec 22, 2025 @elonmusk broski can we get a qna on x because i bet a shit load of money on you tweeting 580+ times, cheers 🥂 5 372 142K Lux @Callux Dec 24, 2024 Gimme some boxing day prem predictions 💸 97 3 1.5K 542K Lux @Callux Dec 23, 2024 good morning to mo salah hope he has a wonderful day 31 400 12K 917K Lux @Callux Dec 22, 2024 you cashing out? 791 260 20K 4.3M Lux @Callux Sep 13, 2024 @suno_ai_ app isn’t available in the uk 1 2 2.6K Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callux-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:38.295Z"
+    },
+    {
+      "name": "crypto",
+      "slug": "crypto",
+      "score": 90,
+      "domain": {
+        "host": "crypto.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/crypto.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D9600925-CNIC\",\"ldhName\":\"crypto.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns1.eftydns.com\",\"handle\":\"H6523761-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/crypto.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns1.eftydns.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns2.eftydns.com\",\"handle\":\"H6523760-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/crypto.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns2.eftydns.com\"}]}],\"secureDNS\":{\"delegationSigned\":false},\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"1659\",\"roles\":[\"registrar\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"GoDaddy Online Services Cayman Islands Ltd.\"]]],\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/crypto.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/entity\\/1659\"},{\"title\":\"Registrar's Website\",\"rel\":\"about\",\"value\":\"https:\\/\\/rdap.uniregistrar.com\\/v1\\/\",\"href\":\"http:\\/\\/www.uniregistrar.com\"}],\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"not applicable\",\"roles\":[\"abuse\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\crypto-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:38.377Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:39.112Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:39.112Z"
+    },
+    {
+      "name": "probix",
+      "slug": "probix",
+      "score": 90,
+      "domain": {
+        "host": "probix.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/probix.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D631505954-CNIC\",\"ldhName\":\"probix.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-865.awsdns-44.net\",\"handle\":\"H286529-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-865.awsdns-44.net\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-1053.awsdns-03.org\",\"handle\":\"H228568-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-1053.awsdns-03.org\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-407.awsdns-50.com\",\"handle\":\"H247825-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-407.awsdns-50.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns-1770.awsdns-29.co.uk\",\"handle\":\"H191046-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns-1770.awsdns-29.co.uk\"}]}],\"secureDNS\":{\"delegationSigne",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probix-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:39.192Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:39.919Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:39.919Z"
+    },
+    {
+      "name": "solana",
+      "slug": "solana",
+      "score": 90,
+      "domain": {
+        "host": "solana.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/solana.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D127235341-CNIC\",\"ldhName\":\"solana.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"launch1.spaceship.net\",\"handle\":\"H32709502-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/solana.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/launch1.spaceship.net\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"launch2.spaceship.net\",\"handle\":\"H32709508-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/solana.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/launch2.spaceship.net\"}]}],\"secureDNS\":{\"delegationSigned\":false},\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"146\",\"roles\":[\"registrar\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"GoDaddy.com, LLC\"]]],\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/solana.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/entity\\/146\"},{\"title\":\"Registrar's Website\",\"rel\":\"about\",\"value\":\"https:\\/\\/rdap.godaddy.com\\/v1\\/\",\"href\":\"https:\\/\\/www.godaddy.com\\/\"}],\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"not applicable\",\"roles\":[\"abuse\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\solana-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:40.010Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:40.775Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:40.775Z"
+    },
+    {
+      "name": "tallyn",
+      "slug": "tallyn",
+      "score": 90,
+      "domain": {
+        "host": "tallyn.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/tallyn.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/tallyn.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\tallyn-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=tallyn.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=tallyn.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\tallyn-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:19:40.848Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=tallyn.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=tallyn.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=tallyn.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=tallyn.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=tallyn.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "tallyn",
+        "status": "taken",
+        "signal": "suspended",
+        "url": "https://x.com/tallyn",
+        "checkedAt": "2026-10-21T18:19:46.661Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/tallyn",
+        "title": "Profile / X",
+        "excerpt": "Profile Account suspended X suspends accounts which violate the X Rules Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\tallyn-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:50.425Z"
+    },
+    {
+      "name": "verdix",
+      "slug": "verdix",
+      "score": 90,
+      "domain": {
+        "host": "verdix.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "rdap-registered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/verdix.xyz",
+          "status": 200,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"domain\",\"handle\":\"D624248517-CNIC\",\"ldhName\":\"verdix.xyz\",\"nameservers\":[{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns1.afternic.com\",\"handle\":\"H5434-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns1.afternic.com\"}]},{\"objectClassName\":\"nameserver\",\"ldhName\":\"ns2.afternic.com\",\"handle\":\"H5435-CNIC\",\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/nameserver\\/ns2.afternic.com\"}]}],\"secureDNS\":{\"delegationSigned\":false},\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"3862\",\"roles\":[\"registrar\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"Spaceship, Inc.\"]]],\"links\":[{\"title\":\"Authoritative URL for this resource\",\"rel\":\"self\",\"type\":\"application\\/rdap+json\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdix.xyz\",\"href\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/entity\\/3862\"},{\"title\":\"Registrar's Website\",\"rel\":\"about\",\"value\":\"https:\\/\\/rdap.spaceship.com\\/\",\"href\":\"https:\\/\\/www.spaceship.com\\/\"}],\"entities\":[{\"objectClassName\":\"entity\",\"handle\":\"not applicable\",\"roles\":[\"abuse\"],\"vcardArray\":[\"vcard\",[[\"version\",{},\"text\",\"4.0\"],[\"fn\",{},\"text\",\"Abuse Contact\"],[\"or",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdix-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [],
+        "checkedAt": "2026-10-21T18:19:50.520Z"
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:19:51.274Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:19:51.274Z"
+    },
+    {
+      "name": "verdox",
+      "slug": "verdox",
+      "score": 90,
+      "domain": {
+        "host": "verdox.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/verdox.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdox.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdox-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdox.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdox.xyz",
+            "state": "unknown",
+            "signal": "challenge",
+            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.1d4e4317.1792606795.2ddac4a4 https://errors.edgesuite.net/18.1d4e4317.1792606795.2ddac4a4",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdox-xyz-registrar-1.png"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdox.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=verdox.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdox-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:19:51.346Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdox.xyz",
+            "state": "unknown",
+            "signal": "challenge"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdox.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=verdox.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=verdox.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "verdox",
+        "status": "unknown",
+        "signal": "login-wall",
+        "url": "https://x.com/verdox",
+        "checkedAt": "2026-10-21T18:19:58.496Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/verdox",
+        "title": "Verdox (@Verdox) / X",
+        "excerpt": "Verdox 12 posts Verdox @Verdox Electric carbon removal for a Net-Zero future. Science & Technology Boston, MA verdox.com Joined February 2022 12 Following 648 Followers Mention Follow Posts Replies Reposts Media Verdox @Verdox Jan 17, 2023 We are excited to be included on the 2023 Global Cleantech 100 list of leading innovators addressing the climate challenge! The top 100 companies were selected out of over 15,000 nominations across 93 countries. Congratulations to all the other named companies as well. #cleantech 1 4 9 1.5K Verdox @Verdox Aug 18, 2022 We are proud to have been named one of the world’s 100 most promising impact startups by @norrsken_org in collaboration with the @UNDP and the @ObamaFoundation , among others. If you want to be part of our impact story, check out our job postings. verdox.pinpointhq.com 1 2 3 Verdox @Verdox Apr 22, 2022 We are delighted to be recognized as a winner of the Carbon Removal @xprize sponsored by @elonmusk and the Musk Foundation! Huge congratulations and a heartfelt thank you also to our application partner @CarbFix. And happy #EarthDay to everyone!! XPRIZE and the Musk Foundation Award $15M to Prize Milestone Winners in $100M Carbon Removal... From businesswire.com 7 29 Verdox @Verdox Apr 14, 2022 We are delighted to have been selected by @BloombergNEF as a 2022 Pioneers winner in the carbon removal space! The BNEF Pioneers program i",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdox-x.png"
+      },
+      "verdict": "unknown",
+      "checkedAt": "2026-10-21T18:20:02.485Z"
+    },
+    {
+      "name": "verdux",
+      "slug": "verdux",
+      "score": 90,
+      "domain": {
+        "host": "verdux.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/verdux.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdux.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdux-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdux.xyz",
+            "httpStatus": 403,
+            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdux.xyz",
+            "state": "unknown",
+            "signal": "challenge",
+            "excerpt": "Access Denied You don't have permission to access \"http://www.godaddy.com/domainsearch/find?\" on this server. Reference #18.1d4e4317.1792606803.2ddb124b https://errors.edgesuite.net/18.1d4e4317.1792606803.2ddb124b",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdux-xyz-registrar-1.png"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdux.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=verdux.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdux-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:02.567Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdux.xyz",
+            "state": "unknown",
+            "signal": "challenge"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdux.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=verdux.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=verdux.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "verdux",
+        "status": "taken",
+        "signal": "profile-dom",
+        "url": "https://x.com/verdux",
+        "checkedAt": "2026-10-21T18:20:08.265Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/verdux",
+        "title": "Fernanda Orozco de P (@verdux) / X",
+        "excerpt": "Fernanda Orozco de P 1 posts Fernanda Orozco de P @verdux Born February 7, 1998 Joined December 2015 6 Following 0 Followers Mention Follow Posts Replies Reposts Media Fernanda Orozco de P @verdux Mar 26, 2017 youtube.com/watch?v=w06A_8… vía @YouTube See Fernanda Orozco de P’s full profile Continue to X Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdux-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:11.987Z"
+    },
+    {
+      "name": "verdyn",
+      "slug": "verdyn",
+      "score": 90,
+      "domain": {
+        "host": "verdyn.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/verdyn.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/verdyn.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdyn-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdyn.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=verdyn.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdyn-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:12.056Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdyn.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=verdyn.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=verdyn.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=verdyn.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=verdyn.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "verdyn",
+        "status": "taken",
+        "signal": "profile-dom",
+        "url": "https://x.com/verdyn",
+        "checkedAt": "2026-10-21T18:20:16.858Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/verdyn",
+        "title": "Ferdin assffr (@Verdyn) / X",
+        "excerpt": "Ferdin assffr 0 posts Ferdin assffr @Verdyn Joined October 2009 21 Following 2 Followers Mention Follow Posts Replies Reposts Media @verdyn hasn’t posted When they do, their posts will show up here. See Ferdin assffr’s full profile Continue to X Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\verdyn-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:20.599Z"
+    },
+    {
+      "name": "witnex",
+      "slug": "witnex",
+      "score": 90,
+      "domain": {
+        "host": "witnex.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/witnex.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/witnex.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"valu",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\witnex-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=witnex.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=witnex.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\witnex-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:20.677Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=witnex.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=witnex.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=witnex.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=witnex.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=witnex.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "witnex",
+        "status": "taken",
+        "signal": "profile-dom",
+        "url": "https://x.com/witnex",
+        "checkedAt": "2026-10-21T18:20:25.421Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/witnex",
+        "title": "WittyMix (@witnex) / X",
+        "excerpt": "WittyMix 0 posts WittyMix @witnex Official Mixmaster Account Earth Joined June 2018 1 Following 3 Followers Mention Follow Posts Replies Reposts Media @witnex hasn’t posted When they do, their posts will show up here. See WittyMix’s full profile Continue to X Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\witnex-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:29.254Z"
+    },
+    {
+      "name": "callari",
+      "slug": "callari",
+      "score": 90,
+      "domain": {
+        "host": "callari.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/callari.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callari.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callari-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callari.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callari.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callari-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:29.353Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callari.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callari.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callari.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=callari.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=callari.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "callari",
+        "status": "taken",
+        "signal": "suspended",
+        "url": "https://x.com/callari",
+        "checkedAt": "2026-10-21T18:20:34.114Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/callari",
+        "title": "Profile / X",
+        "excerpt": "Profile Account suspended X suspends accounts which violate the X Rules Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callari-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:37.758Z"
+    },
+    {
+      "name": "calleno",
+      "slug": "calleno",
+      "score": 90,
+      "domain": {
+        "host": "calleno.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/calleno.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/calleno.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\calleno-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=calleno.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=calleno.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\calleno-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:37.855Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=calleno.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=calleno.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=calleno.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=calleno.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=calleno.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "calleno",
+        "status": "taken",
+        "signal": "profile-dom",
+        "url": "https://x.com/calleno",
+        "checkedAt": "2026-10-21T18:20:42.630Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/calleno",
+        "title": "cyhnere (@calleno) / X",
+        "excerpt": "cyhnere 0 posts cyhnere @calleno Joined February 2010 0 Following 0 Followers Mention Follow Posts Replies Reposts Media @calleno hasn’t posted When they do, their posts will show up here. See cyhnere’s full profile Continue to X Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\calleno-x.png"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:46.465Z"
+    },
+    {
+      "name": "callora",
+      "slug": "callora",
+      "score": 90,
+      "domain": {
+        "host": "callora.xyz",
+        "status": "taken",
+        "confidence": "high",
+        "signal": "registrar-taken",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/callora.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callora.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callora-xyz-rdap.png"
+        },
+        "registrar": {
+          "url": "https://porkbun.com/checkout/search?q=callora.xyz",
+          "status": "taken",
+          "signal": "aftermarket"
+        },
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callora.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callora.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callora-xyz-registrar-2.png"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=callora.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://porkbun.com/checkout/search?q=callora.xyz",
+            "state": "taken",
+            "signal": "aftermarket",
+            "excerpt": "porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search | Auction Search | Marketplace Search .COM .CONTACT .ORG show results by extension relevance Searches again showing only the extensions that best fit your search, most relevant first. callora.xyz callora.inc callora.lol callora.blog callora.tech callora.llc callora.fyi callora.now callora.online callora.io callora.us.com callora.dev callora.app callora.info callora.pro callora.me callora.cloud callora.shop callora.one callora.studio callora.art callora.vip callora.bot callora.club callora.bond callora.wiki callora.work callora.lat callora.homes callora.ceo callora.my callora.help callora.locker callora.to callora.rich callora.quest callora.uk.com callora.love callora.game callora.eu.com callora.buzz Show All Extensions Generate AI Suggestions c84deb646fb268915445bf8158576403f9dc9a937ef456d4fbc389771c6",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callora-xyz-registrar-3.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:46.556Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callora.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callora.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callora.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          }
+        ]
+      },
+      "x": {
+        "status": "skipped",
+        "signal": "domain-not-available",
+        "checkedAt": "2026-10-21T18:20:54.000Z"
+      },
+      "verdict": "fail",
+      "checkedAt": "2026-10-21T18:20:54.000Z"
+    },
+    {
+      "name": "callory",
+      "slug": "callory",
+      "score": 90,
+      "domain": {
+        "host": "callory.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/callory.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callory.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callory-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callory.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callory.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callory-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:20:54.118Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callory.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callory.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callory.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=callory.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=callory.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "callory",
+        "status": "unknown",
+        "signal": "login-wall",
+        "url": "https://x.com/callory",
+        "checkedAt": "2026-10-21T18:20:58.850Z",
+        "httpStatus": 200,
+        "finalUrl": "https://x.com/callory",
+        "title": "Graciella Victór (@Callory) / X",
+        "excerpt": "Graciella Victór 34 posts Graciella Victór @Callory Brasil Joined September 2009 0 Following 76 Followers Mention Follow Posts Replies Reposts Media Graciella Victór @Callory Jan 7, 2011 Aumente os seguidores do seu Twitter, fácil fácil: http://is.gd/kffQe Graciella Victór @Callory Aug 27, 2010 #C18H21NO3 Graciella Victór @Callory Aug 26, 2010 #C18H21NO3 Graciella Victór @Callory Jan 26, 2010 Adoreeii Prison Break!! D+++ Graciella Victór @Callory Jan 19, 2010 Oi gente, boa noite pra todos, estou aqui assistindo Prison Break, muuuito bom! Beijoss e até amanhã! Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callory-x.png"
+      },
+      "verdict": "unknown",
+      "checkedAt": "2026-10-21T18:21:02.650Z"
+    },
+    {
+      "name": "callova",
+      "slug": "callova",
+      "score": 90,
+      "domain": {
+        "host": "callova.xyz",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-unregistered",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/xyz/domain/callova.xyz",
+          "status": 404,
+          "mimeType": "application/rdap+json",
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callova.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-rdap.png"
+        },
+        "registrar": null,
+        "evidence": [
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "state": "unknown",
+            "signal": "no-match",
+            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-registrar-2.png"
+          }
+        ],
+        "checkedAt": "2026-10-21T18:21:02.751Z",
+        "registrarErrors": [
+          {
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz",
+            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz: CDP timeout: Page.navigate"
+          },
+          {
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "state": "unknown",
+            "signal": "no-match"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=callova.xyz",
+            "error": "Navigation failed for https://porkbun.com/checkout/search?q=callova.xyz: CDP timeout: Page.navigate"
+          }
+        ]
+      },
+      "x": {
+        "handle": "callova",
         "status": "available",
         "signal": "not-found-text",
-        "url": "https://x.com/oddix",
-        "checkedAt": "2026-10-21T14:17:28.342Z",
+        "url": "https://x.com/callova",
+        "checkedAt": "2026-10-21T18:21:07.513Z",
         "httpStatus": 404,
-        "finalUrl": "https://x.com/oddix",
+        "finalUrl": "https://x.com/callova",
         "title": "User Profile Not Found - X | 404 Error",
-        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
+        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-x.png"
       },
       "verdict": "pass",
-      "checkedAt": "2026-10-21T14:17:37.696Z"
+      "checkedAt": "2026-10-21T18:21:11.036Z"
     }
   ],
   "selected": {
-    "name": "oddix",
-    "slug": "oddix",
+    "name": "callova",
+    "slug": "callova",
     "score": 90,
     "domain": {
-      "host": "oddix.xyz",
+      "host": "callova.xyz",
       "status": "available",
       "confidence": "medium",
       "signal": "rdap-unregistered",
       "rdap": {
-        "url": "https://rdap.centralnic.com/xyz/domain/oddix.xyz",
+        "url": "https://rdap.centralnic.com/xyz/domain/callova.xyz",
         "status": 404,
         "mimeType": "application/rdap+json",
-        "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/oddix.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"value",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-xyz-rdap.png"
+        "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callova.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-rdap.png"
       },
       "registrar": null,
-      "evidence": [],
-      "checkedAt": "2026-10-21T14:17:20.890Z",
+      "evidence": [
+        {
+          "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+          "httpStatus": 200,
+          "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+          "state": "unknown",
+          "signal": "no-match",
+          "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-registrar-2.png"
+        }
+      ],
+      "checkedAt": "2026-10-21T18:21:02.751Z",
       "registrarErrors": [
         {
-          "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz",
-          "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=oddix.xyz: CDP timeout: Page.navigate"
+          "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz",
+          "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz: CDP timeout: Page.navigate"
         },
         {
-          "url": "https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz",
-          "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=oddix.xyz: CDP timeout: Page.navigate"
+          "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+          "state": "unknown",
+          "signal": "no-match"
         },
         {
-          "url": "https://porkbun.com/checkout/search?q=oddix.xyz",
-          "error": "Navigation failed for https://porkbun.com/checkout/search?q=oddix.xyz: CDP timeout: Page.navigate"
+          "url": "https://porkbun.com/checkout/search?q=callova.xyz",
+          "error": "Navigation failed for https://porkbun.com/checkout/search?q=callova.xyz: CDP timeout: Page.navigate"
         }
       ]
     },
     "x": {
-      "handle": "oddix",
+      "handle": "callova",
       "status": "available",
       "signal": "not-found-text",
-      "url": "https://x.com/oddix",
-      "checkedAt": "2026-10-21T14:17:28.342Z",
+      "url": "https://x.com/callova",
+      "checkedAt": "2026-10-21T18:21:07.513Z",
       "httpStatus": 404,
-      "finalUrl": "https://x.com/oddix",
+      "finalUrl": "https://x.com/callova",
       "title": "User Profile Not Found - X | 404 Error",
-      "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
-      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\oddix-x.png"
+      "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
+      "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-x.png"
     },
     "verdict": "pass",
-    "checkedAt": "2026-10-21T14:17:37.696Z"
+    "checkedAt": "2026-10-21T18:21:11.036Z"
   }
 }

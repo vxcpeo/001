@@ -1,33 +1,33 @@
 {
   "old": {
-    "display": "Prismel",
-    "slug": "prismel",
+    "display": "Callova",
+    "slug": "callova",
     "variants": {
-      "display": "Prismel",
-      "lower": "prismel",
-      "upper": "PRISMEL",
-      "title": "Prismel",
-      "kebab": "prismel",
-      "snake": "prismel",
-      "camel": "prismel",
-      "pascal": "Prismel",
-      "compact": "Prismel",
-      "compactLower": "prismel",
-      "first": "Prismel",
-      "firstLower": "prismel",
-      "firstUpper": "PRISMEL"
+      "display": "Callova",
+      "lower": "callova",
+      "upper": "CALLOVA",
+      "title": "Callova",
+      "kebab": "callova",
+      "snake": "callova",
+      "camel": "callova",
+      "pascal": "Callova",
+      "compact": "Callova",
+      "compactLower": "callova",
+      "first": "Callova",
+      "firstLower": "callova",
+      "firstUpper": "CALLOVA"
     },
     "variantList": [
       {
-        "value": "Prismel",
+        "value": "Callova",
         "kind": "display"
       },
       {
-        "value": "prismel",
+        "value": "callova",
         "kind": "lower"
       },
       {
-        "value": "PRISMEL",
+        "value": "CALLOVA",
         "kind": "upper"
       }
     ],
@@ -35,12 +35,10 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "oddix"
+      "callova"
     ],
     "initials": "",
-    "allowFiles": [
-      "REBRAND.md"
-    ],
+    "allowFiles": [],
     "allowStrings": []
   },
   "usedBrands": [
@@ -76,7 +74,24 @@
     "Librova",
     "Ledgiva",
     "Actoria",
-    "Prismel"
+    "Custoria",
+    "Remitia",
+    "Holdavia",
+    "QUIVANTA",
+    "Leverix",
+    "Veilary",
+    "Fractio",
+    "Qubitess",
+    "Voxcora",
+    "Honoro",
+    "COWL",
+    "Veiline",
+    "Dueframe",
+    "Tranova",
+    "Quittra",
+    "Voxanote",
+    "Sonira",
+    "Callova"
   ],
   "notes": ""
 }

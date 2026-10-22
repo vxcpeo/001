@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T14:43:25.405Z",
+  "checkedAt": "2026-10-21T18:51:21.762Z",
   "browser": {
     "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "version": "Chrome/155.0.8059.85",
@@ -8,7 +8,7 @@
     "proxy": null,
     "method": "chrome-cdp"
   },
-  "baseUrl": "http://127.0.0.1:51163",
+  "baseUrl": "http://127.0.0.1:52528",
   "routes": [
     "/"
   ],
@@ -16,19 +16,19 @@
     {
       "route": "/",
       "device": "desktop",
-      "url": "http://127.0.0.1:51163/",
-      "finalUrl": "http://127.0.0.1:51163/",
+      "url": "http://127.0.0.1:52528/",
+      "finalUrl": "http://127.0.0.1:52528/",
       "httpStatus": 200,
-      "title": "Oddix // Live prediction lines on Solana",
+      "title": "Callova // Live prediction lines on Solana",
       "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
       "oldBrand": {
         "textHits": [],
         "attributeHits": []
       },
       "newBrandPresent": [
-        "Oddix",
-        "oddix",
-        "oddix"
+        "Callova",
+        "callova",
+        "callova"
       ],
       "consoleErrors": [],
       "pageErrors": [],
@@ -37,19 +37,19 @@
     {
       "route": "/",
       "device": "mobile",
-      "url": "http://127.0.0.1:51163/",
-      "finalUrl": "http://127.0.0.1:51163/",
+      "url": "http://127.0.0.1:52528/",
+      "finalUrl": "http://127.0.0.1:52528/",
       "httpStatus": 200,
-      "title": "Oddix // Live prediction lines on Solana",
+      "title": "Callova // Live prediction lines on Solana",
       "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
       "oldBrand": {
         "textHits": [],
         "attributeHits": []
       },
       "newBrandPresent": [
-        "Oddix",
-        "oddix",
-        "oddix"
+        "Callova",
+        "callova",
+        "callova"
       ],
       "consoleErrors": [],
       "pageErrors": [],

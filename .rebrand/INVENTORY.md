@@ -1,29 +1,29 @@
 # Brand inventory
 
 - Project: `E:\workspace\chuangye\solana\001\website`
-- Generated: 2026-10-21T22:43:04+08:00
+- Generated: 2026-10-22T02:27:55+08:00
 - Files scanned: 13 (11 text, 2 images)
 
 ## Detected brand
 
-- Display: **Prismel**
-- Slug: `prismel`
-- Confidence: 1.0
-- Source: brand.json
+- Display: **Callova**
+- Slug: `callova`
+- Confidence: 0.875
+- Source: scan
 
 ### Evidence
 
-- `existing brand.json` weight=100 value=Prismel files=None
+- `package:name` weight=2 value=Callova files=package.json
 
 ### Variants to replace
 
-- `Prismel` (display)
-- `prismel` (lower)
-- `PRISMEL` (upper)
+- `Callova` (display)
+- `callova` (lower)
+- `CALLOVA` (upper)
 
 ### Package names
 
-- `oddix`
+- `callova`
 
 ## Protected / preserved
 
@@ -33,8 +33,21 @@
 
 | Path | Kind | Size | Contains brand | Visual review |
 |---|---|---|---|---|
-| `public/favicon.svg` | favicon | 64.0x64.0 | no | yes |
+| `public/favicon.svg` | favicon | 64.0x64.0 | yes | yes |
 | `public/og.png` | og | 1200x630 | no | yes |
+
+## Files containing the brand
+
+| File | Hits |
+|---|---|
+| `src/App.vue` | 10 |
+| `index.html` | 4 |
+| `public/favicon.svg` | 2 |
+| `src/solana.js` | 2 |
+| `.env.example` | 1 |
+| `.env.local` | 1 |
+| `package.json` | 1 |
+| `src/styles/abyss.css` | 1 |
 
 ## Routes
 

@@ -1,6 +1,6 @@
-# Reskin inventory — oddix
+# Reskin inventory — callova
 
-Generated: 2026-10-21T14:22:53.225Z
+Generated: 2026-10-21T18:28:50.497Z
 
 ## Project
 
@@ -11,16 +11,16 @@ Generated: 2026-10-21T14:22:53.225Z
 | Package manager | npm |
 | Nuxt | no |
 | CSS frameworks | none detected |
-| Files scanned | 5 (1 SFCs) |
+| Files scanned | 4 (1 SFCs) |
 
 ## Original skeleton
 
-- Archetype: **dashboard-shell** (shell)
-- Traits: sidebar, topbar, cards, hero, grid, tabs, modal, sticky, bento
-- Max template depth: 9
+- Archetype: **document-flow** (editorial)
+- Traits: cards, grid, tabs, modal, sticky
+- Max template depth: 11
 - Top-level tags: div
 
-The replacement skeleton must not be `dashboard-shell` and must not be in the same family (`shell`).
+The replacement skeleton must not be `document-flow` and must not be in the same family (`editorial`).
 
 ## Routes
 
@@ -28,14 +28,14 @@ The replacement skeleton must not be `dashboard-shell` and must not be in the sa
 
 ## Palette (most used first)
 
-`#ffffff` (9) · `#0a0b0d` (4) · `#9aa3b1` (3) · `#dde3e9` (3) · `#0000ff` (2) · `#006c48` (2) · `#b3310a` (2) · `#0000d6` (1) · `#1a1d23` (1) · `#333a44` (1)
+`#000000` (18) · `#ff0000` (16) · `#ffffff` (11) · `#0b1219` (4) · `#182533` (3) · `#0d141c` (2) · `#111a24` (2) · `#2ebac6` (2) · `#5ce1a0` (2) · `#ff2d2d` (2)
 
 ## Content lock
 
 - Static visible text tokens: **103**
 - Binding expressions: **85**
 - Event handlers: **20**
-- Contract hash: `8f04bb8dd0587d2d28600ef045ba1223069fca28ee8a17962316aad4ccfac67f`
+- Contract hash: `35d743d3a63c101952a810965e1be5068688a656bf474017a8982670d4716a2e`
 
 Everything in `.reskin/content-contract.json` is immutable: visible copy, placeholders, labels, routes, link targets, asset sources, bindings, handlers, API endpoints and i18n values. A reskin may move these tokens to new markup but may not rewrite, remove or hide them.
 
