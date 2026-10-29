@@ -1,8 +1,8 @@
 # Generated brand assets
 
-- New brand: **Oddix**
-- Domain: `oddix.xyz`
-- Palette: primary `#ff0000`, accent `#ff0000`, background `#111a24`
+- New brand: **Probvyn**
+- Domain: `probvyn.xyz`
+- Palette: primary `#9945ff`, accent `#9945ff`, background `#ffffff`
 - Generated: 2; manual review: 0
 
 | Source | Kind | Good | Size |

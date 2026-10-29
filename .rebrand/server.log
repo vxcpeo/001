@@ -30,3 +30,19 @@
   VITE v8.3.1  ready in 505 ms
 
   ➜  Local:   http://127.0.0.1:52528/
+
+> probvyn@1.0.0 dev
+> vite --port 54783 --host 127.0.0.1
+
+
+  VITE v8.3.1  ready in 558 ms
+
+  ➜  Local:   http://127.0.0.1:54783/
+
+> probvyn@1.0.0 dev
+> vite --port 56712 --host 127.0.0.1
+
+
+  VITE v8.3.1  ready in 514 ms
+
+  ➜  Local:   http://127.0.0.1:56712/

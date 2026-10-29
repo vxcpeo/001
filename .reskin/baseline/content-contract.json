@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "callova",
-    "title": "callova",
+    "projectName": "probvyn",
+    "title": "probvyn",
     "lang": "en"
   },
   "routes": [
@@ -90,22 +90,6 @@
       "count": 1
     },
     {
-      "value": "CALL",
-      "count": 1
-    },
-    {
-      "value": "Callova",
-      "count": 1
-    },
-    {
-      "value": "Callova connects through the wallet extension you already run, on Solana",
-      "count": 1
-    },
-    {
-      "value": "CALLOVA-01",
-      "count": 1
-    },
-    {
       "value": "Closes",
       "count": 1
     },
@@ -126,7 +110,7 @@
       "count": 1
     },
     {
-      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Callova reads the chain you are actually on and pays out on the terms it publishes.",
+      "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Probvyn reads the chain you are actually on and pays out on the terms it publishes.",
       "count": 1
     },
     {
@@ -210,10 +194,6 @@
       "count": 1
     },
     {
-      "value": "OVA",
-      "count": 1
-    },
-    {
       "value": "Payout if right",
       "count": 1
     },
@@ -235,6 +215,22 @@
     },
     {
       "value": "Price the future. Sign the call.",
+      "count": 1
+    },
+    {
+      "value": "PROB",
+      "count": 1
+    },
+    {
+      "value": "Probvyn",
+      "count": 1
+    },
+    {
+      "value": "Probvyn connects through the wallet extension you already run, on Solana",
+      "count": 1
+    },
+    {
+      "value": "PROBVYN-01",
       "count": 1
     },
     {
@@ -322,6 +318,10 @@
       "count": 1
     },
     {
+      "value": "VYN",
+      "count": 1
+    },
+    {
       "value": "Waiting for your wallet&hellip;",
       "count": 1
     },
@@ -354,7 +354,7 @@
       "count": 1
     },
     {
-      "value": "Your wallet builds and signs the transaction. Callova never holds your key, and the signature is the receipt the chain keeps.",
+      "value": "Your wallet builds and signs the transaction. Probvyn never holds your key, and the signature is the receipt the chain keeps.",
       "count": 1
     },
     {

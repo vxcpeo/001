@@ -35,10 +35,12 @@
     "handles": [],
     "emails": [],
     "packageNames": [
-      "callova"
+      "probvyn"
     ],
     "initials": "",
-    "allowFiles": [],
+    "allowFiles": [
+      "REBRAND.md"
+    ],
     "allowStrings": []
   },
   "usedBrands": [
@@ -91,6 +93,11 @@
     "Quittra",
     "Voxanote",
     "Sonira",
+    "crypt.fun",
+    "Gradix",
+    "Colopha",
+    "Tabuline",
+    "Rationum",
     "Callova"
   ],
   "notes": ""

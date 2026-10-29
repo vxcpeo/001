@@ -1,45 +1,61 @@
-# Reskin wireframe — Round 8 (Tidal Sui / Gallery Scroll)
+# Wireframe — Spectrum Terminal / Terminal Console
+
+Style: `solana-spectrum` (performance-brutalist) · Skeleton: `terminal-console` (linear)
+Original: `gallery-scroll` (spatial) / light / accent `#298dff`
 
 ## Shell
 
-- New shell: **Tidal Gallery** (`td-` namespace), one route `/`.
-- The old shell (`ox-page` fixed glyph rail + command bar + feed/margin stage + status
-  strip) is deleted from the render path. `src/styles/abyss.css` stops being imported;
-  the new token + layout layer is `src/styles/tidal.css`.
-- Landmarks: `header` (opening panel), `nav` (floating dock), `main` (three scenes),
-  `footer` (closing panel). Dialogs stay outside every landmark.
+`TxShell` — one route, `/`. Four landmarks:
 
-## Route `/` mapping
-
-| Scene | Anchor | Holds |
+| Landmark | Element | Job |
 |---|---|---|
-| Opening panel | — | brand lockup `CALL/OVA`, imprint, `h1`, standfirst, search field, `Open the feed`, wallet button |
-| The feed | `#feed` | kicker + `OPEN LINES` + tally, wire rail, lane tabs, sorts, horizontal snap rail of 8 line cards, empty state |
-| Arena readout + desk | `#desk` | four monumental stats, pulse glyph, seal + streaming, wallet chip + facts, desk card with nodes, actions, receipts |
-| Three moves | `#rules` | kicker + `HOW A POSITION GETS MADE`, three tall move panels, closing note |
-| Closing panel | — | brand `/ 2026`, tagline, network + explorer link, LIVE strip, cluster/settlement |
-| Floating dock | — | `Feed` / `Rules` / `Desk` anchors: the only navigation |
+| `header` | `.tx-bar` sticky, 34px | brand lockup, imprint, LIVE LED, `Feed`/`Rules`/`Desk` commands |
+| `main` | `.tx-console` + `.tx-log` | 3-pane console (rail / data / readout) and the rules log |
+| `footer` | `.tx-hints` | brand, tagline, network, live line, cluster/settlement meta |
 
-## Composition change vs the original
+No marketing hero: the claim sits in a compact command banner (`.tx-charge`) above the
+console; the data pane is the visual centre of gravity.
 
-- Zero conventional header: the brand, claim and actions live inside a full-viewport
-  opening panel, not a sticky command bar.
-- The market table becomes a horizontal, snap-scrolling rail of framed cards; the
-  margin readout becomes a full scene with typographic stats.
-- Navigation moves from a fixed left glyph rail to a floating bottom dock.
-- The footer becomes a dark full-bleed closing panel instead of a thin status strip.
-- Mobile: scenes stay linear, the rail keeps horizontal snap with visible cues, the
-  dock becomes a full-width bottom bar; nothing is hidden.
+## Route `/` composition
 
-## Tokens and breakpoints
+1. **Status bar** — brand link (`#feed`), `Prediction arena · Solana`, the three route
+   commands, `LIVE`.
+2. **Command banner** — `h1` claim on two display lines (`PRICE THE FUTURE.` / `SIGN THE CALL.`),
+   standfirst in a mono block with a purple rule.
+3. **Console**
+   - **Rail (260px)**: `the feed` label, `N of N lines shown`, search field, lane chips,
+     sort chips, `Open the feed`, wallet action, seal.
+   - **Data (fluid)**: `OPEN LINES` header, wallet chip, doubled wire ticker, eight ruled
+     line rows (code · lane · clock / question / quote + spark / yes-no split / move ·
+     volume · traders / yes-no trade buttons / signed slip), empty state.
+   - **Readout (320px)**: `arena readout` + `streaming`, 2×2 stats, pulse bars; desk block
+     with `your desk`, nodes, actions, receipts; network facts; a ruled scope buffer.
+4. **Rules log** — `three moves` / `HOW A POSITION GETS MADE` as three ruled log entries
+   (01/02/03) plus the settlement note.
+5. **Hint strip** — brand `Probvyn / 2026`, tagline, `Solana {cluster} · explorer`,
+   program state, cluster / settlement / your key.
+6. **Dialogs** — trade and wallet sheets restyled as terminal panels (square, hairline,
+   mono tables); same branches, bindings and handlers.
 
-- Tokens come from `.reskin/STYLE.md` (white ground, `#298dff` accent, ink `#081B2B`,
-  Segoe UI Variable Display / Cascadia Mono mood, radius 12/22/36).
-- Breakpoints: `1080px` (readout splits), `760px` (single column, dock bar),
-  `520px` (tight type scale).
+Mobile (≤760px): the status bar wraps to two rows (brand + LIVE, then the three commands);
+the banner stacks; console becomes one column in rail → data → readout order; rules log
+stacks; dialogs become full-height sheets with internal scroll. No horizontal page
+overflow; the only horizontal scroller is the wire ticker.
 
-## Content contract
+## Content mapping
 
-Every static token, binding, handler, href, form field, placeholder and accessibility
-name in `.reskin/content-contract.json` is moved into the new markup unchanged, with
-the same multiplicity.
+- Every existing text fragment keeps its own node and its exact string; markup around it
+  moves. `h1` stays a single `h1`; `h2` stays `OPEN LINES` and `HOW A POSITION GETS MADE`.
+- Link counts stay `#feed` ×3, `#rules` ×1, `#desk` ×1 (brand, `Open the feed`, top-bar commands).
+- The wire ticker keeps the `[...wireItems, ...wireItems]` duplicate expression.
+- `forms`: one search input (`Search lines`) and one number input (`Stake in SOL`).
+- No new visible copy. Decoration comes from borders, rules, gradients and pseudo-elements.
+
+## Files
+
+- New: `src/styles/terminal.css` (`--tx-*` tokens, `tx-` selectors, resets, console grid,
+  components, dialogs, dock, responsive, reduced-motion).
+- Rewritten: `src/App.vue` template only (`<script setup>` untouched).
+- Removed from the render path: `src/styles/tidal.css` (archived to
+  `output/reskin-round8-tidal/`), `td-*` classes and `--bg/--ink/--accent` token names.
+- `src/main.js`: imports `./styles/terminal.css` only.

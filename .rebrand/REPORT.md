@@ -1,55 +1,72 @@
-# Rebrand report — web scope (Round 8)
+# Rebrand report
 
-> The Vite app lives in `website/`, so the root-absolute asset URLs in
-> `index.html` (`/favicon.svg`, `/og.png`, `/fonts/*`, `/src/main.js`) only resolve
-> with `website/` as the project root. This scope re-verifies the built site and
-> captures the browser evidence; the brand registry is validated by the repo-root
-> run. Every gate passes here except `brand_registry`, which is structural.
+> 摘要：已将 **Callova** 更换为 **Probvyn**（`probvyn.xyz` / @probvyn），验证结论：**未通过**。
 
-- Generated: 2026-10-22
+- Generated: 2026-10-22T23:39:51+08:00
 - Project: `E:\workspace\chuangye\solana\001\website`
-- Old brand: **Oddix**
-- New brand: **Callova** (`callova.xyz` / `@callova`)
-- Verdict: **PASS in scope** (8 of 9 gates; `brand_registry` is repo-root only)
+- Old brand: **Callova**
+- New brand: **Probvyn**
+- Domain: `probvyn.xyz`
+- X: `@probvyn`
+- Email: `hello@probvyn.xyz`
+- Verdict: **FAIL**
 
 ## Gates
 
 | Gate | Result | Detail |
 |---|---|---|
 | old_brand_source | PASS | 0 file hit(s), 0 path hit(s) |
-| new_brand_presence | PASS | 3 surface(s): title, meta, package |
-| assets | PASS | 2 web assets (favicon SVG, 1200×630 OG) |
-| references | PASS | 7 local references resolve from `website/` |
-| build_test | PASS | `vite build` |
-| availability | PASS | selected `callova` via chrome-cdp |
-| brand_registry | FAIL | `brand.txt` is the repo-root file, validated by the root run |
-| browser | PASS | 2 screenshots, 0 old-brand text/attribute hits, 0 console/page errors, 0 failed requests |
-| report | PASS | this file |
+| new_brand_presence | PASS | 3 surface(s) found: title, meta, package |
+| assets | PASS | 0 problem(s) |
+| references | PASS | 7 checked, 0 problem(s) |
+| build_test | PASS | test skipped: script not defined |
+| availability | PASS | selected probvyn via chrome-cdp |
+| brand_registry | FAIL | current None; history 0 entries |
+| browser | PASS | 2 screenshot(s), 0 problem(s) |
 
-## What this scope covers
+## Availability evidence
 
-- `index.html` metadata: title `Callova // Live prediction lines on Solana`,
-  description, Open Graph and Twitter card, favicon and OG image references.
-- `public/favicon.svg` — vector split-diamond mark, ink plate, white diamond,
-  tidal-blue node.
-- `public/og.png` — 1200×630 link card re-rendered from the artboard pipeline.
-- `src/App.vue` — brand lockup `CALL`/`OVA`, arena seal `CALLOVA-01`, receipt
-  storage key `callova.receipts.v1`, SPL-memo note prefix `Callova|…`.
-- `src/solana.js` — session key and header only; wallet logic untouched.
-- `package.json` / `package-lock.json` — package name `callova`.
-- `src/styles/tidal.css` — the Round 8 presentation layer (the rebrand did not
-  restyle; the reskin did).
+- Method: `chrome-cdp`
+- Selected: `probvyn`
+- Evidence directory: `.rebrand/availability/`
 
-## Browser evidence
 
-- `screenshots/root-desktop.png` (1440×900) and `screenshots/root-mobile.png`
-  (390×844), captured after the Round 8 reskin.
-- `.rebrand/verification.json` → `browser`: 0 old-brand hits, 0 errors, 0 failed
-  requests.
-- Availability evidence is shared with the root run (`availability.json`,
-  `availability/*.png`).
+## Brand registry
 
-## Related reports
+- File: `brand.txt`
+- Current: `None`
+- History: (none)
 
-- Full rebrand evidence: [`../../.rebrand/REPORT.md`](../../.rebrand/REPORT.md).
-- Presentation rebuild: [`../.reskin/REPORT.md`](../.reskin/REPORT.md).
+## Changes
+
+- Files changed: 0
+- Replacements: 0
+- Renames: 0
+- Assets replaced: 0
+- Backup: `None`
+
+## Build and test
+
+| Check | Baseline | Current |
+|---|---|---|
+| build | True | True |
+| test | True | True |
+
+## Browser
+
+- Routes: /
+- Screenshots: `.rebrand/screenshots/`
+- Baseline screenshots: `.rebrand/baseline/`
+
+## Protected / residual
+
+- **thirdParty**: `@vitejs/plugin-vue`, `amazon`, `angular`, `anthropic`, `apple`, `aws`, `bootstrap`, `cloudflare`, `deepseek`, `digitalocean`, `discord`, `django`, `docker`, `facebook`, `fastapi`, `figma`, `flask`, `github`, `gitlab`, `google`, `googleanalytics`, `googletagmanager`, `heroku`, `hotjar`, `instagram`, `intercom`, `javascript`, `jquery`, `kubernetes`, `laravel`
+
+## Rollback
+
+```bash
+python "<skill>/scripts/rollback.py" --project "E:\workspace\chuangye\solana\001\website" --out "E:\workspace\chuangye\solana\001\website\.rebrand" --latest
+```
+
+Availability is a snapshot. This report does not register the domain or create the X account.
+

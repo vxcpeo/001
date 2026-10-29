@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T18:51:38.641Z",
+  "generatedAt": "2026-10-22T15:39:15.511Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "callova",
+    "name": "probvyn",
     "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "35d743d3a63c101952a810965e1be5068688a656bf474017a8982670d4716a2e"
+      "hash": "680139aed2063275746c98c18f51c05b5485242f40df7ad027e392f60792f1df"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "document-flow",
-        "family": "editorial",
-        "traits": {
-          "sidebar": false,
-          "topbar": false,
-          "cards": true,
-          "hero": false,
-          "table": false,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": false,
-          "sticky": true,
-          "orbital": false,
-          "terminal": false,
-          "bento": false,
-          "ticker": false,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "gallery-scroll",
         "family": "spatial",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": true
         }
       },
+      "current": {
+        "id": "sidebar-workspace",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": false,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": true
+        }
+      },
       "accent": {
-        "original": "#ff0000",
-        "current": "#298dff",
-        "deltaE": 148.1,
+        "original": "#298dff",
+        "current": "#9945ff",
+        "deltaE": 58.87,
         "min": 30
       }
     },
@@ -79,10 +79,13 @@
         "passed": true,
         "skipped": false,
         "failures": [],
-        "warnings": [],
+        "warnings": [
+          "aria attribute added: aria-label=Network facts",
+          "aria attribute added: aria-label=The feed"
+        ],
         "structure": {
-          "fingerprintSimilarity": 0.279,
-          "landmarkSimilarity": 0.4,
+          "fingerprintSimilarity": 0.291,
+          "landmarkSimilarity": 0.429,
           "classOverlap": 0
         },
         "content": {
@@ -116,9 +119,12 @@
     ]
   },
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "/: aria attribute added: aria-label=Network facts",
+    "/: aria attribute added: aria-label=The feed"
+  ],
   "baseline": {
-    "generatedAt": "2026-10-21T18:29:20.930Z",
+    "generatedAt": "2026-10-22T15:00:26.768Z",
     "routes": [
       "/"
     ]

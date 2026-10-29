@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T18:28:50.497Z",
+  "generatedAt": "2026-10-22T14:59:35.151Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/001/website",
-    "name": "callova",
+    "name": "probvyn",
     "vueVersion": "latest",
     "nuxt": false,
     "dependencies": [
@@ -26,8 +26,8 @@
     "staticTextTokens": 103,
     "bindingTokens": 85,
     "eventTokens": 20,
-    "classNames": 137,
-    "colors": 76
+    "classNames": 134,
+    "colors": 56
   },
   "routes": [
     {
@@ -37,8 +37,8 @@
   ],
   "unresolvedRoutes": [],
   "archetype": {
-    "id": "document-flow",
-    "family": "editorial",
+    "id": "gallery-scroll",
+    "family": "spatial",
     "traits": {
       "sidebar": false,
       "topbar": false,
@@ -54,96 +54,120 @@
       "terminal": false,
       "bento": false,
       "ticker": false,
-      "gallery": false
+      "gallery": true
     }
   },
   "palette": [
     {
-      "hex": "#000000",
-      "count": 18
-    },
-    {
-      "hex": "#ff0000",
-      "count": 16
-    },
-    {
       "hex": "#ffffff",
-      "count": 11
+      "count": 8
     },
     {
-      "hex": "#0b1219",
+      "hex": "#f3f9ff",
+      "count": 6
+    },
+    {
+      "hex": "#000000",
       "count": 4
     },
     {
-      "hex": "#182533",
+      "hex": "#081b2b",
+      "count": 4
+    },
+    {
+      "hex": "#0b4f9e",
       "count": 3
     },
     {
-      "hex": "#0d141c",
+      "hex": "#e8f3ff",
+      "count": 3
+    },
+    {
+      "hex": "#0a63c7",
       "count": 2
     },
     {
-      "hex": "#111a24",
+      "hex": "#0d71e3",
       "count": 2
     },
     {
-      "hex": "#2ebac6",
+      "hex": "#4da2ff",
       "count": 2
     },
     {
-      "hex": "#5ce1a0",
+      "hex": "#cfe4fb",
       "count": 2
     },
     {
-      "hex": "#ff2d2d",
+      "hex": "#d6eaff",
       "count": 2
     },
     {
-      "hex": "#ff6b6b",
+      "hex": "#d8e7f5",
       "count": 2
     },
     {
-      "hex": "#ff7a7a",
-      "count": 2
-    },
-    {
-      "hex": "#060a0f",
+      "hex": "#087a55",
       "count": 1
     },
     {
-      "hex": "#080d14",
+      "hex": "#1c6bcc",
       "count": 1
     },
     {
-      "hex": "#0d151d",
+      "hex": "#298dff",
       "count": 1
     },
     {
-      "hex": "#1e2a36",
+      "hex": "#38536a",
       "count": 1
     },
     {
-      "hex": "#67798b",
+      "hex": "#44607a",
       "count": 1
     },
     {
-      "hex": "#8fa3b5",
+      "hex": "#5b7185",
       "count": 1
     },
     {
-      "hex": "#c9d6e2",
+      "hex": "#8a5a00",
       "count": 1
     },
     {
-      "hex": "#f2c94c",
+      "hex": "#b42318",
       "count": 1
     },
     {
-      "hex": "#f4f7fa",
+      "hex": "#b9d4ec",
       "count": 1
     },
     {
-      "hex": "#ff00ff",
+      "hex": "#bfdcff",
+      "count": 1
+    },
+    {
+      "hex": "#dbe6ef",
+      "count": 1
+    },
+    {
+      "hex": "#e7f2ff",
+      "count": 1
+    },
+    {
+      "hex": "#f1f5f9",
+      "count": 1
+    },
+    {
+      "hex": "#f2c3be",
+      "count": 1
+    },
+    {
+      "hex": "#f4f9ff",
+      "count": 1
+    },
+    {
+      "hex": "#fdf1f0",
       "count": 1
     }
   ],
@@ -155,248 +179,244 @@
     "?",
     "item.move",
     "market.move",
-    "ox-act",
-    "ox-act--primary",
-    "ox-act--wide",
-    "ox-book",
-    "ox-brand",
-    "ox-brand-mark",
-    "ox-brand-word",
-    "ox-chip",
-    "ox-chip-dot",
-    "ox-claim",
-    "ox-claim-accent",
-    "ox-clock",
-    "ox-code",
-    "ox-command",
-    "ox-command-tools",
-    "ox-delta",
-    "ox-desk",
-    "ox-desk-actions",
-    "ox-desk-glyph",
-    "ox-desk-head",
-    "ox-desk-title",
-    "ox-dim",
-    "ox-drawer",
-    "ox-drawer-glyph",
-    "ox-drawer-note",
-    "ox-drawer-note--lead",
-    "ox-drawer-sub",
-    "ox-drawer-title",
-    "ox-drawer-x",
-    "ox-empty",
-    "ox-error",
-    "ox-facts",
-    "ox-feed",
-    "ox-feed-head",
-    "ox-feed-title",
-    "ox-head",
-    "ox-heat",
-    "ox-hint",
-    "ox-imprint",
-    "ox-kicker",
-    "ox-lane",
-    "ox-lane-name",
-    "ox-lanes",
-    "ox-live",
-    "ox-main",
-    "ox-margin",
-    "ox-move",
-    "ox-move-body",
-    "ox-move-no",
-    "ox-moves",
-    "ox-moves-head",
-    "ox-moves-list",
-    "ox-node",
-    "ox-nodes",
-    "ox-note",
-    "ox-page",
-    "ox-panel",
-    "ox-plate-side",
-    "ox-plate-sides",
-    "ox-pulse",
-    "ox-question",
-    "ox-quote",
-    "ox-quote-table",
-    "ox-quote-table--left",
-    "ox-rail",
-    "ox-rail-crest",
-    "ox-rail-end",
-    "ox-rail-glyph",
-    "ox-rail-label",
-    "ox-rail-link",
-    "ox-rail-spine",
-    "ox-readout",
-    "ox-readout-foot",
-    "ox-readout-head",
-    "ox-row",
-    "ox-row-id",
-    "ox-row-main",
-    "ox-row-meta",
-    "ox-row-quote",
-    "ox-row-sides",
-    "ox-seal",
-    "ox-search",
-    "ox-search-glyph",
-    "ox-search-input",
-    "ox-section-title",
-    "ox-sep",
-    "ox-shell",
-    "ox-side",
-    "ox-side--no",
-    "ox-side--yes",
-    "ox-slip",
-    "ox-slip-q",
-    "ox-slip-side",
-    "ox-slip-sig",
-    "ox-slips",
-    "ox-sort",
-    "ox-sorts",
-    "ox-spark",
-    "ox-split",
-    "ox-stage",
-    "ox-stake",
-    "ox-standfirst",
-    "ox-stat",
-    "ox-stats",
-    "ox-status",
-    "ox-status-bottom",
-    "ox-status-brand",
-    "ox-status-live",
-    "ox-status-meta",
-    "ox-status-net",
-    "ox-status-tag",
-    "ox-status-top",
-    "ox-stream",
-    "ox-strong",
-    "ox-tally",
-    "ox-tape",
-    "ox-tape-item",
-    "ox-tape-label",
-    "ox-tape-track",
-    "ox-toast",
-    "ox-tools",
-    "ox-veil",
-    "ox-volume",
-    "ox-wallet-flag",
-    "ox-wallet-list",
-    "ox-wallet-name",
-    "ox-wallet-pick",
-    "ox-wallet-row",
-    "ox-wallet-state",
-    "ox-warn",
-    "receipt.side"
+    "receipt.side",
+    "td-act",
+    "td-act--primary",
+    "td-act--wide",
+    "td-aside-block",
+    "td-chip",
+    "td-chip-dot",
+    "td-claim",
+    "td-claim-accent",
+    "td-clock",
+    "td-code",
+    "td-cue",
+    "td-cue-line",
+    "td-cue-tick",
+    "td-desk-actions",
+    "td-desk-card",
+    "td-desk-glyph",
+    "td-desk-head",
+    "td-dim",
+    "td-display",
+    "td-dock",
+    "td-dock-dot",
+    "td-dock-link",
+    "td-empty",
+    "td-error",
+    "td-facts",
+    "td-feed",
+    "td-filters",
+    "td-gallery",
+    "td-heat",
+    "td-hint",
+    "td-imprint",
+    "td-kicker",
+    "td-lane",
+    "td-lane-tag",
+    "td-lanes",
+    "td-line",
+    "td-line-figure",
+    "td-line-meta",
+    "td-line-top",
+    "td-live",
+    "td-mark",
+    "td-mark-glyph",
+    "td-mark-word",
+    "td-move",
+    "td-move-body",
+    "td-move-no",
+    "td-moves",
+    "td-node",
+    "td-nodes",
+    "td-note",
+    "td-note-small",
+    "td-opening",
+    "td-opening-actions",
+    "td-opening-bar",
+    "td-opening-body",
+    "td-outro",
+    "td-outro-bottom",
+    "td-outro-brand",
+    "td-outro-inner",
+    "td-outro-live",
+    "td-outro-meta",
+    "td-outro-net",
+    "td-outro-tag",
+    "td-outro-top",
+    "td-page",
+    "td-plate-side",
+    "td-plate-sides",
+    "td-primary",
+    "td-pulse",
+    "td-question",
+    "td-quiet",
+    "td-quote",
+    "td-quote-table",
+    "td-quote-table--left",
+    "td-rail",
+    "td-rail-wrap",
+    "td-readout",
+    "td-readout-head",
+    "td-readout-main",
+    "td-rules",
+    "td-scene",
+    "td-scene-head",
+    "td-seal",
+    "td-seal-row",
+    "td-search",
+    "td-sep",
+    "td-sheet",
+    "td-sheet-glyph",
+    "td-sheet-sub",
+    "td-sheet-title",
+    "td-sheet-x",
+    "td-sides",
+    "td-slip",
+    "td-slip-q",
+    "td-slip-side",
+    "td-slip-sig",
+    "td-slips",
+    "td-sort",
+    "td-sorts",
+    "td-spark",
+    "td-split",
+    "td-stake",
+    "td-standfirst",
+    "td-stat",
+    "td-stats",
+    "td-stream",
+    "td-strong",
+    "td-take",
+    "td-take--no",
+    "td-take--yes",
+    "td-tally",
+    "td-tape",
+    "td-tape-item",
+    "td-tape-label",
+    "td-tape-rail",
+    "td-tide",
+    "td-toast",
+    "td-veil",
+    "td-volume",
+    "td-wallet-flag",
+    "td-wallet-list",
+    "td-wallet-name",
+    "td-wallet-pick",
+    "td-wallet-row",
+    "td-wallet-state",
+    "td-warn",
+    "td-wash"
   ],
   "designSignals": {
     "frameworks": [],
     "cssVars": [
-      "--no",
-      "--ox-accent",
-      "--ox-accent-2",
-      "--ox-accent-ink",
-      "--ox-bg",
-      "--ox-danger",
-      "--ox-ease",
-      "--ox-faint",
-      "--ox-font-body",
-      "--ox-font-display",
-      "--ox-font-mono",
-      "--ox-ink",
-      "--ox-ink-soft",
-      "--ox-line",
-      "--ox-line-hair",
-      "--ox-line-soft",
-      "--ox-max",
-      "--ox-muted",
-      "--ox-pad",
-      "--ox-panel",
-      "--ox-radius-lg",
-      "--ox-radius-md",
-      "--ox-radius-sm",
-      "--ox-rail",
-      "--ox-shadow",
-      "--ox-shadow-soft",
-      "--ox-speed",
-      "--ox-success",
-      "--ox-surface",
-      "--ox-surface-2",
-      "--ox-teal",
-      "--ox-warning",
+      "--accent",
+      "--accent-2",
+      "--accent-safe",
+      "--accent-wash",
+      "--bg",
+      "--border",
+      "--danger",
+      "--display-tracking",
+      "--display-weight",
+      "--dock-h",
+      "--ease",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--ink",
+      "--ink-invert",
+      "--label-tracking",
+      "--line",
+      "--line-strong",
+      "--max",
+      "--motion",
+      "--muted",
+      "--pad",
       "--primary",
-      "--yes"
+      "--radius-lg",
+      "--radius-md",
+      "--radius-sm",
+      "--shadow-lift",
+      "--shadow-soft",
+      "--success",
+      "--surface",
+      "--surface-alt",
+      "--surface-sunk",
+      "--warning"
     ],
     "colorVars": [
       {
-        "name": "--ox-accent",
-        "value": "#ff0000"
+        "name": "--accent",
+        "value": "#298dff"
       },
       {
-        "name": "--ox-accent-2",
-        "value": "#ff00ff"
+        "name": "--accent-2",
+        "value": "#4da2ff"
       },
       {
-        "name": "--ox-accent-ink",
-        "value": "#ff6b6b"
+        "name": "--accent-safe",
+        "value": "#0d71e3"
       },
       {
-        "name": "--ox-bg",
-        "value": "#000000"
+        "name": "--accent-wash",
+        "value": "#d6eaff"
       },
       {
-        "name": "--ox-danger",
-        "value": "#ff7a7a"
+        "name": "--bg",
+        "value": "#ffffff"
       },
       {
-        "name": "--ox-faint",
-        "value": "#67798b"
+        "name": "--danger",
+        "value": "#b42318"
       },
       {
-        "name": "--ox-ink",
-        "value": "#f4f7fa"
+        "name": "--ink",
+        "value": "#081b2b"
       },
       {
-        "name": "--ox-ink-soft",
-        "value": "#c9d6e2"
+        "name": "--ink-invert",
+        "value": "#f3f9ff"
       },
       {
-        "name": "--ox-line",
-        "value": "#1e2a36"
+        "name": "--line",
+        "value": "#d8e7f5"
       },
       {
-        "name": "--ox-muted",
-        "value": "#8fa3b5"
+        "name": "--line-strong",
+        "value": "#b9d4ec"
       },
       {
-        "name": "--ox-panel",
-        "value": "#0b1219"
+        "name": "--muted",
+        "value": "#5b7185"
       },
       {
-        "name": "--ox-success",
-        "value": "#5ce1a0"
+        "name": "--success",
+        "value": "#087a55"
       },
       {
-        "name": "--ox-surface",
-        "value": "#111a24"
+        "name": "--surface",
+        "value": "#ffffff"
       },
       {
-        "name": "--ox-surface-2",
-        "value": "#182533"
+        "name": "--surface-alt",
+        "value": "#e8f3ff"
       },
       {
-        "name": "--ox-teal",
-        "value": "#2ebac6"
+        "name": "--surface-sunk",
+        "value": "#f4f9ff"
       },
       {
-        "name": "--ox-warning",
-        "value": "#f2c94c"
+        "name": "--warning",
+        "value": "#8a5a00"
       }
     ],
     "mediaQueries": [
-      "@media (max-width: 1020px)",
-      "@media (max-width: 1180px)",
-      "@media (max-width: 420px)",
-      "@media (max-width: 720px)",
-      "@media (max-width: 860px)",
+      "@media (max-width: 1080px)",
+      "@media (max-width: 520px)",
+      "@media (max-width: 760px)",
+      "@media (prefers-reduced-motion: no-preference)",
       "@media (prefers-reduced-motion: reduce)"
     ],
     "darkMode": false
@@ -406,9 +426,9 @@
       "a": 9,
       "b": 13,
       "button": 18,
-      "circle": 4,
+      "circle": 1,
       "dd": 11,
-      "div": 48,
+      "div": 51,
       "dl": 4,
       "dt": 11,
       "em": 4,
@@ -424,65 +444,42 @@
       "main": 1,
       "nav": 2,
       "ol": 2,
-      "p": 27,
-      "path": 15,
-      "rect": 2,
-      "section": 8,
-      "span": 50,
+      "p": 30,
+      "path": 11,
+      "rect": 1,
+      "section": 5,
+      "span": 49,
       "strong": 7,
-      "svg": 10,
+      "svg": 6,
       "template": 5,
       "transition": 1,
       "ul": 2
     },
     "depthHistogram": {
       "0": 1,
-      "1": 5,
-      "2": 12,
-      "3": 35,
-      "4": 52,
-      "5": 48,
-      "6": 39,
-      "7": 37,
-      "8": 35,
-      "9": 11,
-      "10": 4,
-      "11": 1
+      "1": 8,
+      "2": 14,
+      "3": 46,
+      "4": 53,
+      "5": 68,
+      "6": 56,
+      "7": 19,
+      "8": 4,
+      "9": 1
     },
-    "maxDepth": 11,
+    "maxDepth": 9,
     "topLevelTags": [
       "div"
     ],
     "skeletonSample": [
       "div",
-      "  nav",
-      "    span",
-      "      svg",
-      "        path",
-      "        path",
-      "    a",
-      "      svg",
-      "        path",
-      "      span",
-      "    a",
-      "      svg",
-      "        path",
-      "        circle",
-      "        circle",
-      "        circle",
-      "      span",
-      "    a",
-      "      svg",
-      "        rect",
-      "        path",
-      "        path",
-      "      span",
-      "    span",
-      "    span",
-      "      svg",
-      "        path",
       "  div",
-      "    header",
+      "    svg",
+      "      path",
+      "      path",
+      "      path",
+      "  header",
+      "    div",
       "      a",
       "        span",
       "          svg",
@@ -492,22 +489,32 @@
       "        span",
       "          em",
       "      p",
+      "    div",
+      "      h1",
+      "        span",
+      "        span",
+      "        span",
       "      div",
-      "        label",
-      "          svg",
-      "            circle",
-      "            path",
-      "          input",
-      "        a",
-      "        button",
-      "    main",
-      "      section",
-      "        h1",
-      "          span",
-      "          span",
-      "          span",
       "        p",
-      "      section",
+      "        div",
+      "          label",
+      "            svg",
+      "              circle",
+      "              path",
+      "            input",
+      "          a",
+      "          button",
+      "    div",
+      "      span",
+      "      span",
+      "  main",
+      "    section",
+      "      div",
+      "        div",
+      "          p",
+      "          h2",
+      "        p",
+      "      div",
       "        div",
       "          span",
       "            b",
@@ -515,72 +522,83 @@
       "            strong",
       "            em",
       "      div",
-      "        section",
-      "          div",
-      "            div",
-      "              p",
-      "              h2",
-      "            p",
-      "          div",
-      "            div",
-      "              button",
-      "                b",
-      "            div",
-      "              button",
-      "          ol",
-      "            li",
-      "              div",
-      "                span",
-      "                span",
-      "                span",
-      "              div",
-      "                h3",
-      "                div",
-      "                  span",
-      "                    svg",
-      "                    path",
-      "                  span",
-      "                    b",
-      "                    b",
-      "                  span",
-      "                    em",
-      "                  span",
-      "                  span",
-      "              div",
-      "                strong",
-      "                  i",
-      "              div",
-      "                button",
-      "                  b",
-      "                button",
-      "                  b",
-      "                p",
-      "          p",
       "        div",
-      "          section",
+      "          button",
+      "            b",
+      "        div",
+      "          button",
+      "      div",
+      "        ol",
+      "          li",
       "            div",
       "              span",
       "              span",
+      "              span",
+      "            h3",
+      "            div",
+      "              strong",
       "                i",
-      "            dl",
-      "              div",
-      "                dt",
-      "                dd",
-      "            div",
+      "              span",
+      "                svg",
+      "                  path",
+      "            p",
+      "              b",
+      "              b",
+      "            p",
+      "              em",
+      "              span",
       "              span",
       "            div",
-      "              span",
       "              button",
-      "                span",
       "                b",
-      "              button"
+      "              button",
+      "                b",
+      "            p",
+      "      p",
+      "    section",
+      "      div",
+      "        div",
+      "          p",
+      "          span",
+      "            i",
+      "        dl",
+      "          div",
+      "            dt",
+      "            dd",
+      "        div",
+      "          span",
+      "        div",
+      "          span",
+      "          button",
+      "            span",
+      "            b",
+      "          button",
+      "            span",
+      "            span",
+      "          span",
+      "        dl",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "      div",
+      "        div",
+      "          span",
+      "            svg",
+      "              path",
+      "              path"
     ]
   },
   "contentContract": {
     "schemaVersion": 1,
     "meta": {
-      "projectName": "callova",
-      "title": "callova",
+      "projectName": "probvyn",
+      "title": "probvyn",
       "lang": "en"
     },
     "routes": [
@@ -668,22 +686,6 @@
         "count": 1
       },
       {
-        "value": "CALL",
-        "count": 1
-      },
-      {
-        "value": "Callova",
-        "count": 1
-      },
-      {
-        "value": "Callova connects through the wallet extension you already run, on Solana",
-        "count": 1
-      },
-      {
-        "value": "CALLOVA-01",
-        "count": 1
-      },
-      {
         "value": "Closes",
         "count": 1
       },
@@ -704,7 +706,7 @@
         "count": 1
       },
       {
-        "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Callova reads the chain you are actually on and pays out on the terms it publishes.",
+        "value": "Every question here runs as a live line. The crowd sets the number, you take a side, and the wallet in your pocket signs it &mdash; the extension you already run, on the cluster the readout names, with nothing standing in for your key. Probvyn reads the chain you are actually on and pays out on the terms it publishes.",
         "count": 1
       },
       {
@@ -788,10 +790,6 @@
         "count": 1
       },
       {
-        "value": "OVA",
-        "count": 1
-      },
-      {
         "value": "Payout if right",
         "count": 1
       },
@@ -813,6 +811,22 @@
       },
       {
         "value": "Price the future. Sign the call.",
+        "count": 1
+      },
+      {
+        "value": "PROB",
+        "count": 1
+      },
+      {
+        "value": "Probvyn",
+        "count": 1
+      },
+      {
+        "value": "Probvyn connects through the wallet extension you already run, on Solana",
+        "count": 1
+      },
+      {
+        "value": "PROBVYN-01",
         "count": 1
       },
       {
@@ -900,6 +914,10 @@
         "count": 1
       },
       {
+        "value": "VYN",
+        "count": 1
+      },
+      {
         "value": "Waiting for your wallet&hellip;",
         "count": 1
       },
@@ -932,7 +950,7 @@
         "count": 1
       },
       {
-        "value": "Your wallet builds and signs the transaction. Callova never holds your key, and the signature is the receipt the chain keeps.",
+        "value": "Your wallet builds and signs the transaction. Probvyn never holds your key, and the signature is the receipt the chain keeps.",
         "count": 1
       },
       {
@@ -1444,5 +1462,5 @@
       "VITE_SOLANA_RPC_URL"
     ]
   },
-  "contentContractHash": "35d743d3a63c101952a810965e1be5068688a656bf474017a8982670d4716a2e"
+  "contentContractHash": "680139aed2063275746c98c18f51c05b5485242f40df7ad027e392f60792f1df"
 }

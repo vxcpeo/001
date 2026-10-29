@@ -3,10 +3,10 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { createWallet, describeError } from './solana.js'
 
 /* ---------------------------------------------------------------------------
-   Callova - live prediction arena.
-   Tidal Sui / Gallery Scroll skin: a white tidal ground, full-viewport scenes,
-   a snap-scrolling line rail and a floating dock. Presentation lives in
-   src/styles/tidal.css.
+   Probvyn - live prediction arena.
+   Spectrum Terminal / Terminal Console skin: a black console ground with a
+   sticky status bar, a three-pane data console, a ruled rules log and a bottom
+   command dock. Presentation lives in src/styles/terminal.css.
    --------------------------------------------------------------------------- */
 
 const wallet = createWallet({
@@ -74,7 +74,7 @@ let toastTimer = 0
 
 function loadReceipts() {
   try {
-    const raw = localStorage.getItem('callova.receipts.v1')
+    const raw = localStorage.getItem('probvyn.receipts.v1')
     return raw ? JSON.parse(raw) : []
   } catch {
     return []
@@ -84,7 +84,7 @@ function loadReceipts() {
 function saveReceipt(receipt) {
   receipts.value = [receipt, ...receipts.value].slice(0, 40)
   try {
-    localStorage.setItem('callova.receipts.v1', JSON.stringify(receipts.value))
+    localStorage.setItem('probvyn.receipts.v1', JSON.stringify(receipts.value))
   } catch {
     /* storage is optional; the on-chain signature is the real record */
   }
@@ -248,7 +248,7 @@ async function submitTrade() {
   tradeError.value = ''
   const market = active.value
   try {
-    const note = `Callova|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
+    const note = `Probvyn|${market.code}|${side.value}|${stakeNumber.value.toFixed(3)}SOL|${new Date().toISOString()}`
     const result = await wallet.signMemo(note)
     saveReceipt({
       marketId: market.id,
@@ -309,283 +309,283 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="td-page">
-    <div class="td-wash" aria-hidden="true">
-      <svg class="td-tide" viewBox="0 0 1440 640" aria-hidden="true" focusable="false">
-        <path d="M0 300C180 210 320 400 520 330S880 160 1120 280 1360 360 1440 300" />
-        <path d="M0 380C200 300 340 470 560 400S920 240 1160 350 1380 430 1440 380" />
-        <path d="M0 460C220 380 360 540 600 470S960 320 1200 420 1400 500 1440 460" />
-      </svg>
-    </div>
-
-    <header class="td-opening">
-      <div class="td-opening-bar">
-        <a class="td-mark" href="#feed" aria-label="Callova home">
-          <span class="td-mark-glyph" aria-hidden="true">
-            <svg viewBox="0 0 64 64" focusable="false">
-              <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
-              <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
-              <rect x="28.9" y="28.9" width="6.2" height="6.2" rx="1" fill="#298dff" />
-            </svg>
-          </span>
-          <span class="td-mark-word">CALL<em>OVA</em></span>
-        </a>
-        <p class="td-imprint">Prediction arena &middot; Solana</p>
-      </div>
-
-      <div class="td-opening-body">
-        <h1 class="td-claim">
-          <span>PRICE THE</span>
-          <span>FUTURE.</span>
-          <span class="td-claim-accent">SIGN THE CALL.</span>
-        </h1>
-
-        <div class="td-aside-block">
-          <p class="td-standfirst">
-            Every question here runs as a live line. The crowd sets the number, you take a side, and the
-            wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
-            readout names, with nothing standing in for your key.
-            Callova reads the chain you are actually on and pays out on the terms it publishes.
-          </p>
-
-          <div class="td-opening-actions">
-            <label class="td-search">
-              <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-                <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4" />
-                <path d="M10.6 10.6 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" />
-              </svg>
-              <input v-model="query" type="search" placeholder="Search lines" aria-label="Search lines" />
-            </label>
-            <a class="td-primary" href="#feed">Open the feed</a>
-            <button class="td-quiet" type="button" @click="connected ? openWallet() : openWallet()">
-              {{ connected ? 'Your desk' : 'Attach a wallet' }}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="td-cue" aria-hidden="true">
-        <span class="td-cue-tick"></span>
-        <span class="td-cue-line"></span>
-      </div>
+  <div class="tx-shell">
+    <header class="tx-bar">
+      <a class="tx-brand" href="#feed" aria-label="Probvyn home">
+        <span class="tx-brand-glyph" aria-hidden="true">
+          <svg viewBox="0 0 64 64" focusable="false">
+            <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+            <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+            <rect x="28.9" y="28.9" width="6.2" height="6.2" rx="1" fill="#14f195" />
+          </svg>
+        </span>
+        <span class="tx-word">PROB<em>VYN</em></span>
+      </a>
+      <p class="tx-imprint">Prediction arena &middot; Solana</p>
+      <nav class="tx-nav" aria-label="Primary">
+        <a class="tx-nav-link" href="#feed">Feed</a>
+        <a class="tx-nav-link" href="#rules">Rules</a>
+        <a class="tx-nav-link" href="#desk">Desk</a>
+      </nav>
+      <span class="tx-led"><i aria-hidden="true"></i>LIVE</span>
     </header>
 
-    <main class="td-gallery" role="main">
-      <section id="feed" class="td-scene td-feed" aria-labelledby="td-feed-title">
-        <div class="td-scene-head">
-          <div>
-            <p class="td-kicker">the feed</p>
-            <h2 id="td-feed-title" class="td-display">OPEN LINES</h2>
-          </div>
-          <p class="td-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
-        </div>
+    <div class="tx-charge">
+      <div class="tx-charge-main">
+        <h1 class="tx-claim">
+          <span>PRICE THE</span>
+          <span>FUTURE.</span>
+          <span class="tx-claim-accent">SIGN THE CALL.</span>
+        </h1>
+        <p class="tx-lede">
+          Every question here runs as a live line. The crowd sets the number, you take a side, and the
+          wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
+          readout names, with nothing standing in for your key.
+          Probvyn reads the chain you are actually on and pays out on the terms it publishes.
+        </p>
+      </div>
+    </div>
 
-        <div class="td-tape" role="region" aria-label="Latest lines" tabindex="0">
-          <div class="td-tape-rail">
-            <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="td-tape-item">
-              <b>{{ item.code }}</b>
-              <span class="td-tape-label">{{ item.label }}</span>
-              <strong :class="item.move < 0 ? 'td-loss' : 'td-gain'">{{ item.yes }}%</strong>
-              <em :class="item.move < 0 ? 'td-loss' : 'td-gain'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
-            </span>
+    <main class="tx-main">
+      <div class="tx-console">
+        <aside class="tx-rail" aria-label="The feed">
+          <div class="tx-rail-block">
+            <p class="tx-label">the feed</p>
+            <p class="tx-tally">{{ visibleMarkets.length }} of {{ markets.length }} lines shown</p>
           </div>
-        </div>
 
-        <div class="td-filters">
-          <div class="td-lanes" role="tablist" aria-label="Lanes">
+          <label class="tx-search">
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <path d="M10.6 10.6 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" />
+            </svg>
+            <input v-model="query" type="search" placeholder="Search lines" aria-label="Search lines" />
+          </label>
+
+          <div class="tx-chips" role="tablist" aria-label="Lanes">
             <button
               v-for="tab in laneTabs"
               :key="tab.name"
               type="button"
               role="tab"
-              class="td-lane"
+              class="tx-chip"
               :aria-selected="lane === tab.name"
-              :class="{ 'td-is-on': lane === tab.name }"
+              :class="{ 'tx-on': lane === tab.name }"
               @click="lane = tab.name"
             >
               {{ tab.name }}<b>{{ tab.count }}</b>
             </button>
           </div>
 
-          <div class="td-sorts" role="group" aria-label="Sort lines">
+          <div class="tx-sorts" role="group" aria-label="Sort lines">
             <button
               v-for="option in sorts"
               :key="option.id"
               type="button"
-              class="td-sort"
-              :class="{ 'td-is-on': sort === option.id }"
+              class="tx-sort"
+              :class="{ 'tx-on': sort === option.id }"
               @click="sort = option.id"
             >
               {{ option.label }}
             </button>
           </div>
-        </div>
 
-        <div class="td-rail-wrap">
-          <ol class="td-rail">
-          <li v-for="market in visibleMarkets" :key="market.id" class="td-line">
-            <div class="td-line-top">
-              <span class="td-code">{{ market.code }}</span>
-              <span class="td-lane-tag">{{ market.lane }}</span>
-              <span class="td-clock">{{ closesIn(market.hours) }}</span>
-            </div>
+          <a class="tx-primary" href="#feed">Open the feed</a>
+          <button class="tx-ghost" type="button" @click="connected ? openWallet() : openWallet()">
+            {{ connected ? 'Your desk' : 'Attach a wallet' }}
+          </button>
 
-            <h3 class="td-question">{{ market.question }}</h3>
-
-            <div class="td-line-figure">
-              <strong class="td-quote">{{ market.yes }}<i>%</i></strong>
-              <span class="td-spark">
-                <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
-                  <path :d="sparkPath(market.spark)" :class="market.move < 0 ? 'td-loss' : 'td-gain'" />
-                </svg>
-              </span>
-            </div>
-
-            <p class="td-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></p>
-
-            <p class="td-line-meta">
-              <em :class="market.move < 0 ? 'td-loss' : 'td-gain'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
-              <span class="td-volume">${{ (market.volume / 1000).toFixed(0) }}k</span>
-              <span class="td-heat">{{ market.traders }} in</span>
-            </p>
-
-            <div class="td-sides">
-              <button class="td-take td-take--yes" type="button" @click="openTrade(market, 'YES')">
-                yes<b>{{ market.yes }}%</b>
-              </button>
-              <button class="td-take td-take--no" type="button" @click="openTrade(market, 'NO')">
-                no<b>{{ 100 - market.yes }}%</b>
-              </button>
-            </div>
-
-            <p v-if="receiptFor(market.id)" class="td-slip">
-              you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
-            </p>
-          </li>
-          </ol>
-        </div>
-
-        <p v-if="!visibleMarkets.length" class="td-empty">
-          No line matches that. Clear the search or switch lanes.
-        </p>
-      </section>
-
-      <section id="desk" class="td-scene td-readout" aria-label="Arena readout">
-        <div class="td-readout-main">
-          <div class="td-readout-head">
-            <p class="td-kicker">arena readout</p>
-            <span class="td-stream"><i aria-hidden="true"></i>streaming</span>
+          <div class="tx-seal-row">
+            <span class="tx-seal">PROBVYN-01</span>
+            <span class="tx-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
           </div>
+        </aside>
 
-          <dl class="td-stats">
-            <div v-for="stat in arenaStats" :key="stat.label" class="td-stat">
-              <dt>{{ stat.label }}</dt>
-              <dd>{{ stat.value }}</dd>
+        <section id="feed" class="tx-data" aria-labelledby="tx-feed-title">
+          <div class="tx-data-head">
+            <div>
+              <h2 id="tx-feed-title" class="tx-display">OPEN LINES</h2>
             </div>
-          </dl>
-
-          <div class="td-pulse" aria-hidden="true">
-            <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
-          </div>
-
-          <div class="td-seal-row">
-            <span class="td-seal">CALLOVA-01</span>
-            <button v-if="connected" class="td-chip" type="button" @click="openWallet">
-              <span class="td-chip-dot" aria-hidden="true"></span>
+            <button v-if="connected" class="tx-chip tx-chip--wallet" type="button" @click="openWallet">
+              <span class="tx-dot" aria-hidden="true"></span>
               {{ shortAddress }}
               <b>{{ balanceText }} SOL</b>
             </button>
-            <button v-else class="td-chip" type="button" @click="openWallet">
-              <span class="td-chip-dot" aria-hidden="true"></span>
+            <button v-else class="tx-chip tx-chip--wallet" type="button" @click="openWallet">
+              <span class="tx-dot" aria-hidden="true"></span>
               <span>Attach wallet</span>
             </button>
-            <span class="td-wallet-state">{{ connected ? `wallet ${shortAddress}` : 'wallet detached' }}</span>
           </div>
 
-          <dl class="td-facts">
-            <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
-            <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
-            <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
-          </dl>
-        </div>
-
-        <div class="td-desk-card">
-          <div class="td-desk-head">
-            <span class="td-desk-glyph" aria-hidden="true">
-              <svg viewBox="0 0 64 64" focusable="false">
-                <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
-                <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
-              </svg>
-            </span>
-            <div>
-              <p class="td-kicker">your desk</p>
-              <h2 id="td-desk-title" class="td-display">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
+          <div class="tx-ticker" role="region" aria-label="Latest lines" tabindex="0">
+            <div class="tx-ticker-track">
+              <span v-for="(item, index) in [...wireItems, ...wireItems]" :key="`${item.code}-${index}`" class="tx-tick">
+                <b>{{ item.code }}</b>
+                <span class="tx-tick-label">{{ item.label }}</span>
+                <strong :class="item.move < 0 ? 'tx-down' : 'tx-up'">{{ item.yes }}%</strong>
+                <em :class="item.move < 0 ? 'tx-down' : 'tx-up'">{{ item.move > 0 ? '+' : '' }}{{ item.move.toFixed(1) }}</em>
+              </span>
             </div>
           </div>
 
-          <div class="td-nodes">
-            <div class="td-node">
-              <span>Address</span>
-              <strong>{{ connected ? shortAddress : '---' }}</strong>
-            </div>
-            <div class="td-node">
-              <span>Balance on {{ clusterLabel }}</span>
-              <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
-            </div>
-            <div class="td-node">
-              <span>Signed positions</span>
-              <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
-            </div>
-          </div>
+          <ol class="tx-rows">
+            <li v-for="market in visibleMarkets" :key="market.id" class="tx-row">
+              <div class="tx-row-line">
+                <span class="tx-code">{{ market.code }}</span>
+                <span class="tx-tag">{{ market.lane }}</span>
+                <span class="tx-clock">{{ closesIn(market.hours) }}</span>
+              </div>
 
-          <div class="td-desk-actions">
-            <a v-if="connected" class="td-act" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
-            <button v-if="connected" class="td-act" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
-              Refresh balance
-            </button>
-            <button v-if="connected" class="td-act" type="button" @click="dropWallet">Detach wallet</button>
-            <button v-else class="td-act td-act--primary" type="button" @click="openWallet">Attach wallet</button>
-          </div>
+              <div class="tx-row-main">
+                <h3 class="tx-q">{{ market.question }}</h3>
+                <p class="tx-quote">{{ market.yes }}<i>%</i></p>
+              </div>
 
-          <ul v-if="receipts.length" class="td-slips">
-            <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
-              <span class="td-slip-side" :class="receipt.side === 'YES' ? 'td-gain' : 'td-loss'">{{ receipt.side }}</span>
-              <span class="td-slip-q">{{ receipt.question }}</span>
-              <span class="td-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
+              <div class="tx-row-foot">
+                <span class="tx-spark">
+                  <svg viewBox="0 0 96 28" preserveAspectRatio="none" aria-hidden="true">
+                    <path :d="sparkPath(market.spark)" :class="market.move < 0 ? 'tx-down' : 'tx-up'" />
+                  </svg>
+                </span>
+
+                <p class="tx-split">yes <b>{{ market.yes }}</b> / no <b>{{ 100 - market.yes }}</b></p>
+
+                <p class="tx-meta">
+                  <em :class="market.move < 0 ? 'tx-down' : 'tx-up'">{{ market.move > 0 ? '+' : '' }}{{ market.move.toFixed(1) }}%</em>
+                  <span class="tx-vol">${{ (market.volume / 1000).toFixed(0) }}k</span>
+                  <span class="tx-heat">{{ market.traders }} in</span>
+                </p>
+
+                <div class="tx-sides">
+                  <button class="tx-take tx-take--yes" type="button" @click="openTrade(market, 'YES')">
+                    yes<b>{{ market.yes }}%</b>
+                  </button>
+                  <button class="tx-take tx-take--no" type="button" @click="openTrade(market, 'NO')">
+                    no<b>{{ 100 - market.yes }}%</b>
+                  </button>
+                </div>
+              </div>
+
+              <p v-if="receiptFor(market.id)" class="tx-slip">
+                you signed {{ receiptFor(market.id).side }} &middot; {{ receiptFor(market.id).stake }} SOL
+              </p>
             </li>
-          </ul>
+          </ol>
+
+          <p v-if="!visibleMarkets.length" class="tx-empty">
+            No line matches that. Clear the search or switch lanes.
+          </p>
+        </section>
+
+        <aside class="tx-readout" aria-label="Arena readout">
+          <section class="tx-panel">
+            <div class="tx-panel-head">
+              <p class="tx-label">arena readout</p>
+              <span class="tx-stream"><i aria-hidden="true"></i>streaming</span>
+            </div>
+
+            <dl class="tx-stats">
+              <div v-for="stat in arenaStats" :key="stat.label" class="tx-stat">
+                <dt>{{ stat.label }}</dt>
+                <dd>{{ stat.value }}</dd>
+              </div>
+            </dl>
+
+            <div class="tx-pulse" aria-hidden="true">
+              <span v-for="bar in 22" :key="bar" :style="{ height: `${14 + ((bar * 41) % 82)}%` }"></span>
+            </div>
+          </section>
+
+          <section id="desk" class="tx-desk" aria-labelledby="tx-desk-title">
+            <div class="tx-desk-head">
+              <span class="tx-desk-glyph" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false">
+                  <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
+                  <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <div>
+                <p class="tx-label">your desk</p>
+                <h2 id="tx-desk-title" class="tx-display">{{ connected ? 'WALLET ONLINE' : 'WALLET DETACHED' }}</h2>
+              </div>
+            </div>
+
+            <div class="tx-nodes">
+              <div class="tx-node">
+                <span>Address</span>
+                <strong>{{ connected ? shortAddress : '---' }}</strong>
+              </div>
+              <div class="tx-node">
+                <span>Balance on {{ clusterLabel }}</span>
+                <strong>{{ balanceText }} <i v-if="connected && !walletState.balanceError">SOL</i></strong>
+              </div>
+              <div class="tx-node">
+                <span>Signed positions</span>
+                <strong>{{ String(receipts.length).padStart(2, '0') }}</strong>
+              </div>
+            </div>
+
+            <div class="tx-desk-actions">
+              <a v-if="connected" class="tx-act" :href="explorerUrl" target="_blank" rel="noreferrer">View on explorer</a>
+              <button v-if="connected" class="tx-act" type="button" @click="wallet.refreshBalance(); flash('Balance refreshed from ' + clusterLabel + '.')">
+                Refresh balance
+              </button>
+              <button v-if="connected" class="tx-act" type="button" @click="dropWallet">Detach wallet</button>
+              <button v-else class="tx-act tx-act--primary" type="button" @click="openWallet">Attach wallet</button>
+            </div>
+
+            <ul v-if="receipts.length" class="tx-slips">
+              <li v-for="receipt in receipts.slice(0, 4)" :key="receipt.signature">
+                <span class="tx-slip-side" :class="receipt.side === 'YES' ? 'tx-up' : 'tx-down'">{{ receipt.side }}</span>
+                <span class="tx-slip-q">{{ receipt.question }}</span>
+                <span class="tx-slip-sig">{{ receipt.stake }} SOL &middot; {{ receipt.signature.slice(0, 8) }}&hellip;</span>
+              </li>
+            </ul>
+          </section>
+
+          <div class="tx-buffer" aria-hidden="true"></div>
+
+          <section class="tx-panel tx-panel--facts" aria-label="Network facts">
+            <dl class="tx-facts">
+              <div><dt>Network</dt><dd>Solana {{ clusterLabel }}</dd></div>
+              <div><dt>Latest blockhash</dt><dd>{{ walletState.balanceAt ? 'streaming' : 'on demand' }}</dd></div>
+              <div><dt>Wallet</dt><dd>{{ connected ? walletState.providerName : 'not attached' }}</dd></div>
+            </dl>
+          </section>
+        </aside>
+      </div>
+
+      <section id="rules" class="tx-log" aria-labelledby="tx-rules-title">
+        <div class="tx-log-head">
+          <p class="tx-label">three moves</p>
+          <h2 id="tx-rules-title" class="tx-display">HOW A POSITION GETS MADE</h2>
         </div>
-      </section>
 
-      <section id="rules" class="td-scene td-rules" aria-labelledby="td-rules-title">
-        <p class="td-kicker">three moves</p>
-        <h2 id="td-rules-title" class="td-display">HOW A POSITION GETS MADE</h2>
-
-        <ol class="td-moves">
-          <li class="td-move">
-            <b class="td-move-no">01</b>
-            <div class="td-move-body">
+        <ol class="tx-moves">
+          <li class="tx-move">
+            <b class="tx-move-no">01</b>
+            <div class="tx-move-body">
               <h3>Read the line</h3>
               <p>The percentage on every card is the crowd's current read, refreshed as positions come in. It is a price, never a promise.</p>
             </div>
           </li>
-          <li class="td-move">
-            <b class="td-move-no">02</b>
-            <div class="td-move-body">
+          <li class="tx-move">
+            <b class="tx-move-no">02</b>
+            <div class="tx-move-body">
               <h3>Pick a side</h3>
               <p>Back YES or NO. Both sides fund the same pool and settle on the same published rules, with no house seat at the table.</p>
             </div>
           </li>
-          <li class="td-move">
-            <b class="td-move-no">03</b>
-            <div class="td-move-body">
+          <li class="tx-move">
+            <b class="tx-move-no">03</b>
+            <div class="tx-move-body">
               <h3>Sign it yourself</h3>
-              <p>Your wallet builds and signs the transaction. Callova never holds your key, and the signature is the receipt the chain keeps.</p>
+              <p>Your wallet builds and signs the transaction. Probvyn never holds your key, and the signature is the receipt the chain keeps.</p>
             </div>
           </li>
         </ol>
 
-        <p class="td-note">
+        <p class="tx-note">
           The market program is not deployed yet, so a signed position is recorded as an on-chain
           transaction rather than held in a settlement pool. When the program lands on this cluster,
           the same button routes the position into it and the pool settles on the published rules.
@@ -593,138 +593,123 @@ onBeforeUnmount(() => {
       </section>
     </main>
 
-    <footer class="td-outro" role="contentinfo">
-      <div class="td-outro-inner">
-        <div class="td-outro-top">
-          <span class="td-outro-brand">Callova <em>/ 2026</em></span>
-          <span class="td-outro-tag">Price the future. Sign the call.</span>
-          <nav class="td-outro-net" aria-label="Network">
-            Solana {{ clusterLabel }} &middot;
-            <a :href="`https://explorer.solana.com/?cluster=${wallet.cluster}`" target="_blank" rel="noreferrer">explorer</a>
-          </nav>
-        </div>
-        <div class="td-outro-bottom">
-          <p class="td-outro-live">
-            <span class="td-live"><i aria-hidden="true"></i>LIVE</span>
-            <span class="td-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
-          </p>
-          <p class="td-outro-meta">
-            <span class="td-dim">cluster</span>
-            <strong>{{ clusterLabel }}</strong>
-            <span class="td-sep">/</span>
-            <span class="td-dim">settlement</span>
-            <strong>your key</strong>
-          </p>
-        </div>
+    <footer class="tx-hints" role="contentinfo">
+      <div class="tx-hints-top">
+        <span class="tx-hints-brand">Probvyn <em>/ 2026</em></span>
+        <span class="tx-hints-tag">Price the future. Sign the call.</span>
+        <nav class="tx-hints-net" aria-label="Network">
+          Solana {{ clusterLabel }} &middot;
+          <a :href="`https://explorer.solana.com/?cluster=${wallet.cluster}`" target="_blank" rel="noreferrer">explorer</a>
+        </nav>
+      </div>
+      <div class="tx-hints-bottom">
+        <p class="tx-hints-live">
+          <span class="tx-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
+        </p>
+        <p class="tx-hints-meta">
+          <span class="tx-dim">cluster</span>
+          <strong>{{ clusterLabel }}</strong>
+          <span class="tx-sep">/</span>
+          <span class="tx-dim">settlement</span>
+          <strong>your key</strong>
+        </p>
       </div>
     </footer>
 
-    <nav class="td-dock" aria-label="Primary">
-      <a class="td-dock-link" href="#feed">
-        <span class="td-dock-dot" aria-hidden="true"></span><span>Feed</span>
-      </a>
-      <a class="td-dock-link" href="#rules">
-        <span class="td-dock-dot" aria-hidden="true"></span><span>Rules</span>
-      </a>
-      <a class="td-dock-link" href="#desk">
-        <span class="td-dock-dot" aria-hidden="true"></span><span>Desk</span>
-      </a>
-    </nav>
+    <div v-if="tradeOpen && active" class="tx-veil" @click.self="closeTrade">
+      <section class="tx-sheet" role="dialog" aria-modal="true" aria-labelledby="tx-trade-title">
+        <button class="tx-sheet-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
+        <p class="tx-label">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
+        <h2 id="tx-trade-title" class="tx-sheet-title">{{ active.question }}</h2>
+        <p class="tx-sheet-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
 
-    <div v-if="tradeOpen && active" class="td-veil" @click.self="closeTrade">
-      <section class="td-sheet" role="dialog" aria-modal="true" aria-labelledby="td-trade-title">
-        <button class="td-sheet-x" type="button" aria-label="Close" @click="closeTrade">&#215;</button>
-        <p class="td-kicker">{{ active.code }} &middot; {{ active.lane }} &middot; {{ closesIn(active.hours) }}</p>
-        <h2 id="td-trade-title" class="td-sheet-title">{{ active.question }}</h2>
-        <p class="td-sheet-sub">Closes {{ active.closes }} &middot; settled on Solana {{ clusterLabel }}</p>
-
-        <div class="td-plate-sides" role="group" aria-label="Pick a side">
-          <button type="button" class="td-plate-side" :class="{ 'td-on': side === 'YES' }" @click="side = 'YES'">
+        <div class="tx-plate-sides" role="group" aria-label="Pick a side">
+          <button type="button" class="tx-plate-side" :class="{ 'tx-on': side === 'YES' }" @click="side = 'YES'">
             <span>YES</span><b>{{ active.yes }}%</b>
           </button>
-          <button type="button" class="td-plate-side" :class="{ 'td-on': side === 'NO' }" @click="side = 'NO'">
+          <button type="button" class="tx-plate-side" :class="{ 'tx-on': side === 'NO' }" @click="side = 'NO'">
             <span>NO</span><b>{{ 100 - active.yes }}%</b>
           </button>
         </div>
 
-        <label class="td-stake">
+        <label class="tx-stake">
           <span>Stake</span>
           <input v-model="stake" type="number" min="0.01" step="0.01" inputmode="decimal" aria-label="Stake in SOL" />
           <b>SOL</b>
         </label>
-        <p v-if="connected" class="td-hint">
-          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="td-warn"> - the stake plus the fee is above that.</span>
+        <p v-if="connected" class="tx-hint">
+          Wallet holds {{ balanceText }} SOL<span v-if="stakeTooLarge" class="tx-warn"> - the stake plus the fee is above that.</span>
         </p>
-        <p v-else class="td-hint">Attach a wallet to price this against your real balance.</p>
+        <p v-else class="tx-hint">Attach a wallet to price this against your real balance.</p>
 
-        <dl class="td-quote-table">
+        <dl class="tx-quote-table">
           <div><dt>Side price</dt><dd>{{ sidePrice }}%</dd></div>
-          <div><dt>Payout if right</dt><dd class="td-strong">{{ payout.toFixed(2) }} SOL</dd></div>
+          <div><dt>Payout if right</dt><dd class="tx-strong">{{ payout.toFixed(2) }} SOL</dd></div>
           <div><dt>Net gain</dt><dd>{{ netGain >= 0 ? '+' : '' }}{{ netGain.toFixed(2) }} SOL</dd></div>
           <div><dt>Signed by</dt><dd>{{ connected ? shortAddress : 'no wallet' }}</dd></div>
         </dl>
 
-        <p v-if="tradeError" class="td-error">{{ tradeError }}</p>
+        <p v-if="tradeError" class="tx-error">{{ tradeError }}</p>
 
-        <button class="td-act td-act--primary td-act--wide" type="button" :disabled="submitting" @click="submitTrade">
+        <button class="tx-act tx-act--primary tx-act--wide" type="button" :disabled="submitting" @click="submitTrade">
           <template v-if="!connected">Attach wallet to continue</template>
           <template v-else-if="submitting">Waiting for your wallet&hellip;</template>
           <template v-else>Sign {{ side }} position &middot; {{ stakeNumber.toFixed(2) }} SOL</template>
         </button>
-        <p class="td-note-small">
+        <p class="tx-note-small">
           Your wallet signs a real transaction carrying this position note, so the call is on the public
           record the moment it lands. Nothing moves without your approval.
         </p>
       </section>
     </div>
 
-    <div v-if="walletOpen" class="td-veil" @click.self="walletOpen = false">
-      <section class="td-sheet" role="dialog" aria-modal="true" aria-labelledby="td-wallet-title">
-        <button class="td-sheet-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
-        <span class="td-sheet-glyph" aria-hidden="true">
+    <div v-if="walletOpen" class="tx-veil" @click.self="walletOpen = false">
+      <section class="tx-sheet" role="dialog" aria-modal="true" aria-labelledby="tx-wallet-title">
+        <button class="tx-sheet-x" type="button" aria-label="Close" @click="walletOpen = false">&#215;</button>
+        <span class="tx-sheet-glyph" aria-hidden="true">
           <svg viewBox="0 0 64 64" focusable="false">
             <path d="M32 7.5 56.5 32H7.5Z" fill="currentColor" />
             <path d="M8.9 34.6h46.2L32 57.1Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" />
           </svg>
         </span>
-        <p class="td-kicker">{{ clusterLabel }} &middot; real wallet</p>
-        <h2 id="td-wallet-title" class="td-sheet-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
+        <p class="tx-label">{{ clusterLabel }} &middot; real wallet</p>
+        <h2 id="tx-wallet-title" class="tx-sheet-title">{{ connected ? 'YOUR DESK' : 'ATTACH YOUR WALLET' }}</h2>
 
         <template v-if="connected">
-          <dl class="td-quote-table td-quote-table--left">
+          <dl class="tx-quote-table tx-quote-table--left">
             <div><dt>Account</dt><dd>{{ shortAddress }}</dd></div>
             <div><dt>Wallet</dt><dd>{{ walletState.providerName }}</dd></div>
-            <div><dt>Balance</dt><dd class="td-strong">{{ balanceText }} SOL</dd></div>
+            <div><dt>Balance</dt><dd class="tx-strong">{{ balanceText }} SOL</dd></div>
           </dl>
-          <p v-if="walletState.balanceError" class="td-error">{{ walletState.balanceError }}</p>
-          <div class="td-wallet-row">
-            <button class="td-act" type="button" @click="wallet.refreshBalance()">Refresh</button>
-            <a class="td-act" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
-            <button class="td-act" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
+          <p v-if="walletState.balanceError" class="tx-error">{{ walletState.balanceError }}</p>
+          <div class="tx-wallet-row">
+            <button class="tx-act" type="button" @click="wallet.refreshBalance()">Refresh</button>
+            <a class="tx-act" :href="explorerUrl" target="_blank" rel="noreferrer">Explorer</a>
+            <button class="tx-act" type="button" @click="dropWallet(); walletOpen = false">Detach</button>
           </div>
         </template>
 
         <template v-else>
-          <p class="td-sheet-sub">
-            Callova connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
+          <p class="tx-sheet-sub">
+            Probvyn connects through the wallet extension you already run, on Solana {{ clusterLabel }}.
             Your key stays in the extension; this page only asks it to sign what you approve.
           </p>
-          <p v-if="walletNotice" class="td-note-small">{{ walletNotice }}</p>
-          <ul class="td-wallet-list">
+          <p v-if="walletNotice" class="tx-note-small">{{ walletNotice }}</p>
+          <ul class="tx-wallet-list">
             <li v-for="option in walletCatalog" :key="option.id">
-              <button class="td-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
-                <span class="td-wallet-name">{{ option.name }}</span>
-                <span class="td-wallet-flag" :class="{ 'td-on': option.available }">
+              <button class="tx-wallet-pick" type="button" :disabled="walletBusy || connecting" @click="connect(option.id)">
+                <span class="tx-wallet-name">{{ option.name }}</span>
+                <span class="tx-wallet-flag" :class="{ 'tx-on': option.available }">
                   {{ option.available ? 'detected' : 'not installed' }}
                 </span>
               </button>
             </li>
           </ul>
-          <p v-if="walletError" class="td-error">{{ walletError }}</p>
-          <a v-if="installUrl" class="td-act td-act--wide" :href="installUrl" target="_blank" rel="noreferrer">
+          <p v-if="walletError" class="tx-error">{{ walletError }}</p>
+          <a v-if="installUrl" class="tx-act tx-act--wide" :href="installUrl" target="_blank" rel="noreferrer">
             Get the wallet, then reload
           </a>
-          <p class="td-note-small">
+          <p class="tx-note-small">
             No wallet listed? Install Phantom, Solflare, Backpack, Glow or Brave Wallet and reload this page.
             Nothing is simulated here, so a wallet really has to be present.
           </p>
@@ -733,7 +718,7 @@ onBeforeUnmount(() => {
     </div>
 
     <transition name="pop">
-      <p v-if="toast" class="td-toast" role="status" aria-live="polite">{{ toast }}</p>
+      <p v-if="toast" class="tx-toast" role="status" aria-live="polite">{{ toast }}</p>
     </transition>
   </div>
 </template>

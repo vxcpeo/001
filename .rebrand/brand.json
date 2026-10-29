@@ -1,49 +1,49 @@
 {
   "old": {
-    "display": "Oddix",
-    "slug": "oddix",
+    "display": "Callova",
+    "slug": "callova",
     "variants": {
-      "display": "Oddix",
-      "lower": "oddix",
-      "upper": "ODDIX",
-      "title": "Oddix",
-      "kebab": "oddix",
-      "snake": "oddix",
-      "camel": "oddix",
-      "pascal": "Oddix",
-      "compact": "Oddix",
-      "compactLower": "oddix",
-      "first": "Oddix",
-      "firstLower": "oddix",
-      "firstUpper": "ODDIX"
+      "display": "Callova",
+      "lower": "callova",
+      "upper": "CALLOVA",
+      "title": "Callova",
+      "kebab": "callova",
+      "snake": "callova",
+      "camel": "callova",
+      "pascal": "Callova",
+      "compact": "Callova",
+      "compactLower": "callova",
+      "first": "Callova",
+      "firstLower": "callova",
+      "firstUpper": "CALLOVA"
     },
     "variantList": [
       {
-        "value": "Oddix",
+        "value": "Callova",
         "kind": "display"
       },
       {
-        "value": "oddix",
+        "value": "callova",
         "kind": "lower"
       },
       {
-        "value": "ODDIX",
+        "value": "CALLOVA",
         "kind": "upper"
       }
     ],
     "domains": [
-      "oddix.xyz"
+      "callova.xyz"
     ],
     "handles": [
-      "oddix"
+      "callova"
     ],
     "emails": [
-      "hello@oddix.xyz"
+      "hello@callova.xyz"
     ],
     "packageNames": [
-      "oddix",
-      "oddix-prediction-market-contract",
-      "oddix_prediction_market"
+      "callova",
+      "callova-prediction-market-contract",
+      "callova_prediction_market"
     ],
     "initials": "",
     "allowFiles": [
@@ -52,13 +52,19 @@
     "allowStrings": [],
     "wordmark": {
       "split": [
-        "ODD",
-        "IX"
+        "CALL",
+        "OVA"
       ],
-      "note": "The shipped wordmark is ODD<em>IX</em> (site) and ODD/IX tspan lockups (social artboards, launch loop). The seam sits inside markup, so the two halves are repaired by hand after apply.py."
+      "note": "The shipped wordmark is CALL<em>OVA</em> in the site lockup and CALL/OVA tspan lockups in the social artboards and the launch loop. The seam sits inside markup, so the two halves are repaired by hand after apply.py."
     }
   },
   "usedBrands": [
+    "NEONLINE",
+    "Probenox",
+    "Signaris",
+    "Prismel",
+    "Oddix",
+    "Callova",
     "GhostPay",
     "Cifruna",
     "Mathlana",
@@ -108,16 +114,36 @@
     "Quittra",
     "Voxanote",
     "Sonira",
-    "Callova"
+    "Oracle Pit",
+    "Tickerloom"
   ],
-  "notes": "Round 8 web scope. The site was already rebranded by the root apply pass; this scope re-verifies the built Vite app (root-absolute URLs resolve here) and captures the browser evidence.",
+  "notes": "Round 9. brand.txt is authoritative: current Callova, history ends Oddix. Every metadata, package, favicon and artboard surface agrees on Callova / callova / CALLOVA. REBRAND.md stays allowlisted as the historical changelog.",
   "new": {
-    "display": "Callova",
-    "slug": "callova",
-    "handle": "callova",
-    "domain": "callova.xyz",
-    "email": "hello@callova.xyz",
-    "url": "https://callova.xyz",
+    "display": "Probvyn",
+    "slug": "probvyn",
+    "handle": "probvyn",
+    "domain": "probvyn.xyz",
+    "email": "hello@probvyn.xyz",
+    "url": "https://probvyn.xyz",
     "note": "Availability is a snapshot; register the domain and X account separately."
+  },
+  "selection": {
+    "candidate": "probvyn",
+    "score": 90,
+    "checkedAt": "2026-10-22T14:50:34.119Z",
+    "evidence": [
+      {
+        "kind": "domain",
+        "status": "available",
+        "signal": "rdap-unregistered",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-rdap.png"
+      },
+      {
+        "kind": "x",
+        "status": "available",
+        "signal": "not-found-text",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-x.png"
+      }
+    ]
   }
 }

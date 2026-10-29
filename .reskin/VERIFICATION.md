@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-21T18:51:38.641Z
+Generated: 2026-10-22T15:39:15.511Z
 
-- Project: **callova**
+- Project: **probvyn**
 - URL: http://127.0.0.1:4317/
-- Original skeleton: `document-flow` (editorial)
-- New skeleton: `gallery-scroll` (spatial)
-- Accent: #ff0000 -> #298dff (148.1 ΔE; min 30)
-- Source contract: intact (`35d743d3a63c`)
+- Original skeleton: `gallery-scroll` (spatial)
+- New skeleton: `sidebar-workspace` (shell)
+- Accent: #298dff -> #9945ff (58.87 ΔE; min 30)
+- Source contract: intact (`680139aed206`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.279 | 0.4 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.291 | 0.429 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 
@@ -19,7 +19,8 @@ Generated: 2026-10-21T18:51:38.641Z
 
 ## Warnings
 
-- None.
+- /: aria attribute added: aria-label=Network facts
+- /: aria attribute added: aria-label=The feed
 
 ## Thresholds
 

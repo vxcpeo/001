@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './styles/tidal.css'
+import './styles/terminal.css'
 
 createApp(App).mount('#app')

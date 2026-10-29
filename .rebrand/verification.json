@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T02:51:22+08:00",
+  "generatedAt": "2026-10-22T23:39:51+08:00",
   "ok": false,
   "gates": {
     "old_brand_source": {
@@ -22,10 +22,10 @@
         "package": true,
         "readme": false,
         "newValues": [
-          "Callova",
-          "callova",
-          "callova.xyz",
-          "callova"
+          "Probvyn",
+          "probvyn",
+          "probvyn.xyz",
+          "probvyn"
         ]
       },
       "count": 3
@@ -43,7 +43,7 @@
             "path": "E:\\workspace\\chuangye\\solana\\001\\website\\public\\favicon.svg",
             "ok": true,
             "format": "svg",
-            "bytes": 439
+            "bytes": 584
           }
         },
         {
@@ -81,7 +81,7 @@
           "code": 0,
           "timedOut": false,
           "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-          "stdout": "\n> callova@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 12 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.76 kB │ gzip:  0.68 kB\ndist/assets/index-CjxnT_DN.css   25.43 kB │ gzip:  5.79 kB\ndist/assets/index-kG6t_Riu.js   100.74 kB │ gzip: 38.07 kB\n\n✓ built in 281ms\n",
+          "stdout": "\n> probvyn@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 12 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.76 kB │ gzip:  0.67 kB\ndist/assets/index-6en0wjn9.css   28.40 kB │ gzip:  5.99 kB\ndist/assets/index-DsJ4ghfv.js   100.07 kB │ gzip: 37.85 kB\n\n✓ built in 310ms\n",
           "stderr": ""
         },
         "test": {
@@ -182,64 +182,74 @@
     "availability": {
       "ok": true,
       "selected": {
-        "name": "callova",
-        "slug": "callova"
+        "name": "probvyn",
+        "slug": "probvyn"
       },
       "method": "chrome-cdp",
       "mock": false,
       "evidence": {
         "domain": {
-          "host": "callova.xyz",
+          "host": "probvyn.xyz",
           "status": "available",
           "confidence": "medium",
           "signal": "rdap-unregistered",
           "rdap": {
-            "url": "https://rdap.centralnic.com/xyz/domain/callova.xyz",
+            "url": "https://rdap.centralnic.com/xyz/domain/probvyn.xyz",
             "status": 404,
             "mimeType": "application/rdap+json",
-            "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callova.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-rdap.png"
+            "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probvyn.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-rdap.png"
           },
           "registrar": null,
           "evidence": [
             {
-              "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+              "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
               "httpStatus": 200,
-              "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+              "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
               "state": "unknown",
-              "signal": "no-match",
-              "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-              "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-registrar-2.png"
+              "signal": "empty",
+              "excerpt": "",
+              "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-registrar-1.png"
+            },
+            {
+              "url": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+              "httpStatus": 200,
+              "finalUrl": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+              "state": "unknown",
+              "signal": "challenge",
+              "excerpt": "porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search | Auction Search | Marketplace Search Not seeing all the results? We've shown you a shorter list than usual. Confirm you're a person and we'll load the full set of suggestions for your search. Awaiting verification. I'm not a robot Pork Captcha V1.3.1 hide unavailable domains show results by extension relevance Searches again showing only the extensions that best fit your search, most relevant first. sort by renewal price sort by price probvyn.xyz 1st Year Sale! At Cost $14.21 $2.04 / year renews at $14.21 Show All Extensions Generate AI Suggestions 060bcaacf01434f2ec2b70d9fea7afe2cc9fde3614bf92fcf55f1fbe9661cde4 porkbun Porkbun is an amazingly awesome ICANN accredited domain name registrar based out of the Pacific Northwest. We're different, we're easy, and we're affordable. Use us, you won't be sorr",
+              "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-registrar-3.png"
             }
           ],
-          "checkedAt": "2026-10-21T18:21:02.751Z",
+          "checkedAt": "2026-10-22T14:50:35.048Z",
           "registrarErrors": [
             {
-              "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz",
-              "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz: CDP timeout: Page.navigate"
-            },
-            {
-              "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+              "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
               "state": "unknown",
-              "signal": "no-match"
+              "signal": "empty"
             },
             {
-              "url": "https://porkbun.com/checkout/search?q=callova.xyz",
-              "error": "Navigation failed for https://porkbun.com/checkout/search?q=callova.xyz: CDP timeout: Page.navigate"
+              "url": "https://www.namecheap.com/domains/registration/results/?domain=probvyn.xyz",
+              "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=probvyn.xyz: net::ERR_ABORTED"
+            },
+            {
+              "url": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+              "state": "unknown",
+              "signal": "challenge"
             }
           ]
         },
         "x": {
-          "handle": "callova",
+          "handle": "probvyn",
           "status": "available",
           "signal": "not-found-text",
-          "url": "https://x.com/callova",
-          "checkedAt": "2026-10-21T18:21:07.513Z",
+          "url": "https://x.com/probvyn",
+          "checkedAt": "2026-10-22T14:50:55.166Z",
           "httpStatus": 404,
-          "finalUrl": "https://x.com/callova",
+          "finalUrl": "https://x.com/probvyn",
           "title": "User Profile Not Found - X | 404 Error",
-          "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-x.png"
+          "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-x.png"
         }
       }
     },
@@ -249,7 +259,7 @@
         "brand.txt is missing at the project root",
         "brand.txt must contain exactly one current line (found 0)",
         "brand.txt current brand is empty",
-        "brand.txt history does not include the old brand 'Oddix'"
+        "brand.txt history does not include the old brand 'Callova'"
       ],
       "path": "E:/workspace/chuangye/solana/001/website/brand.txt",
       "history": [],
@@ -271,9 +281,9 @@
       ],
       "run": {
         "ok": true,
-        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:52528 --routes /",
+        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\solana\\001\\website --out E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand --url http://127.0.0.1:56712 --routes /",
         "code": 0,
-        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:52528\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:56712\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\solana\\\\001\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
         "stderr": ""
       }
     },
@@ -290,7 +300,7 @@
       "code": 0,
       "timedOut": false,
       "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
-      "stdout": "\n> callova@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 12 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.76 kB │ gzip:  0.68 kB\ndist/assets/index-CjxnT_DN.css   25.43 kB │ gzip:  5.79 kB\ndist/assets/index-kG6t_Riu.js   100.74 kB │ gzip: 38.07 kB\n\n✓ built in 281ms\n",
+      "stdout": "\n> probvyn@1.0.0 build\n> vite build\n\nvite v8.3.1 building client environment for production...\ntransforming...\n✓ 12 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.76 kB │ gzip:  0.67 kB\ndist/assets/index-6en0wjn9.css   28.40 kB │ gzip:  5.99 kB\ndist/assets/index-DsJ4ghfv.js   100.07 kB │ gzip: 37.85 kB\n\n✓ built in 310ms\n",
       "stderr": ""
     },
     "test": {
@@ -302,7 +312,7 @@
   },
   "browser": {
     "schemaVersion": 1,
-    "checkedAt": "2026-10-21T18:51:21.762Z",
+    "checkedAt": "2026-10-22T15:39:51.104Z",
     "browser": {
       "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
       "version": "Chrome/155.0.8059.85",
@@ -310,7 +320,7 @@
       "proxy": null,
       "method": "chrome-cdp"
     },
-    "baseUrl": "http://127.0.0.1:52528",
+    "baseUrl": "http://127.0.0.1:56712",
     "routes": [
       "/"
     ],
@@ -318,19 +328,19 @@
       {
         "route": "/",
         "device": "desktop",
-        "url": "http://127.0.0.1:52528/",
-        "finalUrl": "http://127.0.0.1:52528/",
+        "url": "http://127.0.0.1:56712/",
+        "finalUrl": "http://127.0.0.1:56712/",
         "httpStatus": 200,
-        "title": "Callova // Live prediction lines on Solana",
+        "title": "Probvyn // Live prediction lines on Solana",
         "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-desktop.png",
         "oldBrand": {
           "textHits": [],
           "attributeHits": []
         },
         "newBrandPresent": [
-          "Callova",
-          "callova",
-          "callova"
+          "Probvyn",
+          "probvyn",
+          "probvyn"
         ],
         "consoleErrors": [],
         "pageErrors": [],
@@ -339,19 +349,19 @@
       {
         "route": "/",
         "device": "mobile",
-        "url": "http://127.0.0.1:52528/",
-        "finalUrl": "http://127.0.0.1:52528/",
+        "url": "http://127.0.0.1:56712/",
+        "finalUrl": "http://127.0.0.1:56712/",
         "httpStatus": 200,
-        "title": "Callova // Live prediction lines on Solana",
+        "title": "Probvyn // Live prediction lines on Solana",
         "screenshot": "E:\\workspace\\chuangye\\solana\\001\\website\\.rebrand\\screenshots\\root-mobile.png",
         "oldBrand": {
           "textHits": [],
           "attributeHits": []
         },
         "newBrandPresent": [
-          "Callova",
-          "callova",
-          "callova"
+          "Probvyn",
+          "probvyn",
+          "probvyn"
         ],
         "consoleErrors": [],
         "pageErrors": [],
@@ -361,64 +371,74 @@
   },
   "availability": {
     "selected": {
-      "name": "callova",
-      "slug": "callova",
+      "name": "probvyn",
+      "slug": "probvyn",
       "score": 90,
       "domain": {
-        "host": "callova.xyz",
+        "host": "probvyn.xyz",
         "status": "available",
         "confidence": "medium",
         "signal": "rdap-unregistered",
         "rdap": {
-          "url": "https://rdap.centralnic.com/xyz/domain/callova.xyz",
+          "url": "https://rdap.centralnic.com/xyz/domain/probvyn.xyz",
           "status": 404,
           "mimeType": "application/rdap+json",
-          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/callova.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
-          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-rdap.png"
+          "excerpt": "{\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"lang\":\"en\",\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https:\\/\\/icann.org\\/epp\"],\"links\":[{\"title\":\"More information on domain status codes\",\"rel\":\"glossary\",\"value\":\"https:\\/\\/rdap.centralnic.com\\/xyz\\/domain\\/probvyn.xyz\",\"href\":\"https:\\/\\/icann.org\\/epp\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on Whois status codes, please visit https:\\/\\/icann.org\\/epp\",\"\",\"The registration data available in this service is limited. Additional\",\"data may be available at https:\\/\\/lookup.icann.org\",\"\",\"The Whois and RDAP services are provided by CentralNic, and contain\",\"information pertaining to Internet domain names registered by our\",\"our customers. By using this service you are agreeing (1) not to use any\",\"information presented here for any purpose other than determining\",\"ownership of domain names, (2) not to store or reproduce this data in\",\"any way, (3) not to use any high-volume, automated, electronic processes\",\"to obtain data from this service. Abuse of this service is monitored and\",\"actions in contravention of these terms will result in being permanently\",\"blacklisted. All data is (c) CentralNic Ltd (https:\\/\\/www.centralnicregistry.com)\",\"\",\"Access to the Whois and RDAP services is rate limited. For more\",\"information, visit https:\\/\\/centralnicregistry.com\\/policies\\/whois-guidance.\"],\"links\":[{\"title\":\"Terms of Use\",\"rel\":\"terms-of-service\",\"val",
+          "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-rdap.png"
         },
         "registrar": null,
         "evidence": [
           {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
             "httpStatus": 200,
-            "finalUrl": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "finalUrl": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
             "state": "unknown",
-            "signal": "no-match",
-            "excerpt": "Contact us Sign up Sign in $ USD Domains NEW Hosting WordPress Email Marketing Tools NEW Security NEW Transfer to Us TRY ME Help Center NEW Account NEW Search Clear Domains Auctions Premium Generator Beast Mode Favorites Suggested Results Hide Results Need help? We're always here for you. Go to Live Chat page The entirety of this site is protected by copyright © 2000–2026 Namecheap, Inc. 4600 East Washington Street, Suite 300, Phoenix, AZ 85034, USA Terms and ConditionsPrivacy PolicyUDRPDomain Registration Data Disclosure PolicyCookie Preferences",
-            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-xyz-registrar-2.png"
+            "signal": "empty",
+            "excerpt": "",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-registrar-1.png"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+            "httpStatus": 200,
+            "finalUrl": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+            "state": "unknown",
+            "signal": "challenge",
+            "excerpt": "porkbun PRODUCTS TRANSFER SALE! ABOUT RESOURCES $0.00 (0) SIGN IN bulk search AI Search | Auction Search | Marketplace Search Not seeing all the results? We've shown you a shorter list than usual. Confirm you're a person and we'll load the full set of suggestions for your search. Awaiting verification. I'm not a robot Pork Captcha V1.3.1 hide unavailable domains show results by extension relevance Searches again showing only the extensions that best fit your search, most relevant first. sort by renewal price sort by price probvyn.xyz 1st Year Sale! At Cost $14.21 $2.04 / year renews at $14.21 Show All Extensions Generate AI Suggestions 060bcaacf01434f2ec2b70d9fea7afe2cc9fde3614bf92fcf55f1fbe9661cde4 porkbun Porkbun is an amazingly awesome ICANN accredited domain name registrar based out of the Pacific Northwest. We're different, we're easy, and we're affordable. Use us, you won't be sorr",
+            "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-xyz-registrar-3.png"
           }
         ],
-        "checkedAt": "2026-10-21T18:21:02.751Z",
+        "checkedAt": "2026-10-22T14:50:35.048Z",
         "registrarErrors": [
           {
-            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz",
-            "error": "Navigation failed for https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=callova.xyz: CDP timeout: Page.navigate"
-          },
-          {
-            "url": "https://www.namecheap.com/domains/registration/results/?domain=callova.xyz",
+            "url": "https://www.godaddy.com/domainsearch/find?checkAvail=1&domainToCheck=probvyn.xyz",
             "state": "unknown",
-            "signal": "no-match"
+            "signal": "empty"
           },
           {
-            "url": "https://porkbun.com/checkout/search?q=callova.xyz",
-            "error": "Navigation failed for https://porkbun.com/checkout/search?q=callova.xyz: CDP timeout: Page.navigate"
+            "url": "https://www.namecheap.com/domains/registration/results/?domain=probvyn.xyz",
+            "error": "Navigation failed for https://www.namecheap.com/domains/registration/results/?domain=probvyn.xyz: net::ERR_ABORTED"
+          },
+          {
+            "url": "https://porkbun.com/checkout/search?q=probvyn.xyz",
+            "state": "unknown",
+            "signal": "challenge"
           }
         ]
       },
       "x": {
-        "handle": "callova",
+        "handle": "probvyn",
         "status": "available",
         "signal": "not-found-text",
-        "url": "https://x.com/callova",
-        "checkedAt": "2026-10-21T18:21:07.513Z",
+        "url": "https://x.com/probvyn",
+        "checkedAt": "2026-10-22T14:50:55.166Z",
         "httpStatus": 404,
-        "finalUrl": "https://x.com/callova",
+        "finalUrl": "https://x.com/probvyn",
         "title": "User Profile Not Found - X | 404 Error",
-        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Scan to get the app",
-        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\callova-x.png"
+        "excerpt": "Hmm...this page doesn’t exist. Try searching for something else. Search Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp.",
+        "screenshot": "E:\\workspace\\chuangye\\solana\\001\\.rebrand\\availability\\probvyn-x.png"
       },
       "verdict": "pass",
-      "checkedAt": "2026-10-21T18:21:11.036Z"
+      "checkedAt": "2026-10-22T14:51:04.288Z"
     },
     "method": "chrome-cdp"
   }

@@ -1,301 +1,300 @@
 {
   "schemaVersion": 1,
-  "selectedAt": "2026-10-21T18:29:05.935Z",
-  "seed": "30667549ffca34b71b3054a926afa0e040b660077ae6d314f89c2c016deefd7e",
+  "selectedAt": "2026-10-22T15:00:04.169Z",
+  "seed": "7d7e75433e309a8f524d7d974202b0617bc32eab40fb525a2db662692fa30d34",
   "style": {
-    "id": "sui-tidal",
-    "name": "Tidal Sui",
-    "family": "clean-fintech",
+    "id": "solana-spectrum",
+    "name": "Spectrum Terminal",
+    "family": "performance-brutalist",
     "sources": [
-      "https://sui.io"
+      "https://solana.com"
     ],
     "keywords": [
-      "water",
-      "light",
-      "aqua",
-      "fluid",
-      "friendly"
+      "speed",
+      "gradient",
+      "terminal",
+      "condensed",
+      "high-contrast"
     ],
     "palette": {
-      "bg": "#ffffff",
-      "surface": "#FFFFFF",
-      "surfaceAlt": "#E8F3FF",
-      "ink": "#081B2B",
-      "muted": "#5B7185",
-      "accent": "#298dff",
-      "accentSafe": "#0d71e3",
-      "accent2": "#4DA2FF",
-      "line": "#D8E7F5",
-      "success": "#087A55",
-      "danger": "#B42318",
-      "warning": "#8A5A00"
+      "bg": "#000000",
+      "surface": "#0B0B0C",
+      "surfaceAlt": "#161618",
+      "ink": "#FFFFFF",
+      "muted": "#9B9B9F",
+      "accent": "#9945ff",
+      "accentSafe": "#9945ff",
+      "accent2": "#14F195",
+      "line": "#29292D",
+      "success": "#14F195",
+      "danger": "#FF5C7A",
+      "warning": "#FFD166"
     },
     "typography": {
-      "display": "\"Segoe UI Variable Display\", \"Segoe UI\", \"Helvetica Neue\", sans-serif",
-      "body": "\"Segoe UI\", \"Helvetica Neue\", sans-serif",
-      "mono": "\"Cascadia Mono\", ui-monospace, monospace",
-      "displayWeight": 600,
-      "displayTracking": "-0.04em",
-      "labelTracking": "0.06em",
-      "scale": "clamp(2.6rem, 6vw, 6.4rem) / 1.55rem / 1.02rem / 0.76rem"
+      "display": "\"Arial Narrow\", \"Helvetica Neue\", \"Segoe UI\", sans-serif",
+      "body": "\"Helvetica Neue\", \"Segoe UI\", sans-serif",
+      "mono": "\"IBM Plex Mono\", \"Cascadia Mono\", ui-monospace, monospace",
+      "displayWeight": 800,
+      "displayTracking": "-0.055em",
+      "labelTracking": "0.2em",
+      "scale": "clamp(3rem, 8vw, 8.5rem) / 1.5rem / 0.98rem / 0.68rem"
     },
     "shape": {
-      "radiusSm": "12px",
-      "radiusMd": "22px",
-      "radiusLg": "36px",
+      "radiusSm": "0px",
+      "radiusMd": "2px",
+      "radiusLg": "4px",
       "border": "1px solid var(--line)",
-      "shadow": "0 24px 60px rgba(30, 111, 217, 0.1)"
+      "shadow": "0 0 40px rgba(153, 69, 255, 0.24)"
     },
     "texture": [
-      "tidal curves",
-      "soft caustics",
-      "aqua gradients",
-      "floating rounded panels"
+      "spectrum gradient shards",
+      "scanline grain",
+      "status LEDs",
+      "ticker strips"
     ],
     "motion": {
-      "feel": "fluid",
-      "duration": "260ms",
-      "easing": "cubic-bezier(.22,1,.36,1)"
+      "feel": "fast",
+      "duration": "120ms",
+      "easing": "cubic-bezier(.2,.9,.1,1)"
     },
-    "density": "airy",
+    "density": "dense",
     "live": {
       "sampled": true,
-      "url": "https://sui.io",
-      "elapsedMs": 5289,
+      "url": "https://solana.com",
+      "elapsedMs": 6027,
       "sampledColors": [
         {
-          "hex": "#ffffff",
-          "count": 662
-        },
-        {
           "hex": "#000000",
-          "count": 425
+          "count": 102
         },
         {
-          "hex": "#298dff",
-          "count": 256
+          "hex": "#ffffff",
+          "count": 52
         },
         {
-          "hex": "#131518",
-          "count": 203
+          "hex": "#14f195",
+          "count": 46
         },
         {
-          "hex": "#343940",
-          "count": 132
+          "hex": "#9945ff",
+          "count": 45
         },
         {
-          "hex": "#4b515b",
-          "count": 91
+          "hex": "#ece4fd",
+          "count": 25
+        },
+        {
+          "hex": "#0d0c11",
+          "count": 11
         }
       ],
       "sampledFonts": [
         {
-          "value": "TWK Everett Mono,Arial,sans-serif",
-          "count": 134
+          "value": "Diatype",
+          "count": 10
         },
         {
-          "value": "TWK Everett,Arial,sans-serif",
-          "count": 27
+          "value": "DSemi",
+          "count": 10
         },
         {
-          "value": "Twkeverett,Impact,sans-serif",
+          "value": "Diatype,monotype",
           "count": 9
         },
         {
-          "value": "TWK Everett Mono",
+          "value": "Diatype,sans-serif",
           "count": 8
         },
         {
-          "value": "TWK Everett",
-          "count": 8
+          "value": "inherit",
+          "count": 3
         },
         {
-          "value": "Inter,sans-serif",
-          "count": 4
+          "value": "Monument",
+          "count": 3
         }
       ],
       "applied": [
-        "accent #1E6FD9 -> #298dff",
-        "bg #F5FAFF -> #ffffff"
+        "accent #9945FF -> #9945ff",
+        "bg #000000 -> #000000"
       ]
     }
   },
   "layout": {
-    "id": "gallery-scroll",
-    "name": "Gallery Scroll",
-    "family": "spatial",
+    "id": "terminal-console",
+    "name": "Terminal Console",
+    "family": "linear",
     "signature": [
-      "full-viewport panels with generous negative space",
-      "horizontal scroll-snap for related panels",
-      "minimal floating dock navigation",
-      "each route is a sequence of framed scenes",
-      "large imagery/typography and very few borders"
+      "thin status bar at the very top",
+      "monospace micro-labels and tabular data everywhere",
+      "dense two-pane console with a resizable-feeling gutter",
+      "no marketing hero; the data is the hero",
+      "bottom command hint strip"
     ],
-    "navigation": "Floating dock at the bottom (icons + accessible names) and a vertical dot index for sections; no conventional header.",
+    "navigation": "Top status bar with route names as commands; keyboard shortcuts shown; a command palette is the primary way to move.",
     "structure": [
-      "opening panel with brand and route count",
-      "scene panels with snap points",
-      "horizontal data rail",
-      "closing panel with form/action",
-      "floating dock"
+      "24-32px status bar",
+      "command/title line",
+      "dense 3-pane console: filters, data, detail",
+      "bottom hint strip"
     ],
-    "content_mapping": "Group each route's content into 2-4 scenes. Keep metrics as large typographic facts. Tables become horizontal snap rails with one record per panel on mobile. Forms become the closing scene.",
-    "css_recipe": ".scene{min-height:100svh;display:grid;place-content:center;padding:clamp(24px,6vw,96px);scroll-snap-align:start}.rail{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px}.rail>*{scroll-snap-align:start;flex:0 0 min(86vw,520px)}.dock{position:fixed;bottom:18px;left:50%;translate:-50% 0;display:flex;gap:6px;border-radius:999px}",
+    "content_mapping": "Preserve every table row and label. Turn filters into console chips, metrics into sparkline headers, forms into inline command rows. Detail panel shows the selected row's existing fields.",
+    "css_recipe": ".statusbar{position:sticky;top:0;display:flex;justify-content:space-between;padding:6px 12px;border-bottom:1px solid var(--line);font:11px/1.4 var(--font-mono)}.console{display:grid;grid-template-columns:200px minmax(0,1fr) 280px;min-height:calc(100vh - 64px)}.pane+.pane{border-left:1px solid var(--line)}.console table{font-variant-numeric:tabular-nums}",
     "risks": [
-      "full-viewport panels can hide content below the fold; provide visible scroll cues",
-      "horizontal rails need keyboard and touch support"
+      "dense does not mean tiny: body text must stay >=14px and contrast >=4.5",
+      "three panes collapse badly on mobile; use a single column + drawer"
     ],
     "not_interchangeable_with": [
       "dashboard-shell",
-      "sidebar-workspace"
+      "topnav-page"
     ]
   },
   "selection": {
-    "reason": "The selector sampled 9/10 blockchain references, scored every direction for perceptual distance from the original accent (#ff0000) and background (#000000), added a deterministic seed jitter, and chose Tidal Sui because it is 146 ΔE away from the original accent and pairs with Gallery Scroll, a spatial skeleton rather than the original document-flow.",
+    "reason": "The selector sampled 8/10 blockchain references, scored every direction for perceptual distance from the original accent (#298dff) and background (#ffffff), added a deterministic seed jitter, and chose Spectrum Terminal because it is 59 ΔE away from the original accent and pairs with Terminal Console, a linear skeleton rather than the original gallery-scroll.",
     "ranking": [
       {
-        "id": "sui-tidal",
-        "name": "Tidal Sui",
-        "score": 0.9934,
-        "accentDistance": 146.2,
+        "id": "solana-spectrum",
+        "name": "Spectrum Terminal",
+        "score": 0.9364,
+        "accentDistance": 58.9,
         "bgDistance": 100,
         "familyNovelty": 1,
-        "jitter": 0.97,
-        "archetype": "gallery-scroll",
-        "archetypeFamily": "spatial",
+        "jitter": 0.886,
+        "archetype": "terminal-console",
+        "archetypeFamily": "linear",
         "live": true,
-        "accent": "#298dff"
-      },
-      {
-        "id": "ethereum-paper",
-        "name": "Paper Protocol",
-        "score": 0.9813,
-        "accentDistance": 130.1,
-        "bgDistance": 100,
-        "familyNovelty": 1,
-        "jitter": 0.915,
-        "archetype": "split-stage",
-        "archetypeFamily": "spatial",
-        "live": true,
-        "accent": "#0c5681"
-      },
-      {
-        "id": "uniswap-bubblegum",
-        "name": "Bubblegum Exchange",
-        "score": 0.9414,
-        "accentDistance": 64.4,
-        "bgDistance": 100,
-        "familyNovelty": 1,
-        "jitter": 0.752,
-        "archetype": "split-stage",
-        "archetypeFamily": "spatial",
-        "live": true,
-        "accent": "#E6006F"
-      },
-      {
-        "id": "polygon-agora",
-        "name": "Agora Violet",
-        "score": 0.8846,
-        "accentDistance": 145,
-        "bgDistance": 0,
-        "familyNovelty": 1,
-        "jitter": 0.884,
-        "archetype": "orbital",
-        "archetypeFamily": "spatial",
-        "live": true,
-        "accent": "#670de5"
+        "accent": "#9945ff"
       },
       {
         "id": "base-cobalt",
         "name": "Cobalt Blueprint",
-        "score": 0.8717,
-        "accentDistance": 176.3,
-        "bgDistance": 90,
+        "score": 0.8273,
+        "accentDistance": 83.9,
+        "bgDistance": 10.7,
         "familyNovelty": 1,
-        "jitter": 0.417,
+        "jitter": 0.527,
         "archetype": "command-rail",
         "archetypeFamily": "linear",
         "live": true,
         "accent": "#0000ff"
       },
       {
-        "id": "cosmos-orbit",
-        "name": "Cosmos Orbit",
-        "score": 0.8598,
-        "accentDistance": 144.6,
+        "id": "aave-abyss",
+        "name": "Abyss Liquidity",
+        "score": 0.8195,
+        "accentDistance": 148.1,
+        "bgDistance": 100,
+        "familyNovelty": 1,
+        "jitter": 0.18,
+        "archetype": "command-rail",
+        "archetypeFamily": "linear",
+        "live": true,
+        "accent": "#ff0000"
+      },
+      {
+        "id": "polygon-agora",
+        "name": "Agora Violet",
+        "score": 0.7673,
+        "accentDistance": 59.4,
+        "bgDistance": 100,
+        "familyNovelty": 1,
+        "jitter": 0.102,
+        "archetype": "documentary",
+        "archetypeFamily": "editorial",
+        "live": true,
+        "accent": "#670de5"
+      },
+      {
+        "id": "ethereum-paper",
+        "name": "Paper Protocol",
+        "score": 0.7572,
+        "accentDistance": 45.3,
         "bgDistance": 0,
         "familyNovelty": 1,
-        "jitter": 0.772,
-        "archetype": "orbital",
-        "archetypeFamily": "spatial",
+        "jitter": 0.872,
+        "archetype": "documentary",
+        "archetypeFamily": "editorial",
         "live": true,
-        "accent": "#40b3ff"
+        "accent": "#0c5681"
       },
       {
         "id": "arbitrum-signal",
         "name": "Signal Navy",
-        "score": 0.7517,
-        "accentDistance": 136.8,
-        "bgDistance": 21.1,
+        "score": 0.7395,
+        "accentDistance": 38.7,
+        "bgDistance": 92.8,
         "familyNovelty": 1,
-        "jitter": 0.27,
-        "archetype": "terminal-console",
+        "jitter": 0.752,
+        "archetype": "command-rail",
         "archetypeFamily": "linear",
         "live": false,
         "accent": "#28A0F0"
       },
       {
-        "id": "solana-spectrum",
-        "name": "Spectrum Terminal",
-        "score": 0.6963,
-        "accentDistance": 146.3,
-        "bgDistance": 0,
+        "id": "cosmos-orbit",
+        "name": "Cosmos Orbit",
+        "score": 0.7194,
+        "accentDistance": 28.8,
+        "bgDistance": 100,
         "familyNovelty": 1,
-        "jitter": 0.029,
-        "archetype": "gallery-scroll",
-        "archetypeFamily": "spatial",
+        "jitter": 0.761,
+        "archetype": "documentary",
+        "archetypeFamily": "editorial",
         "live": true,
-        "accent": "#9945ff"
+        "accent": "#40b3ff"
       },
       {
         "id": "optimism-poster",
         "name": "Poster Optimism",
-        "score": 0.4754,
-        "accentDistance": 11.4,
-        "bgDistance": 98.2,
+        "score": 0.713,
+        "accentDistance": 139.1,
+        "bgDistance": 1.8,
         "familyNovelty": 1,
-        "jitter": 0.152,
+        "jitter": 0.088,
         "archetype": "ticker-stage",
         "archetypeFamily": "linear",
         "live": true,
         "accent": "#ff0421"
       },
       {
-        "id": "aave-abyss",
-        "name": "Abyss Liquidity",
-        "score": 0.3951,
-        "accentDistance": 0,
+        "id": "uniswap-bubblegum",
+        "name": "Bubblegum Exchange",
+        "score": 0.4914,
+        "accentDistance": 90.9,
         "bgDistance": 0,
-        "familyNovelty": 1,
-        "jitter": 0.523,
-        "archetype": "orbital",
+        "familyNovelty": 0.15,
+        "jitter": 0.025,
+        "archetype": "split-stage",
         "archetypeFamily": "spatial",
         "live": true,
-        "accent": "#ff0000"
+        "accent": "#E6006F"
+      },
+      {
+        "id": "sui-tidal",
+        "name": "Tidal Sui",
+        "score": 0.3907,
+        "accentDistance": 22.2,
+        "bgDistance": 3.6,
+        "familyNovelty": 0.15,
+        "jitter": 0.943,
+        "archetype": "bento-canvas",
+        "archetypeFamily": "spatial",
+        "live": false,
+        "accent": "#1E6FD9"
       }
     ],
     "liveApplied": [
-      "accent #1E6FD9 -> #298dff",
-      "bg #F5FAFF -> #ffffff"
+      "accent #9945FF -> #9945ff",
+      "bg #000000 -> #000000"
     ]
   },
   "originality": {
-    "originalTheme": "dark",
-    "anchorAccent": "#ff0000",
-    "background": "#000000",
-    "originalArchetype": "document-flow",
-    "originalFamily": "editorial",
-    "accentDistance": 146.2,
+    "originalTheme": "light",
+    "anchorAccent": "#298dff",
+    "background": "#ffffff",
+    "originalArchetype": "gallery-scroll",
+    "originalFamily": "spatial",
+    "accentDistance": 58.9,
     "bgDistance": 100,
     "thresholds": {
       "minAccentDistance": 30,
@@ -310,7 +309,7 @@
       "url": "https://ethereum.org",
       "ok": true,
       "status": 200,
-      "elapsedMs": 2300,
+      "elapsedMs": 3808,
       "cssFiles": 2,
       "colors": [
         {
@@ -388,7 +387,7 @@
       "url": "https://www.base.org",
       "ok": true,
       "status": 200,
-      "elapsedMs": 2577,
+      "elapsedMs": 4772,
       "cssFiles": 3,
       "colors": [
         {
@@ -466,7 +465,7 @@
       "url": "https://polygon.technology",
       "ok": true,
       "status": 200,
-      "elapsedMs": 2914,
+      "elapsedMs": 5955,
       "cssFiles": 3,
       "colors": [
         {
@@ -491,7 +490,7 @@
         },
         {
           "hex": "#670de5",
-          "count": 57
+          "count": 55
         },
         {
           "hex": "#07060d",
@@ -499,7 +498,7 @@
         },
         {
           "hex": "#9856f5",
-          "count": 33
+          "count": 31
         },
         {
           "hex": "#686d73",
@@ -544,7 +543,7 @@
       "url": "https://solana.com",
       "ok": true,
       "status": 200,
-      "elapsedMs": 3033,
+      "elapsedMs": 6027,
       "cssFiles": 3,
       "colors": [
         {
@@ -621,7 +620,7 @@
       "styleId": "arbitrum-signal",
       "url": "https://arbitrum.io",
       "ok": false,
-      "elapsedMs": 1367,
+      "elapsedMs": 1770,
       "error": "HTTP 403"
     },
     {
@@ -629,7 +628,7 @@
       "url": "https://aave.com",
       "ok": true,
       "status": 200,
-      "elapsedMs": 2660,
+      "elapsedMs": 5949,
       "cssFiles": 3,
       "colors": [
         {
@@ -707,7 +706,7 @@
       "url": "https://cosmos.network",
       "ok": true,
       "status": 200,
-      "elapsedMs": 2838,
+      "elapsedMs": 5405,
       "cssFiles": 2,
       "colors": [
         {
@@ -765,11 +764,45 @@
       "accent": "#40b3ff"
     },
     {
+      "styleId": "uniswap-bubblegum",
+      "url": "https://uniswap.org",
+      "ok": true,
+      "status": 200,
+      "elapsedMs": 12094,
+      "cssFiles": 3,
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "count": 2
+        },
+        {
+          "hex": "#131313",
+          "count": 2
+        }
+      ],
+      "fonts": [
+        {
+          "value": "'Basel', sans-serif",
+          "count": 2
+        },
+        {
+          "value": "'Basel'",
+          "count": 2
+        },
+        {
+          "value": "'Inter'",
+          "count": 1
+        }
+      ],
+      "bg": "#ffffff",
+      "accent": null
+    },
+    {
       "styleId": "optimism-poster",
       "url": "https://www.optimism.io",
       "ok": true,
       "status": 200,
-      "elapsedMs": 4999,
+      "elapsedMs": 13207,
       "cssFiles": 3,
       "colors": [
         {
@@ -843,117 +876,12 @@
       "accent": "#ff0421"
     },
     {
-      "styleId": "uniswap-bubblegum",
-      "url": "https://uniswap.org",
-      "ok": true,
-      "status": 200,
-      "elapsedMs": 6083,
-      "cssFiles": 3,
-      "colors": [
-        {
-          "hex": "#ffffff",
-          "count": 2
-        },
-        {
-          "hex": "#131313",
-          "count": 2
-        }
-      ],
-      "fonts": [
-        {
-          "value": "'Basel', sans-serif",
-          "count": 2
-        },
-        {
-          "value": "'Basel'",
-          "count": 2
-        },
-        {
-          "value": "'Inter'",
-          "count": 1
-        }
-      ],
-      "bg": "#ffffff",
-      "accent": null
-    },
-    {
       "styleId": "sui-tidal",
       "url": "https://sui.io",
-      "ok": true,
-      "status": 200,
-      "elapsedMs": 5289,
-      "cssFiles": 1,
-      "colors": [
-        {
-          "hex": "#ffffff",
-          "count": 662
-        },
-        {
-          "hex": "#000000",
-          "count": 425
-        },
-        {
-          "hex": "#298dff",
-          "count": 256
-        },
-        {
-          "hex": "#131518",
-          "count": 203
-        },
-        {
-          "hex": "#343940",
-          "count": 132
-        },
-        {
-          "hex": "#4b515b",
-          "count": 91
-        },
-        {
-          "hex": "#6c7584",
-          "count": 89
-        },
-        {
-          "hex": "#222529",
-          "count": 88
-        },
-        {
-          "hex": "#a1a7b2",
-          "count": 53
-        },
-        {
-          "hex": "#f4f5f7",
-          "count": 45
-        }
-      ],
-      "fonts": [
-        {
-          "value": "TWK Everett Mono,Arial,sans-serif",
-          "count": 134
-        },
-        {
-          "value": "TWK Everett,Arial,sans-serif",
-          "count": 27
-        },
-        {
-          "value": "Twkeverett,Impact,sans-serif",
-          "count": 9
-        },
-        {
-          "value": "TWK Everett Mono",
-          "count": 8
-        },
-        {
-          "value": "TWK Everett",
-          "count": 8
-        },
-        {
-          "value": "Inter,sans-serif",
-          "count": 4
-        }
-      ],
-      "bg": "#ffffff",
-      "accent": "#298dff"
+      "ok": false,
+      "elapsedMs": 6506,
+      "error": "timeout"
     }
   ],
-  "css": ":root {\n  --bg: #ffffff;\n  --surface: #FFFFFF;\n  --surface-alt: #E8F3FF;\n  --ink: #081B2B;\n  --muted: #5B7185;\n  --accent: #298dff;\n  --accent-safe: #0d71e3;\n  --accent-2: #4DA2FF;\n  --line: #D8E7F5;\n  --success: #087A55;\n  --danger: #B42318;\n  --warning: #8A5A00;\n\n  --font-display: \"Segoe UI Variable Display\", \"Segoe UI\", \"Helvetica Neue\", sans-serif;\n  --font-body: \"Segoe UI\", \"Helvetica Neue\", sans-serif;\n  --font-mono: \"Cascadia Mono\", ui-monospace, monospace;\n  --display-weight: 600;\n  --display-tracking: -0.04em;\n  --label-tracking: 0.06em;\n\n  --radius-sm: 12px;\n  --radius-md: 22px;\n  --radius-lg: 36px;\n  --border: 1px solid var(--line);\n  --shadow: 0 24px 60px rgba(30, 111, 217, 0.1);\n\n  --motion-duration: 260ms;\n  --motion-ease: cubic-bezier(.22,1,.36,1);\n  --space-1: clamp(4px, .35vw, 6px);\n  --space-2: clamp(8px, .7vw, 12px);\n  --space-3: clamp(14px, 1.2vw, 20px);\n  --space-4: clamp(22px, 2vw, 32px);\n  --space-5: clamp(36px, 3.4vw, 56px);\n  --space-6: clamp(56px, 5vw, 88px);\n  --page-pad: clamp(18px, 4vw, 64px);\n  --max-width: 1440px;\n}"
+  "css": ":root {\n  --bg: #000000;\n  --surface: #0B0B0C;\n  --surface-alt: #161618;\n  --ink: #FFFFFF;\n  --muted: #9B9B9F;\n  --accent: #9945ff;\n  --accent-safe: #9945ff;\n  --accent-2: #14F195;\n  --line: #29292D;\n  --success: #14F195;\n  --danger: #FF5C7A;\n  --warning: #FFD166;\n\n  --font-display: \"Arial Narrow\", \"Helvetica Neue\", \"Segoe UI\", sans-serif;\n  --font-body: \"Helvetica Neue\", \"Segoe UI\", sans-serif;\n  --font-mono: \"IBM Plex Mono\", \"Cascadia Mono\", ui-monospace, monospace;\n  --display-weight: 800;\n  --display-tracking: -0.055em;\n  --label-tracking: 0.2em;\n\n  --radius-sm: 0px;\n  --radius-md: 2px;\n  --radius-lg: 4px;\n  --border: 1px solid var(--line);\n  --shadow: 0 0 40px rgba(153, 69, 255, 0.24);\n\n  --motion-duration: 120ms;\n  --motion-ease: cubic-bezier(.2,.9,.1,1);\n  --space-1: clamp(4px, .35vw, 6px);\n  --space-2: clamp(8px, .7vw, 12px);\n  --space-3: clamp(14px, 1.2vw, 20px);\n  --space-4: clamp(22px, 2vw, 32px);\n  --space-5: clamp(36px, 3.4vw, 56px);\n  --space-6: clamp(56px, 5vw, 88px);\n  --page-pad: clamp(18px, 4vw, 64px);\n  --max-width: 1440px;\n}"
 }
